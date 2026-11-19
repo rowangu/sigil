@@ -1,25 +1,29 @@
-# HAI — A Completely Different Approach to AI
+# SIGIL — a word defined by words
 
-HAI is a storage engine for meaning built the way a language is built:
+SIGIL is a storage engine for meaning built the way a language is built:
 **words defined by words**. A fixed kernel of 850 prime words is grounded
 by pointing at the world (pictures, sounds, acts — not other words), and
 every word after that is defined *using only words already in the store*.
 The store therefore grows like a city, not like a spreadsheet: new
 buildings are always made from the old bricks.
 
+Each prime is a *sigil* — a mark that means by pointing, never by saying.
+850 marks, locked at power-on; everything else is written with them.
+
 The design comes from a student notebook from Nyambaria School (Kenya) —
 a hand-written AI system design with a self-invented storage engine, prime
 definitions, sub-database retrieval, and a fixed-core philosophy ("the
 toolbelt, not the brain"). This repository is that notebook, refurbished
-into something a compiler can check.
+into something a compiler can check. It was born as **HAI**; SIGIL is its
+grown-up name.
 
-> **See it live:** <https://rowangu.github.io/HAI/> — all 1176 words and
+> **See it live:** <https://rowangu.github.io/sigil/> — all 1176 words and
 > their definition edges in the browser: pan, zoom, search a word, hover
 > it to see the primes it stands on.
 
 ## The word network
 
-* **Ring 0 — the primes.** The 850 words of Ogden's Basic English (1930,
+* **Ring 0 — the sigils.** The 850 words of Ogden's Basic English (1930,
   public domain): 100 operations, 400 general things, 200 picturable
   things, 100 general qualities, 50 opposite qualities. Each carries a
   short *grounding gloss* (what to point at, what to show the eye or ear).
@@ -77,7 +81,7 @@ ampersand compile lifecycle.adg        # Ampersand v0.7 (github.com/jasonkerama-
 #  -> "[cycle 1176] word=1176 ... end node 'end' fired"
 
 # 3. see the network
-#    live web view (no install): https://rowangu.github.io/HAI/
+#    live web view (no install): https://rowangu.github.io/sigil/
 #    or open viz/network.adg in the Ampersand web IDE canvas:
 #    node w851 = "hello"; its edges are the primes it stands on
 #

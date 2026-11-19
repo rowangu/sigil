@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>HAI · the word network</title>
-<meta name="description" content="HAI — a storage engine where words are defined by words. 850 grounded primes, 326 ring-1 words, 3000 definition edges.">
+<title>SIGIL · the word network</title>
+<meta name="description" content="SIGIL — a storage engine where words are defined by words. 850 grounded primes, 326 ring-1 words, 3000 definition edges.">
 <style>
   :root {
     --bg: #0f1218; --panel: #161b24; --line: #2a3242;
@@ -104,7 +104,7 @@
 </head>
 <body>
 <header>
-  <h1>HAI · <span>words defined by words</span></h1>
+  <h1>SIGIL · <span>words defined by words</span></h1>
   <div class="stats" id="stats"></div>
   <div class="quick">
     <button onclick="selectWord('hello')">hello #851</button>
@@ -122,11 +122,12 @@
   <div id="tip"></div>
   <div id="panel"></div>
   <div id="story">
-    <b>Ring 0 has no word-edges</b> — primes are grounded by <i>pointing</i>
-    (pictures, acts, sounds), never by other words. Hover a ring-1 word to
-    see the primes it stands on. The notebook said <b>“3212 = hello”</b> —
-    in this store <b>hello</b> sits at word <b>#851</b>, the first word of ring 1.
-    <a href="https://github.com/rowangu/HAI" target="_blank" rel="noopener"
+    <b>Ring 0 has no word-edges</b> — every prime is a <i>sigil</i>: a mark
+    that means by <i>pointing</i> (pictures, acts, sounds), never by other
+    words. Hover a ring-1 word to see the primes it stands on. The notebook
+    said <b>“3212 = hello”</b> — in this store <b>hello</b> sits at word
+    <b>#851</b>, the first word of ring 1.
+    <a href="https://github.com/rowangu/sigil" target="_blank" rel="noopener"
        style="color:var(--accent);text-decoration:none">source ↗</a>
   </div>
 </div>
@@ -385,7 +386,7 @@ function showPanel(id) {
       `</div><div class="lbl">how to read it</div>
       <div style="color:var(--dim);font-size:12.5px">Every word in this
       definition is a ring-0 wordform — checked mechanically by
-      <a href="https://github.com/rowangu/HAI/blob/main/seed/validator.py" target="_blank" rel="noopener">validator.py</a>
+      <a href="https://github.com/rowangu/sigil/blob/main/seed/validator.py" target="_blank" rel="noopener">validator.py</a>
       (0 violations).</div>`;
   }
   p.innerHTML = html; p.style.display = 'block';

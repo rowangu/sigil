@@ -1,0 +1,46 @@
+--- main.cpp	2026-11-19 06:09:14.013735141 +0000
++++ main.cpp (patched)	2026-11-19 06:41:04.415113149 +0000
+@@ -86,6 +86,7 @@
+     ADD, SUB, MUL, DIV, MOD,
+     LT, GT, EQ, NEQ,
+     MUX, LOAD, STORE,
++    CALL,
+     PASS, NONE
+ };
+ 
+@@ -180,6 +181,7 @@
+         {"pass",OpKind::PASS},{"store",OpKind::STORE},
+         {"mux",OpKind::MUX},{"select",OpKind::MUX},{"branch",OpKind::MUX},
+         {"load",OpKind::LOAD},{"read",OpKind::LOAD},
++        {"call",OpKind::CALL},
+         {"swr",OpKind::STORE},{"write",OpKind::STORE},
+     };
+     auto it = exact.find(nm);
+@@ -210,6 +212,7 @@
+         case OpKind::MUX:  return "mux";
+         case OpKind::LOAD: return "load";
+         case OpKind::STORE:return "store";
++        case OpKind::CALL: return "call";
+         default:           return "none";
+     }
+ }
+@@ -729,6 +732,19 @@
+                 arena->var_write_double((size_t)args[0], args[1], n.name, *err);
+                 result = args[1];
+                 break;
++            case OpKind::CALL: {
++                // HAI bridge: read one double from the toolbelt file bridge.
++                // Path: $HAI_BRIDGE/<node-name>.in (written by toolbelt/lookup.py).
++                // Deterministic: no network, no heap; missing file => 0.0.
++                if (!check_arity(1, "call")) break;
++                const char* dir = std::getenv("HAI_BRIDGE");
++                std::string path = (dir ? dir : "hai_bridge") +
++                                   std::string("/") + n.name + ".in";
++                std::ifstream f(path);
++                result = 0.0;
++                if (f) f >> result;
++                break;
++            }
+             case OpKind::PASS:
+             default:
+                 result = args[0];

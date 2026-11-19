@@ -1,0 +1,62 @@
+// HAI fixed core lifecycle — the notebook's Part H/I philosophy:
+// a small graph whose form is frozen (WORM boot manifest, LAW 2),
+// which walks the word network entry -> validate -> score -> route -> end
+// and ends itself when the word range is complete (LAW 6).
+//
+// The core never grows, never learns, never phones home.
+// Learning lives in the toolbelt (see /toolbelt). Toolbelt, not the brain.
+//
+// Compile with Ampersand v0.7:
+//   ampersand compile lifecycle.adg --cycles 1300 --dump
+
+graph hai_lifecycle;
+
+setting memory: 2048;
+setting immutable_pct: 10;
+setting max_cycles: 1300;
+
+// ---- WORM boot manifest (written once at power-on, locked for life) ----
+node immutable boot_id     { value: "1" };      // manifest version
+node immutable seeds       { value: "850" };   // ring 0 word count
+node immutable ring1      { value: "326" };   // ring 1 word count (batch 1)
+node immutable total_words { value: "1176" };   // 850 + 326
+node immutable worm_law    { value: "2" };     // LAW 2: write-once read-many
+
+// ---- lifecycle variables (reset every cycle, LAW 3) ----
+node entry    entry;
+node variable word;      // word-number currently being fetched
+node variable score;     // running count of words taken in
+
+// ---- the fixed pipeline ----
+node function validate    { op: lt, mem: 1 };   // word < total_words ?
+node function next_word   { op: add, mem: 1 };  // word + 1
+node function route_word  { op: mux, mem: 1 };  // validate ? next_word : total
+node function score_add   { op: add, mem: 1 };  // score + validate
+node function end_gate    { op: sub, mem: 1 };  // 1 - validate (nonzero => END)
+node result   end         { end: true };
+
+// cycle 0: the boot manifest feeds the pipeline its first word number
+edge boot_id     -> word;
+edge boot_id     -> score;
+
+// validate: is there still a word in range?
+edge word        -> validate;
+edge total_words -> validate;
+
+// route: move to the next word, or hold at the end of the range
+edge word        -> next_word;
+edge boot_id     -> next_word;
+edge validate    -> route_word;
+edge next_word   -> route_word;
+edge total_words -> route_word;
+edge route_word  -> word;
+
+// score: every validated word is counted in
+edge score       -> score_add;
+edge validate    -> score_add;
+edge score_add   -> score;
+
+// end: when the word range is done, validate goes to 0, the gate opens
+edge boot_id     -> end_gate;
+edge validate    -> end_gate;
+edge end_gate    -> end;

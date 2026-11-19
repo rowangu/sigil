@@ -221,3 +221,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# HAI generated artifacts
+toolbelt/hai.db
+hai_bridge/

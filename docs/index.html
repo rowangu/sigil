@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HAI · the word network</title>
+<meta name="description" content="HAI — a storage engine where words are defined by words. 850 grounded primes, 326 ring-1 words, 3000 definition edges.">
+<style>
+  :root {
+    --bg: #0f1218; --panel: #161b24; --line: #2a3242;
+    --ink: #dfe6f0; --dim: #8b98ab; --accent: #ffc107;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; overflow: hidden; }
+  body {
+    background: var(--bg); color: var(--ink);
+    font: 14px/1.45 "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+  }
+  header {
+    display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+    padding: 10px 16px; border-bottom: 1px solid var(--line);
+    background: var(--panel); z-index: 5;
+  }
+  header h1 { font-size: 17px; font-weight: 600; letter-spacing: .3px; }
+  header h1 span { color: var(--accent); }
+  .stats { color: var(--dim); font-size: 12.5px; }
+  .stats b { color: var(--ink); font-weight: 600; }
+  .search { display: flex; gap: 6px; margin-left: auto; }
+  .search input {
+    background: var(--bg); color: var(--ink); border: 1px solid var(--line);
+    border-radius: 6px; padding: 6px 10px; width: 210px; font-size: 13px;
+    outline: none;
+  }
+  .search input:focus { border-color: var(--accent); }
+  .search button, .quick button {
+    background: var(--bg); color: var(--ink); border: 1px solid var(--line);
+    border-radius: 6px; padding: 6px 10px; font-size: 13px; cursor: pointer;
+  }
+  .search button:hover, .quick button:hover { border-color: var(--accent); color: var(--accent); }
+  .search input.bad { border-color: #e5484d; }
+  #wrap { position: relative; height: calc(100% - 59px); }
+  #net { position: absolute; inset: 0; display: block; touch-action: none; user-select: none; cursor: grab; }
+  #net.grabbing { cursor: grabbing; }
+
+  #legend {
+    position: absolute; left: 12px; top: 12px; background: rgba(22,27,36,.92);
+    border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px;
+    font-size: 12px; z-index: 4; max-width: 230px;
+  }
+  #legend h2 { font-size: 11px; color: var(--dim); text-transform: uppercase;
+    letter-spacing: .8px; margin-bottom: 6px; }
+  #legend .li { display: flex; align-items: center; gap: 7px; padding: 1.5px 0; }
+  #legend .dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+  #legend .li span { color: var(--dim); }
+  #legend .li b { color: var(--ink); font-weight: 500; min-width: 120px; }
+
+  #tip {
+    position: absolute; pointer-events: none; background: rgba(22,27,36,.95);
+    border: 1px solid var(--line); border-radius: 6px; padding: 4px 9px;
+    font-size: 12px; z-index: 6; display: none; white-space: nowrap;
+  }
+  #tip b { color: var(--accent); }
+
+  #panel {
+    position: absolute; right: 12px; top: 12px; bottom: 12px; width: 320px;
+    background: rgba(22,27,36,.96); border: 1px solid var(--line);
+    border-radius: 10px; padding: 16px; overflow-y: auto; z-index: 4;
+    display: none;
+  }
+  #panel .kicker { color: var(--dim); font-size: 11px; text-transform: uppercase;
+    letter-spacing: .8px; }
+  #panel .word { font-size: 26px; font-weight: 700; margin: 2px 0 2px; }
+  #panel .wnum { color: var(--dim); font-size: 12.5px; margin-bottom: 10px; }
+  #panel .defbox { border-left: 3px solid var(--accent); padding: 2px 0 2px 10px;
+    margin: 10px 0; font-size: 13.5px; color: var(--ink); }
+  #panel .lbl { color: var(--dim); font-size: 11px; text-transform: uppercase;
+    letter-spacing: .8px; margin: 14px 0 6px; }
+  #panel .chips { display: flex; flex-wrap: wrap; gap: 5px; }
+  #panel .chip {
+    background: var(--bg); border: 1px solid var(--line); border-radius: 20px;
+    padding: 2.5px 9px; font-size: 12px; cursor: pointer; color: var(--ink);
+  }
+  #panel .chip:hover { border-color: var(--accent); color: var(--accent); }
+  #panel .more { color: var(--dim); font-size: 12px; align-self: center; padding: 2px 4px; }
+  #panel .close { position: absolute; top: 10px; right: 12px; background: none;
+    border: none; color: var(--dim); font-size: 16px; cursor: pointer; }
+  #panel .close:hover { color: var(--ink); }
+  #panel a { color: var(--accent); text-decoration: none; font-size: 12.5px; }
+
+  #story {
+    position: absolute; left: 12px; bottom: 12px; max-width: 300px;
+    background: rgba(22,27,36,.92); border: 1px solid var(--line);
+    border-radius: 8px; padding: 10px 12px; font-size: 12px;
+    color: var(--dim); z-index: 4; line-height: 1.55;
+  }
+  #story b { color: var(--ink); }
+  .quick { display: flex; gap: 6px; }
+  @media (max-width: 720px) {
+    #legend, #story { display: none; }
+    #panel { width: calc(100% - 24px); }
+    .search input { width: 130px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>HAI · <span>words defined by words</span></h1>
+  <div class="stats" id="stats"></div>
+  <div class="quick">
+    <button onclick="selectWord('hello')">hello #851</button>
+    <button onclick="selectWord('computer')">computer #949</button>
+  </div>
+  <form class="search" onsubmit="return doSearch(event)">
+    <input id="q" placeholder="find a word… (Enter)" autocomplete="off" spellcheck="false">
+    <button type="submit">go</button>
+  </form>
+</header>
+<div id="wrap">
+  <canvas id="net"></canvas>
+  <div id="legend"><h2>ring 0 — 850 primes</h2><div id="leg0"></div>
+    <h2 style="margin-top:9px">ring 1 — 326 words</h2><div id="leg1"></div></div>
+  <div id="tip"></div>
+  <div id="panel"></div>
+  <div id="story">
+    <b>Ring 0 has no word-edges</b> — primes are grounded by <i>pointing</i>
+    (pictures, acts, sounds), never by other words. Hover a ring-1 word to
+    see the primes it stands on. The notebook said <b>“3212 = hello”</b> —
+    in this store <b>hello</b> sits at word <b>#851</b>, the first word of ring 1.
+    <a href="https://github.com/rowangu/HAI" target="_blank" rel="noopener"
+       style="color:var(--accent);text-decoration:none">source ↗</a>
+  </div>
+</div>
+<script src="data.js"></script>
+<script>
+'use strict';
+const D = HAI_DATA, CAT_COLORS = {
+  operations:'#64b5f6', things_general:'#ffb74d', things_picturable:'#81c784',
+  qualities_general:'#ce93d8', qualities_opposites:'#f06292',
+  r1_everyday:'#e3c567', r1_computing:'#45b5c9', r1_systems:'#a08bc8'
+};
+const CAT_LABELS = {
+  operations:['operations'], things_general:['general things'],
+  things_picturable:['picturable things'], qualities_general:['qualities'],
+  qualities_opposites:['opposites'], r1_everyday:['everyday speech'],
+  r1_computing:['computing'], r1_systems:['systems & notebook']
+};
+const nodes = D.nodes, byId = {};
+nodes.forEach(n => byId[n.i] = n);
+const adj = {}; nodes.forEach(n => adj[n.i] = []);
+D.edges.forEach(([a,b]) => { adj[a].push(b); adj[b].push(a); });
+
+// ---------- view transform ----------
+const cv = document.getElementById('net'), ctx = cv.getContext('2d');
+let scale = 1, ox = 0, oy = 0, dirty = true;
+function resize() {
+  const r = cv.parentElement.getBoundingClientRect(), dpr = devicePixelRatio || 1;
+  cv.width = r.width * dpr; cv.height = r.height * dpr;
+  cv.style.width = r.width + 'px'; cv.style.height = r.height + 'px';
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0); dirty = true;
+}
+function fit() {
+  let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9;
+  nodes.forEach(n => { x0=Math.min(x0,n.x); y0=Math.min(y0,n.y);
+                       x1=Math.max(x1,n.x); y1=Math.max(y1,n.y); });
+  const w = cv.clientWidth, h = cv.clientHeight, m = 42;
+  scale = Math.min((w-2*m)/(x1-x0), (h-2*m)/(y1-y0));
+  ox = w/2 - scale*(x0+x1)/2; oy = h/2 - scale*(y0+y1)/2; dirty = true;
+}
+const sx = x => ox + x*scale, sy = y => oy + y*scale;
+addEventListener('resize', resize);
+
+// ---------- state ----------
+let hovered = null, selected = null, pulse = 0;
+function neighborsOf(id) {
+  const s = new Set([id]); adj[id].forEach(j => s.add(j)); return s;
+}
+function select(id) {
+  selected = id; pulse = performance.now(); showPanel(id);
+  const n = byId[id];
+  scale = Math.min(scale * 2.1, 4); // recentre + zoom a little
+  ox = cv.clientWidth/2 - n.x*scale; oy = cv.clientHeight/2 - n.y*scale;
+  dirty = true;
+}
+function selectWord(w) {
+  w = w.toLowerCase();
+  const n = nodes.find(n => n.w.toLowerCase() === w);
+  if (n) select(n.i); else flash();
+  const q = document.getElementById('q'); if (n) q.value = n.w;
+  return false;
+}
+
+// ---------- draw ----------
+function draw() {
+  const w = cv.clientWidth, h = cv.clientHeight;
+  ctx.clearRect(0, 0, w, h);
+  const hi = hovered != null ? neighborsOf(hovered)
+          : selected != null ? neighborsOf(selected) : null;
+  const hiId = hovered ?? selected;
+
+  // edges
+  ctx.lineWidth = 1;
+  for (const [a, b] of D.edges) {
+    const on = hi && (a === hiId || b === hiId);
+    if (on) continue;                       // drawn again below, bright
+    ctx.strokeStyle = 'rgba(180,196,220,0.05)';
+    ctx.beginPath();
+    ctx.moveTo(sx(byId[a].x), sy(byId[a].y));
+    ctx.lineTo(sx(byId[b].x), sy(byId[b].y));
+    ctx.stroke();
+  }
+  if (hi) {
+    ctx.strokeStyle = 'rgba(255,193,7,0.85)'; ctx.lineWidth = 1.4;
+    for (const j of adj[hiId]) {
+      ctx.beginPath();
+      ctx.moveTo(sx(byId[hiId].x), sy(byId[hiId].y));
+      ctx.lineTo(sx(byId[j].x), sy(byId[j].y));
+      ctx.stroke();
+    }
+    ctx.lineWidth = 1;
+  }
+
+  // nodes
+  for (const n of nodes) {
+    const hot = hi && hi.has(n.i);
+    const R = (n.i > 850 ? 3.4 : 3) * (n.i === hiId ? 1.9 :
+              hot ? 1.45 : 1);
+    ctx.beginPath();
+    ctx.arc(sx(n.x), sy(n.y), Math.max(R*scale, hot ? 3.2 : 1.4), 0, 7);
+    ctx.fillStyle = hi && !hot ? '#39424f' : CAT_COLORS[n.c];
+    ctx.fill();
+  }
+
+  // labels: always for hovered/selected + neighbours; all when zoomed in
+  ctx.font = '10px "Segoe UI", system-ui, sans-serif';
+  ctx.textAlign = 'center';
+  if (hi) for (const j of hi) {
+    const n = byId[j];
+    ctx.fillStyle = n.i === hiId ? '#ffc107' : '#dfe6f0';
+    ctx.fillText(n.w, sx(n.x), sy(n.y) - 7);
+  }
+  if (scale >= 2.2) {
+    ctx.fillStyle = 'rgba(223,230,240,0.72)';
+    for (const n of nodes) if (!(hi && hi.has(n.i)))
+      ctx.fillText(n.w, sx(n.x), sy(n.y) - 7);
+  }
+
+  // cluster + arc captions
+  ctx.textAlign = 'center';
+  // ring-0 cluster captions at pentagon vertices
+  ctx.fillStyle = 'rgba(139,152,171,0.85)'; ctx.font = '11px system-ui';
+  const PENT = 255, cats = ['operations','things_general','things_picturable','qualities_general','qualities_opposites'];
+  cats.forEach((c, k) => {
+    const a = -Math.PI/2 + k*(2*Math.PI/5);
+    const label = CAT_LABELS[c][0] + ' · ' + D.meta.cats[c];
+    ctx.fillText(label, sx(PENT*Math.cos(a)), sy(PENT*Math.sin(a)) - (D.meta.cats[c]>200?118:70)*scale - 6);
+  });
+  // ring-1 arc labels
+  ctx.fillStyle = 'rgba(139,152,171,0.75)';
+  const R1 = 460, arcs = {r1_everyday:0, r1_computing:98, r1_systems:212};
+  for (const [c, off] of Object.entries(arcs)) {
+    const cnt = D.meta.batches[c], mid = off + cnt/2;
+    const a = -Math.PI/2 + (mid/326)*2*Math.PI;
+    ctx.fillText(CAT_LABELS[c][0] + ' · ' + cnt,
+      sx(R1*Math.cos(a)*1.13), sy(R1*Math.sin(a)*1.13));
+  }
+  ctx.fillStyle = 'rgba(139,152,171,0.5)'; ctx.font = '12px system-ui';
+  ctx.fillText('words defined by words', sx(0), sy(0));
+}
+
+function loop() {
+  if (dirty || (selected != null && performance.now() - pulse < 900)) draw();
+  requestAnimationFrame(loop);
+}
+
+// ---------- interaction ----------
+let drag = null, pointers = new Map(), pinch0 = null;
+function toWorld(e) {
+  const r = cv.getBoundingClientRect();
+  return [e.clientX - r.left, e.clientY - r.top];
+}
+function pick(px, py) {
+  let best = null, bd = 11;
+  for (const n of nodes) {
+    const dx = sx(n.x) - px, dy = sy(n.y) - py, d = Math.hypot(dx, dy);
+    if (d < bd) { bd = d; best = n; }
+  }
+  return best;
+}
+cv.addEventListener('pointerdown', e => {
+  cv.setPointerCapture(e.pointerId);
+  pointers.set(e.pointerId, toWorld(e));
+  if (pointers.size === 2) {
+    const [p1, p2] = [...pointers.values()];
+    pinch0 = { d: Math.hypot(p1[0]-p2[0], p1[1]-p2[1]), scale };
+  }
+  drag = { x: e.clientX, y: e.clientY, moved: 0, id: e.pointerId };
+  cv.classList.add('grabbing');
+});
+cv.addEventListener('pointermove', e => {
+  if (pointers.has(e.pointerId)) pointers.set(e.pointerId, toWorld(e));
+  if (pinch0 && pointers.size === 2) {
+    const [p1, p2] = [...pointers.values()];
+    const d = Math.hypot(p1[0]-p2[0], p1[1]-p2[1]);
+    const k = pinch0.scale * d / pinch0.d;
+    const cxp = (p1[0]+p2[0])/2, cyp = (p1[1]+p2[1])/2;
+    zoomAt(cxp, cyp, k); return;
+  }
+  if (drag && (e.buttons & 1 || drag.id === e.pointerId && e.pointerType === 'touch')) {
+    const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+    drag.moved += Math.abs(dx) + Math.abs(dy);
+    ox += dx; oy += dy; drag.x = e.clientX; drag.y = e.clientY; dirty = true;
+  }
+  const [px, py] = toWorld(e);
+  const n = pick(px, py);
+  if ((drag ? drag.moved < 5 : true) && n) {
+    hovered = n.i; dirty = true;
+    const tip = document.getElementById('tip');
+    tip.style.display = 'block';
+    tip.style.left = Math.min(px + 14, cv.clientWidth - 130) + 'px';
+    tip.style.top = (py + 14) + 'px';
+    tip.innerHTML = '<b>' + n.w + '</b> · #' + n.i +
+      (n.i > 850 ? ' · ring 1' : ' · prime');
+  } else if (hovered != null) {
+    hovered = null; dirty = true;
+    document.getElementById('tip').style.display = 'none';
+  }
+});
+function endPointer(e) {
+  if (drag && drag.id === e.pointerId && drag.moved < 5) {
+    const [px, py] = toWorld(e);
+    const n = pick(px, py);
+    if (n) select(n.i);
+    else { selected = null; document.getElementById('panel').style.display = 'none'; dirty = true; }
+  }
+  pointers.delete(e.pointerId);
+  if (pointers.size < 2) pinch0 = null;
+  drag = pointers.size ? drag : null;
+  cv.classList.remove('grabbing');
+}
+cv.addEventListener('pointerup', endPointer);
+cv.addEventListener('pointercancel', endPointer);
+function zoomAt(px, py, k) {
+  const ns = Math.min(6, Math.max(0.18, k));
+  ox = px - (px - ox) * ns / scale; oy = py - (py - oy) * ns / scale;
+  scale = ns; dirty = true;
+}
+cv.addEventListener('wheel', e => {
+  e.preventDefault();
+  const [px, py] = toWorld(e);
+  zoomAt(px, py, scale * Math.exp(-e.deltaY * 0.0012));
+}, { passive: false });
+addEventListener('keydown', e => {
+  if (e.key === 'Escape') { selected = null; hovered = null;
+    document.getElementById('panel').style.display = 'none'; dirty = true; }
+});
+
+// ---------- panel ----------
+function showPanel(id) {
+  const n = byId[id], p = document.getElementById('panel');
+  const color = CAT_COLORS[n.c];
+  let html = '<button class="close" onclick="deselect()">✕</button>';
+  if (n.i <= 850) {
+    html += `<div class="kicker" style="color:${color}">prime · ring 0</div>
+      <div class="word">${n.w}</div>
+      <div class="wnum">word #${n.i} of 1176 · grounded by pointing</div>
+      <div class="defbox">${D.glosses[id] || ''}</div>
+      <div class="lbl">point at the world</div>
+      <div style="color:var(--dim);font-size:12.5px">
+        A prime is never defined by other words — its meaning is shown
+        (a picture, an act, a sound). That is why ring 0 has no edges.</div>
+      <div class="lbl">defined words that stand on it (${adj[id].length})</div>
+      <div class="chips">` +
+      (adj[id].slice(0, 24).map(j => `<span class="chip" onclick="select(${j})">${byId[j].w}</span>`).join('')
+       + (adj[id].length > 24 ? `<span class="more">+${adj[id].length-24} more</span>` : '')) +
+      `</div>`;
+  } else {
+    html += `<div class="kicker" style="color:${color}">ring 1 · defined from ring 0 only</div>
+      <div class="word">${n.w}</div>
+      <div class="wnum">word #${n.i} of 1176 · ${CAT_LABELS[n.c][0]}</div>
+      <div class="defbox">${D.defs[id] || ''}</div>
+      <div class="lbl">stands on ${adj[id].length} primes</div>
+      <div class="chips">` +
+      adj[id].slice(0, 26).map(j => `<span class="chip" onclick="select(${j})">${byId[j].w}</span>`).join('') +
+      (adj[id].length > 26 ? `<span class="more">+${adj[id].length-26} more</span>` : '') +
+      `</div><div class="lbl">how to read it</div>
+      <div style="color:var(--dim);font-size:12.5px">Every word in this
+      definition is a ring-0 wordform — checked mechanically by
+      <a href="https://github.com/rowangu/HAI/blob/main/seed/validator.py" target="_blank" rel="noopener">validator.py</a>
+      (0 violations).</div>`;
+  }
+  p.innerHTML = html; p.style.display = 'block';
+}
+function deselect() {
+  selected = null; document.getElementById('panel').style.display = 'none';
+  dirty = true;
+}
+
+// ---------- search ----------
+function flash() {
+  const q = document.getElementById('q');
+  q.classList.add('bad'); setTimeout(() => q.classList.remove('bad'), 700);
+}
+function doSearch(ev) {
+  ev.preventDefault();
+  const v = document.getElementById('q').value.trim().toLowerCase();
+  if (!v) return false;
+  let n = nodes.find(n => n.w.toLowerCase() === v)
+       || nodes.find(n => n.w.toLowerCase().startsWith(v))
+       || nodes.find(n => n.w.toLowerCase().includes(v));
+  if (n) { select(n.i); document.getElementById('q').value = n.w; }
+  else flash();
+  return false;
+}
+
+// ---------- legend + boot ----------
+function legendInto(el, list) {
+  el.innerHTML = list.map(([c, cnt]) =>
+    `<div class="li"><i class="dot" style="background:${CAT_COLORS[c]}"></i>
+     <b>${CAT_LABELS[c][0]}</b><span>${cnt}</span></div>`).join('');
+}
+legendInto(document.getElementById('leg0'),
+  ['operations','things_general','things_picturable','qualities_general','qualities_opposites']
+    .map(c => [c, D.meta.cats[c]]));
+legendInto(document.getElementById('leg1'),
+  ['r1_everyday','r1_computing','r1_systems'].map(c => [c, D.meta.batches[c]]));
+document.getElementById('stats').innerHTML =
+  `<b>${D.meta.primes}</b> primes · <b>${D.meta.ring1}</b> ring-1 words ·
+   <b>${D.meta.edges}</b> definition edges · <b>0</b> violations`;
+resize(); fit(); requestAnimationFrame(loop);
+</script>
+</body>
+</html>

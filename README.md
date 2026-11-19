@@ -13,6 +13,10 @@ definitions, sub-database retrieval, and a fixed-core philosophy ("the
 toolbelt, not the brain"). This repository is that notebook, refurbished
 into something a compiler can check.
 
+> **See it live:** <https://rowangu.github.io/HAI/> — all 1176 words and
+> their definition edges in the browser: pan, zoom, search a word, hover
+> it to see the primes it stands on.
+
 ## The word network
 
 * **Ring 0 — the primes.** The 850 words of Ogden's Basic English (1930,
@@ -73,8 +77,11 @@ ampersand compile lifecycle.adg        # Ampersand v0.7 (github.com/jasonkerama-
 #  -> "[cycle 1176] word=1176 ... end node 'end' fired"
 
 # 3. see the network
-#    open viz/network.adg in the Ampersand web IDE canvas:
+#    live web view (no install): https://rowangu.github.io/HAI/
+#    or open viz/network.adg in the Ampersand web IDE canvas:
 #    node w851 = "hello"; its edges are the primes it stands on
+#
+#    docs/ holds the GitHub Pages site (self-contained, no dependencies)
 
 # 4. run retrieval
 cd ../toolbelt

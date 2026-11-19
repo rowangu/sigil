@@ -1,0 +1,5943 @@
+{
+ "meta": {
+  "name": "HAI ring 1 (batch 1)",
+  "rule": "every definition is written using ring-0 wordforms only (Basic English seeds + Basic free machinery); see whitelist.json tiers and validator.py.",
+  "source": "authored for HAI, batch 1 of an ongoing expansion"
+ },
+ "words": [
+  {
+   "id": 851,
+   "word": "hello",
+   "pos": "int",
+   "ring": 1,
+   "def": "the word said when one comes to another, or when a talk starts, as a sign of good will",
+   "uses": [
+    "a",
+    "as",
+    "good",
+    "of",
+    "or",
+    "sign",
+    "start",
+    "talk",
+    "the",
+    "to",
+    "when",
+    "will",
+    "word"
+   ]
+  },
+  {
+   "id": 852,
+   "word": "goodbye",
+   "pos": "int",
+   "ring": 1,
+   "def": "the word said when one goes from another, ending the talk for now",
+   "uses": [
+    "end",
+    "for",
+    "from",
+    "now",
+    "talk",
+    "the",
+    "when",
+    "word"
+   ]
+  },
+  {
+   "id": 853,
+   "word": "thanks",
+   "pos": "int",
+   "ring": 1,
+   "def": "the words said to one who has given or done a thing, saying the heart is happy",
+   "uses": [
+    "a",
+    "happy",
+    "heart",
+    "or",
+    "the",
+    "thing",
+    "to",
+    "who",
+    "word"
+   ]
+  },
+  {
+   "id": 854,
+   "word": "sorry",
+   "pos": "int",
+   "ring": 1,
+   "def": "the word said when one has done wrong or when sad news is given",
+   "uses": [
+    "news",
+    "or",
+    "sad",
+    "the",
+    "when",
+    "word",
+    "wrong"
+   ]
+  },
+  {
+   "id": 855,
+   "word": "welcome",
+   "pos": "int",
+   "ring": 1,
+   "def": "the word said to one coming in, saying come in and be at rest",
+   "uses": [
+    "and",
+    "at",
+    "be",
+    "come",
+    "in",
+    "rest",
+    "the",
+    "to",
+    "word"
+   ]
+  },
+  {
+   "id": 856,
+   "word": "people",
+   "pos": "noun",
+   "ring": 1,
+   "def": "persons in general; the men and women of a land or town",
+   "uses": [
+    "a",
+    "and",
+    "general",
+    "in",
+    "land",
+    "of",
+    "or",
+    "person",
+    "the",
+    "town"
+   ]
+  },
+  {
+   "id": 857,
+   "word": "child",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a young boy or girl",
+   "uses": [
+    "a",
+    "boy",
+    "girl",
+    "or",
+    "young"
+   ]
+  },
+  {
+   "id": 858,
+   "word": "ask",
+   "pos": "verb",
+   "ring": 1,
+   "def": "put a question to another; say words looking for an answer",
+   "uses": [
+    "a",
+    "answer",
+    "for",
+    "look",
+    "put",
+    "question",
+    "say",
+    "to",
+    "word"
+   ]
+  },
+  {
+   "id": 859,
+   "word": "tell",
+   "pos": "verb",
+   "ring": 1,
+   "def": "give words to another, saying a thing or a story",
+   "uses": [
+    "a",
+    "give",
+    "or",
+    "story",
+    "thing",
+    "to",
+    "word"
+   ]
+  },
+  {
+   "id": 860,
+   "word": "show",
+   "pos": "verb",
+   "ring": 1,
+   "def": "let a thing be seen; put a thing before the eyes",
+   "uses": [
+    "a",
+    "be",
+    "before",
+    "eye",
+    "let",
+    "put",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 861,
+   "word": "find",
+   "pos": "verb",
+   "ring": 1,
+   "def": "come upon a thing looked for, or not looked for",
+   "uses": [
+    "a",
+    "come",
+    "for",
+    "look",
+    "not",
+    "or",
+    "thing"
+   ]
+  },
+  {
+   "id": 862,
+   "word": "want",
+   "pos": "verb",
+   "ring": 1,
+   "def": "have a desire for a thing; have the need of a thing",
+   "uses": [
+    "a",
+    "desire",
+    "for",
+    "have",
+    "need",
+    "of",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 863,
+   "word": "think",
+   "pos": "verb",
+   "ring": 1,
+   "def": "let thought go in the mind; have an idea or belief",
+   "uses": [
+    "belief",
+    "go",
+    "have",
+    "idea",
+    "in",
+    "let",
+    "mind",
+    "or",
+    "the",
+    "thought"
+   ]
+  },
+  {
+   "id": 864,
+   "word": "know",
+   "pos": "verb",
+   "ring": 1,
+   "def": "have knowledge of a thing in the mind",
+   "uses": [
+    "a",
+    "have",
+    "in",
+    "knowledge",
+    "mind",
+    "of",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 865,
+   "word": "speak",
+   "pos": "verb",
+   "ring": 1,
+   "def": "say words with the voice; give a talk",
+   "uses": [
+    "a",
+    "give",
+    "say",
+    "talk",
+    "the",
+    "voice",
+    "with",
+    "word"
+   ]
+  },
+  {
+   "id": 866,
+   "word": "hear",
+   "pos": "verb",
+   "ring": 1,
+   "def": "take in sound with the ears",
+   "uses": [
+    "ear",
+    "in",
+    "sound",
+    "take",
+    "the",
+    "with"
+   ]
+  },
+  {
+   "id": 867,
+   "word": "feel",
+   "pos": "verb",
+   "ring": 1,
+   "def": "take in touch or feeling; have a sense in body or mind",
+   "uses": [
+    "a",
+    "body",
+    "feeling",
+    "have",
+    "in",
+    "mind",
+    "or",
+    "sense",
+    "take",
+    "touch"
+   ]
+  },
+  {
+   "id": 868,
+   "word": "read",
+   "pos": "verb",
+   "ring": 1,
+   "def": "take in the sense of marks on paper; go through a book with the eyes",
+   "uses": [
+    "a",
+    "book",
+    "eye",
+    "go",
+    "in",
+    "mark",
+    "of",
+    "on",
+    "paper",
+    "sense",
+    "take",
+    "the",
+    "through",
+    "with"
+   ]
+  },
+  {
+   "id": 869,
+   "word": "write",
+   "pos": "verb",
+   "ring": 1,
+   "def": "put words in marks on paper; make letters with hand or machine",
+   "uses": [
+    "hand",
+    "in",
+    "letter",
+    "machine",
+    "make",
+    "mark",
+    "on",
+    "or",
+    "paper",
+    "put",
+    "with",
+    "word"
+   ]
+  },
+  {
+   "id": 870,
+   "word": "eat",
+   "pos": "verb",
+   "ring": 1,
+   "def": "take food in by the mouth",
+   "uses": [
+    "by",
+    "food",
+    "in",
+    "mouth",
+    "take",
+    "the"
+   ]
+  },
+  {
+   "id": 871,
+   "word": "sit",
+   "pos": "verb",
+   "ring": 1,
+   "def": "take a seat; put the body on a thing with the back up",
+   "uses": [
+    "a",
+    "back",
+    "body",
+    "on",
+    "put",
+    "seat",
+    "take",
+    "the",
+    "thing",
+    "up",
+    "with"
+   ]
+  },
+  {
+   "id": 872,
+   "word": "stand",
+   "pos": "verb",
+   "ring": 1,
+   "def": "be up on the feet, not on a seat",
+   "uses": [
+    "a",
+    "be",
+    "not",
+    "on",
+    "seat",
+    "the",
+    "up"
+   ]
+  },
+  {
+   "id": 873,
+   "word": "wait",
+   "pos": "verb",
+   "ring": 1,
+   "def": "keep in one place till a thing comes",
+   "uses": [
+    "a",
+    "in",
+    "keep",
+    "place",
+    "thing",
+    "till"
+   ]
+  },
+  {
+   "id": 874,
+   "word": "meet",
+   "pos": "verb",
+   "ring": 1,
+   "def": "come face to face with another; come together at a fixed time and place",
+   "uses": [
+    "a",
+    "and",
+    "at",
+    "come",
+    "face",
+    "fixed",
+    "place",
+    "time",
+    "to",
+    "together",
+    "with"
+   ]
+  },
+  {
+   "id": 875,
+   "word": "try",
+   "pos": "verb",
+   "ring": 1,
+   "def": "make an attempt; put out work to do a thing that may not come off",
+   "uses": [
+    "a",
+    "attempt",
+    "come",
+    "do",
+    "make",
+    "may",
+    "not",
+    "off",
+    "out",
+    "put",
+    "that",
+    "thing",
+    "to",
+    "work"
+   ]
+  },
+  {
+   "id": 876,
+   "word": "call",
+   "pos": "verb",
+   "ring": 1,
+   "def": "say the name of; give a sound to; send the voice to another for coming",
+   "uses": [
+    "a",
+    "for",
+    "give",
+    "name",
+    "of",
+    "say",
+    "send",
+    "sound",
+    "the",
+    "to",
+    "voice"
+   ]
+  },
+  {
+   "id": 877,
+   "word": "buy",
+   "pos": "verb",
+   "ring": 1,
+   "def": "give money for a thing, making it yours",
+   "uses": [
+    "a",
+    "for",
+    "give",
+    "money",
+    "thing"
+   ]
+  },
+  {
+   "id": 878,
+   "word": "sell",
+   "pos": "verb",
+   "ring": 1,
+   "def": "give a thing for money to another",
+   "uses": [
+    "a",
+    "for",
+    "give",
+    "money",
+    "thing",
+    "to"
+   ]
+  },
+  {
+   "id": 879,
+   "word": "pay",
+   "pos": "verb",
+   "ring": 1,
+   "def": "give money for goods or work done",
+   "uses": [
+    "for",
+    "give",
+    "good",
+    "money",
+    "or",
+    "work"
+   ]
+  },
+  {
+   "id": 880,
+   "word": "learn",
+   "pos": "verb",
+   "ring": 1,
+   "def": "take in knowledge; come to have knowledge of a thing, by teaching or by doing",
+   "uses": [
+    "a",
+    "by",
+    "come",
+    "have",
+    "in",
+    "knowledge",
+    "of",
+    "or",
+    "take",
+    "teaching",
+    "thing",
+    "to"
+   ]
+  },
+  {
+   "id": 881,
+   "word": "teach",
+   "pos": "verb",
+   "ring": 1,
+   "def": "give knowledge to another; guide the learning of another",
+   "uses": [
+    "give",
+    "guide",
+    "knowledge",
+    "learning",
+    "of",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 882,
+   "word": "build",
+   "pos": "verb",
+   "ring": 1,
+   "def": "put materials together, making a house or structure",
+   "uses": [
+    "a",
+    "house",
+    "material",
+    "or",
+    "put",
+    "structure",
+    "together"
+   ]
+  },
+  {
+   "id": 883,
+   "word": "choose",
+   "pos": "verb",
+   "ring": 1,
+   "def": "take one from a number, by the will or by seeing the best way",
+   "uses": [
+    "a",
+    "by",
+    "from",
+    "number",
+    "or",
+    "take",
+    "the",
+    "way",
+    "will"
+   ]
+  },
+  {
+   "id": 884,
+   "word": "create",
+   "pos": "verb",
+   "ring": 1,
+   "def": "make a thing come into being that was not before",
+   "uses": [
+    "a",
+    "before",
+    "come",
+    "make",
+    "not",
+    "that",
+    "thing"
+   ]
+  },
+  {
+   "id": 885,
+   "word": "bring",
+   "pos": "verb",
+   "ring": 1,
+   "def": "come with a thing in hand, having it for another",
+   "uses": [
+    "a",
+    "come",
+    "for",
+    "hand",
+    "in",
+    "thing",
+    "with"
+   ]
+  },
+  {
+   "id": 886,
+   "word": "hold",
+   "pos": "verb",
+   "ring": 1,
+   "def": "have a thing in the hand or arms, keeping it up",
+   "uses": [
+    "a",
+    "arm",
+    "hand",
+    "have",
+    "in",
+    "or",
+    "the",
+    "thing",
+    "up"
+   ]
+  },
+  {
+   "id": 887,
+   "word": "leave",
+   "pos": "verb",
+   "ring": 1,
+   "def": "go from a place or person",
+   "uses": [
+    "a",
+    "from",
+    "go",
+    "or",
+    "person",
+    "place"
+   ]
+  },
+  {
+   "id": 888,
+   "word": "arrive",
+   "pos": "verb",
+   "ring": 1,
+   "def": "come to the end of a journey; get to a place",
+   "uses": [
+    "a",
+    "come",
+    "end",
+    "get",
+    "journey",
+    "of",
+    "place",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 889,
+   "word": "return",
+   "pos": "verb",
+   "ring": 1,
+   "def": "come or go back to a place one went from",
+   "uses": [
+    "a",
+    "back",
+    "come",
+    "from",
+    "go",
+    "or",
+    "place",
+    "to"
+   ]
+  },
+  {
+   "id": 890,
+   "word": "stay",
+   "pos": "verb",
+   "ring": 1,
+   "def": "keep in a place for a time, not going",
+   "uses": [
+    "a",
+    "for",
+    "in",
+    "keep",
+    "not",
+    "place",
+    "time"
+   ]
+  },
+  {
+   "id": 891,
+   "word": "wake",
+   "pos": "verb",
+   "ring": 1,
+   "def": "come out of sleep; come to be awake",
+   "uses": [
+    "awake",
+    "be",
+    "come",
+    "of",
+    "out",
+    "sleep",
+    "to"
+   ]
+  },
+  {
+   "id": 892,
+   "word": "dream",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the pictures the mind sees in sleep; also the deep desire for the days to come",
+   "uses": [
+    "come",
+    "day",
+    "deep",
+    "desire",
+    "for",
+    "in",
+    "mind",
+    "picture",
+    "sleep",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 893,
+   "word": "travel",
+   "pos": "verb",
+   "ring": 1,
+   "def": "go from place to place, near or far, for seeing or work",
+   "uses": [
+    "far",
+    "for",
+    "from",
+    "go",
+    "near",
+    "or",
+    "place",
+    "to",
+    "work"
+   ]
+  },
+  {
+   "id": 894,
+   "word": "drive",
+   "pos": "verb",
+   "ring": 1,
+   "def": "guide a machine with wheels on the road",
+   "uses": [
+    "a",
+    "guide",
+    "machine",
+    "on",
+    "road",
+    "the",
+    "wheel",
+    "with"
+   ]
+  },
+  {
+   "id": 895,
+   "word": "ride",
+   "pos": "verb",
+   "ring": 1,
+   "def": "be on a horse, or be moved by a machine with wheels, going from place to place",
+   "uses": [
+    "a",
+    "be",
+    "by",
+    "from",
+    "horse",
+    "machine",
+    "move",
+    "on",
+    "or",
+    "place",
+    "to",
+    "wheel",
+    "with"
+   ]
+  },
+  {
+   "id": 896,
+   "word": "follow",
+   "pos": "verb",
+   "ring": 1,
+   "def": "go after a thing, keeping it in view",
+   "uses": [
+    "a",
+    "after",
+    "go",
+    "in",
+    "thing",
+    "view"
+   ]
+  },
+  {
+   "id": 897,
+   "word": "chase",
+   "pos": "verb",
+   "ring": 1,
+   "def": "go after a moving thing with the purpose of taking it",
+   "uses": [
+    "a",
+    "after",
+    "go",
+    "move",
+    "of",
+    "purpose",
+    "the",
+    "thing",
+    "with"
+   ]
+  },
+  {
+   "id": 898,
+   "word": "shout",
+   "pos": "verb",
+   "ring": 1,
+   "def": "say words with full force of voice, as over a long space",
+   "uses": [
+    "a",
+    "as",
+    "force",
+    "full",
+    "long",
+    "of",
+    "over",
+    "say",
+    "space",
+    "voice",
+    "with",
+    "word"
+   ]
+  },
+  {
+   "id": 899,
+   "word": "whisper",
+   "pos": "verb",
+   "ring": 1,
+   "def": "say words with the breath only, making little sound, ear to ear",
+   "uses": [
+    "breath",
+    "ear",
+    "little",
+    "only",
+    "say",
+    "sound",
+    "the",
+    "to",
+    "with",
+    "word"
+   ]
+  },
+  {
+   "id": 900,
+   "word": "sing",
+   "pos": "verb",
+   "ring": 1,
+   "def": "make music with the voice, with words or without",
+   "uses": [
+    "make",
+    "music",
+    "or",
+    "the",
+    "voice",
+    "with",
+    "word"
+   ]
+  },
+  {
+   "id": 901,
+   "word": "dance",
+   "pos": "verb",
+   "ring": 1,
+   "def": "move the body with the rhythm of music, for pleasure or art",
+   "uses": [
+    "art",
+    "body",
+    "for",
+    "move",
+    "music",
+    "of",
+    "or",
+    "pleasure",
+    "rhythm",
+    "the",
+    "with"
+   ]
+  },
+  {
+   "id": 902,
+   "word": "hug",
+   "pos": "verb",
+   "ring": 1,
+   "def": "put the arms round another, as a sign of love",
+   "uses": [
+    "a",
+    "arm",
+    "as",
+    "love",
+    "of",
+    "put",
+    "round",
+    "sign",
+    "the"
+   ]
+  },
+  {
+   "id": 903,
+   "word": "live",
+   "pos": "verb",
+   "ring": 1,
+   "def": "be in being; have one's being in a place or time",
+   "uses": [
+    "a",
+    "be",
+    "have",
+    "in",
+    "or",
+    "place",
+    "time"
+   ]
+  },
+  {
+   "id": 904,
+   "word": "die",
+   "pos": "verb",
+   "ring": 1,
+   "def": "come to death",
+   "uses": [
+    "come",
+    "death",
+    "to"
+   ]
+  },
+  {
+   "id": 905,
+   "word": "born",
+   "pos": "adj",
+   "ring": 1,
+   "def": "come into being, as from the mother",
+   "uses": [
+    "as",
+    "come",
+    "from",
+    "mother",
+    "the"
+   ]
+  },
+  {
+   "id": 906,
+   "word": "grow",
+   "pos": "verb",
+   "ring": 1,
+   "def": "get greater, taller, or older with time",
+   "uses": [
+    "get",
+    "great",
+    "old",
+    "or",
+    "tall",
+    "time",
+    "with"
+   ]
+  },
+  {
+   "id": 907,
+   "word": "study",
+   "pos": "verb",
+   "ring": 1,
+   "def": "give the mind to a book or field, learning with care",
+   "uses": [
+    "a",
+    "book",
+    "care",
+    "field",
+    "give",
+    "learning",
+    "mind",
+    "or",
+    "the",
+    "to",
+    "with"
+   ]
+  },
+  {
+   "id": 908,
+   "word": "practice",
+   "pos": "verb",
+   "ring": 1,
+   "def": "do an act again and again, making the hand or mind quicker at it",
+   "uses": [
+    "act",
+    "again",
+    "and",
+    "at",
+    "do",
+    "hand",
+    "mind",
+    "or",
+    "quick",
+    "the"
+   ]
+  },
+  {
+   "id": 909,
+   "word": "remember",
+   "pos": "verb",
+   "ring": 1,
+   "def": "have a thing in the memory, keeping the things that have been",
+   "uses": [
+    "a",
+    "have",
+    "in",
+    "memory",
+    "that",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 910,
+   "word": "forget",
+   "pos": "verb",
+   "ring": 1,
+   "def": "let a thing go from the memory",
+   "uses": [
+    "a",
+    "from",
+    "go",
+    "let",
+    "memory",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 911,
+   "word": "imagine",
+   "pos": "verb",
+   "ring": 1,
+   "def": "make a picture in the mind of things not before the eyes",
+   "uses": [
+    "a",
+    "before",
+    "eye",
+    "in",
+    "make",
+    "mind",
+    "not",
+    "of",
+    "picture",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 912,
+   "word": "believe",
+   "pos": "verb",
+   "ring": 1,
+   "def": "have a belief in the mind, saying yes to a statement",
+   "uses": [
+    "a",
+    "belief",
+    "have",
+    "in",
+    "mind",
+    "statement",
+    "the",
+    "to",
+    "yes"
+   ]
+  },
+  {
+   "id": 913,
+   "word": "wonder",
+   "pos": "verb",
+   "ring": 1,
+   "def": "have the mind turning on how or why; be surprised at a thing",
+   "uses": [
+    "a",
+    "at",
+    "be",
+    "have",
+    "how",
+    "mind",
+    "on",
+    "or",
+    "surprise",
+    "the",
+    "thing",
+    "turn",
+    "why"
+   ]
+  },
+  {
+   "id": 914,
+   "word": "wish",
+   "pos": "verb",
+   "ring": 1,
+   "def": "have a desire for a thing not now possible or here",
+   "uses": [
+    "a",
+    "desire",
+    "for",
+    "have",
+    "here",
+    "not",
+    "now",
+    "or",
+    "possible",
+    "thing"
+   ]
+  },
+  {
+   "id": 915,
+   "word": "decide",
+   "pos": "verb",
+   "ring": 1,
+   "def": "come down on one way, ending the doubt",
+   "uses": [
+    "come",
+    "doubt",
+    "down",
+    "end",
+    "on",
+    "the",
+    "way"
+   ]
+  },
+  {
+   "id": 916,
+   "word": "plan",
+   "pos": "verb",
+   "ring": 1,
+   "def": "put down on paper the acts one will do and their times",
+   "uses": [
+    "act",
+    "and",
+    "do",
+    "down",
+    "on",
+    "paper",
+    "put",
+    "the",
+    "time",
+    "will"
+   ]
+  },
+  {
+   "id": 917,
+   "word": "finish",
+   "pos": "verb",
+   "ring": 1,
+   "def": "come to the end of a work; make a thing complete",
+   "uses": [
+    "a",
+    "come",
+    "complete",
+    "end",
+    "make",
+    "of",
+    "the",
+    "thing",
+    "to",
+    "work"
+   ]
+  },
+  {
+   "id": 918,
+   "word": "close",
+   "pos": "verb",
+   "ring": 1,
+   "def": "shut; make an opening no longer open",
+   "uses": [
+    "long",
+    "make",
+    "no",
+    "open",
+    "shut"
+   ]
+  },
+  {
+   "id": 919,
+   "word": "unlock",
+   "pos": "verb",
+   "ring": 1,
+   "def": "make open a thing that was locked, with a key",
+   "uses": [
+    "a",
+    "key",
+    "lock",
+    "make",
+    "open",
+    "that",
+    "thing",
+    "with"
+   ]
+  },
+  {
+   "id": 920,
+   "word": "break",
+   "pos": "verb",
+   "ring": 1,
+   "def": "make a full thing come in bits; go in bits",
+   "uses": [
+    "a",
+    "bit",
+    "come",
+    "full",
+    "go",
+    "in",
+    "make",
+    "thing"
+   ]
+  },
+  {
+   "id": 921,
+   "word": "fix",
+   "pos": "verb",
+   "ring": 1,
+   "def": "put a broken thing right, making it work again",
+   "uses": [
+    "a",
+    "again",
+    "broken",
+    "put",
+    "right",
+    "thing",
+    "work"
+   ]
+  },
+  {
+   "id": 922,
+   "word": "save",
+   "pos": "verb",
+   "ring": 1,
+   "def": "keep from waste or danger; put a thing into a safe place for later",
+   "uses": [
+    "a",
+    "danger",
+    "for",
+    "from",
+    "keep",
+    "late",
+    "or",
+    "place",
+    "put",
+    "safe",
+    "thing",
+    "waste"
+   ]
+  },
+  {
+   "id": 923,
+   "word": "spend",
+   "pos": "verb",
+   "ring": 1,
+   "def": "give out money for goods, or time for acts",
+   "uses": [
+    "act",
+    "for",
+    "give",
+    "good",
+    "money",
+    "or",
+    "out",
+    "time"
+   ]
+  },
+  {
+   "id": 924,
+   "word": "cost",
+   "pos": "verb",
+   "ring": 1,
+   "def": "say the price a thing has",
+   "uses": [
+    "a",
+    "price",
+    "say",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 925,
+   "word": "own",
+   "pos": "verb",
+   "ring": 1,
+   "def": "have a thing as one's; have the right to say how it is used",
+   "uses": [
+    "a",
+    "as",
+    "have",
+    "how",
+    "right",
+    "say",
+    "the",
+    "thing",
+    "to",
+    "use"
+   ]
+  },
+  {
+   "id": 926,
+   "word": "owe",
+   "pos": "verb",
+   "ring": 1,
+   "def": "be in debt; have money to give back for the thing that was had",
+   "uses": [
+    "back",
+    "be",
+    "debt",
+    "for",
+    "give",
+    "have",
+    "in",
+    "money",
+    "that",
+    "the",
+    "thing",
+    "to"
+   ]
+  },
+  {
+   "id": 927,
+   "word": "borrow",
+   "pos": "verb",
+   "ring": 1,
+   "def": "take a thing for a time, saying it will be given back",
+   "uses": [
+    "a",
+    "back",
+    "be",
+    "for",
+    "take",
+    "thing",
+    "time",
+    "will"
+   ]
+  },
+  {
+   "id": 928,
+   "word": "lend",
+   "pos": "verb",
+   "ring": 1,
+   "def": "give a thing to another for a time, looking for it back",
+   "uses": [
+    "a",
+    "back",
+    "for",
+    "give",
+    "look",
+    "thing",
+    "time",
+    "to"
+   ]
+  },
+  {
+   "id": 929,
+   "word": "share",
+   "pos": "verb",
+   "ring": 1,
+   "def": "give a part of a thing to others; have and use together",
+   "uses": [
+    "a",
+    "and",
+    "give",
+    "have",
+    "of",
+    "other",
+    "part",
+    "thing",
+    "to",
+    "together",
+    "use"
+   ]
+  },
+  {
+   "id": 930,
+   "word": "gift",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a thing given with no payment looked for back",
+   "uses": [
+    "a",
+    "back",
+    "for",
+    "look",
+    "no",
+    "payment",
+    "thing",
+    "with"
+   ]
+  },
+  {
+   "id": 931,
+   "word": "guest",
+   "pos": "noun",
+   "ring": 1,
+   "def": "one taken in to a house with care, not of the family",
+   "uses": [
+    "a",
+    "care",
+    "family",
+    "house",
+    "in",
+    "not",
+    "of",
+    "the",
+    "to",
+    "with"
+   ]
+  },
+  {
+   "id": 932,
+   "word": "host",
+   "pos": "noun",
+   "ring": 1,
+   "def": "one who takes persons in, giving food and a place",
+   "uses": [
+    "a",
+    "and",
+    "food",
+    "in",
+    "person",
+    "place",
+    "who"
+   ]
+  },
+  {
+   "id": 933,
+   "word": "crowd",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a great number of persons together in one place",
+   "uses": [
+    "a",
+    "great",
+    "in",
+    "number",
+    "of",
+    "person",
+    "place",
+    "together"
+   ]
+  },
+  {
+   "id": 934,
+   "word": "world",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the earth with all its lands and seas, and the living things on it",
+   "uses": [
+    "all",
+    "and",
+    "earth",
+    "land",
+    "living",
+    "on",
+    "sea",
+    "the",
+    "thing",
+    "with"
+   ]
+  },
+  {
+   "id": 935,
+   "word": "life",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the condition of living; the stretch from birth to death",
+   "uses": [
+    "birth",
+    "condition",
+    "death",
+    "from",
+    "living",
+    "of",
+    "stretch",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 936,
+   "word": "alive",
+   "pos": "adj",
+   "ring": 1,
+   "def": "in being now",
+   "uses": [
+    "in",
+    "now"
+   ]
+  },
+  {
+   "id": 937,
+   "word": "health",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the condition of the body when all works well",
+   "uses": [
+    "all",
+    "body",
+    "condition",
+    "of",
+    "the",
+    "well",
+    "when",
+    "work"
+   ]
+  },
+  {
+   "id": 938,
+   "word": "strength",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the power that lets a body or thing do work",
+   "uses": [
+    "a",
+    "body",
+    "do",
+    "or",
+    "power",
+    "that",
+    "the",
+    "thing",
+    "work"
+   ]
+  },
+  {
+   "id": 939,
+   "word": "weak",
+   "pos": "adj",
+   "ring": 1,
+   "def": "without power; feeble",
+   "uses": [
+    "feeble",
+    "power"
+   ]
+  },
+  {
+   "id": 940,
+   "word": "energy",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the power to do work, in body or machine",
+   "uses": [
+    "body",
+    "do",
+    "in",
+    "machine",
+    "or",
+    "power",
+    "the",
+    "to",
+    "work"
+   ]
+  },
+  {
+   "id": 941,
+   "word": "age",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the years of a thing's being",
+   "uses": [
+    "a",
+    "of",
+    "the",
+    "thing",
+    "year"
+   ]
+  },
+  {
+   "id": 942,
+   "word": "date",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the day, month, and year of an event",
+   "uses": [
+    "and",
+    "day",
+    "event",
+    "month",
+    "of",
+    "the",
+    "year"
+   ]
+  },
+  {
+   "id": 943,
+   "word": "moment",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a very short bit of time; the now between past and future",
+   "uses": [
+    "a",
+    "and",
+    "between",
+    "bit",
+    "future",
+    "now",
+    "of",
+    "past",
+    "short",
+    "the",
+    "time",
+    "very"
+   ]
+  },
+  {
+   "id": 944,
+   "word": "instant",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a point of time so short it has no parts",
+   "uses": [
+    "a",
+    "no",
+    "of",
+    "part",
+    "point",
+    "short",
+    "so",
+    "time"
+   ]
+  },
+  {
+   "id": 945,
+   "word": "soon",
+   "pos": "adv",
+   "ring": 1,
+   "def": "in a short time from now",
+   "uses": [
+    "a",
+    "from",
+    "in",
+    "now",
+    "short",
+    "time"
+   ]
+  },
+  {
+   "id": 946,
+   "word": "often",
+   "pos": "adv",
+   "ring": 1,
+   "def": "at short spaces of time, again and again",
+   "uses": [
+    "again",
+    "and",
+    "at",
+    "of",
+    "short",
+    "space",
+    "time"
+   ]
+  },
+  {
+   "id": 947,
+   "word": "always",
+   "pos": "adv",
+   "ring": 1,
+   "def": "at all times, without stopping",
+   "uses": [
+    "all",
+    "at",
+    "stop",
+    "time"
+   ]
+  },
+  {
+   "id": 948,
+   "word": "never",
+   "pos": "adv",
+   "ring": 1,
+   "def": "at no time, not ever",
+   "uses": [
+    "at",
+    "ever",
+    "no",
+    "not",
+    "time"
+   ]
+  },
+  {
+   "id": 949,
+   "word": "computer",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a machine with an electric brain that does work with numbers and words at a great rate",
+   "uses": [
+    "a",
+    "and",
+    "at",
+    "brain",
+    "electric",
+    "great",
+    "machine",
+    "number",
+    "rate",
+    "that",
+    "with",
+    "word",
+    "work"
+   ]
+  },
+  {
+   "id": 950,
+   "word": "program",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a list of orders given to a machine, saying the act it is to do, step by step",
+   "uses": [
+    "a",
+    "act",
+    "by",
+    "do",
+    "list",
+    "machine",
+    "of",
+    "order",
+    "step",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 951,
+   "word": "robot",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a machine made like a man or animal, doing work by orders given to it",
+   "uses": [
+    "a",
+    "animal",
+    "by",
+    "like",
+    "machine",
+    "man",
+    "or",
+    "order",
+    "to",
+    "work"
+   ]
+  },
+  {
+   "id": 952,
+   "word": "internet",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the great connection of machines through wires and air, that lets words go from land to land",
+   "uses": [
+    "air",
+    "and",
+    "connection",
+    "from",
+    "go",
+    "great",
+    "land",
+    "machine",
+    "of",
+    "that",
+    "the",
+    "through",
+    "to",
+    "wire",
+    "word"
+   ]
+  },
+  {
+   "id": 953,
+   "word": "website",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a page or group of pages kept by one person or company, that others may look at through the great machine connection",
+   "uses": [
+    "a",
+    "at",
+    "by",
+    "company",
+    "connection",
+    "great",
+    "group",
+    "look",
+    "machine",
+    "may",
+    "of",
+    "or",
+    "other",
+    "page",
+    "person",
+    "that",
+    "the",
+    "through"
+   ]
+  },
+  {
+   "id": 954,
+   "word": "email",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a letter sent from machine to machine through wires, going in a second",
+   "uses": [
+    "a",
+    "from",
+    "in",
+    "letter",
+    "machine",
+    "second",
+    "through",
+    "to",
+    "wire"
+   ]
+  },
+  {
+   "id": 955,
+   "word": "password",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a secret word given to a machine to be let in",
+   "uses": [
+    "a",
+    "be",
+    "in",
+    "let",
+    "machine",
+    "secret",
+    "to",
+    "word"
+   ]
+  },
+  {
+   "id": 956,
+   "word": "file",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a store of writing or facts kept under one name in a machine",
+   "uses": [
+    "a",
+    "fact",
+    "in",
+    "machine",
+    "name",
+    "of",
+    "or",
+    "store",
+    "under",
+    "writing"
+   ]
+  },
+  {
+   "id": 957,
+   "word": "folder",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a space in a machine where things with like uses are put together",
+   "uses": [
+    "a",
+    "in",
+    "like",
+    "machine",
+    "put",
+    "space",
+    "thing",
+    "together",
+    "use",
+    "where",
+    "with"
+   ]
+  },
+  {
+   "id": 958,
+   "word": "screen",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the glass face of a machine where pictures and words are seen",
+   "uses": [
+    "a",
+    "and",
+    "face",
+    "glass",
+    "machine",
+    "of",
+    "picture",
+    "the",
+    "where",
+    "word"
+   ]
+  },
+  {
+   "id": 959,
+   "word": "keyboard",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the board of keys used for putting letters into a machine",
+   "uses": [
+    "a",
+    "board",
+    "for",
+    "key",
+    "letter",
+    "machine",
+    "of",
+    "the",
+    "use"
+   ]
+  },
+  {
+   "id": 960,
+   "word": "mouse",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the small hand instrument moved on the table, for pointing at and moving things seen on the machine's face",
+   "uses": [
+    "and",
+    "at",
+    "face",
+    "for",
+    "hand",
+    "instrument",
+    "machine",
+    "move",
+    "on",
+    "point",
+    "small",
+    "table",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 961,
+   "word": "phone",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the small hand instrument used to send one's voice far, and to send words",
+   "uses": [
+    "and",
+    "far",
+    "hand",
+    "instrument",
+    "send",
+    "small",
+    "the",
+    "to",
+    "use",
+    "voice",
+    "word"
+   ]
+  },
+  {
+   "id": 962,
+   "word": "battery",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a small box of electric power, giving a machine its power",
+   "uses": [
+    "a",
+    "box",
+    "electric",
+    "machine",
+    "of",
+    "power",
+    "small"
+   ]
+  },
+  {
+   "id": 963,
+   "word": "network",
+   "pos": "noun",
+   "ring": 1,
+   "def": "lines of connection between machines and persons, for sending words and goods",
+   "uses": [
+    "and",
+    "between",
+    "connection",
+    "for",
+    "good",
+    "line",
+    "machine",
+    "of",
+    "person",
+    "word"
+   ]
+  },
+  {
+   "id": 964,
+   "word": "server",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the machine that keeps things and gives them to other machines when a request comes",
+   "uses": [
+    "a",
+    "and",
+    "machine",
+    "other",
+    "request",
+    "that",
+    "the",
+    "thing",
+    "to",
+    "when"
+   ]
+  },
+  {
+   "id": 965,
+   "word": "data",
+   "pos": "noun",
+   "ring": 1,
+   "def": "facts in the form of marks and numbers, able to be kept and sent by machines",
+   "uses": [
+    "able",
+    "and",
+    "be",
+    "by",
+    "fact",
+    "form",
+    "in",
+    "machine",
+    "mark",
+    "number",
+    "of",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 966,
+   "word": "information",
+   "pos": "noun",
+   "ring": 1,
+   "def": "facts put in order and given about a thing",
+   "uses": [
+    "a",
+    "about",
+    "and",
+    "fact",
+    "in",
+    "order",
+    "put",
+    "thing"
+   ]
+  },
+  {
+   "id": 967,
+   "word": "message",
+   "pos": "noun",
+   "ring": 1,
+   "def": "words sent from one person to another",
+   "uses": [
+    "from",
+    "person",
+    "to",
+    "word"
+   ]
+  },
+  {
+   "id": 968,
+   "word": "chat",
+   "pos": "noun",
+   "ring": 1,
+   "def": "talk that goes back and forward in writing between persons through machines",
+   "uses": [
+    "and",
+    "back",
+    "between",
+    "forward",
+    "in",
+    "machine",
+    "person",
+    "talk",
+    "that",
+    "through",
+    "writing"
+   ]
+  },
+  {
+   "id": 969,
+   "word": "model",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a small copy of a thing made to be looked at and tested; also a machine mind trained on examples till it gives answers",
+   "uses": [
+    "a",
+    "and",
+    "answer",
+    "at",
+    "be",
+    "copy",
+    "example",
+    "look",
+    "machine",
+    "mind",
+    "of",
+    "on",
+    "small",
+    "test",
+    "thing",
+    "till",
+    "to",
+    "train"
+   ]
+  },
+  {
+   "id": 970,
+   "word": "artificial",
+   "pos": "adj",
+   "ring": 1,
+   "def": "made by man, not made by the natural earth",
+   "uses": [
+    "by",
+    "earth",
+    "man",
+    "natural",
+    "not",
+    "the"
+   ]
+  },
+  {
+   "id": 971,
+   "word": "intelligence",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the power of mind to see, to take in new things, and to get answers",
+   "uses": [
+    "and",
+    "answer",
+    "get",
+    "in",
+    "mind",
+    "new",
+    "of",
+    "power",
+    "see",
+    "take",
+    "the",
+    "thing",
+    "to"
+   ]
+  },
+  {
+   "id": 972,
+   "word": "storage",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the act or place of keeping things for later use",
+   "uses": [
+    "act",
+    "for",
+    "late",
+    "of",
+    "or",
+    "place",
+    "the",
+    "thing",
+    "use"
+   ]
+  },
+  {
+   "id": 973,
+   "word": "vector",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a line of numbers giving the position of a thing in a space of measures",
+   "uses": [
+    "a",
+    "in",
+    "line",
+    "measure",
+    "number",
+    "of",
+    "position",
+    "space",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 974,
+   "word": "embedding",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the act of turning a word into a line of numbers that puts like words near one another",
+   "uses": [
+    "a",
+    "act",
+    "like",
+    "line",
+    "near",
+    "number",
+    "of",
+    "that",
+    "the",
+    "turn",
+    "word"
+   ]
+  },
+  {
+   "id": 975,
+   "word": "token",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a bit of writing, one word-part or mark, used by a machine when reading",
+   "uses": [
+    "a",
+    "bit",
+    "by",
+    "machine",
+    "mark",
+    "of",
+    "or",
+    "part",
+    "reading",
+    "use",
+    "when",
+    "word",
+    "writing"
+   ]
+  },
+  {
+   "id": 976,
+   "word": "neural",
+   "pos": "adj",
+   "ring": 1,
+   "def": "of nets of small parts made like the nerves of the body, used in machine minds",
+   "uses": [
+    "body",
+    "in",
+    "like",
+    "machine",
+    "mind",
+    "nerve",
+    "net",
+    "of",
+    "part",
+    "small",
+    "the",
+    "use"
+   ]
+  },
+  {
+   "id": 977,
+   "word": "neuron",
+   "pos": "noun",
+   "ring": 1,
+   "def": "one small part of a machine mind net, taking numbers in and sending a number out",
+   "uses": [
+    "a",
+    "and",
+    "in",
+    "machine",
+    "mind",
+    "net",
+    "number",
+    "of",
+    "out",
+    "part",
+    "small"
+   ]
+  },
+  {
+   "id": 978,
+   "word": "agent",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a person or machine that does work for another, with some power to see and act by itself",
+   "uses": [
+    "a",
+    "act",
+    "and",
+    "by",
+    "for",
+    "machine",
+    "or",
+    "person",
+    "power",
+    "see",
+    "some",
+    "that",
+    "to",
+    "with",
+    "work"
+   ]
+  },
+  {
+   "id": 979,
+   "word": "tool",
+   "pos": "noun",
+   "ring": 1,
+   "def": "an instrument taken in the hand and used for a work",
+   "uses": [
+    "a",
+    "and",
+    "for",
+    "hand",
+    "in",
+    "instrument",
+    "the",
+    "use",
+    "work"
+   ]
+  },
+  {
+   "id": 980,
+   "word": "toolbelt",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the band round the body of a worker, keeping instruments at the side, ready for use when needed",
+   "uses": [
+    "a",
+    "at",
+    "band",
+    "body",
+    "for",
+    "instrument",
+    "need",
+    "of",
+    "ready",
+    "round",
+    "side",
+    "the",
+    "use",
+    "when",
+    "work"
+   ]
+  },
+  {
+   "id": 981,
+   "word": "prompt",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the words put to a machine mind at the start, for the forming of an answer",
+   "uses": [
+    "a",
+    "answer",
+    "at",
+    "for",
+    "form",
+    "machine",
+    "mind",
+    "of",
+    "put",
+    "start",
+    "the",
+    "to",
+    "word"
+   ]
+  },
+  {
+   "id": 982,
+   "word": "output",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the thing a machine sends out after doing its work",
+   "uses": [
+    "a",
+    "after",
+    "machine",
+    "out",
+    "the",
+    "thing",
+    "work"
+   ]
+  },
+  {
+   "id": 983,
+   "word": "input",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the thing put into a machine before it does its work",
+   "uses": [
+    "a",
+    "before",
+    "machine",
+    "put",
+    "the",
+    "thing",
+    "work"
+   ]
+  },
+  {
+   "id": 984,
+   "word": "feedback",
+   "pos": "noun",
+   "ring": 1,
+   "def": "words sent back saying how a thing did, used to make it do better",
+   "uses": [
+    "a",
+    "back",
+    "do",
+    "how",
+    "make",
+    "thing",
+    "to",
+    "use",
+    "word"
+   ]
+  },
+  {
+   "id": 985,
+   "word": "search",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the act of looking through a great store for one thing or fact",
+   "uses": [
+    "a",
+    "act",
+    "fact",
+    "for",
+    "great",
+    "look",
+    "of",
+    "or",
+    "store",
+    "the",
+    "thing",
+    "through"
+   ]
+  },
+  {
+   "id": 986,
+   "word": "index",
+   "pos": "noun",
+   "ring": 1,
+   "def": "an ordered list saying where every word or thing may be got in a great store",
+   "uses": [
+    "a",
+    "be",
+    "every",
+    "great",
+    "in",
+    "list",
+    "may",
+    "or",
+    "order",
+    "store",
+    "thing",
+    "where",
+    "word"
+   ]
+  },
+  {
+   "id": 987,
+   "word": "query",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a question put to a machine or store",
+   "uses": [
+    "a",
+    "machine",
+    "or",
+    "put",
+    "question",
+    "store",
+    "to"
+   ]
+  },
+  {
+   "id": 988,
+   "word": "retrieval",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the act of getting back from a store the things looked for",
+   "uses": [
+    "a",
+    "act",
+    "back",
+    "for",
+    "from",
+    "look",
+    "of",
+    "store",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 989,
+   "word": "database",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a great store of facts in a machine, put in order so any one may be got with little work",
+   "uses": [
+    "a",
+    "any",
+    "be",
+    "fact",
+    "great",
+    "in",
+    "little",
+    "machine",
+    "may",
+    "of",
+    "order",
+    "put",
+    "so",
+    "store",
+    "with",
+    "work"
+   ]
+  },
+  {
+   "id": 990,
+   "word": "graph",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a picture of points joined by lines, saying how things are joined",
+   "uses": [
+    "a",
+    "by",
+    "how",
+    "join",
+    "line",
+    "of",
+    "picture",
+    "point",
+    "thing"
+   ]
+  },
+  {
+   "id": 991,
+   "word": "node",
+   "pos": "noun",
+   "ring": 1,
+   "def": "one point in a net of points and lines, with lines going out from it",
+   "uses": [
+    "a",
+    "and",
+    "from",
+    "in",
+    "line",
+    "net",
+    "of",
+    "out",
+    "point",
+    "with"
+   ]
+  },
+  {
+   "id": 992,
+   "word": "loop",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a line of acts coming back on itself, so the end sends the machine back to the start",
+   "uses": [
+    "a",
+    "act",
+    "back",
+    "end",
+    "line",
+    "machine",
+    "of",
+    "on",
+    "so",
+    "start",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 993,
+   "word": "layer",
+   "pos": "noun",
+   "ring": 1,
+   "def": "one flat part, in a line of like parts one over another",
+   "uses": [
+    "a",
+    "flat",
+    "in",
+    "like",
+    "line",
+    "of",
+    "over",
+    "part"
+   ]
+  },
+  {
+   "id": 994,
+   "word": "dataset",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the great store of examples used for teaching a machine mind",
+   "uses": [
+    "a",
+    "example",
+    "for",
+    "great",
+    "machine",
+    "mind",
+    "of",
+    "store",
+    "teaching",
+    "the",
+    "use"
+   ]
+  },
+  {
+   "id": 995,
+   "word": "training",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the act of teaching a machine mind with examples, making its numbers better at every step",
+   "uses": [
+    "a",
+    "act",
+    "at",
+    "every",
+    "example",
+    "machine",
+    "mind",
+    "number",
+    "of",
+    "step",
+    "teaching",
+    "the",
+    "with"
+   ]
+  },
+  {
+   "id": 996,
+   "word": "inference",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the act of a machine mind giving answers from the things it has been given before, taking in nothing new",
+   "uses": [
+    "a",
+    "act",
+    "answer",
+    "before",
+    "from",
+    "in",
+    "machine",
+    "mind",
+    "new",
+    "of",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 997,
+   "word": "generate",
+   "pos": "verb",
+   "ring": 1,
+   "def": "make new things by the mind or machine: words, pictures, answers",
+   "uses": [
+    "answer",
+    "by",
+    "machine",
+    "make",
+    "mind",
+    "new",
+    "or",
+    "picture",
+    "the",
+    "thing",
+    "word"
+   ]
+  },
+  {
+   "id": 998,
+   "word": "generation",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the act of making new words, pictures, or things; also one step in a line from father to son",
+   "uses": [
+    "a",
+    "act",
+    "father",
+    "from",
+    "in",
+    "line",
+    "new",
+    "of",
+    "or",
+    "picture",
+    "son",
+    "step",
+    "the",
+    "thing",
+    "to",
+    "word"
+   ]
+  },
+  {
+   "id": 999,
+   "word": "context",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the words round a word, giving it its full sense",
+   "uses": [
+    "a",
+    "full",
+    "round",
+    "sense",
+    "the",
+    "word"
+   ]
+  },
+  {
+   "id": 1000,
+   "word": "meaning",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the sense a word gives to the mind; the sense it gives",
+   "uses": [
+    "a",
+    "mind",
+    "sense",
+    "the",
+    "to",
+    "word"
+   ]
+  },
+  {
+   "id": 1001,
+   "word": "definition",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the words that say the sense of a thing, given with the words of the root language",
+   "uses": [
+    "a",
+    "language",
+    "of",
+    "root",
+    "say",
+    "sense",
+    "that",
+    "the",
+    "thing",
+    "with",
+    "word"
+   ]
+  },
+  {
+   "id": 1002,
+   "word": "define",
+   "pos": "verb",
+   "ring": 1,
+   "def": "give the words saying the sense of a thing",
+   "uses": [
+    "a",
+    "give",
+    "of",
+    "sense",
+    "the",
+    "thing",
+    "word"
+   ]
+  },
+  {
+   "id": 1003,
+   "word": "dictionary",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a book of words with their senses, in order",
+   "uses": [
+    "a",
+    "book",
+    "in",
+    "of",
+    "order",
+    "sense",
+    "with",
+    "word"
+   ]
+  },
+  {
+   "id": 1004,
+   "word": "prime",
+   "pos": "adj",
+   "ring": 1,
+   "def": "first in order, before all others; of the words at the root of a language: all other words are made from them",
+   "uses": [
+    "a",
+    "all",
+    "at",
+    "before",
+    "first",
+    "from",
+    "in",
+    "language",
+    "of",
+    "order",
+    "other",
+    "root",
+    "the",
+    "word"
+   ]
+  },
+  {
+   "id": 1005,
+   "word": "grounding",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the act of making words get their senses from things themselves: by pointing, seeing, hearing, and doing",
+   "uses": [
+    "act",
+    "and",
+    "by",
+    "from",
+    "get",
+    "hearing",
+    "of",
+    "point",
+    "sense",
+    "the",
+    "thing",
+    "word"
+   ]
+  },
+  {
+   "id": 1006,
+   "word": "symbol",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a mark that is in place of a thing or idea",
+   "uses": [
+    "a",
+    "idea",
+    "in",
+    "mark",
+    "of",
+    "or",
+    "place",
+    "that",
+    "thing"
+   ]
+  },
+  {
+   "id": 1007,
+   "word": "represent",
+   "pos": "verb",
+   "ring": 1,
+   "def": "be in place of a thing; be a mark of a thing",
+   "uses": [
+    "a",
+    "be",
+    "in",
+    "mark",
+    "of",
+    "place",
+    "thing"
+   ]
+  },
+  {
+   "id": 1008,
+   "word": "similarity",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the condition of being like another thing",
+   "uses": [
+    "condition",
+    "like",
+    "of",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 1009,
+   "word": "cluster",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a group of near-together things, as bees on a branch",
+   "uses": [
+    "a",
+    "as",
+    "be",
+    "branch",
+    "group",
+    "near",
+    "of",
+    "on",
+    "thing",
+    "together"
+   ]
+  },
+  {
+   "id": 1010,
+   "word": "hub",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the chief point where lines come together",
+   "uses": [
+    "chief",
+    "come",
+    "line",
+    "point",
+    "the",
+    "together",
+    "where"
+   ]
+  },
+  {
+   "id": 1011,
+   "word": "simulate",
+   "pos": "verb",
+   "ring": 1,
+   "def": "make a machine copy of a thing, and see how it does",
+   "uses": [
+    "a",
+    "and",
+    "copy",
+    "how",
+    "machine",
+    "make",
+    "of",
+    "see",
+    "thing"
+   ]
+  },
+  {
+   "id": 1012,
+   "word": "algorithm",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a fixed list of steps for doing a work, that comes to an end",
+   "uses": [
+    "a",
+    "end",
+    "fixed",
+    "for",
+    "list",
+    "of",
+    "step",
+    "that",
+    "to",
+    "work"
+   ]
+  },
+  {
+   "id": 1013,
+   "word": "code",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the language of orders given to a machine; also a system of secret signs",
+   "uses": [
+    "a",
+    "language",
+    "machine",
+    "of",
+    "order",
+    "secret",
+    "sign",
+    "system",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 1014,
+   "word": "software",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the full group of orders put into a machine, saying all the machine does: all that is not the metal itself",
+   "uses": [
+    "a",
+    "all",
+    "full",
+    "group",
+    "machine",
+    "metal",
+    "not",
+    "of",
+    "order",
+    "put",
+    "that",
+    "the"
+   ]
+  },
+  {
+   "id": 1015,
+   "word": "hardware",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the hard parts of a machine: the metal and wires themselves",
+   "uses": [
+    "a",
+    "and",
+    "hard",
+    "machine",
+    "metal",
+    "of",
+    "part",
+    "the",
+    "wire"
+   ]
+  },
+  {
+   "id": 1016,
+   "word": "user",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the person using a machine or system",
+   "uses": [
+    "a",
+    "machine",
+    "or",
+    "person",
+    "system",
+    "the",
+    "use"
+   ]
+  },
+  {
+   "id": 1017,
+   "word": "developer",
+   "pos": "noun",
+   "ring": 1,
+   "def": "one with the work of building systems and giving machines their orders",
+   "uses": [
+    "and",
+    "building",
+    "machine",
+    "of",
+    "order",
+    "system",
+    "the",
+    "with",
+    "work"
+   ]
+  },
+  {
+   "id": 1018,
+   "word": "engineer",
+   "pos": "noun",
+   "ring": 1,
+   "def": "one with the work of designing machines and systems",
+   "uses": [
+    "and",
+    "design",
+    "machine",
+    "of",
+    "system",
+    "the",
+    "with",
+    "work"
+   ]
+  },
+  {
+   "id": 1019,
+   "word": "student",
+   "pos": "noun",
+   "ring": 1,
+   "def": "one who is at a school to get knowledge",
+   "uses": [
+    "a",
+    "at",
+    "get",
+    "knowledge",
+    "school",
+    "to",
+    "who"
+   ]
+  },
+  {
+   "id": 1020,
+   "word": "teacher",
+   "pos": "noun",
+   "ring": 1,
+   "def": "one with the work of teaching others",
+   "uses": [
+    "of",
+    "other",
+    "teaching",
+    "the",
+    "with",
+    "work"
+   ]
+  },
+  {
+   "id": 1021,
+   "word": "class",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a group of persons getting teaching together; also a sort of thing",
+   "uses": [
+    "a",
+    "group",
+    "of",
+    "person",
+    "sort",
+    "teaching",
+    "thing",
+    "together"
+   ]
+  },
+  {
+   "id": 1022,
+   "word": "lesson",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a part of teaching given at one time, on one bit of knowledge",
+   "uses": [
+    "a",
+    "at",
+    "bit",
+    "knowledge",
+    "of",
+    "on",
+    "part",
+    "teaching",
+    "time"
+   ]
+  },
+  {
+   "id": 1023,
+   "word": "exam",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a great test given by a school to see how much the mind has taken in",
+   "uses": [
+    "a",
+    "by",
+    "great",
+    "how",
+    "in",
+    "mind",
+    "much",
+    "school",
+    "see",
+    "test",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 1024,
+   "word": "grade",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the mark given for work, saying how good it is; also the year group of one in school",
+   "uses": [
+    "for",
+    "good",
+    "group",
+    "how",
+    "in",
+    "mark",
+    "of",
+    "school",
+    "the",
+    "work",
+    "year"
+   ]
+  },
+  {
+   "id": 1025,
+   "word": "university",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the great school for higher knowledge, for persons past first school",
+   "uses": [
+    "first",
+    "for",
+    "great",
+    "high",
+    "knowledge",
+    "past",
+    "person",
+    "school",
+    "the"
+   ]
+  },
+  {
+   "id": 1026,
+   "word": "wisdom",
+   "pos": "noun",
+   "ring": 1,
+   "def": "deep knowledge of the right and the good, with the mind to act on it",
+   "uses": [
+    "act",
+    "and",
+    "deep",
+    "good",
+    "knowledge",
+    "mind",
+    "of",
+    "on",
+    "right",
+    "the",
+    "to",
+    "with"
+   ]
+  },
+  {
+   "id": 1027,
+   "word": "bias",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a wrong pull of the mind or machine to one side, not from the facts",
+   "uses": [
+    "a",
+    "fact",
+    "from",
+    "machine",
+    "mind",
+    "not",
+    "of",
+    "or",
+    "pull",
+    "side",
+    "the",
+    "to",
+    "wrong"
+   ]
+  },
+  {
+   "id": 1028,
+   "word": "fairness",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the act of giving every one the same measure of right",
+   "uses": [
+    "act",
+    "every",
+    "measure",
+    "of",
+    "right",
+    "same",
+    "the"
+   ]
+  },
+  {
+   "id": 1029,
+   "word": "ethics",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the knowledge of the right and the wrong in our acts to others",
+   "uses": [
+    "act",
+    "and",
+    "in",
+    "knowledge",
+    "of",
+    "other",
+    "right",
+    "the",
+    "to",
+    "wrong"
+   ]
+  },
+  {
+   "id": 1030,
+   "word": "transparent",
+   "pos": "adj",
+   "ring": 1,
+   "def": "letting light through so things are seen; open, with nothing covered",
+   "uses": [
+    "cover",
+    "light",
+    "open",
+    "so",
+    "thing",
+    "through",
+    "with"
+   ]
+  },
+  {
+   "id": 1031,
+   "word": "opaque",
+   "pos": "adj",
+   "ring": 1,
+   "def": "not letting light through; covered, not to be seen into",
+   "uses": [
+    "be",
+    "cover",
+    "light",
+    "not",
+    "through",
+    "to"
+   ]
+  },
+  {
+   "id": 1032,
+   "word": "robust",
+   "pos": "adj",
+   "ring": 1,
+   "def": "strong against damage, working right even when conditions are rough",
+   "uses": [
+    "against",
+    "condition",
+    "damage",
+    "even",
+    "right",
+    "rough",
+    "strong",
+    "when",
+    "work"
+   ]
+  },
+  {
+   "id": 1033,
+   "word": "reliable",
+   "pos": "adj",
+   "ring": 1,
+   "def": "that does right again and again over time, without going wrong",
+   "uses": [
+    "again",
+    "and",
+    "over",
+    "right",
+    "that",
+    "time",
+    "wrong"
+   ]
+  },
+  {
+   "id": 1034,
+   "word": "emergence",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the coming up of new order from simple parts acting together",
+   "uses": [
+    "act",
+    "from",
+    "new",
+    "of",
+    "order",
+    "part",
+    "simple",
+    "the",
+    "together",
+    "up"
+   ]
+  },
+  {
+   "id": 1035,
+   "word": "emergent",
+   "pos": "adj",
+   "ring": 1,
+   "def": "coming up out of parts together, though no one part had it",
+   "uses": [
+    "no",
+    "of",
+    "out",
+    "part",
+    "though",
+    "together",
+    "up"
+   ]
+  },
+  {
+   "id": 1036,
+   "word": "consciousness",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the condition of being awake to self and all that is round one",
+   "uses": [
+    "all",
+    "and",
+    "awake",
+    "condition",
+    "of",
+    "round",
+    "self",
+    "that",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 1037,
+   "word": "curious",
+   "pos": "adj",
+   "ring": 1,
+   "def": "with a great desire to see and to have answers",
+   "uses": [
+    "a",
+    "and",
+    "answer",
+    "desire",
+    "great",
+    "have",
+    "see",
+    "to",
+    "with"
+   ]
+  },
+  {
+   "id": 1038,
+   "word": "mistake",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a wrong act or statement from not seeing right",
+   "uses": [
+    "a",
+    "act",
+    "from",
+    "not",
+    "or",
+    "right",
+    "statement",
+    "wrong"
+   ]
+  },
+  {
+   "id": 1039,
+   "word": "correct",
+   "pos": "adj",
+   "ring": 1,
+   "def": "right; with no error in it",
+   "uses": [
+    "error",
+    "in",
+    "no",
+    "right",
+    "with"
+   ]
+  },
+  {
+   "id": 1040,
+   "word": "verify",
+   "pos": "verb",
+   "ring": 1,
+   "def": "put a thing through tests, saying it is true and working right",
+   "uses": [
+    "a",
+    "and",
+    "put",
+    "right",
+    "test",
+    "thing",
+    "through",
+    "true",
+    "work"
+   ]
+  },
+  {
+   "id": 1041,
+   "word": "function",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a machine that takes values in and gives a value out, doing one fixed work",
+   "uses": [
+    "a",
+    "and",
+    "fixed",
+    "in",
+    "machine",
+    "out",
+    "that",
+    "value",
+    "work"
+   ]
+  },
+  {
+   "id": 1042,
+   "word": "operator",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the sign or word that says the act to be done on values",
+   "uses": [
+    "act",
+    "be",
+    "on",
+    "or",
+    "sign",
+    "that",
+    "the",
+    "to",
+    "value",
+    "word"
+   ]
+  },
+  {
+   "id": 1043,
+   "word": "add",
+   "pos": "verb",
+   "ring": 1,
+   "def": "take two numbers and get their one full number: two and three give five",
+   "uses": [
+    "and",
+    "full",
+    "get",
+    "give",
+    "number",
+    "take"
+   ]
+  },
+  {
+   "id": 1044,
+   "word": "subtract",
+   "pos": "verb",
+   "ring": 1,
+   "def": "take one number from another",
+   "uses": [
+    "from",
+    "number",
+    "take"
+   ]
+  },
+  {
+   "id": 1045,
+   "word": "multiply",
+   "pos": "verb",
+   "ring": 1,
+   "def": "take one number a number of times: three taken four times gives twelve",
+   "uses": [
+    "a",
+    "number",
+    "of",
+    "take",
+    "time"
+   ]
+  },
+  {
+   "id": 1046,
+   "word": "divide",
+   "pos": "verb",
+   "ring": 1,
+   "def": "take a number into equal parts, saying the size of every part",
+   "uses": [
+    "a",
+    "equal",
+    "every",
+    "number",
+    "of",
+    "part",
+    "size",
+    "take",
+    "the"
+   ]
+  },
+  {
+   "id": 1047,
+   "word": "zero",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the number saying not any: the mark 0",
+   "uses": [
+    "any",
+    "mark",
+    "not",
+    "number",
+    "the"
+   ]
+  },
+  {
+   "id": 1048,
+   "word": "total",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the full number when all parts are put together",
+   "uses": [
+    "all",
+    "full",
+    "number",
+    "part",
+    "put",
+    "the",
+    "together",
+    "when"
+   ]
+  },
+  {
+   "id": 1049,
+   "word": "average",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the number got when a group of numbers is put together and then cut into equal parts, one for every number in the group",
+   "uses": [
+    "a",
+    "and",
+    "cut",
+    "equal",
+    "every",
+    "for",
+    "group",
+    "in",
+    "number",
+    "of",
+    "part",
+    "put",
+    "the",
+    "then",
+    "together",
+    "when"
+   ]
+  },
+  {
+   "id": 1050,
+   "word": "maximum",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the greatest value in a group",
+   "uses": [
+    "a",
+    "great",
+    "group",
+    "in",
+    "the",
+    "value"
+   ]
+  },
+  {
+   "id": 1051,
+   "word": "minimum",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the smallest value in a group",
+   "uses": [
+    "a",
+    "group",
+    "in",
+    "small",
+    "the",
+    "value"
+   ]
+  },
+  {
+   "id": 1052,
+   "word": "percent",
+   "pos": "noun",
+   "ring": 1,
+   "def": "for every hundred, the number taken",
+   "uses": [
+    "every",
+    "for",
+    "number",
+    "the"
+   ]
+  },
+  {
+   "id": 1053,
+   "word": "random",
+   "pos": "adj",
+   "ring": 1,
+   "def": "coming by chance, without design or order",
+   "uses": [
+    "by",
+    "chance",
+    "design",
+    "or",
+    "order"
+   ]
+  },
+  {
+   "id": 1054,
+   "word": "pattern",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a form that comes again and again, as lines on cloth",
+   "uses": [
+    "a",
+    "again",
+    "and",
+    "as",
+    "cloth",
+    "form",
+    "line",
+    "on",
+    "that"
+   ]
+  },
+  {
+   "id": 1055,
+   "word": "sequence",
+   "pos": "noun",
+   "ring": 1,
+   "def": "things one after another in a fixed order",
+   "uses": [
+    "a",
+    "after",
+    "fixed",
+    "in",
+    "order",
+    "thing"
+   ]
+  },
+  {
+   "id": 1056,
+   "word": "recursion",
+   "pos": "noun",
+   "ring": 1,
+   "def": "an act done by itself again on a smaller thing, till a stop comes",
+   "uses": [
+    "a",
+    "act",
+    "again",
+    "by",
+    "on",
+    "small",
+    "stop",
+    "thing",
+    "till"
+   ]
+  },
+  {
+   "id": 1057,
+   "word": "stack",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a group of things put one on top of the other, where only the top may be taken",
+   "uses": [
+    "a",
+    "be",
+    "group",
+    "may",
+    "of",
+    "on",
+    "only",
+    "other",
+    "put",
+    "the",
+    "thing",
+    "top",
+    "where"
+   ]
+  },
+  {
+   "id": 1058,
+   "word": "queue",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a line of things one after another, where the first in is the first out",
+   "uses": [
+    "a",
+    "after",
+    "first",
+    "in",
+    "line",
+    "of",
+    "out",
+    "the",
+    "thing",
+    "where"
+   ]
+  },
+  {
+   "id": 1059,
+   "word": "priority",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the saying of the thing that comes first, when there is not room for all",
+   "uses": [
+    "all",
+    "first",
+    "for",
+    "not",
+    "of",
+    "room",
+    "that",
+    "the",
+    "there",
+    "thing",
+    "when"
+   ]
+  },
+  {
+   "id": 1060,
+   "word": "cache",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a small quick store near the machine, keeping the things most used, so getting them takes little work",
+   "uses": [
+    "a",
+    "little",
+    "machine",
+    "near",
+    "quick",
+    "small",
+    "so",
+    "store",
+    "the",
+    "thing",
+    "use",
+    "work"
+   ]
+  },
+  {
+   "id": 1061,
+   "word": "latency",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the small time between sending an order and getting the answer back",
+   "uses": [
+    "and",
+    "answer",
+    "back",
+    "between",
+    "order",
+    "small",
+    "the",
+    "time"
+   ]
+  },
+  {
+   "id": 1062,
+   "word": "throughput",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the measure of how much work a machine does in a stretch of time",
+   "uses": [
+    "a",
+    "how",
+    "in",
+    "machine",
+    "measure",
+    "much",
+    "of",
+    "stretch",
+    "the",
+    "time",
+    "work"
+   ]
+  },
+  {
+   "id": 1063,
+   "word": "immutable",
+   "pos": "adj",
+   "ring": 1,
+   "def": "made once, not to be changed after; a value put down one time and seen again and again",
+   "uses": [
+    "a",
+    "after",
+    "again",
+    "and",
+    "be",
+    "change",
+    "down",
+    "not",
+    "put",
+    "time",
+    "to",
+    "value"
+   ]
+  },
+  {
+   "id": 1064,
+   "word": "lifecycle",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the full round of a thing's being, from its birth through its work to its end",
+   "uses": [
+    "a",
+    "birth",
+    "end",
+    "from",
+    "full",
+    "of",
+    "round",
+    "the",
+    "thing",
+    "through",
+    "to",
+    "work"
+   ]
+  },
+  {
+   "id": 1065,
+   "word": "core",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the hard middle of a thing; all the rest is fixed on it",
+   "uses": [
+    "a",
+    "all",
+    "fixed",
+    "hard",
+    "middle",
+    "of",
+    "on",
+    "rest",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 1066,
+   "word": "kernel",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the heart of a system, at all times in the machine, keeping the law of the things that may be done",
+   "uses": [
+    "a",
+    "all",
+    "at",
+    "be",
+    "heart",
+    "in",
+    "law",
+    "machine",
+    "may",
+    "of",
+    "system",
+    "that",
+    "the",
+    "thing",
+    "time"
+   ]
+  },
+  {
+   "id": 1067,
+   "word": "shell",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the hard outer cover of a thing; also the part that takes orders from the one at the keys and gives them to the system",
+   "uses": [
+    "a",
+    "and",
+    "at",
+    "cover",
+    "from",
+    "hard",
+    "key",
+    "of",
+    "order",
+    "out",
+    "part",
+    "system",
+    "that",
+    "the",
+    "thing",
+    "to"
+   ]
+  },
+  {
+   "id": 1068,
+   "word": "terminal",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the glass face and keys used for giving orders to a machine",
+   "uses": [
+    "a",
+    "and",
+    "face",
+    "for",
+    "glass",
+    "key",
+    "machine",
+    "order",
+    "the",
+    "to",
+    "use"
+   ]
+  },
+  {
+   "id": 1069,
+   "word": "command",
+   "pos": "noun",
+   "ring": 1,
+   "def": "an order given to a machine or person",
+   "uses": [
+    "a",
+    "machine",
+    "or",
+    "order",
+    "person",
+    "to"
+   ]
+  },
+  {
+   "id": 1070,
+   "word": "script",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a small list of orders kept by itself, that may be run for one work",
+   "uses": [
+    "a",
+    "be",
+    "by",
+    "for",
+    "list",
+    "may",
+    "of",
+    "order",
+    "run",
+    "small",
+    "that",
+    "work"
+   ]
+  },
+  {
+   "id": 1071,
+   "word": "compile",
+   "pos": "verb",
+   "ring": 1,
+   "def": "turn a list of orders made by man into the language of the machine itself, all at one time",
+   "uses": [
+    "a",
+    "all",
+    "at",
+    "by",
+    "language",
+    "list",
+    "machine",
+    "man",
+    "of",
+    "order",
+    "the",
+    "time",
+    "turn"
+   ]
+  },
+  {
+   "id": 1072,
+   "word": "compiler",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the machine part that turns man's orders into the language of the machine itself",
+   "uses": [
+    "language",
+    "machine",
+    "man",
+    "of",
+    "order",
+    "part",
+    "that",
+    "the",
+    "turn"
+   ]
+  },
+  {
+   "id": 1073,
+   "word": "interpreter",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the machine part that takes the orders line by line and does them at once, without turning it all first",
+   "uses": [
+    "all",
+    "and",
+    "at",
+    "by",
+    "first",
+    "line",
+    "machine",
+    "order",
+    "part",
+    "that",
+    "the",
+    "turn"
+   ]
+  },
+  {
+   "id": 1074,
+   "word": "syntax",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the rules for putting words or orders in right order",
+   "uses": [
+    "for",
+    "in",
+    "or",
+    "order",
+    "right",
+    "rule",
+    "the",
+    "word"
+   ]
+  },
+  {
+   "id": 1075,
+   "word": "grammar",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the rules of a language for putting words right",
+   "uses": [
+    "a",
+    "for",
+    "language",
+    "of",
+    "right",
+    "rule",
+    "the",
+    "word"
+   ]
+  },
+  {
+   "id": 1076,
+   "word": "semantics",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the sense words give when put together",
+   "uses": [
+    "give",
+    "put",
+    "sense",
+    "the",
+    "together",
+    "when",
+    "word"
+   ]
+  },
+  {
+   "id": 1077,
+   "word": "parse",
+   "pos": "verb",
+   "ring": 1,
+   "def": "take a line of words or orders in bits, saying the sense of every part",
+   "uses": [
+    "a",
+    "bit",
+    "every",
+    "in",
+    "line",
+    "of",
+    "or",
+    "order",
+    "part",
+    "sense",
+    "take",
+    "the",
+    "word"
+   ]
+  },
+  {
+   "id": 1078,
+   "word": "parser",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the part that takes orders in bits, saying the sense of every bit",
+   "uses": [
+    "bit",
+    "every",
+    "in",
+    "of",
+    "order",
+    "part",
+    "sense",
+    "that",
+    "the"
+   ]
+  },
+  {
+   "id": 1079,
+   "word": "variable",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a name for a value that may be different at different times",
+   "uses": [
+    "a",
+    "at",
+    "be",
+    "different",
+    "for",
+    "may",
+    "name",
+    "that",
+    "time",
+    "value"
+   ]
+  },
+  {
+   "id": 1080,
+   "word": "constant",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a value fixed for all time",
+   "uses": [
+    "a",
+    "all",
+    "fixed",
+    "for",
+    "time",
+    "value"
+   ]
+  },
+  {
+   "id": 1081,
+   "word": "execute",
+   "pos": "verb",
+   "ring": 1,
+   "def": "do the orders one by one till the end",
+   "uses": [
+    "by",
+    "do",
+    "end",
+    "order",
+    "the",
+    "till"
+   ]
+  },
+  {
+   "id": 1082,
+   "word": "bug",
+   "pos": "noun",
+   "ring": 1,
+   "def": "an error in the orders that makes the machine do wrong",
+   "uses": [
+    "do",
+    "error",
+    "in",
+    "machine",
+    "order",
+    "that",
+    "the",
+    "wrong"
+   ]
+  },
+  {
+   "id": 1083,
+   "word": "patch",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a small bit of new orders put in to make an error right",
+   "uses": [
+    "a",
+    "bit",
+    "error",
+    "in",
+    "make",
+    "new",
+    "of",
+    "order",
+    "put",
+    "right",
+    "small",
+    "to"
+   ]
+  },
+  {
+   "id": 1084,
+   "word": "debug",
+   "pos": "verb",
+   "ring": 1,
+   "def": "take the errors out of the orders one by one, till they run right",
+   "uses": [
+    "by",
+    "error",
+    "of",
+    "order",
+    "out",
+    "right",
+    "run",
+    "take",
+    "the",
+    "till"
+   ]
+  },
+  {
+   "id": 1085,
+   "word": "version",
+   "pos": "noun",
+   "ring": 1,
+   "def": "one form of a thing among the forms it takes over time",
+   "uses": [
+    "a",
+    "among",
+    "form",
+    "of",
+    "over",
+    "the",
+    "thing",
+    "time"
+   ]
+  },
+  {
+   "id": 1086,
+   "word": "release",
+   "pos": "verb",
+   "ring": 1,
+   "def": "let a new form go out to all who use it",
+   "uses": [
+    "a",
+    "all",
+    "form",
+    "go",
+    "let",
+    "new",
+    "out",
+    "to",
+    "use",
+    "who"
+   ]
+  },
+  {
+   "id": 1087,
+   "word": "feature",
+   "pos": "noun",
+   "ring": 1,
+   "def": "one part of a thing that does some work or gives some use",
+   "uses": [
+    "a",
+    "of",
+    "or",
+    "part",
+    "some",
+    "that",
+    "thing",
+    "use",
+    "work"
+   ]
+  },
+  {
+   "id": 1088,
+   "word": "option",
+   "pos": "noun",
+   "ring": 1,
+   "def": "one of the ways a thing may be done; a thing one may take or not",
+   "uses": [
+    "a",
+    "be",
+    "may",
+    "not",
+    "of",
+    "or",
+    "take",
+    "the",
+    "thing",
+    "way"
+   ]
+  },
+  {
+   "id": 1089,
+   "word": "default",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the thing a machine does when no order is given; the way a thing is if nothing is said",
+   "uses": [
+    "a",
+    "if",
+    "machine",
+    "no",
+    "order",
+    "the",
+    "thing",
+    "way",
+    "when"
+   ]
+  },
+  {
+   "id": 1090,
+   "word": "backup",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a second copy kept safe, for use when the first is gone or broken",
+   "uses": [
+    "a",
+    "broken",
+    "copy",
+    "first",
+    "for",
+    "or",
+    "safe",
+    "second",
+    "the",
+    "use",
+    "when"
+   ]
+  },
+  {
+   "id": 1091,
+   "word": "archive",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a store of old things kept for the record, not for use every day",
+   "uses": [
+    "a",
+    "day",
+    "every",
+    "for",
+    "not",
+    "of",
+    "old",
+    "record",
+    "store",
+    "the",
+    "thing",
+    "use"
+   ]
+  },
+  {
+   "id": 1092,
+   "word": "log",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a record of acts and events, put down as they come, for looking at later",
+   "uses": [
+    "a",
+    "act",
+    "and",
+    "as",
+    "at",
+    "come",
+    "down",
+    "event",
+    "for",
+    "late",
+    "look",
+    "of",
+    "put",
+    "record"
+   ]
+  },
+  {
+   "id": 1093,
+   "word": "monitor",
+   "pos": "verb",
+   "ring": 1,
+   "def": "watch a thing with care over time; also the glass face itself",
+   "uses": [
+    "a",
+    "care",
+    "face",
+    "glass",
+    "over",
+    "the",
+    "thing",
+    "time",
+    "watch",
+    "with"
+   ]
+  },
+  {
+   "id": 1094,
+   "word": "alert",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a sign given when a thing needs attention: a bell, a light, a word",
+   "uses": [
+    "a",
+    "attention",
+    "bell",
+    "light",
+    "need",
+    "sign",
+    "thing",
+    "when",
+    "word"
+   ]
+  },
+  {
+   "id": 1095,
+   "word": "sync",
+   "pos": "verb",
+   "ring": 1,
+   "def": "make two stores the same, the one taking in the changes of the other",
+   "uses": [
+    "change",
+    "in",
+    "make",
+    "of",
+    "other",
+    "same",
+    "store",
+    "the"
+   ]
+  },
+  {
+   "id": 1096,
+   "word": "update",
+   "pos": "verb",
+   "ring": 1,
+   "def": "put new parts or new facts into a thing, making it more new",
+   "uses": [
+    "a",
+    "fact",
+    "new",
+    "or",
+    "part",
+    "put",
+    "thing"
+   ]
+  },
+  {
+   "id": 1097,
+   "word": "clone",
+   "pos": "verb",
+   "ring": 1,
+   "def": "make a full copy of a thing, as of a living thing or of a great work's store",
+   "uses": [
+    "a",
+    "as",
+    "copy",
+    "full",
+    "great",
+    "living",
+    "make",
+    "of",
+    "or",
+    "store",
+    "thing",
+    "work"
+   ]
+  },
+  {
+   "id": 1098,
+   "word": "repository",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the great store of a work and its full history, kept on a machine for all to take from and give back to",
+   "uses": [
+    "a",
+    "all",
+    "and",
+    "back",
+    "for",
+    "from",
+    "full",
+    "give",
+    "great",
+    "history",
+    "machine",
+    "of",
+    "on",
+    "store",
+    "take",
+    "the",
+    "to",
+    "work"
+   ]
+  },
+  {
+   "id": 1099,
+   "word": "commit",
+   "pos": "verb",
+   "ring": 1,
+   "def": "put a group of changes into the record for ever, with a name saying why",
+   "uses": [
+    "a",
+    "change",
+    "ever",
+    "for",
+    "group",
+    "name",
+    "of",
+    "put",
+    "record",
+    "the",
+    "why",
+    "with"
+   ]
+  },
+  {
+   "id": 1100,
+   "word": "issue",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a question or trouble put before a group, needing an answer or putting right",
+   "uses": [
+    "a",
+    "answer",
+    "before",
+    "group",
+    "need",
+    "or",
+    "put",
+    "question",
+    "right",
+    "trouble"
+   ]
+  },
+  {
+   "id": 1101,
+   "word": "milestone",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a mark on the road saying a stage of the work is complete",
+   "uses": [
+    "a",
+    "complete",
+    "mark",
+    "of",
+    "on",
+    "road",
+    "stage",
+    "the",
+    "work"
+   ]
+  },
+  {
+   "id": 1102,
+   "word": "roadmap",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the map of the road forward: the stages a work will take",
+   "uses": [
+    "a",
+    "forward",
+    "map",
+    "of",
+    "road",
+    "stage",
+    "take",
+    "the",
+    "will",
+    "work"
+   ]
+  },
+  {
+   "id": 1103,
+   "word": "validate",
+   "pos": "verb",
+   "ring": 1,
+   "def": "put a thing through the rules, saying if it may go on",
+   "uses": [
+    "a",
+    "go",
+    "if",
+    "may",
+    "on",
+    "put",
+    "rule",
+    "the",
+    "thing",
+    "through"
+   ]
+  },
+  {
+   "id": 1104,
+   "word": "validator",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the machine part that puts things through rules, saying the wrong in them",
+   "uses": [
+    "in",
+    "machine",
+    "part",
+    "rule",
+    "that",
+    "the",
+    "thing",
+    "through",
+    "wrong"
+   ]
+  },
+  {
+   "id": 1105,
+   "word": "template",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a form made first, for putting new material into",
+   "uses": [
+    "a",
+    "first",
+    "for",
+    "form",
+    "material",
+    "new"
+   ]
+  },
+  {
+   "id": 1106,
+   "word": "format",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the form and order a thing is put in, as of a page",
+   "uses": [
+    "a",
+    "and",
+    "as",
+    "form",
+    "in",
+    "of",
+    "order",
+    "page",
+    "put",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 1107,
+   "word": "placeholder",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a mark put in a place saying where a true value will come",
+   "uses": [
+    "a",
+    "come",
+    "in",
+    "mark",
+    "place",
+    "put",
+    "true",
+    "value",
+    "where",
+    "will"
+   ]
+  },
+  {
+   "id": 1108,
+   "word": "diff",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the bits where two forms of a thing are not the same, given line by line",
+   "uses": [
+    "a",
+    "bit",
+    "by",
+    "form",
+    "line",
+    "not",
+    "of",
+    "same",
+    "the",
+    "thing",
+    "where"
+   ]
+  },
+  {
+   "id": 1109,
+   "word": "merge",
+   "pos": "verb",
+   "ring": 1,
+   "def": "put two forms of a thing together into one, keeping the changes of the two",
+   "uses": [
+    "a",
+    "change",
+    "form",
+    "of",
+    "put",
+    "the",
+    "thing",
+    "together"
+   ]
+  },
+  {
+   "id": 1110,
+   "word": "conflict",
+   "pos": "noun",
+   "ring": 1,
+   "def": "two changes against one another, where only one may be kept",
+   "uses": [
+    "against",
+    "be",
+    "change",
+    "may",
+    "only",
+    "where"
+   ]
+  },
+  {
+   "id": 1111,
+   "word": "rollback",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the act of taking a system back to a condition before, taking back later changes",
+   "uses": [
+    "a",
+    "act",
+    "back",
+    "before",
+    "change",
+    "condition",
+    "late",
+    "of",
+    "system",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 1112,
+   "word": "checkpoint",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a mark of the full condition of a thing at one time, for coming back to",
+   "uses": [
+    "a",
+    "at",
+    "back",
+    "condition",
+    "for",
+    "full",
+    "mark",
+    "of",
+    "the",
+    "thing",
+    "time",
+    "to"
+   ]
+  },
+  {
+   "id": 1113,
+   "word": "snapshot",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a picture taken at one point of time, kept for looking at later",
+   "uses": [
+    "a",
+    "at",
+    "for",
+    "late",
+    "look",
+    "of",
+    "picture",
+    "point",
+    "time"
+   ]
+  },
+  {
+   "id": 1114,
+   "word": "upgrade",
+   "pos": "verb",
+   "ring": 1,
+   "def": "take a thing up to a better form or greater power",
+   "uses": [
+    "a",
+    "form",
+    "great",
+    "or",
+    "power",
+    "take",
+    "thing",
+    "to",
+    "up"
+   ]
+  },
+  {
+   "id": 1115,
+   "word": "migration",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a going from one place to another of a great group; in machines, moving a system from one place to another",
+   "uses": [
+    "a",
+    "from",
+    "great",
+    "group",
+    "in",
+    "machine",
+    "move",
+    "of",
+    "place",
+    "system",
+    "to"
+   ]
+  },
+  {
+   "id": 1116,
+   "word": "architecture",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the art of making buildings; also the form a system's parts take, with their connections",
+   "uses": [
+    "a",
+    "art",
+    "building",
+    "connection",
+    "form",
+    "of",
+    "part",
+    "system",
+    "take",
+    "the",
+    "with"
+   ]
+  },
+  {
+   "id": 1117,
+   "word": "blueprint",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a design on paper of a thing's full structure, made before the building",
+   "uses": [
+    "a",
+    "before",
+    "building",
+    "design",
+    "full",
+    "of",
+    "on",
+    "paper",
+    "structure",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 1118,
+   "word": "diagram",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a picture of the parts of a thing, saying how they go together",
+   "uses": [
+    "a",
+    "go",
+    "how",
+    "of",
+    "part",
+    "picture",
+    "the",
+    "thing",
+    "together"
+   ]
+  },
+  {
+   "id": 1119,
+   "word": "flowchart",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a picture of the steps of a work, with lines saying the way the acts go, step after step",
+   "uses": [
+    "a",
+    "act",
+    "after",
+    "go",
+    "line",
+    "of",
+    "picture",
+    "step",
+    "the",
+    "way",
+    "with",
+    "work"
+   ]
+  },
+  {
+   "id": 1120,
+   "word": "transition",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the act of going from one condition to another",
+   "uses": [
+    "act",
+    "condition",
+    "from",
+    "of",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 1121,
+   "word": "deterministic",
+   "pos": "adj",
+   "ring": 1,
+   "def": "that, given the same start, comes out the same every time",
+   "uses": [
+    "every",
+    "out",
+    "same",
+    "start",
+    "that",
+    "the",
+    "time"
+   ]
+  },
+  {
+   "id": 1122,
+   "word": "predict",
+   "pos": "verb",
+   "ring": 1,
+   "def": "say the thing that will come, from the things that have come before",
+   "uses": [
+    "before",
+    "come",
+    "from",
+    "have",
+    "say",
+    "that",
+    "the",
+    "thing",
+    "will"
+   ]
+  },
+  {
+   "id": 1123,
+   "word": "reasoning",
+   "pos": "noun",
+   "ring": 1,
+   "def": "thought going step by step, from the knowledge we have to the new",
+   "uses": [
+    "by",
+    "from",
+    "have",
+    "knowledge",
+    "new",
+    "step",
+    "the",
+    "thought",
+    "to"
+   ]
+  },
+  {
+   "id": 1124,
+   "word": "logic",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the rules of right thought: from true statements, only true statements come",
+   "uses": [
+    "come",
+    "from",
+    "of",
+    "only",
+    "right",
+    "rule",
+    "statement",
+    "the",
+    "thought",
+    "true"
+   ]
+  },
+  {
+   "id": 1125,
+   "word": "induction",
+   "pos": "noun",
+   "ring": 1,
+   "def": "taking a general rule from some examples",
+   "uses": [
+    "a",
+    "example",
+    "from",
+    "general",
+    "rule",
+    "some"
+   ]
+  },
+  {
+   "id": 1126,
+   "word": "deduction",
+   "pos": "noun",
+   "ring": 1,
+   "def": "taking the thing that has to be so, from a general rule",
+   "uses": [
+    "a",
+    "be",
+    "from",
+    "general",
+    "rule",
+    "so",
+    "that",
+    "the",
+    "thing",
+    "to"
+   ]
+  },
+  {
+   "id": 1127,
+   "word": "premise",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a statement taken as the root of an argument",
+   "uses": [
+    "a",
+    "argument",
+    "as",
+    "of",
+    "root",
+    "statement",
+    "the"
+   ]
+  },
+  {
+   "id": 1128,
+   "word": "conclusion",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the statement at the end of an argument",
+   "uses": [
+    "argument",
+    "at",
+    "end",
+    "of",
+    "statement",
+    "the"
+   ]
+  },
+  {
+   "id": 1129,
+   "word": "evidence",
+   "pos": "noun",
+   "ring": 1,
+   "def": "facts put before the mind, saying a thing is so",
+   "uses": [
+    "a",
+    "before",
+    "fact",
+    "mind",
+    "put",
+    "so",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 1130,
+   "word": "proof",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a chain of steps so complete that no doubt is left",
+   "uses": [
+    "a",
+    "chain",
+    "complete",
+    "doubt",
+    "left",
+    "no",
+    "of",
+    "so",
+    "step",
+    "that"
+   ]
+  },
+  {
+   "id": 1131,
+   "word": "theorem",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a statement in the science of numbers made certain by a chain of steps",
+   "uses": [
+    "a",
+    "by",
+    "certain",
+    "chain",
+    "in",
+    "number",
+    "of",
+    "science",
+    "statement",
+    "step",
+    "the"
+   ]
+  },
+  {
+   "id": 1132,
+   "word": "prove",
+   "pos": "verb",
+   "ring": 1,
+   "def": "give a chain of steps so complete that the mind has no doubt",
+   "uses": [
+    "a",
+    "chain",
+    "complete",
+    "doubt",
+    "give",
+    "mind",
+    "no",
+    "of",
+    "so",
+    "step",
+    "that",
+    "the"
+   ]
+  },
+  {
+   "id": 1133,
+   "word": "hypothesis",
+   "pos": "noun",
+   "ring": 1,
+   "def": "an idea put forward as an answer to be tested",
+   "uses": [
+    "answer",
+    "as",
+    "be",
+    "forward",
+    "idea",
+    "put",
+    "test",
+    "to"
+   ]
+  },
+  {
+   "id": 1134,
+   "word": "experiment",
+   "pos": "noun",
+   "ring": 1,
+   "def": "an act done under control to test an idea",
+   "uses": [
+    "act",
+    "control",
+    "idea",
+    "test",
+    "to",
+    "under"
+   ]
+  },
+  {
+   "id": 1135,
+   "word": "concept",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a general idea in the mind covering a great number of like things",
+   "uses": [
+    "a",
+    "cover",
+    "general",
+    "great",
+    "idea",
+    "in",
+    "like",
+    "mind",
+    "number",
+    "of",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 1136,
+   "word": "category",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a group of things with like marks, cut off from other groups",
+   "uses": [
+    "a",
+    "cut",
+    "from",
+    "group",
+    "like",
+    "mark",
+    "of",
+    "off",
+    "other",
+    "thing",
+    "with"
+   ]
+  },
+  {
+   "id": 1137,
+   "word": "hierarchy",
+   "pos": "noun",
+   "ring": 1,
+   "def": "an order of levels, one over another, as the head over the branch over the leaf",
+   "uses": [
+    "as",
+    "branch",
+    "head",
+    "leaf",
+    "level",
+    "of",
+    "order",
+    "over",
+    "the"
+   ]
+  },
+  {
+   "id": 1138,
+   "word": "vocabulary",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the full group of words a language or person has and uses",
+   "uses": [
+    "a",
+    "and",
+    "full",
+    "group",
+    "language",
+    "of",
+    "or",
+    "person",
+    "the",
+    "use",
+    "word"
+   ]
+  },
+  {
+   "id": 1139,
+   "word": "glossary",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a list of special words with their senses, put at the end of a book",
+   "uses": [
+    "a",
+    "at",
+    "book",
+    "end",
+    "list",
+    "of",
+    "put",
+    "sense",
+    "special",
+    "the",
+    "with",
+    "word"
+   ]
+  },
+  {
+   "id": 1140,
+   "word": "morpheme",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the smallest bit of a word that still gives sense",
+   "uses": [
+    "a",
+    "bit",
+    "of",
+    "sense",
+    "small",
+    "still",
+    "that",
+    "the",
+    "word"
+   ]
+  },
+  {
+   "id": 1141,
+   "word": "prefix",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a bit put before a word to change its sense",
+   "uses": [
+    "a",
+    "before",
+    "bit",
+    "change",
+    "put",
+    "sense",
+    "to",
+    "word"
+   ]
+  },
+  {
+   "id": 1142,
+   "word": "suffix",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a bit put after a word to change its sense",
+   "uses": [
+    "a",
+    "after",
+    "bit",
+    "change",
+    "put",
+    "sense",
+    "to",
+    "word"
+   ]
+  },
+  {
+   "id": 1143,
+   "word": "plural",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the form of a word saying more than one",
+   "uses": [
+    "a",
+    "form",
+    "of",
+    "than",
+    "the",
+    "word"
+   ]
+  },
+  {
+   "id": 1144,
+   "word": "singular",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the form of a word saying one only",
+   "uses": [
+    "a",
+    "form",
+    "of",
+    "only",
+    "the",
+    "word"
+   ]
+  },
+  {
+   "id": 1145,
+   "word": "translate",
+   "pos": "verb",
+   "ring": 1,
+   "def": "turn words from one language into another with the same sense",
+   "uses": [
+    "from",
+    "language",
+    "same",
+    "sense",
+    "the",
+    "turn",
+    "with",
+    "word"
+   ]
+  },
+  {
+   "id": 1146,
+   "word": "paraphrase",
+   "pos": "verb",
+   "ring": 1,
+   "def": "say the same sense again in other words",
+   "uses": [
+    "again",
+    "in",
+    "other",
+    "same",
+    "say",
+    "sense",
+    "the",
+    "word"
+   ]
+  },
+  {
+   "id": 1147,
+   "word": "summarize",
+   "pos": "verb",
+   "ring": 1,
+   "def": "make a short statement giving only the chief points of a thing",
+   "uses": [
+    "a",
+    "chief",
+    "make",
+    "of",
+    "only",
+    "point",
+    "short",
+    "statement",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 1148,
+   "word": "outline",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the lines round a thing; a list of the chief parts of a work in order",
+   "uses": [
+    "a",
+    "chief",
+    "in",
+    "line",
+    "list",
+    "of",
+    "order",
+    "part",
+    "round",
+    "the",
+    "thing",
+    "work"
+   ]
+  },
+  {
+   "id": 1149,
+   "word": "section",
+   "pos": "noun",
+   "ring": 1,
+   "def": "one part of a greater thing, cut off by its head or marks",
+   "uses": [
+    "a",
+    "by",
+    "cut",
+    "great",
+    "head",
+    "mark",
+    "of",
+    "off",
+    "or",
+    "part",
+    "thing"
+   ]
+  },
+  {
+   "id": 1150,
+   "word": "chapter",
+   "pos": "noun",
+   "ring": 1,
+   "def": "one great part of a book, with its name at the head",
+   "uses": [
+    "a",
+    "at",
+    "book",
+    "great",
+    "head",
+    "name",
+    "of",
+    "part",
+    "the",
+    "with"
+   ]
+  },
+  {
+   "id": 1151,
+   "word": "reference",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the act of pointing to a thing; the mark for getting the thing back",
+   "uses": [
+    "a",
+    "act",
+    "back",
+    "for",
+    "mark",
+    "of",
+    "point",
+    "the",
+    "thing",
+    "to"
+   ]
+  },
+  {
+   "id": 1152,
+   "word": "cite",
+   "pos": "verb",
+   "ring": 1,
+   "def": "point to the book or place a thing was taken from",
+   "uses": [
+    "a",
+    "book",
+    "from",
+    "or",
+    "place",
+    "point",
+    "the",
+    "thing",
+    "to"
+   ]
+  },
+  {
+   "id": 1153,
+   "word": "source",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the place a thing comes from: the spring the river goes from, the book the word comes from",
+   "uses": [
+    "a",
+    "book",
+    "from",
+    "place",
+    "river",
+    "spring",
+    "the",
+    "thing",
+    "word"
+   ]
+  },
+  {
+   "id": 1154,
+   "word": "origin",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the first point from where a thing comes into being",
+   "uses": [
+    "a",
+    "first",
+    "from",
+    "point",
+    "the",
+    "thing",
+    "where"
+   ]
+  },
+  {
+   "id": 1155,
+   "word": "ancestor",
+   "pos": "noun",
+   "ring": 1,
+   "def": "one from that another comes, as a father's father",
+   "uses": [
+    "a",
+    "as",
+    "father",
+    "from",
+    "that"
+   ]
+  },
+  {
+   "id": 1156,
+   "word": "descendant",
+   "pos": "noun",
+   "ring": 1,
+   "def": "one that comes after, in the line of the family, as a son's son",
+   "uses": [
+    "a",
+    "after",
+    "as",
+    "family",
+    "in",
+    "line",
+    "of",
+    "son",
+    "that",
+    "the"
+   ]
+  },
+  {
+   "id": 1157,
+   "word": "evolve",
+   "pos": "verb",
+   "ring": 1,
+   "def": "change bit by bit over time, till a new form is there",
+   "uses": [
+    "a",
+    "bit",
+    "by",
+    "change",
+    "form",
+    "new",
+    "over",
+    "there",
+    "till",
+    "time"
+   ]
+  },
+  {
+   "id": 1158,
+   "word": "adapt",
+   "pos": "verb",
+   "ring": 1,
+   "def": "take a new form or way for new conditions",
+   "uses": [
+    "a",
+    "condition",
+    "for",
+    "form",
+    "new",
+    "or",
+    "take",
+    "way"
+   ]
+  },
+  {
+   "id": 1159,
+   "word": "optimize",
+   "pos": "verb",
+   "ring": 1,
+   "def": "make a thing work at its best with little waste",
+   "uses": [
+    "a",
+    "at",
+    "little",
+    "make",
+    "thing",
+    "waste",
+    "with",
+    "work"
+   ]
+  },
+  {
+   "id": 1160,
+   "word": "simplify",
+   "pos": "verb",
+   "ring": 1,
+   "def": "make a thing more simple: small in parts, more clear",
+   "uses": [
+    "a",
+    "clear",
+    "in",
+    "make",
+    "part",
+    "simple",
+    "small",
+    "thing"
+   ]
+  },
+  {
+   "id": 1161,
+   "word": "complexity",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the condition of having a great number of parts joined so the thing is hard to see through",
+   "uses": [
+    "a",
+    "condition",
+    "great",
+    "hard",
+    "join",
+    "number",
+    "of",
+    "part",
+    "see",
+    "so",
+    "the",
+    "thing",
+    "through",
+    "to"
+   ]
+  },
+  {
+   "id": 1162,
+   "word": "constraint",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a line put round a thing, saying the things it may not do",
+   "uses": [
+    "a",
+    "do",
+    "line",
+    "may",
+    "not",
+    "put",
+    "round",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 1163,
+   "word": "autonomy",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the condition of acting by a law from inside, not by another's orders",
+   "uses": [
+    "a",
+    "act",
+    "by",
+    "condition",
+    "from",
+    "law",
+    "not",
+    "of",
+    "order",
+    "the"
+   ]
+  },
+  {
+   "id": 1164,
+   "word": "autonomous",
+   "pos": "adj",
+   "ring": 1,
+   "def": "acting by a law from inside, without orders from outside",
+   "uses": [
+    "a",
+    "act",
+    "by",
+    "from",
+    "law",
+    "order"
+   ]
+  },
+  {
+   "id": 1165,
+   "word": "awareness",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the condition of having the mind turned to the things that are, in self and all round one",
+   "uses": [
+    "all",
+    "and",
+    "condition",
+    "in",
+    "mind",
+    "of",
+    "round",
+    "self",
+    "that",
+    "the",
+    "thing",
+    "to",
+    "turn"
+   ]
+  },
+  {
+   "id": 1166,
+   "word": "agency",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the power of a being to act by a decision from inside",
+   "uses": [
+    "a",
+    "act",
+    "by",
+    "decision",
+    "from",
+    "of",
+    "power",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 1167,
+   "word": "intuition",
+   "pos": "noun",
+   "ring": 1,
+   "def": "knowledge that comes without steps of reason, as a feeling that a thing is so",
+   "uses": [
+    "a",
+    "as",
+    "feeling",
+    "knowledge",
+    "of",
+    "reason",
+    "so",
+    "step",
+    "that",
+    "thing"
+   ]
+  },
+  {
+   "id": 1168,
+   "word": "peer",
+   "pos": "noun",
+   "ring": 1,
+   "def": "one equal to another in years or work, as two in the same form at school",
+   "uses": [
+    "as",
+    "at",
+    "equal",
+    "form",
+    "in",
+    "or",
+    "same",
+    "school",
+    "the",
+    "to",
+    "work",
+    "year"
+   ]
+  },
+  {
+   "id": 1169,
+   "word": "community",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a group of persons joined by like ways or purposes, acting together",
+   "uses": [
+    "a",
+    "act",
+    "by",
+    "group",
+    "join",
+    "like",
+    "of",
+    "or",
+    "person",
+    "purpose",
+    "together",
+    "way"
+   ]
+  },
+  {
+   "id": 1170,
+   "word": "team",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a group of persons working together for one end",
+   "uses": [
+    "a",
+    "end",
+    "for",
+    "group",
+    "of",
+    "person",
+    "together",
+    "work"
+   ]
+  },
+  {
+   "id": 1171,
+   "word": "project",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a work with one end, done over a stretch of time by one or more persons",
+   "uses": [
+    "a",
+    "by",
+    "end",
+    "of",
+    "or",
+    "over",
+    "person",
+    "stretch",
+    "time",
+    "with",
+    "work"
+   ]
+  },
+  {
+   "id": 1172,
+   "word": "goal",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the end one has in mind for the work",
+   "uses": [
+    "end",
+    "for",
+    "in",
+    "mind",
+    "the",
+    "work"
+   ]
+  },
+  {
+   "id": 1173,
+   "word": "task",
+   "pos": "noun",
+   "ring": 1,
+   "def": "a bit of work given to one to do",
+   "uses": [
+    "a",
+    "bit",
+    "do",
+    "of",
+    "to",
+    "work"
+   ]
+  },
+  {
+   "id": 1174,
+   "word": "progress",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the steps taken forward to the end",
+   "uses": [
+    "end",
+    "forward",
+    "step",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 1175,
+   "word": "schedule",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the list of times for the acts, saying when every one comes",
+   "uses": [
+    "act",
+    "every",
+    "for",
+    "list",
+    "of",
+    "the",
+    "time",
+    "when"
+   ]
+  },
+  {
+   "id": 1176,
+   "word": "deadline",
+   "pos": "noun",
+   "ring": 1,
+   "def": "the last time for a work to be done",
+   "uses": [
+    "a",
+    "be",
+    "for",
+    "last",
+    "the",
+    "time",
+    "to",
+    "work"
+   ]
+  }
+ ]
+}

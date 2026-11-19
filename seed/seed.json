@@ -1,0 +1,6822 @@
+{
+ "meta": {
+  "name": "HAI seed ring",
+  "generator": "build_seed.py",
+  "provenance": "Ogden Basic English 850 (1930, public domain), category structure from ogden.basic-english.org via the avoidwork/ogden parse, cross-checked against an independent copy; glosses authored for HAI.",
+  "counts": {
+   "operations": 100,
+   "things_general": 400,
+   "things_picturable": 200,
+   "qualities_general": 100,
+   "qualities_opposites": 50
+  }
+ },
+ "primes": [
+  {
+   "id": 1,
+   "word": "I",
+   "pos": "pron",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "the one who is doing the talking: when I say I, I am pointing at myself"
+  },
+  {
+   "id": 2,
+   "word": "a",
+   "pos": "article",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "one of a kind without saying which one: a dog = one dog, any dog of that kind"
+  },
+  {
+   "id": 3,
+   "word": "about",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "having to do with; not far from a mark: about thirty, not more, not less"
+  },
+  {
+   "id": 4,
+   "word": "across",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "from one side to the other side: a line across the paper"
+  },
+  {
+   "id": 5,
+   "word": "after",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "later in time than: night comes after day"
+  },
+  {
+   "id": 6,
+   "word": "again",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "one more time; the same act repeated: he said it again"
+  },
+  {
+   "id": 7,
+   "word": "against",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "touching with force in the opposite direction; pushing back: rain against the window"
+  },
+  {
+   "id": 8,
+   "word": "all",
+   "pos": "quant",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "every one of a group with nothing left out: all the books"
+  },
+  {
+   "id": 9,
+   "word": "almost",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "nearly but not completely: almost full, one drop short"
+  },
+  {
+   "id": 10,
+   "word": "among",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "in the middle of three or more: a sheep among the goats"
+  },
+  {
+   "id": 11,
+   "word": "and",
+   "pos": "conj",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "puts two things side by side: bread and butter"
+  },
+  {
+   "id": 12,
+   "word": "any",
+   "pos": "quant",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "one taken from a kind, whichever it may be: any seat is good"
+  },
+  {
+   "id": 13,
+   "word": "as",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "in the way that; in the part of: working as a teacher"
+  },
+  {
+   "id": 14,
+   "word": "at",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "a fixed point in place or time: at the door, at noon"
+  },
+  {
+   "id": 15,
+   "word": "be",
+   "pos": "verb",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "to have being; am, is, are, was, were all come from this root"
+  },
+  {
+   "id": 16,
+   "word": "because",
+   "pos": "conj",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "for the reason that: I rest because I am tired"
+  },
+  {
+   "id": 17,
+   "word": "before",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "earlier in time than; also in front of in place: wash before eating"
+  },
+  {
+   "id": 18,
+   "word": "between",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "in the space or time with two things at the sides: between the trees"
+  },
+  {
+   "id": 19,
+   "word": "but",
+   "pos": "conj",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "makes a turn from what was coming: he came, but he came late"
+  },
+  {
+   "id": 20,
+   "word": "by",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "near to; through the work of: a house by the river, a book by her"
+  },
+  {
+   "id": 21,
+   "word": "come",
+   "pos": "verb",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "move toward the one who is talking: come here"
+  },
+  {
+   "id": 22,
+   "word": "do",
+   "pos": "verb",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "put an act into effect: do the work; do it now"
+  },
+  {
+   "id": 23,
+   "word": "down",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "from a higher place to a lower place: the cup went down"
+  },
+  {
+   "id": 24,
+   "word": "east",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "the side of the sky where the sun comes up each morning"
+  },
+  {
+   "id": 25,
+   "word": "enough",
+   "pos": "quant",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "as much as is needed, not more: enough food for the day"
+  },
+  {
+   "id": 26,
+   "word": "even",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "more than might be thought; also making level: even the baby knows"
+  },
+  {
+   "id": 27,
+   "word": "ever",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "at any time in the whole of time: the best ever"
+  },
+  {
+   "id": 28,
+   "word": "every",
+   "pos": "quant",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "each one of all, one after the other with none missed: every day"
+  },
+  {
+   "id": 29,
+   "word": "far",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "a long way off: the sea is far"
+  },
+  {
+   "id": 30,
+   "word": "for",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "with the purpose of; in exchange for: a pen for writing, work for food"
+  },
+  {
+   "id": 31,
+   "word": "forward",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "toward the front, or toward what is coming: a step forward"
+  },
+  {
+   "id": 32,
+   "word": "from",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "starting at a place, person, or time: a letter from school"
+  },
+  {
+   "id": 33,
+   "word": "get",
+   "pos": "verb",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "come to have; make a thing yours: get a book from the shelf"
+  },
+  {
+   "id": 34,
+   "word": "give",
+   "pos": "verb",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "let a thing go over to another hand: give me the salt"
+  },
+  {
+   "id": 35,
+   "word": "go",
+   "pos": "verb",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "be in motion away from here: we go to town"
+  },
+  {
+   "id": 36,
+   "word": "have",
+   "pos": "verb",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "keep in hand or hold as yours: I have a hat"
+  },
+  {
+   "id": 37,
+   "word": "he",
+   "pos": "pron",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "the male person being talked about"
+  },
+  {
+   "id": 38,
+   "word": "here",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "in this place where the speaker is"
+  },
+  {
+   "id": 39,
+   "word": "how",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "in what way; to what degree: how does it work"
+  },
+  {
+   "id": 40,
+   "word": "if",
+   "pos": "conj",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "on condition that: if rain comes, I will stay in"
+  },
+  {
+   "id": 41,
+   "word": "in",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "inside a space or time: in the box, in one year"
+  },
+  {
+   "id": 42,
+   "word": "keep",
+   "pos": "verb",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "have a thing and not let it go: keep the money safe"
+  },
+  {
+   "id": 43,
+   "word": "let",
+   "pos": "verb",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "give way for an act; make it possible: let him go"
+  },
+  {
+   "id": 44,
+   "word": "little",
+   "pos": "quant",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "small in size or in amount: a little water"
+  },
+  {
+   "id": 45,
+   "word": "make",
+   "pos": "verb",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "put parts together till a new thing is in being: make bread"
+  },
+  {
+   "id": 46,
+   "word": "may",
+   "pos": "verb",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "it is possible that: I may come tomorrow"
+  },
+  {
+   "id": 47,
+   "word": "much",
+   "pos": "quant",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "a great amount or a great degree: much noise"
+  },
+  {
+   "id": 48,
+   "word": "near",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "not far from: a shop near the house"
+  },
+  {
+   "id": 49,
+   "word": "no",
+   "pos": "quant",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "not any; the word that says a thing is not so"
+  },
+  {
+   "id": 50,
+   "word": "north",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "the direction opposite of south; the pole-star side of the sky"
+  },
+  {
+   "id": 51,
+   "word": "not",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "turns a statement to its opposite: not here"
+  },
+  {
+   "id": 52,
+   "word": "now",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "at this present time, between past and future"
+  },
+  {
+   "id": 53,
+   "word": "of",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "coming from or about a thing: the roof of the house"
+  },
+  {
+   "id": 54,
+   "word": "off",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "away from; not on: the coat came off"
+  },
+  {
+   "id": 55,
+   "word": "on",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "touching the top or side of: the book is on the table"
+  },
+  {
+   "id": 56,
+   "word": "only",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "this one and no other: only one egg is left"
+  },
+  {
+   "id": 57,
+   "word": "or",
+   "pos": "conj",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "gives a selection between two: tea or coffee"
+  },
+  {
+   "id": 58,
+   "word": "other",
+   "pos": "quant",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "a different one of the same kind: the other hand"
+  },
+  {
+   "id": 59,
+   "word": "out",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "away from the inside: the bird flew out of the cage"
+  },
+  {
+   "id": 60,
+   "word": "over",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "higher than and across: a bridge over the river"
+  },
+  {
+   "id": 61,
+   "word": "please",
+   "pos": "verb",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "a soft word put before a request: please come in"
+  },
+  {
+   "id": 62,
+   "word": "put",
+   "pos": "verb",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "move a thing to a resting place: put the milk in the pot"
+  },
+  {
+   "id": 63,
+   "word": "quite",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "completely; to a strong degree: quite ready"
+  },
+  {
+   "id": 64,
+   "word": "say",
+   "pos": "verb",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "give sound to words; put thought into speech: say hello"
+  },
+  {
+   "id": 65,
+   "word": "see",
+   "pos": "verb",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "take in through the eyes: I see the moon"
+  },
+  {
+   "id": 66,
+   "word": "seem",
+   "pos": "verb",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "give the look of being, without being certain: he seems tired"
+  },
+  {
+   "id": 67,
+   "word": "send",
+   "pos": "verb",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "make a thing go toward another person or place: send a letter"
+  },
+  {
+   "id": 68,
+   "word": "so",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "in this way; to such a degree: so cold that I shiver"
+  },
+  {
+   "id": 69,
+   "word": "some",
+   "pos": "quant",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "a part of a whole, number not said: some water, some days"
+  },
+  {
+   "id": 70,
+   "word": "south",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "the direction opposite of north; the side of the sky away from the pole star"
+  },
+  {
+   "id": 71,
+   "word": "still",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "without motion; up to this time: the water is still, he is still here"
+  },
+  {
+   "id": 72,
+   "word": "such",
+   "pos": "quant",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "of this kind or degree: such a noise I never heard"
+  },
+  {
+   "id": 73,
+   "word": "take",
+   "pos": "verb",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "get a thing into your hand or care: take the book with you"
+  },
+  {
+   "id": 74,
+   "word": "than",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "the word between two things being measured: more than, less than"
+  },
+  {
+   "id": 75,
+   "word": "that",
+   "pos": "det",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "the one farther off, or the one just named: that tree, the idea that he had"
+  },
+  {
+   "id": 76,
+   "word": "the",
+   "pos": "article",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "points to one fixed thing in the mind of both talkers: the sun, the door"
+  },
+  {
+   "id": 77,
+   "word": "then",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "at that time; after that: first this, then that"
+  },
+  {
+   "id": 78,
+   "word": "there",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "in that place away from the speaker: the ball is there"
+  },
+  {
+   "id": 79,
+   "word": "this",
+   "pos": "det",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "the one near the speaker: this hand, this day"
+  },
+  {
+   "id": 80,
+   "word": "though",
+   "pos": "conj",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "even while it is true that: he came, though he was tired"
+  },
+  {
+   "id": 81,
+   "word": "through",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "in at one side and out at the other: light through the window"
+  },
+  {
+   "id": 82,
+   "word": "till",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "up to the time or the place of: sleep till morning"
+  },
+  {
+   "id": 83,
+   "word": "to",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "in the direction of; as far as: go to the market"
+  },
+  {
+   "id": 84,
+   "word": "together",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "with each other, at one time or in one place: we work together"
+  },
+  {
+   "id": 85,
+   "word": "tomorrow",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "on the day after this day"
+  },
+  {
+   "id": 86,
+   "word": "under",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "lower than; kept down by: the cat is under the bed"
+  },
+  {
+   "id": 87,
+   "word": "up",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "from a lower place to a higher place: the sun comes up"
+  },
+  {
+   "id": 88,
+   "word": "very",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "to a high degree: very good, very far"
+  },
+  {
+   "id": 89,
+   "word": "well",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "in a good way; also in good health: she sings well"
+  },
+  {
+   "id": 90,
+   "word": "west",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "the side of the sky where the sun goes down"
+  },
+  {
+   "id": 91,
+   "word": "when",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "at the time that: I sleep when night comes"
+  },
+  {
+   "id": 92,
+   "word": "where",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "in what place: where is the key"
+  },
+  {
+   "id": 93,
+   "word": "while",
+   "pos": "conj",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "during the time that: rest while the bread is cooking"
+  },
+  {
+   "id": 94,
+   "word": "who",
+   "pos": "pron",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "what person: who is at the door"
+  },
+  {
+   "id": 95,
+   "word": "why",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "for what cause: why is the fire out"
+  },
+  {
+   "id": 96,
+   "word": "will",
+   "pos": "verb",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "put with a verb to look forward in time: I will go tomorrow"
+  },
+  {
+   "id": 97,
+   "word": "with",
+   "pos": "prep",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "together with; by use of: walk with a friend, cut with a knife"
+  },
+  {
+   "id": 98,
+   "word": "yes",
+   "pos": "int",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "the word of agreement: yes, I will come"
+  },
+  {
+   "id": 99,
+   "word": "yesterday",
+   "pos": "adv",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "on the day before this day"
+  },
+  {
+   "id": 100,
+   "word": "you",
+   "pos": "pron",
+   "ring": 0,
+   "cat": "operations",
+   "gloss": "the one or ones being spoken to"
+  },
+  {
+   "id": 101,
+   "word": "account",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a story of facts about money or acts, kept for looking at later"
+  },
+  {
+   "id": 102,
+   "word": "act",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a thing done; a unit of doing: an act of kindness"
+  },
+  {
+   "id": 103,
+   "word": "addition",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of putting things together to get one amount: two and three make five"
+  },
+  {
+   "id": 104,
+   "word": "adjustment",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a small change made to get a better fit or better working"
+  },
+  {
+   "id": 105,
+   "word": "advertisement",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "words put before the public to make people see a thing is good to get"
+  },
+  {
+   "id": 106,
+   "word": "agreement",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the state of two minds saying yes to the same thing"
+  },
+  {
+   "id": 107,
+   "word": "air",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the substance all round us that breath takes in"
+  },
+  {
+   "id": 108,
+   "word": "amount",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "how much of a thing there is, in size or number"
+  },
+  {
+   "id": 109,
+   "word": "amusement",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the feeling of light pleasure; a thing that makes time pass happily"
+  },
+  {
+   "id": 110,
+   "word": "animal",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a living thing that takes food and moves, but is not a plant"
+  },
+  {
+   "id": 111,
+   "word": "answer",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "words given back to a question"
+  },
+  {
+   "id": 112,
+   "word": "apparatus",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a set of instruments put together for one work"
+  },
+  {
+   "id": 113,
+   "word": "approval",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of saying a thing is good: a nod of approval"
+  },
+  {
+   "id": 114,
+   "word": "argument",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a talk in which different views are given, each pushing against the other; also the reasons for a view"
+  },
+  {
+   "id": 115,
+   "word": "art",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the making of things beautiful by the hand and mind: pictures, songs, buildings"
+  },
+  {
+   "id": 116,
+   "word": "attack",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "an act of force against a person or thing"
+  },
+  {
+   "id": 117,
+   "word": "attempt",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a try; an act with a purpose that may not come off"
+  },
+  {
+   "id": 118,
+   "word": "attention",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the turning of the mind to one thing"
+  },
+  {
+   "id": 119,
+   "word": "attraction",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the power that makes one thing come toward another"
+  },
+  {
+   "id": 120,
+   "word": "authority",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the right to give orders and be sided with"
+  },
+  {
+   "id": 121,
+   "word": "back",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the part of the body at the rear; the side away from the front"
+  },
+  {
+   "id": 122,
+   "word": "balance",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "an instrument for weighing; also the state of not falling over"
+  },
+  {
+   "id": 123,
+   "word": "base",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the lowest part on which a thing is built"
+  },
+  {
+   "id": 124,
+   "word": "behavior",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the way a person acts"
+  },
+  {
+   "id": 125,
+   "word": "belief",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a thought held in the mind as true without full knowledge"
+  },
+  {
+   "id": 126,
+   "word": "birth",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the coming into life of a new living thing"
+  },
+  {
+   "id": 127,
+   "word": "bit",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a small piece of a thing"
+  },
+  {
+   "id": 128,
+   "word": "bite",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of cutting with the teeth"
+  },
+  {
+   "id": 129,
+   "word": "blood",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the red liquid running inside the body"
+  },
+  {
+   "id": 130,
+   "word": "blow",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a hard stroke, as of wind or a fist"
+  },
+  {
+   "id": 131,
+   "word": "body",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "all the substance of a man or animal"
+  },
+  {
+   "id": 132,
+   "word": "brass",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a yellow mixed metal, hard and bright, used for instruments and ornaments"
+  },
+  {
+   "id": 133,
+   "word": "bread",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "food made by cooking a paste of grain"
+  },
+  {
+   "id": 134,
+   "word": "breath",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the air taken in and sent out of the body"
+  },
+  {
+   "id": 135,
+   "word": "brother",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a male with the same father and mother as you"
+  },
+  {
+   "id": 136,
+   "word": "building",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a structure with roof and walls made for living or working in"
+  },
+  {
+   "id": 137,
+   "word": "burn",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "an act or mark of damage by fire"
+  },
+  {
+   "id": 138,
+   "word": "burst",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of coming open with force from inside"
+  },
+  {
+   "id": 139,
+   "word": "business",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the work of making or trading things for payment"
+  },
+  {
+   "id": 140,
+   "word": "butter",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the soft yellow fat made from milk"
+  },
+  {
+   "id": 141,
+   "word": "canvas",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "strong cloth used for sails, tents, and painting on"
+  },
+  {
+   "id": 142,
+   "word": "care",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the work of keeping a thing safe and well"
+  },
+  {
+   "id": 143,
+   "word": "cause",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the thing that makes another thing come about"
+  },
+  {
+   "id": 144,
+   "word": "chalk",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a soft white material used for writing on a board"
+  },
+  {
+   "id": 145,
+   "word": "chance",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the way things come without design; a possible happening"
+  },
+  {
+   "id": 146,
+   "word": "change",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of making a thing different"
+  },
+  {
+   "id": 147,
+   "word": "cloth",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "material made by weaving threads"
+  },
+  {
+   "id": 148,
+   "word": "coal",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a black substance from the earth that burns and gives heat"
+  },
+  {
+   "id": 149,
+   "word": "color",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the way light comes to the eye: red, blue, green"
+  },
+  {
+   "id": 150,
+   "word": "comfort",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the state of the body at rest, free from pain and trouble"
+  },
+  {
+   "id": 151,
+   "word": "committee",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a group of persons given work to do together"
+  },
+  {
+   "id": 152,
+   "word": "company",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a group together for business; also persons with you"
+  },
+  {
+   "id": 153,
+   "word": "comparison",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of putting two things side by side to see how they are the same or different"
+  },
+  {
+   "id": 154,
+   "word": "competition",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of trying against others for one prize"
+  },
+  {
+   "id": 155,
+   "word": "condition",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the state a thing is in"
+  },
+  {
+   "id": 156,
+   "word": "connection",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act or state of joining two things"
+  },
+  {
+   "id": 157,
+   "word": "control",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the power that keeps a thing doing as ordered"
+  },
+  {
+   "id": 158,
+   "word": "cook",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "one who makes food ready by heat; also the act of doing so"
+  },
+  {
+   "id": 159,
+   "word": "copper",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a red-brown metal used for wires and coins"
+  },
+  {
+   "id": 160,
+   "word": "copy",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a thing made to be like another thing"
+  },
+  {
+   "id": 161,
+   "word": "cork",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the light springy bark used to stop bottles"
+  },
+  {
+   "id": 162,
+   "word": "cotton",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the soft white material from a plant, made into cloth"
+  },
+  {
+   "id": 163,
+   "word": "cough",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a sudden sending out of air from the throat with noise"
+  },
+  {
+   "id": 164,
+   "word": "country",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a land with one government and one people"
+  },
+  {
+   "id": 165,
+   "word": "cover",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a thing put over another to keep it safe"
+  },
+  {
+   "id": 166,
+   "word": "crack",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a thin line of splitting in a hard thing"
+  },
+  {
+   "id": 167,
+   "word": "credit",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the belief that payment will come; money given now for payment later"
+  },
+  {
+   "id": 168,
+   "word": "crime",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "an act against the law"
+  },
+  {
+   "id": 169,
+   "word": "crush",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of pressing a thing flat or into small bits"
+  },
+  {
+   "id": 170,
+   "word": "cry",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the sound made with tears when sad or in pain"
+  },
+  {
+   "id": 171,
+   "word": "current",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the flow of water or air; the flow of electricity through a wire"
+  },
+  {
+   "id": 172,
+   "word": "curve",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a line that is not straight but bent like the edge of a circle"
+  },
+  {
+   "id": 173,
+   "word": "damage",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "harm done to a thing"
+  },
+  {
+   "id": 174,
+   "word": "danger",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the state in which harm may come"
+  },
+  {
+   "id": 175,
+   "word": "daughter",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a female child of her father and mother"
+  },
+  {
+   "id": 176,
+   "word": "day",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the time of light between one night and the next"
+  },
+  {
+   "id": 177,
+   "word": "death",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the end of life"
+  },
+  {
+   "id": 178,
+   "word": "debt",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "money or things owed to another"
+  },
+  {
+   "id": 179,
+   "word": "decision",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of coming down on one way after thought"
+  },
+  {
+   "id": 180,
+   "word": "degree",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a step on a scale of measure; a unit of heat"
+  },
+  {
+   "id": 181,
+   "word": "design",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the form of a thing as planned in the mind before making"
+  },
+  {
+   "id": 182,
+   "word": "desire",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the feeling of wanting a thing"
+  },
+  {
+   "id": 183,
+   "word": "destruction",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of putting a thing completely out of being"
+  },
+  {
+   "id": 184,
+   "word": "detail",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a small part of a greater thing"
+  },
+  {
+   "id": 185,
+   "word": "development",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the process of growth by stages"
+  },
+  {
+   "id": 186,
+   "word": "digestion",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the body's process of making food into strength"
+  },
+  {
+   "id": 187,
+   "word": "direction",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the way a thing faces or moves; the words that guide"
+  },
+  {
+   "id": 188,
+   "word": "discovery",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a thing found that was not known before"
+  },
+  {
+   "id": 189,
+   "word": "discussion",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a talk for looking at a question from all sides"
+  },
+  {
+   "id": 190,
+   "word": "disease",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a state of the body in which it is not healthy"
+  },
+  {
+   "id": 191,
+   "word": "disgust",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the feeling that makes one turn away from a thing"
+  },
+  {
+   "id": 192,
+   "word": "distance",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the space between two places"
+  },
+  {
+   "id": 193,
+   "word": "distribution",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of giving things out to different persons or places"
+  },
+  {
+   "id": 194,
+   "word": "division",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of separating into parts: ten split into two and eight"
+  },
+  {
+   "id": 195,
+   "word": "doubt",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the state of mind between yes and no"
+  },
+  {
+   "id": 196,
+   "word": "drink",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "liquid taken in by the mouth"
+  },
+  {
+   "id": 197,
+   "word": "driving",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of guiding a car or cart"
+  },
+  {
+   "id": 198,
+   "word": "dust",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "dry earth in very small bits, hanging in the air"
+  },
+  {
+   "id": 199,
+   "word": "earth",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the ground under our feet; the great round world of land and sea"
+  },
+  {
+   "id": 200,
+   "word": "edge",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the line where a thing comes to an end: the edge of a table"
+  },
+  {
+   "id": 201,
+   "word": "education",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the teaching and learning that forms the mind"
+  },
+  {
+   "id": 202,
+   "word": "effect",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the change made in a thing by another thing: the effect of fire is heat"
+  },
+  {
+   "id": 203,
+   "word": "end",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the last point of a thing in space or time"
+  },
+  {
+   "id": 204,
+   "word": "error",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a wrong step; a thing done or said that is not right"
+  },
+  {
+   "id": 205,
+   "word": "event",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a happening; a thing that comes about"
+  },
+  {
+   "id": 206,
+   "word": "example",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a thing taken to show how others of its kind are: for example, a dog is an animal"
+  },
+  {
+   "id": 207,
+   "word": "exchange",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of giving one thing and taking another"
+  },
+  {
+   "id": 208,
+   "word": "existence",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the state of being"
+  },
+  {
+   "id": 209,
+   "word": "expansion",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of getting greater in size"
+  },
+  {
+   "id": 210,
+   "word": "experience",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "knowledge got by doing and seeing, not by being told"
+  },
+  {
+   "id": 211,
+   "word": "expert",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a person with deep knowledge and skill in one work"
+  },
+  {
+   "id": 212,
+   "word": "fact",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a thing that is so and may be tested"
+  },
+  {
+   "id": 213,
+   "word": "fall",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of coming down by weight"
+  },
+  {
+   "id": 214,
+   "word": "family",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "persons of one house and blood: father, mother, children"
+  },
+  {
+   "id": 215,
+   "word": "father",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the male parent"
+  },
+  {
+   "id": 216,
+   "word": "fear",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the feeling of danger coming"
+  },
+  {
+   "id": 217,
+   "word": "feeling",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the mind's state as it is touched by pleasure or pain"
+  },
+  {
+   "id": 218,
+   "word": "fiction",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a story made in the mind, not a record of facts"
+  },
+  {
+   "id": 219,
+   "word": "field",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "open land with grass or grain"
+  },
+  {
+   "id": 220,
+   "word": "fight",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "an act of force against another with hands or arms"
+  },
+  {
+   "id": 221,
+   "word": "fire",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the bright heat-giving burning of material"
+  },
+  {
+   "id": 222,
+   "word": "flame",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the burning tongue of fire"
+  },
+  {
+   "id": 223,
+   "word": "flight",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of flying through the air"
+  },
+  {
+   "id": 224,
+   "word": "flower",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the colored seed-making part of a plant"
+  },
+  {
+   "id": 225,
+   "word": "fold",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of bending one part over another"
+  },
+  {
+   "id": 226,
+   "word": "food",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "what is taken into the body to give life and strength"
+  },
+  {
+   "id": 227,
+   "word": "force",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "power that makes a thing move or change"
+  },
+  {
+   "id": 228,
+   "word": "form",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the shape a thing has; also a paper with spaces to write in"
+  },
+  {
+   "id": 229,
+   "word": "friend",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a person well liked and trusted, who is on your side"
+  },
+  {
+   "id": 230,
+   "word": "front",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the part that faces forward; the first part"
+  },
+  {
+   "id": 231,
+   "word": "fruit",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the sweet seed-holder of a plant, good for food"
+  },
+  {
+   "id": 232,
+   "word": "glass",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the hard clear substance used for windows and bottles; also a container to drink from"
+  },
+  {
+   "id": 233,
+   "word": "gold",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the yellow metal of great price"
+  },
+  {
+   "id": 234,
+   "word": "government",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the persons and rules that guide a country"
+  },
+  {
+   "id": 235,
+   "word": "grain",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the small seed of food plants; also a very small bit"
+  },
+  {
+   "id": 236,
+   "word": "grass",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the green low plant covering fields"
+  },
+  {
+   "id": 237,
+   "word": "grip",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of holding tight"
+  },
+  {
+   "id": 238,
+   "word": "group",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a number of things together"
+  },
+  {
+   "id": 239,
+   "word": "growth",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the process of getting greater"
+  },
+  {
+   "id": 240,
+   "word": "guide",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a person or thing that shows the way"
+  },
+  {
+   "id": 241,
+   "word": "harbor",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a safe water place for ships to come to rest"
+  },
+  {
+   "id": 242,
+   "word": "harmony",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the state of parts working together in peace and agreement"
+  },
+  {
+   "id": 243,
+   "word": "hate",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the feeling against a person or thing"
+  },
+  {
+   "id": 244,
+   "word": "hearing",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the sense that takes in sound"
+  },
+  {
+   "id": 245,
+   "word": "heat",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the condition that makes things hot"
+  },
+  {
+   "id": 246,
+   "word": "help",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of making another's work lighter"
+  },
+  {
+   "id": 247,
+   "word": "history",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the record of what has come about in times past"
+  },
+  {
+   "id": 248,
+   "word": "hole",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "an open space going into a thing"
+  },
+  {
+   "id": 249,
+   "word": "hope",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the looking forward to a good thing that may come"
+  },
+  {
+   "id": 250,
+   "word": "hour",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "sixty minutes; one part of twenty-four of a day"
+  },
+  {
+   "id": 251,
+   "word": "humor",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the quality that makes one laugh"
+  },
+  {
+   "id": 252,
+   "word": "ice",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "water made hard and cold"
+  },
+  {
+   "id": 253,
+   "word": "idea",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a form in the mind"
+  },
+  {
+   "id": 254,
+   "word": "impulse",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a sudden push to act"
+  },
+  {
+   "id": 255,
+   "word": "increase",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act or amount of getting greater"
+  },
+  {
+   "id": 256,
+   "word": "industry",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the making of goods by work and machines"
+  },
+  {
+   "id": 257,
+   "word": "ink",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the liquid used for writing and printing"
+  },
+  {
+   "id": 258,
+   "word": "insect",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a small air animal with six legs"
+  },
+  {
+   "id": 259,
+   "word": "instrument",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a tool made for a special work"
+  },
+  {
+   "id": 260,
+   "word": "insurance",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "money given before against loss, paid back if harm comes"
+  },
+  {
+   "id": 261,
+   "word": "interest",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the mind's care for a thing; also money paid for a loan"
+  },
+  {
+   "id": 262,
+   "word": "invention",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a thing made new by the mind"
+  },
+  {
+   "id": 263,
+   "word": "iron",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the hard grey metal used for tools and machines"
+  },
+  {
+   "id": 264,
+   "word": "jelly",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a soft sweet food that shakes when moved"
+  },
+  {
+   "id": 265,
+   "word": "join",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of putting two things together"
+  },
+  {
+   "id": 266,
+   "word": "journey",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a going from one place to another, far"
+  },
+  {
+   "id": 267,
+   "word": "judge",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the person who says what is right in a question of law; also one who says if a thing is good"
+  },
+  {
+   "id": 268,
+   "word": "jump",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a spring from the ground into the air"
+  },
+  {
+   "id": 269,
+   "word": "kick",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a stroke with the foot"
+  },
+  {
+   "id": 270,
+   "word": "kiss",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a touch with the lips, as a sign of love"
+  },
+  {
+   "id": 271,
+   "word": "knowledge",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "what is kept in the mind from learning"
+  },
+  {
+   "id": 272,
+   "word": "land",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the dry part of the earth; a bit of ground with an owner"
+  },
+  {
+   "id": 273,
+   "word": "language",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the words of a people, with the rules for putting them"
+  },
+  {
+   "id": 274,
+   "word": "laugh",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the sound of joy with the voice"
+  },
+  {
+   "id": 275,
+   "word": "law",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the rules of a country that all must keep"
+  },
+  {
+   "id": 276,
+   "word": "lead",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a soft heavy grey metal; also the front position in a line"
+  },
+  {
+   "id": 277,
+   "word": "learning",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of getting knowledge"
+  },
+  {
+   "id": 278,
+   "word": "leather",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the strong material made from animal skin"
+  },
+  {
+   "id": 279,
+   "word": "letter",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a mark standing for a sound; also a written message sent to a person"
+  },
+  {
+   "id": 280,
+   "word": "level",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a flat line without slope; an instrument that says if a thing is flat"
+  },
+  {
+   "id": 281,
+   "word": "lift",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of taking a thing up"
+  },
+  {
+   "id": 282,
+   "word": "light",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "that which lets the eye see: daylight, lamplight"
+  },
+  {
+   "id": 283,
+   "word": "limit",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the line at which a thing comes to an end"
+  },
+  {
+   "id": 284,
+   "word": "linen",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a soft cloth of plant threads, used for clothing and tables"
+  },
+  {
+   "id": 285,
+   "word": "liquid",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a substance that flows, like water"
+  },
+  {
+   "id": 286,
+   "word": "list",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "names or things put one after another on paper"
+  },
+  {
+   "id": 287,
+   "word": "look",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of turning the eyes on a thing; the way a thing seems to the eye"
+  },
+  {
+   "id": 288,
+   "word": "loss",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the state of a thing gone from one's having"
+  },
+  {
+   "id": 289,
+   "word": "love",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the strong feeling for a person or thing"
+  },
+  {
+   "id": 290,
+   "word": "machine",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "an apparatus with moving parts that does work by power"
+  },
+  {
+   "id": 291,
+   "word": "man",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a male person"
+  },
+  {
+   "id": 292,
+   "word": "manager",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "one who has control of a business or work"
+  },
+  {
+   "id": 293,
+   "word": "mark",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a sign put on a thing; a line or print left by a thing"
+  },
+  {
+   "id": 294,
+   "word": "market",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the place where goods are traded"
+  },
+  {
+   "id": 295,
+   "word": "mass",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a body of matter thought of as one; a great amount"
+  },
+  {
+   "id": 296,
+   "word": "meal",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the food taken at one time of day"
+  },
+  {
+   "id": 297,
+   "word": "measure",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of taking the size of a thing; a unit of size"
+  },
+  {
+   "id": 298,
+   "word": "meat",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the flesh of animals used as food"
+  },
+  {
+   "id": 299,
+   "word": "meeting",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "persons coming together for talk or work"
+  },
+  {
+   "id": 300,
+   "word": "memory",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the mind's power to keep what has come before"
+  },
+  {
+   "id": 301,
+   "word": "metal",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "any of the hard shining stuffs like iron and gold, that take heat and electricity"
+  },
+  {
+   "id": 302,
+   "word": "middle",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the part with the same distance from the two ends"
+  },
+  {
+   "id": 303,
+   "word": "milk",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the white liquid from animals, used as food"
+  },
+  {
+   "id": 304,
+   "word": "mind",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the thinking part of a person: thought, memory, and feeling together"
+  },
+  {
+   "id": 305,
+   "word": "mine",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a deep hole in the earth made for getting coal or metal; also 'of me'"
+  },
+  {
+   "id": 306,
+   "word": "minute",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "sixty seconds; a very small part of time"
+  },
+  {
+   "id": 307,
+   "word": "mist",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "thin water hanging in the air near the ground"
+  },
+  {
+   "id": 308,
+   "word": "money",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "coins and notes used in exchange for goods"
+  },
+  {
+   "id": 309,
+   "word": "month",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "one of the twelve parts of the year, near thirty days"
+  },
+  {
+   "id": 310,
+   "word": "morning",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the first part of the day, from sunrise to the middle of the day"
+  },
+  {
+   "id": 311,
+   "word": "mother",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the female parent"
+  },
+  {
+   "id": 312,
+   "word": "motion",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act or state of moving"
+  },
+  {
+   "id": 313,
+   "word": "mountain",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a great height of land going up far above the fields"
+  },
+  {
+   "id": 314,
+   "word": "move",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of changing place"
+  },
+  {
+   "id": 315,
+   "word": "music",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "sounds put together so the ear is pleased"
+  },
+  {
+   "id": 316,
+   "word": "name",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the word by which a person or thing is marked and said to be"
+  },
+  {
+   "id": 317,
+   "word": "nation",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a people with one government and one land"
+  },
+  {
+   "id": 318,
+   "word": "need",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the state of wanting a thing that is necessary"
+  },
+  {
+   "id": 319,
+   "word": "news",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a report of things that have just come about"
+  },
+  {
+   "id": 320,
+   "word": "night",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the dark time between sunset and sunrise"
+  },
+  {
+   "id": 321,
+   "word": "noise",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "sound that is not wanted, loud or rough"
+  },
+  {
+   "id": 322,
+   "word": "note",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a short written record; a mark in music; a paper money promise"
+  },
+  {
+   "id": 323,
+   "word": "number",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the count of how many: one, two, three"
+  },
+  {
+   "id": 324,
+   "word": "observation",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of watching a thing with care to learn about it"
+  },
+  {
+   "id": 325,
+   "word": "offer",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a statement of readiness to give or do a thing"
+  },
+  {
+   "id": 326,
+   "word": "oil",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the thick liquid from plants or the earth that burns or makes machines run smoothly"
+  },
+  {
+   "id": 327,
+   "word": "operation",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of working; the way a machine or system goes; a doctor's cutting for healing"
+  },
+  {
+   "id": 328,
+   "word": "opinion",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a thought held in the mind, not fully fixed as fact"
+  },
+  {
+   "id": 329,
+   "word": "order",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the state of things in their right places; also a command given; also a request for goods"
+  },
+  {
+   "id": 330,
+   "word": "organization",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a body of persons or parts arranged for one work"
+  },
+  {
+   "id": 331,
+   "word": "ornament",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a thing put on for beauty, not for use"
+  },
+  {
+   "id": 332,
+   "word": "owner",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the person to whom a thing is said to be"
+  },
+  {
+   "id": 333,
+   "word": "page",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "one side of a leaf of paper in a book"
+  },
+  {
+   "id": 334,
+   "word": "pain",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the feeling of the body that hurts"
+  },
+  {
+   "id": 335,
+   "word": "paint",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a colored liquid put on surfaces to give color or keep them safe; also to make a picture"
+  },
+  {
+   "id": 336,
+   "word": "paper",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the thin substance made from plant material, used for writing and printing"
+  },
+  {
+   "id": 337,
+   "word": "part",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a bit of a whole thing"
+  },
+  {
+   "id": 338,
+   "word": "paste",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a soft wet mixture, like flour and water"
+  },
+  {
+   "id": 339,
+   "word": "payment",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "money given for goods or work"
+  },
+  {
+   "id": 340,
+   "word": "peace",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the state without war or fighting; rest and quiet"
+  },
+  {
+   "id": 341,
+   "word": "person",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "one man, woman, or child"
+  },
+  {
+   "id": 342,
+   "word": "place",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a bit of space where a thing is or may be"
+  },
+  {
+   "id": 343,
+   "word": "plant",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a living thing that grows in the earth and has leaves"
+  },
+  {
+   "id": 344,
+   "word": "play",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "acts done for pleasure, not for work; also the acting of a story"
+  },
+  {
+   "id": 345,
+   "word": "pleasure",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the feeling of being pleased"
+  },
+  {
+   "id": 346,
+   "word": "point",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the sharp end; a mark in space or on a scale; the unit of score"
+  },
+  {
+   "id": 347,
+   "word": "poison",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a substance that takes life or does harm when taken in"
+  },
+  {
+   "id": 348,
+   "word": "polish",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of making a thing smooth and shining"
+  },
+  {
+   "id": 349,
+   "word": "porter",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "one whose work is carrying goods, as at a station or door"
+  },
+  {
+   "id": 350,
+   "word": "position",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the place a thing has in relation to other things"
+  },
+  {
+   "id": 351,
+   "word": "powder",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "matter crushed into small dry bits, like dust"
+  },
+  {
+   "id": 352,
+   "word": "power",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the ability to do work or make things change; control over others"
+  },
+  {
+   "id": 353,
+   "word": "price",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the money asked for a thing in trade"
+  },
+  {
+   "id": 354,
+   "word": "print",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "marks made by pressing, as words on paper"
+  },
+  {
+   "id": 355,
+   "word": "process",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a number of steps by which a thing is made or comes about"
+  },
+  {
+   "id": 356,
+   "word": "produce",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "things made by the earth or by work: food from the farm; also to make a thing"
+  },
+  {
+   "id": 357,
+   "word": "profit",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the money gained over what was given"
+  },
+  {
+   "id": 358,
+   "word": "property",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a thing owned; the right to use a thing"
+  },
+  {
+   "id": 359,
+   "word": "prose",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "writing in the normal flow of sentences, without the form of verse"
+  },
+  {
+   "id": 360,
+   "word": "protest",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a statement made against a thing; a public saying of being against"
+  },
+  {
+   "id": 361,
+   "word": "pull",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of drawing a thing toward you"
+  },
+  {
+   "id": 362,
+   "word": "punishment",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "pain or loss given for a wrong act"
+  },
+  {
+   "id": 363,
+   "word": "purpose",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the end for which a thing is done"
+  },
+  {
+   "id": 364,
+   "word": "push",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of moving a thing away with force"
+  },
+  {
+   "id": 365,
+   "word": "quality",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "what a thing is like; the part of a thing that makes it what it is"
+  },
+  {
+   "id": 366,
+   "word": "question",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "words put to get knowledge or an answer"
+  },
+  {
+   "id": 367,
+   "word": "rain",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "water falling from clouds in small drops"
+  },
+  {
+   "id": 368,
+   "word": "range",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the stretch between limits: prices from low to high; also a line of mountains"
+  },
+  {
+   "id": 369,
+   "word": "rate",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the measure of one thing against another in time or number: price per unit"
+  },
+  {
+   "id": 370,
+   "word": "ray",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a straight line of light from its source"
+  },
+  {
+   "id": 371,
+   "word": "reaction",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of answering back; the change caused in a thing by an act upon it"
+  },
+  {
+   "id": 372,
+   "word": "reading",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of taking in words from marks on paper"
+  },
+  {
+   "id": 373,
+   "word": "reason",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the thinking that says why a thing is so; the cause"
+  },
+  {
+   "id": 374,
+   "word": "record",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a writing or mark kept of facts; a flat turn of music; also the best score yet"
+  },
+  {
+   "id": 375,
+   "word": "regret",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the sad feeling for a thing done or not done"
+  },
+  {
+   "id": 376,
+   "word": "relation",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the way one thing stands to another; a person of one's family"
+  },
+  {
+   "id": 377,
+   "word": "religion",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "belief in a higher power, with forms of worship and rules of living"
+  },
+  {
+   "id": 378,
+   "word": "representative",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "one who stands and acts in place of others"
+  },
+  {
+   "id": 379,
+   "word": "request",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a polite asking for a thing"
+  },
+  {
+   "id": 380,
+   "word": "respect",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the high thought given to a person or thing felt to be of value"
+  },
+  {
+   "id": 381,
+   "word": "rest",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the state of not working or moving; sleep or quiet"
+  },
+  {
+   "id": 382,
+   "word": "reward",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a thing given in exchange for good work or an act of value"
+  },
+  {
+   "id": 383,
+   "word": "rhythm",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the regular beat of sound or motion, as in music"
+  },
+  {
+   "id": 384,
+   "word": "rice",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the small white seed grain used as food in warm lands"
+  },
+  {
+   "id": 385,
+   "word": "river",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a great flow of water moving to the sea"
+  },
+  {
+   "id": 386,
+   "word": "road",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the way made for going from place to place on land"
+  },
+  {
+   "id": 387,
+   "word": "roll",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of turning over and over, as a ball on the ground; a small bread"
+  },
+  {
+   "id": 388,
+   "word": "room",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a space with walls inside a house; also open space for a thing"
+  },
+  {
+   "id": 389,
+   "word": "rub",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of moving one thing over another with pressure"
+  },
+  {
+   "id": 390,
+   "word": "rule",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a statement of what is to be done; an instrument for straight lines"
+  },
+  {
+   "id": 391,
+   "word": "run",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of moving fast on foot; to flow; the working of a machine"
+  },
+  {
+   "id": 392,
+   "word": "salt",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the white substance from sea or earth that gives taste to food"
+  },
+  {
+   "id": 393,
+   "word": "sand",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "small loose bits of stone, as on the sea's edge"
+  },
+  {
+   "id": 394,
+   "word": "scale",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "an instrument for weighing; a set of marks for measure, one above the other"
+  },
+  {
+   "id": 395,
+   "word": "science",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "knowledge of facts about the world, got by watching and testing"
+  },
+  {
+   "id": 396,
+   "word": "sea",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the great body of salt water covering most of the earth"
+  },
+  {
+   "id": 397,
+   "word": "seat",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a thing made for sitting on"
+  },
+  {
+   "id": 398,
+   "word": "secretary",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "one whose work is writing letters and keeping records for another"
+  },
+  {
+   "id": 399,
+   "word": "selection",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of taking one from a number of things"
+  },
+  {
+   "id": 400,
+   "word": "self",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the person that says and does: myself, yourself"
+  },
+  {
+   "id": 401,
+   "word": "sense",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the power of the body for taking in the world: seeing, hearing, feeling; also good reasoning"
+  },
+  {
+   "id": 402,
+   "word": "servant",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "one who does work in a house or for another person"
+  },
+  {
+   "id": 403,
+   "word": "sex",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the division of living things into male and female"
+  },
+  {
+   "id": 404,
+   "word": "shade",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the darker, cooler place under something that keeps off light"
+  },
+  {
+   "id": 405,
+   "word": "shake",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of moving a thing quickly to and fro"
+  },
+  {
+   "id": 406,
+   "word": "shame",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the bad feeling from doing wrong or being looked down on"
+  },
+  {
+   "id": 407,
+   "word": "shock",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a sudden blow to the body or mind; the electric effect felt when current goes through the body"
+  },
+  {
+   "id": 408,
+   "word": "side",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "one of the faces of a thing; an edge from top to bottom"
+  },
+  {
+   "id": 409,
+   "word": "sign",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a mark put to give a fixed meaning: a road sign, a sign of rain"
+  },
+  {
+   "id": 410,
+   "word": "silk",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the soft shining thread of the worm that makes cloth of great beauty"
+  },
+  {
+   "id": 411,
+   "word": "silver",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the white metal next in price to gold, used for coins and ornaments"
+  },
+  {
+   "id": 412,
+   "word": "sister",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a female with the same father and mother as you"
+  },
+  {
+   "id": 413,
+   "word": "size",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "how great a thing is: its measure in length or amount"
+  },
+  {
+   "id": 414,
+   "word": "sky",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the space over the earth where clouds and stars are"
+  },
+  {
+   "id": 415,
+   "word": "sleep",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the rest of body and mind with eyes shut, at night or when tired"
+  },
+  {
+   "id": 416,
+   "word": "slip",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of sliding by chance, as a foot on wet ground"
+  },
+  {
+   "id": 417,
+   "word": "slope",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a side that goes up or down, not level"
+  },
+  {
+   "id": 418,
+   "word": "smash",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of breaking a thing into bits with force"
+  },
+  {
+   "id": 419,
+   "word": "smell",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the sense taking in the air's quality; the quality itself"
+  },
+  {
+   "id": 420,
+   "word": "smile",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the pleased look on the face with lips turned up"
+  },
+  {
+   "id": 421,
+   "word": "smoke",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the grey air given off by burning"
+  },
+  {
+   "id": 422,
+   "word": "sneeze",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the sudden blast of air from nose and mouth when the nose is touched"
+  },
+  {
+   "id": 423,
+   "word": "snow",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the soft white ice crystals falling from cold clouds"
+  },
+  {
+   "id": 424,
+   "word": "soap",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the substance used with water for cleaning"
+  },
+  {
+   "id": 425,
+   "word": "society",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "persons living together with shared rules and ways"
+  },
+  {
+   "id": 426,
+   "word": "son",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a male child of his father and mother"
+  },
+  {
+   "id": 427,
+   "word": "song",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "words with music sung by the voice"
+  },
+  {
+   "id": 428,
+   "word": "sort",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a kind of thing; also the act of putting things in groups"
+  },
+  {
+   "id": 429,
+   "word": "sound",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "what the ear takes in; the wave that comes through air to the ear"
+  },
+  {
+   "id": 430,
+   "word": "soup",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "liquid food made by cooking meat and plants in water"
+  },
+  {
+   "id": 431,
+   "word": "space",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the room in which things are; the empty distance between things"
+  },
+  {
+   "id": 432,
+   "word": "stage",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a raised floor in a theatre; one step in a process"
+  },
+  {
+   "id": 433,
+   "word": "start",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the first move of an act; to go from rest to motion"
+  },
+  {
+   "id": 434,
+   "word": "statement",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "words put out as a fact or position"
+  },
+  {
+   "id": 435,
+   "word": "steam",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "water made into hot air by boiling"
+  },
+  {
+   "id": 436,
+   "word": "steel",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the hard strong metal made from iron, used for buildings and machines"
+  },
+  {
+   "id": 437,
+   "word": "step",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "one move of the foot in walking; one stage of stairs"
+  },
+  {
+   "id": 438,
+   "word": "stitch",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "one turn of thread through cloth in sewing"
+  },
+  {
+   "id": 439,
+   "word": "stone",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a small hard bit of rock; also the material of rocks"
+  },
+  {
+   "id": 440,
+   "word": "stop",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of coming to rest; a place where buses or trains come to rest"
+  },
+  {
+   "id": 441,
+   "word": "story",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "an account of events, told to please or teach"
+  },
+  {
+   "id": 442,
+   "word": "stretch",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of making a thing longer by pulling"
+  },
+  {
+   "id": 443,
+   "word": "structure",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a thing built, as a bridge or building; the way parts are put together"
+  },
+  {
+   "id": 444,
+   "word": "substance",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the stuff a thing is made of"
+  },
+  {
+   "id": 445,
+   "word": "sugar",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the sweet white substance from plants used in food"
+  },
+  {
+   "id": 446,
+   "word": "suggestion",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "an idea put before the mind for acceptance"
+  },
+  {
+   "id": 447,
+   "word": "summer",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the warm season of the year with long days"
+  },
+  {
+   "id": 448,
+   "word": "support",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of holding a thing up; help given to a person or cause"
+  },
+  {
+   "id": 449,
+   "word": "surprise",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the feeling when what comes was not looked for"
+  },
+  {
+   "id": 450,
+   "word": "swim",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of moving the body through water"
+  },
+  {
+   "id": 451,
+   "word": "system",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "parts working together as one whole, by fixed rules"
+  },
+  {
+   "id": 452,
+   "word": "talk",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of saying words back and forward between persons"
+  },
+  {
+   "id": 453,
+   "word": "taste",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the sense of the tongue; the quality a thing has for the tongue"
+  },
+  {
+   "id": 454,
+   "word": "tax",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "money taken by government from persons or trade, for public use"
+  },
+  {
+   "id": 455,
+   "word": "teaching",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of giving knowledge to a learner"
+  },
+  {
+   "id": 456,
+   "word": "tendency",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the way a thing is going, by its nature"
+  },
+  {
+   "id": 457,
+   "word": "test",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "an act put to see if a thing is so or how good a thing is"
+  },
+  {
+   "id": 458,
+   "word": "theory",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "an idea put to make clear a group of facts, not yet fully tested"
+  },
+  {
+   "id": 459,
+   "word": "thing",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "whatever may be said to be: any object, act, or idea"
+  },
+  {
+   "id": 460,
+   "word": "thought",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "what the mind has formed: an act of thinking"
+  },
+  {
+   "id": 461,
+   "word": "thunder",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the loud rolling sound after a lightning flash"
+  },
+  {
+   "id": 462,
+   "word": "time",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the flow in which events come one after the other; hours, days, years"
+  },
+  {
+   "id": 463,
+   "word": "tin",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the soft white metal used to cover other metals so they do not go bad"
+  },
+  {
+   "id": 464,
+   "word": "top",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the highest part of a thing"
+  },
+  {
+   "id": 465,
+   "word": "touch",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of putting a thing against another; the sense of feeling by contact"
+  },
+  {
+   "id": 466,
+   "word": "trade",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the exchange of goods between persons or countries; a line of work"
+  },
+  {
+   "id": 467,
+   "word": "transport",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the carrying of persons or goods from place to place"
+  },
+  {
+   "id": 468,
+   "word": "trick",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "an act to make another see wrong; a pleasing act of skill"
+  },
+  {
+   "id": 469,
+   "word": "trouble",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "what gives difficulty or pain of mind"
+  },
+  {
+   "id": 470,
+   "word": "turn",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of going round; a change of direction"
+  },
+  {
+   "id": 471,
+   "word": "twist",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of turning one end against the other, as threads in rope"
+  },
+  {
+   "id": 472,
+   "word": "unit",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "one single thing thought of as one; the base for counting"
+  },
+  {
+   "id": 473,
+   "word": "use",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of putting a thing to work for a purpose"
+  },
+  {
+   "id": 474,
+   "word": "value",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the worth a thing has; the money a thing would bring"
+  },
+  {
+   "id": 475,
+   "word": "verse",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "writing with measured lines and sound, as in songs"
+  },
+  {
+   "id": 476,
+   "word": "vessel",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a container for liquid; a ship"
+  },
+  {
+   "id": 477,
+   "word": "view",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "what is seen from a place; an opinion held and looked from"
+  },
+  {
+   "id": 478,
+   "word": "voice",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the sound made by the throat in speaking or singing"
+  },
+  {
+   "id": 479,
+   "word": "walk",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of moving on foot, slower than running"
+  },
+  {
+   "id": 480,
+   "word": "war",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "fighting between countries or great groups"
+  },
+  {
+   "id": 481,
+   "word": "wash",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the act of cleaning with water"
+  },
+  {
+   "id": 482,
+   "word": "waste",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "what is thrown away as not of use; the act of using more than needed"
+  },
+  {
+   "id": 483,
+   "word": "water",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the clear liquid that falls as rain, runs in rivers, and fills the sea"
+  },
+  {
+   "id": 484,
+   "word": "wave",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the moving rise of water or air going forward; the motion of the hand in greeting"
+  },
+  {
+   "id": 485,
+   "word": "wax",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the soft substance from bees, melting with heat, used for lights and polish"
+  },
+  {
+   "id": 486,
+   "word": "way",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a road or path; the manner of doing a thing"
+  },
+  {
+   "id": 487,
+   "word": "weather",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the state of the sky and air: rain, sun, wind, heat"
+  },
+  {
+   "id": 488,
+   "word": "week",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "seven days together, Monday to Sunday"
+  },
+  {
+   "id": 489,
+   "word": "weight",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "how heavy a thing is; the downward pull on a thing"
+  },
+  {
+   "id": 490,
+   "word": "wind",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "air moving over the earth"
+  },
+  {
+   "id": 491,
+   "word": "wine",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the drink made from fruit left to go sweet"
+  },
+  {
+   "id": 492,
+   "word": "winter",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the cold season of the year with short days"
+  },
+  {
+   "id": 493,
+   "word": "woman",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a female person"
+  },
+  {
+   "id": 494,
+   "word": "wood",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the hard substance of trees, used for building and fire"
+  },
+  {
+   "id": 495,
+   "word": "wool",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the soft hair of sheep, used for clothing"
+  },
+  {
+   "id": 496,
+   "word": "word",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a unit of language: sounds or marks carrying one meaning"
+  },
+  {
+   "id": 497,
+   "word": "work",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the doing of an act with purpose; a person's trade or employment"
+  },
+  {
+   "id": 498,
+   "word": "wound",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "a cut or tear in the body from force"
+  },
+  {
+   "id": 499,
+   "word": "writing",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "marks on paper or stone put down to keep words"
+  },
+  {
+   "id": 500,
+   "word": "year",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_general",
+   "gloss": "the time of one circle of the earth round the sun: twelve months"
+  },
+  {
+   "id": 501,
+   "word": "angle",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the space between two lines that meet, measured in degrees"
+  },
+  {
+   "id": 502,
+   "word": "ant",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a small dark insect living in groups, with a body in three parts"
+  },
+  {
+   "id": 503,
+   "word": "apple",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the round fruit, red or green, with a stem, good to eat raw"
+  },
+  {
+   "id": 504,
+   "word": "arch",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a curved structure over an opening, as in a bridge"
+  },
+  {
+   "id": 505,
+   "word": "arm",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the part of the body from shoulder to hand"
+  },
+  {
+   "id": 506,
+   "word": "army",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a great body of men trained and armed for war"
+  },
+  {
+   "id": 507,
+   "word": "baby",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a very young child, not yet able to speak or walk"
+  },
+  {
+   "id": 508,
+   "word": "bag",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a soft container with an opening at the top, for carrying things"
+  },
+  {
+   "id": 509,
+   "word": "ball",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a round thing for play, that rolls and bounces"
+  },
+  {
+   "id": 510,
+   "word": "band",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a flat ring of metal; a group of music players together"
+  },
+  {
+   "id": 511,
+   "word": "basin",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a wide open bowl for water, as for washing the face"
+  },
+  {
+   "id": 512,
+   "word": "basket",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a container made by weaving thin sticks together"
+  },
+  {
+   "id": 513,
+   "word": "bath",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the act of washing the body in water; the container it is done in"
+  },
+  {
+   "id": 514,
+   "word": "bed",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the furniture of rest: a frame with a soft top to sleep on"
+  },
+  {
+   "id": 515,
+   "word": "bee",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the flying insect with yellow and black bands, that makes honey and wax"
+  },
+  {
+   "id": 516,
+   "word": "bell",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the metal vessel with a clapper that rings when struck"
+  },
+  {
+   "id": 517,
+   "word": "berry",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a small soft fruit without a stone, as on bushes"
+  },
+  {
+   "id": 518,
+   "word": "bird",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the feathered animal that flies with wings and lays eggs"
+  },
+  {
+   "id": 519,
+   "word": "blade",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the flat cutting part of a knife or machine"
+  },
+  {
+   "id": 520,
+   "word": "board",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a long flat piece of wood; also a group of persons directing work"
+  },
+  {
+   "id": 521,
+   "word": "boat",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a small open vessel moved by oars or sail on water"
+  },
+  {
+   "id": 522,
+   "word": "bone",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the hard white substance forming the body's frame"
+  },
+  {
+   "id": 523,
+   "word": "book",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "pages bound together in a cover, with words for reading"
+  },
+  {
+   "id": 524,
+   "word": "boot",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a strong shoe coming up over the ankle"
+  },
+  {
+   "id": 525,
+   "word": "bottle",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a container with a narrow neck for liquids"
+  },
+  {
+   "id": 526,
+   "word": "box",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a container with flat sides and a lid"
+  },
+  {
+   "id": 527,
+   "word": "boy",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a young male person"
+  },
+  {
+   "id": 528,
+   "word": "brain",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the soft grey organ in the head that thinks and controls the body"
+  },
+  {
+   "id": 529,
+   "word": "brake",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the instrument that stops or slows a wheel by pressing"
+  },
+  {
+   "id": 530,
+   "word": "branch",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "an arm of a tree coming out from the trunk"
+  },
+  {
+   "id": 531,
+   "word": "brick",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a block of hard-baked earth for building walls"
+  },
+  {
+   "id": 532,
+   "word": "bridge",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a structure carrying a road over water or a valley"
+  },
+  {
+   "id": 533,
+   "word": "brush",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a hand tool of hairs or wires set in a back, for cleaning or painting"
+  },
+  {
+   "id": 534,
+   "word": "bucket",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "an open container with a handle for carrying water"
+  },
+  {
+   "id": 535,
+   "word": "bulb",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the glass ball that gives electric light; also a round root that grows a plant"
+  },
+  {
+   "id": 536,
+   "word": "button",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the small round fastener put through a hole to keep clothing shut"
+  },
+  {
+   "id": 537,
+   "word": "cake",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a sweet baked food made of flour, butter, sugar, and eggs"
+  },
+  {
+   "id": 538,
+   "word": "camera",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the instrument that takes in light and puts a picture onto paper or film"
+  },
+  {
+   "id": 539,
+   "word": "card",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a small stiff paper, as for playing games or sending greetings"
+  },
+  {
+   "id": 540,
+   "word": "cart",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a small open vehicle with wheels, drawn or pushed by hand"
+  },
+  {
+   "id": 541,
+   "word": "carriage",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a four-wheel horse-drawn vehicle for persons"
+  },
+  {
+   "id": 542,
+   "word": "cat",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the small soft animal kept in the house, with whiskers and a long tail"
+  },
+  {
+   "id": 543,
+   "word": "chain",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "metal rings joined one into the next, making a line that pulls or holds"
+  },
+  {
+   "id": 544,
+   "word": "cheese",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the solid food made from milk pressed together"
+  },
+  {
+   "id": 545,
+   "word": "chest",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the box of the body holding heart and breath; a strong box with a lid"
+  },
+  {
+   "id": 546,
+   "word": "chin",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the part of the face under the mouth"
+  },
+  {
+   "id": 547,
+   "word": "church",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the building where a religion meets for worship"
+  },
+  {
+   "id": 548,
+   "word": "circle",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a round line, every point of which is equally far from the middle"
+  },
+  {
+   "id": 549,
+   "word": "clock",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the instrument with hands that says the hour"
+  },
+  {
+   "id": 550,
+   "word": "cloud",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the white or grey mass of thin water hanging in the sky"
+  },
+  {
+   "id": 551,
+   "word": "coat",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the outer clothing with sleeves, worn over the body"
+  },
+  {
+   "id": 552,
+   "word": "collar",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the band round the neck of a shirt; the ring round a dog's neck"
+  },
+  {
+   "id": 553,
+   "word": "comb",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the toothed instrument for putting hair in order"
+  },
+  {
+   "id": 554,
+   "word": "cord",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a thick thread or small rope; an electric line"
+  },
+  {
+   "id": 555,
+   "word": "cow",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the large farm animal giving milk, with horns"
+  },
+  {
+   "id": 556,
+   "word": "cup",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a small open vessel with a handle, for hot drink"
+  },
+  {
+   "id": 557,
+   "word": "curtain",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the hanging cloth put over a window or door"
+  },
+  {
+   "id": 558,
+   "word": "cushion",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a soft pad to rest on, as on a seat"
+  },
+  {
+   "id": 559,
+   "word": "dog",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the common animal kept in the house, a friend of man, that watches and barks"
+  },
+  {
+   "id": 560,
+   "word": "door",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the movable panel that shuts an opening in a wall"
+  },
+  {
+   "id": 561,
+   "word": "drain",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the pipe or channel that takes away water"
+  },
+  {
+   "id": 562,
+   "word": "drawer",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the box-like part of a table that slides in and out"
+  },
+  {
+   "id": 563,
+   "word": "dress",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the one-piece outer clothing of a woman; also to put clothes on"
+  },
+  {
+   "id": 564,
+   "word": "drop",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a small round bit of liquid; also to let a thing fall"
+  },
+  {
+   "id": 565,
+   "word": "ear",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the organ on the side of the head that takes in sound"
+  },
+  {
+   "id": 566,
+   "word": "egg",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the rounded shell from which birds come; eaten as food"
+  },
+  {
+   "id": 567,
+   "word": "engine",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the machine that turns power into motion, as in a car or train"
+  },
+  {
+   "id": 568,
+   "word": "eye",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the organ in the face that sees"
+  },
+  {
+   "id": 569,
+   "word": "face",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the front of the head: eyes, nose, mouth"
+  },
+  {
+   "id": 570,
+   "word": "farm",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the land and buildings where food is grown and animals kept"
+  },
+  {
+   "id": 571,
+   "word": "feather",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the light covering of a bird's body, each part with a spine"
+  },
+  {
+   "id": 572,
+   "word": "finger",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "one of the five parts at the end of the hand"
+  },
+  {
+   "id": 573,
+   "word": "fish",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the water animal with gills and fins, taken for food"
+  },
+  {
+   "id": 574,
+   "word": "flag",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the cloth of color put up on a pole as a sign of a country or group"
+  },
+  {
+   "id": 575,
+   "word": "floor",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the lower surface of a room one walks on"
+  },
+  {
+   "id": 576,
+   "word": "fly",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the small two-winged insect; the act of moving through air on wings"
+  },
+  {
+   "id": 577,
+   "word": "foot",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the part of the body at the end of the leg, on which one stands"
+  },
+  {
+   "id": 578,
+   "word": "fork",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the instrument with points at the end for lifting food to the mouth"
+  },
+  {
+   "id": 579,
+   "word": "fowl",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the bird of the farm, as the chicken, kept for eggs and meat"
+  },
+  {
+   "id": 580,
+   "word": "frame",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the border of wood or metal holding a picture or glass in place"
+  },
+  {
+   "id": 581,
+   "word": "garden",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the land by a house where flowers and food plants are grown"
+  },
+  {
+   "id": 582,
+   "word": "girl",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a young female person"
+  },
+  {
+   "id": 583,
+   "word": "glove",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the covering of the hand, with a place for each finger"
+  },
+  {
+   "id": 584,
+   "word": "goat",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the farm animal with horns that eats grass and climbs"
+  },
+  {
+   "id": 585,
+   "word": "gun",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the tube instrument sending out a ball with force"
+  },
+  {
+   "id": 586,
+   "word": "hair",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the fine threads growing from the skin of the head"
+  },
+  {
+   "id": 587,
+   "word": "hammer",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the tool with a heavy metal head for driving nails"
+  },
+  {
+   "id": 588,
+   "word": "hand",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the end part of the arm, with fingers, for holding and doing"
+  },
+  {
+   "id": 589,
+   "word": "hat",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the covering worn on the head"
+  },
+  {
+   "id": 590,
+   "word": "head",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the top part of the body, holding brain, eyes, ears, mouth"
+  },
+  {
+   "id": 591,
+   "word": "heart",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the organ in the chest that pushes blood through the body"
+  },
+  {
+   "id": 592,
+   "word": "hook",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a bent piece of metal for hanging or pulling things"
+  },
+  {
+   "id": 593,
+   "word": "horn",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the hard pointed growth on the head of some animals; an instrument of sound"
+  },
+  {
+   "id": 594,
+   "word": "horse",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the large four-legged animal ridden and used for pulling"
+  },
+  {
+   "id": 595,
+   "word": "hospital",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the building where the ill are cared for and made well"
+  },
+  {
+   "id": 596,
+   "word": "house",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a building for persons to live in"
+  },
+  {
+   "id": 597,
+   "word": "island",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "land with water all round it"
+  },
+  {
+   "id": 598,
+   "word": "jewel",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a cut stone of beauty and great price"
+  },
+  {
+   "id": 599,
+   "word": "kettle",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the metal vessel with a handle and spout, for boiling water"
+  },
+  {
+   "id": 600,
+   "word": "key",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the small metal instrument that opens a lock"
+  },
+  {
+   "id": 601,
+   "word": "knee",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the joint in the middle of the leg where it bends"
+  },
+  {
+   "id": 602,
+   "word": "knife",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the tool with a blade and handle for cutting"
+  },
+  {
+   "id": 603,
+   "word": "knot",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the joining of a rope by turning it through itself so it will not come undone"
+  },
+  {
+   "id": 604,
+   "word": "leaf",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the flat green part of a plant that takes in light"
+  },
+  {
+   "id": 605,
+   "word": "leg",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the part of the body from the middle down to the foot, on which one stands and walks"
+  },
+  {
+   "id": 606,
+   "word": "library",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the room or building where books are kept for reading"
+  },
+  {
+   "id": 607,
+   "word": "line",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a long thin mark, straight or bent, joining two points"
+  },
+  {
+   "id": 608,
+   "word": "lip",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the edge of flesh round the mouth"
+  },
+  {
+   "id": 609,
+   "word": "lock",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the instrument that keeps a door shut and opens with a key"
+  },
+  {
+   "id": 610,
+   "word": "map",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the drawing of land and its rivers, roads, and towns on paper"
+  },
+  {
+   "id": 611,
+   "word": "match",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the small stick with a head that takes fire when rubbed"
+  },
+  {
+   "id": 612,
+   "word": "monkey",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the tree animal with a long tail that climbs and holds with hand-like feet"
+  },
+  {
+   "id": 613,
+   "word": "moon",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the round light of the night sky, going round the earth each month"
+  },
+  {
+   "id": 614,
+   "word": "mouth",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the opening in the face for food and speech"
+  },
+  {
+   "id": 615,
+   "word": "muscle",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the part of the body that pulls on bones to make motion"
+  },
+  {
+   "id": 616,
+   "word": "nail",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the small metal pin hammered into wood to hold parts together; the hard covering on the end of a finger"
+  },
+  {
+   "id": 617,
+   "word": "neck",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the part of the body joining head and chest"
+  },
+  {
+   "id": 618,
+   "word": "needle",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the small thin pointed steel with an eye, for sewing"
+  },
+  {
+   "id": 619,
+   "word": "nerve",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the thread-like part carrying feeling and orders between brain and body"
+  },
+  {
+   "id": 620,
+   "word": "net",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "threads joined with open spaces, for taking fish or holding a ball"
+  },
+  {
+   "id": 621,
+   "word": "nose",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the part of the face that breathes and smells"
+  },
+  {
+   "id": 622,
+   "word": "nut",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the hard shell with an eatable seed inside, as from trees"
+  },
+  {
+   "id": 623,
+   "word": "office",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the room where business work is done"
+  },
+  {
+   "id": 624,
+   "word": "orange",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the round fruit with a thick yellow-red skin, in parts inside"
+  },
+  {
+   "id": 625,
+   "word": "oven",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the closed hot space for baking bread and cooking food"
+  },
+  {
+   "id": 626,
+   "word": "parcel",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a thing done up in paper for sending or carrying"
+  },
+  {
+   "id": 627,
+   "word": "pen",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the writing instrument with a point that carries ink"
+  },
+  {
+   "id": 628,
+   "word": "pencil",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the writing instrument of wood with a black center"
+  },
+  {
+   "id": 629,
+   "word": "picture",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the marks giving the look of a thing or scene, as seen by the eye"
+  },
+  {
+   "id": 630,
+   "word": "pig",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the farm animal with a flat nose, kept for meat"
+  },
+  {
+   "id": 631,
+   "word": "pin",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the small metal point with a head, for fastening"
+  },
+  {
+   "id": 632,
+   "word": "pipe",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a tube for water or smoke to go through"
+  },
+  {
+   "id": 633,
+   "word": "plane",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a machine with wings that goes flying through the air, carrying persons and goods"
+  },
+  {
+   "id": 634,
+   "word": "plate",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a flat round dish for food; also a flat sheet of metal"
+  },
+  {
+   "id": 635,
+   "word": "plough",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the farm instrument that turns the earth in lines before planting",
+   "variants": [
+    "plow"
+   ]
+  },
+  {
+   "id": 636,
+   "word": "pocket",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the small cloth bag sewn into clothing for holding small things"
+  },
+  {
+   "id": 637,
+   "word": "pot",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the round vessel for cooking or keeping liquids and food"
+  },
+  {
+   "id": 638,
+   "word": "potato",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the food that grows under the ground, with eyes for planting"
+  },
+  {
+   "id": 639,
+   "word": "prison",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the building where those who have done wrong are kept shut in"
+  },
+  {
+   "id": 640,
+   "word": "pump",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the machine that pushes water or air up or along"
+  },
+  {
+   "id": 641,
+   "word": "rail",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the long steel bar on which trains run; a bar for hanging things on"
+  },
+  {
+   "id": 642,
+   "word": "rat",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the animal like a great mouse, living near houses"
+  },
+  {
+   "id": 643,
+   "word": "receipt",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the paper saying a payment was given"
+  },
+  {
+   "id": 644,
+   "word": "ring",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the circle of metal worn on the finger; a circle of any form"
+  },
+  {
+   "id": 645,
+   "word": "rod",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a straight thin bar of wood or metal"
+  },
+  {
+   "id": 646,
+   "word": "roof",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the top cover of a building"
+  },
+  {
+   "id": 647,
+   "word": "root",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the part of a plant that grows down into the earth and takes in water"
+  },
+  {
+   "id": 648,
+   "word": "sail",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the cloth spread on poles to take wind and push a boat"
+  },
+  {
+   "id": 649,
+   "word": "school",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the building where children are taught"
+  },
+  {
+   "id": 650,
+   "word": "scissors",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the two-bladed cutting instrument that works by crossing"
+  },
+  {
+   "id": 651,
+   "word": "screw",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the metal pin with a turning edge, that goes in when turned, and holds parts"
+  },
+  {
+   "id": 652,
+   "word": "seed",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the small grain from which a new plant grows"
+  },
+  {
+   "id": 653,
+   "word": "sheep",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the farm animal with wool, kept for meat and clothing material"
+  },
+  {
+   "id": 654,
+   "word": "shelf",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the flat board on a wall for things to rest on"
+  },
+  {
+   "id": 655,
+   "word": "ship",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the great vessel that goes on water across the sea"
+  },
+  {
+   "id": 656,
+   "word": "shirt",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the clothing of cloth with sleeves, covering the top of the body"
+  },
+  {
+   "id": 657,
+   "word": "shoe",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the covering of the foot, with a base of leather"
+  },
+  {
+   "id": 658,
+   "word": "skin",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the outside covering of the body of man or animal"
+  },
+  {
+   "id": 659,
+   "word": "skirt",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the clothing hanging from the middle of the body down over the legs"
+  },
+  {
+   "id": 660,
+   "word": "snake",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the long thin animal without legs that slides on the ground"
+  },
+  {
+   "id": 661,
+   "word": "sock",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the soft covering of the foot inside the shoe"
+  },
+  {
+   "id": 662,
+   "word": "spade",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the tool with a flat blade and handle, for digging earth"
+  },
+  {
+   "id": 663,
+   "word": "sponge",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the soft substance full of holes from the sea, that takes in water"
+  },
+  {
+   "id": 664,
+   "word": "spoon",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the small tool with a round end for lifting liquid food to the mouth"
+  },
+  {
+   "id": 665,
+   "word": "spring",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the bent metal that comes back when pressed; the season of new growth; water coming up from the ground"
+  },
+  {
+   "id": 666,
+   "word": "square",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the form with four equal sides and four equal angles"
+  },
+  {
+   "id": 667,
+   "word": "stamp",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the small printed paper put on a letter to pay for its sending"
+  },
+  {
+   "id": 668,
+   "word": "star",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the small point of light seen in the night sky"
+  },
+  {
+   "id": 669,
+   "word": "station",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the place where trains or buses stop for persons"
+  },
+  {
+   "id": 670,
+   "word": "stem",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the upright part of a plant holding up leaves and flowers"
+  },
+  {
+   "id": 671,
+   "word": "stick",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a long thin piece of wood"
+  },
+  {
+   "id": 672,
+   "word": "stocking",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the long covering of the leg and foot, of soft cloth"
+  },
+  {
+   "id": 673,
+   "word": "stomach",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the bag of the body where food goes and is worked on"
+  },
+  {
+   "id": 674,
+   "word": "store",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the shop where goods are kept for sale; also to keep a thing for later use"
+  },
+  {
+   "id": 675,
+   "word": "street",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the road in a town with houses on the sides"
+  },
+  {
+   "id": 676,
+   "word": "sun",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the great light and heat-giving star of the day, round which the earth goes"
+  },
+  {
+   "id": 677,
+   "word": "table",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the flat top on legs, on which things are put or food is served"
+  },
+  {
+   "id": 678,
+   "word": "tail",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the part at the back end of an animal's body"
+  },
+  {
+   "id": 679,
+   "word": "thread",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the fine line of twisted fiber used for sewing"
+  },
+  {
+   "id": 680,
+   "word": "throat",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the front passage of the neck for air and food"
+  },
+  {
+   "id": 681,
+   "word": "thumb",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the short thick finger of the hand set apart from the others"
+  },
+  {
+   "id": 682,
+   "word": "ticket",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the paper giving right to ride or enter a place"
+  },
+  {
+   "id": 683,
+   "word": "toe",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "one of the five parts at the end of the foot"
+  },
+  {
+   "id": 684,
+   "word": "tongue",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the moving organ in the mouth for tasting and speech"
+  },
+  {
+   "id": 685,
+   "word": "tooth",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the hard white biting part set in the mouth"
+  },
+  {
+   "id": 686,
+   "word": "town",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "a group of houses and streets larger than a village"
+  },
+  {
+   "id": 687,
+   "word": "train",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the line of cars drawn by an engine on rails"
+  },
+  {
+   "id": 688,
+   "word": "tray",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the flat board with edges for carrying cups and food"
+  },
+  {
+   "id": 689,
+   "word": "tree",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the great plant with a woody trunk, branches, and leaves"
+  },
+  {
+   "id": 690,
+   "word": "trousers",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the clothing for the legs, in two parts, waist to feet"
+  },
+  {
+   "id": 691,
+   "word": "umbrella",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the folding cover on a stick held over the head against rain or sun"
+  },
+  {
+   "id": 692,
+   "word": "wall",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the upright side of a room or building"
+  },
+  {
+   "id": 693,
+   "word": "watch",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the small clock worn on the arm; also the act of looking with care"
+  },
+  {
+   "id": 694,
+   "word": "wheel",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the round frame that turns on a middle pin, for motion"
+  },
+  {
+   "id": 695,
+   "word": "whip",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the cord or leather on a handle for striking animals"
+  },
+  {
+   "id": 696,
+   "word": "whistle",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the small instrument giving a sharp sound when blown; the sound itself"
+  },
+  {
+   "id": 697,
+   "word": "window",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the opening in a wall with glass to let light in and be seen through"
+  },
+  {
+   "id": 698,
+   "word": "wing",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the part of a bird or plane that lifts it in the air"
+  },
+  {
+   "id": 699,
+   "word": "wire",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the long thin thread of metal, for carrying electricity or binding"
+  },
+  {
+   "id": 700,
+   "word": "worm",
+   "pos": "noun",
+   "ring": 0,
+   "cat": "things_picturable",
+   "gloss": "the small long soft animal without legs that turns the earth"
+  },
+  {
+   "id": 701,
+   "word": "able",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "having the power to do a thing"
+  },
+  {
+   "id": 702,
+   "word": "acid",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "the sharp quality of a liquid like that of a lemon, that bites into things"
+  },
+  {
+   "id": 703,
+   "word": "angry",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "feeling strong heat against a person or act"
+  },
+  {
+   "id": 704,
+   "word": "automatic",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "working by itself without a hand guiding it"
+  },
+  {
+   "id": 705,
+   "word": "beautiful",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "pleasing to the eye in a high degree"
+  },
+  {
+   "id": 706,
+   "word": "black",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of the color of night, taking in all light"
+  },
+  {
+   "id": 707,
+   "word": "boiling",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "at the heat at which liquid goes up in air, as water making bubbles in a pot"
+  },
+  {
+   "id": 708,
+   "word": "bright",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "sending out or taking in much light; quick of mind"
+  },
+  {
+   "id": 709,
+   "word": "broken",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "in pieces, no longer whole or working"
+  },
+  {
+   "id": 710,
+   "word": "brown",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of the color of earth or cooked bread"
+  },
+  {
+   "id": 711,
+   "word": "cheap",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "low in price"
+  },
+  {
+   "id": 712,
+   "word": "chemical",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of substances and their changes, as in a science room"
+  },
+  {
+   "id": 713,
+   "word": "chief",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "first in place or authority; the head one"
+  },
+  {
+   "id": 714,
+   "word": "clean",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "free from dirt or waste"
+  },
+  {
+   "id": 715,
+   "word": "clear",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "easy to see through or to see; free from doubt"
+  },
+  {
+   "id": 716,
+   "word": "common",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of no special mark; seen everywhere; shared by all"
+  },
+  {
+   "id": 717,
+   "word": "complex",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "made of many parts joined together"
+  },
+  {
+   "id": 718,
+   "word": "conscious",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "awake to what is round one; with knowledge of self"
+  },
+  {
+   "id": 719,
+   "word": "cut",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "made shorter or opened by a blade; also sharp and sudden in manner"
+  },
+  {
+   "id": 720,
+   "word": "deep",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "going far down from the top: deep water, deep thought"
+  },
+  {
+   "id": 721,
+   "word": "dependent",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "needing another for support, not free to stand alone"
+  },
+  {
+   "id": 722,
+   "word": "early",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "before the right or usual time"
+  },
+  {
+   "id": 723,
+   "word": "elastic",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "coming back to the first form after being pulled or pushed"
+  },
+  {
+   "id": 724,
+   "word": "electric",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of the power that runs through wires and gives light and motion"
+  },
+  {
+   "id": 725,
+   "word": "equal",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "the same in size, value, or number"
+  },
+  {
+   "id": 726,
+   "word": "fat",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "with much of the body's soft storage stuff; thick"
+  },
+  {
+   "id": 727,
+   "word": "fertile",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of land, producing much growth"
+  },
+  {
+   "id": 728,
+   "word": "first",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "coming before all others in order"
+  },
+  {
+   "id": 729,
+   "word": "fixed",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "made fast in one place or form; not moving or changing"
+  },
+  {
+   "id": 730,
+   "word": "flat",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "level, without rise or fall"
+  },
+  {
+   "id": 731,
+   "word": "free",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "not held or kept in; without payment; at one's own will"
+  },
+  {
+   "id": 732,
+   "word": "frequent",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "coming often"
+  },
+  {
+   "id": 733,
+   "word": "full",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "holding as much as it is able; complete"
+  },
+  {
+   "id": 734,
+   "word": "general",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of the whole; not fixed to one part"
+  },
+  {
+   "id": 735,
+   "word": "good",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of the right quality; doing well what it is for"
+  },
+  {
+   "id": 736,
+   "word": "great",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of much size, degree, or note"
+  },
+  {
+   "id": 737,
+   "word": "grey",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "the color made of black and white mixed",
+   "variants": [
+    "gray"
+   ]
+  },
+  {
+   "id": 738,
+   "word": "hanging",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "put up so as to be held from above, swinging"
+  },
+  {
+   "id": 739,
+   "word": "happy",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "feeling pleasure in a quiet full way"
+  },
+  {
+   "id": 740,
+   "word": "hard",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "not soft to the touch; not easy to do"
+  },
+  {
+   "id": 741,
+   "word": "healthy",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of the body, working well and without disease"
+  },
+  {
+   "id": 742,
+   "word": "high",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "rising far up from the ground"
+  },
+  {
+   "id": 743,
+   "word": "hollow",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "with empty space inside"
+  },
+  {
+   "id": 744,
+   "word": "important",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of great effect or note; to be cared for"
+  },
+  {
+   "id": 745,
+   "word": "kind",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "warm of heart to others; doing good to others gladly"
+  },
+  {
+   "id": 746,
+   "word": "like",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of the same sort; near the same: one like the other"
+  },
+  {
+   "id": 747,
+   "word": "living",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "having life: eating, growing, breathing"
+  },
+  {
+   "id": 748,
+   "word": "long",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of much distance from end to end"
+  },
+  {
+   "id": 749,
+   "word": "male",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of the sex that is father-like, not mother-like"
+  },
+  {
+   "id": 750,
+   "word": "married",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "joined in law to another as husband or wife"
+  },
+  {
+   "id": 751,
+   "word": "material",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of the stuff things are made of"
+  },
+  {
+   "id": 752,
+   "word": "medical",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of the care of the body in disease"
+  },
+  {
+   "id": 753,
+   "word": "military",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of soldiers and war"
+  },
+  {
+   "id": 754,
+   "word": "natural",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of or from nature, not made by man"
+  },
+  {
+   "id": 755,
+   "word": "necessary",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "needed; without which a thing is not done"
+  },
+  {
+   "id": 756,
+   "word": "new",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "recently made or come; not old or used before"
+  },
+  {
+   "id": 757,
+   "word": "normal",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of the usual kind or measure; not strange"
+  },
+  {
+   "id": 758,
+   "word": "open",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "not shut; free to be entered or seen"
+  },
+  {
+   "id": 759,
+   "word": "parallel",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "side by side, with the same direction, never meeting"
+  },
+  {
+   "id": 760,
+   "word": "past",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of what has been; the time before now"
+  },
+  {
+   "id": 761,
+   "word": "physical",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of the body, or of material things"
+  },
+  {
+   "id": 762,
+   "word": "political",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of government and public rule"
+  },
+  {
+   "id": 763,
+   "word": "poor",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "with little money or goods; also of low quality"
+  },
+  {
+   "id": 764,
+   "word": "possible",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "able to come about"
+  },
+  {
+   "id": 765,
+   "word": "present",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "here now, before the eyes; also a thing given"
+  },
+  {
+   "id": 766,
+   "word": "private",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of one's own person or group, not public"
+  },
+  {
+   "id": 767,
+   "word": "probable",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "likely to come about"
+  },
+  {
+   "id": 768,
+   "word": "quick",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "moving or acting with speed"
+  },
+  {
+   "id": 769,
+   "word": "quiet",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "with little or no sound; calm"
+  },
+  {
+   "id": 770,
+   "word": "ready",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "put in order for what is coming"
+  },
+  {
+   "id": 771,
+   "word": "red",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of the color of blood and fire"
+  },
+  {
+   "id": 772,
+   "word": "regular",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "by rule or fixed order; even and unchanging"
+  },
+  {
+   "id": 773,
+   "word": "responsible",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "having the duty to answer for acts"
+  },
+  {
+   "id": 774,
+   "word": "right",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "on the side of the right hand; correct; by law or moral rule"
+  },
+  {
+   "id": 775,
+   "word": "round",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "in the form of a circle or ball"
+  },
+  {
+   "id": 776,
+   "word": "same",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "not different; the one thing twice"
+  },
+  {
+   "id": 777,
+   "word": "second",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "next after the first in order"
+  },
+  {
+   "id": 778,
+   "word": "separate",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "apart, not joined"
+  },
+  {
+   "id": 779,
+   "word": "serious",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "in deep earnest, not light"
+  },
+  {
+   "id": 780,
+   "word": "sharp",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "with a cutting point or edge; quick and clear of mind"
+  },
+  {
+   "id": 781,
+   "word": "smooth",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "flat and even, without roughness"
+  },
+  {
+   "id": 782,
+   "word": "sticky",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "taking hold of things that touch it"
+  },
+  {
+   "id": 783,
+   "word": "stiff",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "not bending"
+  },
+  {
+   "id": 784,
+   "word": "straight",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "without bend, as a ruled line"
+  },
+  {
+   "id": 785,
+   "word": "strong",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "with much power or force"
+  },
+  {
+   "id": 786,
+   "word": "sudden",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "coming without warning or slow approach"
+  },
+  {
+   "id": 787,
+   "word": "sweet",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "pleasing to the tongue, as sugar; pleasing in sound or manner"
+  },
+  {
+   "id": 788,
+   "word": "tall",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of great height upward, as a man or tree"
+  },
+  {
+   "id": 789,
+   "word": "thick",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "with much distance between the two faces"
+  },
+  {
+   "id": 790,
+   "word": "tight",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "held fast, with no give; fitting hard"
+  },
+  {
+   "id": 791,
+   "word": "tired",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "in need of rest, used up in strength"
+  },
+  {
+   "id": 792,
+   "word": "true",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "in agreement with the facts"
+  },
+  {
+   "id": 793,
+   "word": "violent",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "with rough and damaging force"
+  },
+  {
+   "id": 794,
+   "word": "waiting",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "staying in expectation of what is to come"
+  },
+  {
+   "id": 795,
+   "word": "warm",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "between cold and hot, pleasing to the skin"
+  },
+  {
+   "id": 796,
+   "word": "wet",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "covered or soaked with water"
+  },
+  {
+   "id": 797,
+   "word": "wide",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of much space from side to side"
+  },
+  {
+   "id": 798,
+   "word": "wise",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "seeing what is right and acting on it"
+  },
+  {
+   "id": 799,
+   "word": "yellow",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of the color of the sun's light at full day"
+  },
+  {
+   "id": 800,
+   "word": "young",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_general",
+   "gloss": "of little age, not far from birth or new-made"
+  },
+  {
+   "id": 801,
+   "word": "awake",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "not in sleep, with the mind open"
+  },
+  {
+   "id": 802,
+   "word": "bad",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "not good; of poor quality or wrong doing"
+  },
+  {
+   "id": 803,
+   "word": "bent",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "turned from straight, as a branch pushed by wind"
+  },
+  {
+   "id": 804,
+   "word": "bitter",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "of the sharp taste opposite to sweet, as of unripe fruit; also of pain of mind"
+  },
+  {
+   "id": 805,
+   "word": "blue",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "of the color of the clear sky by day"
+  },
+  {
+   "id": 806,
+   "word": "certain",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "fixed in mind, without doubt"
+  },
+  {
+   "id": 807,
+   "word": "cold",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "near freezing; the opposite of heat"
+  },
+  {
+   "id": 808,
+   "word": "complete",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "whole, with no part missing"
+  },
+  {
+   "id": 809,
+   "word": "cruel",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "taking pleasure in giving pain"
+  },
+  {
+   "id": 810,
+   "word": "dark",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "without light, as night"
+  },
+  {
+   "id": 811,
+   "word": "dead",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "without life"
+  },
+  {
+   "id": 812,
+   "word": "dear",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "loved and of great value to one; also high in price"
+  },
+  {
+   "id": 813,
+   "word": "delicate",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "fine and easily damaged; of small careful work"
+  },
+  {
+   "id": 814,
+   "word": "different",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "not the same, unlike"
+  },
+  {
+   "id": 815,
+   "word": "dirty",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "with dirt or waste on"
+  },
+  {
+   "id": 816,
+   "word": "dry",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "without water or wetness"
+  },
+  {
+   "id": 817,
+   "word": "false",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "not true; made to seem what it is not"
+  },
+  {
+   "id": 818,
+   "word": "feeble",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "without strength, weak"
+  },
+  {
+   "id": 819,
+   "word": "female",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "of the sex that is mother-like"
+  },
+  {
+   "id": 820,
+   "word": "foolish",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "without sense or good thought"
+  },
+  {
+   "id": 821,
+   "word": "future",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "of the time to come, after now"
+  },
+  {
+   "id": 822,
+   "word": "green",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "of the color of leaves and grass"
+  },
+  {
+   "id": 823,
+   "word": "ill",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "not healthy, with disease"
+  },
+  {
+   "id": 824,
+   "word": "last",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "coming at the end, after all others"
+  },
+  {
+   "id": 825,
+   "word": "late",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "after the right time"
+  },
+  {
+   "id": 826,
+   "word": "left",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "the side of the left hand, opposite the right"
+  },
+  {
+   "id": 827,
+   "word": "loose",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "not held tight; free to move or come off"
+  },
+  {
+   "id": 828,
+   "word": "loud",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "with much sound, striking the ear strongly"
+  },
+  {
+   "id": 829,
+   "word": "low",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "not high; near the ground"
+  },
+  {
+   "id": 830,
+   "word": "mixed",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "with different things put together, not separate"
+  },
+  {
+   "id": 831,
+   "word": "narrow",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "with little space from side to side"
+  },
+  {
+   "id": 832,
+   "word": "old",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "of long time past, or long in use; not new"
+  },
+  {
+   "id": 833,
+   "word": "opposite",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "facing the other way; the one against the other"
+  },
+  {
+   "id": 834,
+   "word": "public",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "of all persons together, not private"
+  },
+  {
+   "id": 835,
+   "word": "rough",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "with an uneven face, not smooth"
+  },
+  {
+   "id": 836,
+   "word": "sad",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "sorrowful, low in spirit"
+  },
+  {
+   "id": 837,
+   "word": "safe",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "free from danger or damage"
+  },
+  {
+   "id": 838,
+   "word": "secret",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "kept from the knowledge of others"
+  },
+  {
+   "id": 839,
+   "word": "short",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "of little length from end to end"
+  },
+  {
+   "id": 840,
+   "word": "shut",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "not open, closed"
+  },
+  {
+   "id": 841,
+   "word": "simple",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "of one part or plain form; easy to do"
+  },
+  {
+   "id": 842,
+   "word": "slow",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "taking much time to move or act"
+  },
+  {
+   "id": 843,
+   "word": "small",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "of little size"
+  },
+  {
+   "id": 844,
+   "word": "soft",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "pleasant to the touch, giving way to pressure"
+  },
+  {
+   "id": 845,
+   "word": "solid",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "hard and keeping form, not liquid or air"
+  },
+  {
+   "id": 846,
+   "word": "special",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "of one sort only, not common"
+  },
+  {
+   "id": 847,
+   "word": "strange",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "not before seen or known; out of the usual way"
+  },
+  {
+   "id": 848,
+   "word": "thin",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "with little distance between faces; of small body"
+  },
+  {
+   "id": 849,
+   "word": "white",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "of the color of clean snow, taking in no color"
+  },
+  {
+   "id": 850,
+   "word": "wrong",
+   "pos": "adj",
+   "ring": 0,
+   "cat": "qualities_opposites",
+   "gloss": "not right, against fact or rule"
+  }
+ ]
+}

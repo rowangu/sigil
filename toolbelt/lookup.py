@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""HAI toolbelt — lookup.py: sub-database retrieval over the word network.
+"""SIGIL toolbelt - lookup.py: sub-database retrieval over the word network.
 
 Give it a word or a question; it embeds the query with the same backend
 embed.py used, scans the vector store, and returns the nearest words with
@@ -7,7 +7,7 @@ their word-numbers and definitions.
 
 Sub-databases (--cat) are the notebook's sub-databases: the ring-0
 categories (operations, things_general, things_picturable,
-qualities_general, qualities_opposites), ring1, and ring2.
+qualities_general, qualities_opposites) plus ring1, ring2, ring3, ...
 
 Examples:
     python3 lookup.py hello
@@ -26,12 +26,10 @@ import sys
 
 HERE = pathlib.Path(__file__).parent
 sys.path.insert(0, str(HERE))
-from embed import embed_texts, DIMS  # noqa: E402
+from embed import embed_texts, discover_rings  # noqa: E402
 
 DB = HERE / 'hai.db'
 SEED = HERE.parent / 'seed' / 'seed.json'
-RING1 = HERE.parent / 'seed' / 'ring1.json'
-RING2 = HERE.parent / 'seed' / 'ring2.json'
 
 
 def cosine(a, b):
@@ -47,20 +45,20 @@ def main():
     ap.add_argument('--def', dest='define', metavar='WORD',
                     help='show the full record for one word')
     ap.add_argument('--topk', type=int, default=10)
-    ap.add_argument('--ring', type=int, choices=[0, 1, 2])
+    ap.add_argument('--ring', type=int,
+                    help='restrict to a specific ring (0, 1, 2, ...)')
     ap.add_argument('--cat', help='sub-database: operations, '
                     'things_general, things_picturable, qualities_general, '
-                    'qualities_opposites, ring1, ring2')
+                    'qualities_opposites, ring1, ring2, ring3, ...')
     args = ap.parse_args()
 
     # --def WORD: straight record lookup, no vectors needed
     if args.define:
         target = args.define.lower()
         found = False
-        docs = [json.load(open(SEED, encoding='utf-8')),
-                json.load(open(RING1, encoding='utf-8'))]
-        if RING2.exists():
-            docs.append(json.load(open(RING2, encoding='utf-8')))
+        docs = [json.load(open(SEED, encoding='utf-8'))]
+        for _, p in discover_rings():
+            docs.append(json.load(open(p, encoding='utf-8')))
         for doc in docs:
             for e in doc.get('primes', doc.get('words', [])):
                 if e['word'] == target:
@@ -105,7 +103,7 @@ def main():
     print(f'sub-database: {args.cat or args.ring or "all"} '
           f'({len(rows)} words scanned)\n')
     for sim, rid, word, ring, cat, text in scored[:args.topk]:
-        print(f'  #{rid:<4d} {word:<12s} ring{ring}  {cat:<20s} '
+        print(f'  #{rid:<6d} {word:<14s} ring{ring}  {cat:<20s} '
               f'{sim:.3f}  {text[:48]}')
     return 0
 

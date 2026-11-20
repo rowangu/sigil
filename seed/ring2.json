@@ -2,9 +2,9 @@
  "meta": {
   "ring": 2,
   "count": 1449,
-  "source": "frequency-ranked English word-forms (ranks 2..20000 of the google-10000-english 20k list), minus everything already in the store",
-  "method": "each definition authored under a closed-vocabulary contract and validated mechanically: every token must resolve to a ring-0/ring-1 wordform, a Basic English free form, or a regular word-form of one (-s/-es/-ed/-d/-ing/-er/-est/-ied); see seed/validator.py",
-  "status": "checkpointed batch 1 of an ongoing expansion; the generator resumes from done.jsonl"
+  "source": "SCOWL English word list (rings 3+) or Google 20k frequency list (ring 2); see seed/SOURCES.md",
+  "method": "each definition authored under a closed-vocabulary contract (LLM) and validated mechanically: every token must resolve to a wordform in rings 0..1, a Basic English free form, or a regular word-form of one (-s/-es/-ed/-d/-ing/-er/-est/-ied); see seed/validator.py",
+  "status": "checkpointed batch of an ongoing expansion; the generator resumes from done.jsonl"
  },
  "words": [
   {

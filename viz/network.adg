@@ -1,7 +1,6 @@
-// SIGIL word network — generated from seed.json + ring1.json + ring2.json
-// 850 primes (ring 0) + 326 words (ring 1) + 1449 words (ring 2).
-// Open this file in the Ampersand web IDE to walk the network:
-//   node w851 is "hello"; its edges are the primes it stands on.
+// SIGIL word network - generated from seed.json + ring*.json
+// 850 primes (ring 0) + 326 words (ring 1) + 1449 words (ring 2) + 4 words (ring 3).
+// Open this file in the Ampersand web IDE to walk the network.
 // Regenerate with: python3 scripts/gen_network_adg.py
 
 graph sigil_word_net;
@@ -1189,6 +1188,7 @@ node immutable w1173 { value: "1173:task" };
 node immutable w1174 { value: "1174:progress" };
 node immutable w1175 { value: "1175:schedule" };
 node immutable w1176 { value: "1176:deadline" };
+
 node immutable w1177 { value: "1177:home" };
 node immutable w1178 { value: "1178:can" };
 node immutable w1179 { value: "1179:site" };
@@ -2638,6 +2638,11 @@ node immutable w2622 { value: "2622:potter" };
 node immutable w2623 { value: "2623:dish" };
 node immutable w2624 { value: "2624:slot" };
 node immutable w2625 { value: "2625:lodge" };
+
+node immutable w2626 { value: "2626:abate" };
+node immutable w2627 { value: "2627:abdomen" };
+node immutable w2628 { value: "2628:abide" };
+node immutable w2629 { value: "2629:ablaze" };
 
 edge w2 -> w851;
 edge w13 -> w851;
@@ -17177,8 +17182,48 @@ edge w856 -> w2625;
 edge w843 -> w2625;
 edge w890 -> w2625;
 edge w92 -> w2625;
+edge w108 -> w2626;
+edge w906 -> w2626;
+edge w41 -> w2626;
+edge w1373 -> w2626;
+edge w45 -> w2626;
+edge w57 -> w2626;
+edge w843 -> w2626;
+edge w785 -> w2626;
+edge w83 -> w2626;
+edge w11 -> w2627;
+edge w18 -> w2627;
+edge w131 -> w2627;
+edge w545 -> w2627;
+edge w886 -> w2627;
+edge w2586 -> w2627;
+edge w53 -> w2627;
+edge w58 -> w2627;
+edge w337 -> w2627;
+edge w673 -> w2627;
+edge w76 -> w2627;
+edge w2 -> w2628;
+edge w106 -> w2628;
+edge w41 -> w2628;
+edge w42 -> w2628;
+edge w903 -> w2628;
+edge w57 -> w2628;
+edge w342 -> w2628;
+edge w62 -> w2628;
+edge w390 -> w2628;
+edge w890 -> w2628;
+edge w459 -> w2628;
+edge w83 -> w2628;
+edge w87 -> w2628;
+edge w97 -> w2628;
+edge w11 -> w2629;
+edge w137 -> w2629;
+edge w221 -> w2629;
+edge w245 -> w2629;
+edge w282 -> w2629;
+edge w55 -> w2629;
+edge w59 -> w2629;
 
 // end node so the graph satisfies LAW 6 when compiled
 node result net_end { end: true };
 edge w851 -> net_end;
-

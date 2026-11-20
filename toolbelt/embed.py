@@ -1,21 +1,22 @@
 #!/usr/bin/env python3
-"""SIGIL toolbelt — embed.py: put every word of the network into vector space.
+"""SIGIL toolbelt - embed.py: put every word of the network into vector space.
 
 The toolbelt is the learner's side of SIGIL (the fixed core never grows;
-this file may change freely). It reads seed.json + ring1.json + ring2.json,
-embeds each word (word + definition text), and stores the vectors in an
-SQLite database for lookup.py.
+this file may change freely). It reads seed.json + ring1.json + ring2.json
++ ... + ringN.json (all rings present on disk), embeds each word
+(word + definition text), and stores the vectors in a SQLite database
+for lookup.py.
 
 Backends (first available wins):
-  1. ollama   — nomic-embed-text served at localhost:11434
+  1. ollama   - nomic-embed-text served at localhost:11434
                 (ollama pull nomic-embed-text)
-  2. hash     — deterministic 256-dim char-trigram hashing. No network,
+  2. hash     - deterministic 256-dim char-trigram hashing. No network,
                 bit-exact across machines, good enough to demo retrieval.
                 NOT semantic: swap in the ollama backend for real work.
 
 Usage:
     python3 embed.py                 # (re)build toolbelt/hai.db
-    python3 embed.py --backend hash # force the offline backend
+    python3 embed.py --backend hash  # force the offline backend
 """
 import argparse
 import json
@@ -28,11 +29,20 @@ import urllib.request
 
 HERE = pathlib.Path(__file__).parent
 SEED = HERE.parent / 'seed' / 'seed.json'
-RING1 = HERE.parent / 'seed' / 'ring1.json'
-RING2 = HERE.parent / 'seed' / 'ring2.json'
 DB = HERE / 'hai.db'
-
 DIMS = 256
+
+
+def discover_rings():
+    """Return list of (ring_num, path) for all ringN.json present, sorted."""
+    rings = []
+    for n in range(1, 20):
+        p = HERE.parent / 'seed' / f'ring{n}.json'
+        if p.exists():
+            rings.append((n, p))
+        else:
+            break
+    return rings
 
 
 def ollama_available(host='http://localhost:11434'):
@@ -87,20 +97,17 @@ def main():
     args = ap.parse_args()
 
     seed = json.load(open(SEED, encoding='utf-8'))
-    ring1 = json.load(open(RING1, encoding='utf-8'))
-    ring2 = json.load(open(RING2, encoding='utf-8')) \
-        if RING2.exists() else {'words': []}
+    rings = discover_rings()
 
     rows = []
     for e in seed['primes']:
         rows.append((e['id'], e['word'], 0, e['pos'], e['cat'],
                      f"{e['word']}: {e['gloss']}"))
-    for e in ring1['words']:
-        rows.append((e['id'], e['word'], 1, e['pos'], 'ring1',
-                     f"{e['word']}: {e['def']}"))
-    for e in ring2['words']:
-        rows.append((e['id'], e['word'], 2, e['pos'], 'ring2',
-                     f"{e['word']}: {e['def']}"))
+    for n, p in rings:
+        doc = json.load(open(p, encoding='utf-8'))
+        for e in doc['words']:
+            rows.append((e['id'], e['word'], n, e['pos'], f'ring{n}',
+                         f"{e['word']}: {e['def']}"))
 
     t0 = time.time()
     vecs, used = embed_texts([r[5] for r in rows], args.backend)
@@ -124,10 +131,13 @@ def main():
     ])
     con.commit()
     con.close()
-    print(f'embedded {len(rows)} words with backend {used} in {dt:.1f}s')
+    ring_summary = ', '.join(f'ring{n}={sum(1 for r in rows if r[2]==n)}'
+                             for n in [0] + [r[0] for r in rings])
+    print(f'embedded {len(rows)} words ({ring_summary}) '
+          f'with backend {used} in {dt:.1f}s')
     print(f'wrote {DB}')
     if used.startswith('hash'):
-        print('note: hash backend is a placeholder — install ollama + '
+        print('note: hash backend is a placeholder - install ollama + '
               'nomic-embed-text for real semantics')
 
 

@@ -1,6 +1,6 @@
 # Word-list provenance
 
-The 850-word kernel of HAI is Ogden's Basic English (C. K. Ogden, 1930,
+The 850-word kernel of SIGIL is Ogden's Basic English (C. K. Ogden, 1930,
 public domain). Because the canonical ogden.basic-english.org site is
 dead-domain, the list was assembled from two independent copies and
 cross-checked:
@@ -41,3 +41,30 @@ Counts in `seed.json` (which `validator.py` re-checks):
 
 The 850 grounding glosses and all 326 ring-1 definitions are original
 work authored for this repository.
+
+## Ring 2 (word selection)
+
+Ring-2 words are frequency-ranked English word-forms taken in order from
+the **google-10000-english 20k list** (first20hours/google-10000-english,
+MIT licence) — the 20,000 most common word-forms of American English
+in Google's trillion-word corpus (originally compiled by Google's
+research team as the Google Web 1T 5-gram top-10k/100k lists).
+
+Selection rules (see `tools/ring2/build_candidates.py`, kept with
+the generator, not in this repo):
+
+* every list entry already present in ring 0, ring 1, or the whitelist
+  is skipped (the store never defines a word twice);
+* obvious non-words (numbers, URLs, 1–2 letter noise) are dropped;
+* a small profanity filter removes a handful of vulgar terms (this is a
+  school-born project);
+* ids continue from 1177, so word order = frequency order.
+
+The 1449 ring-2 *definitions* are original work authored for this
+repository under a closed-vocabulary contract: each definition was
+written to use only ring-0 + ring-1 wordforms (plus the free machinery
+and regular endings), then checked mechanically — every token must
+resolve to a lower-ring wordform in `validator.py`. Definitions that
+failed were dropped or rewritten; only validated ones are in
+`ring2.json` (0 violations). Batch 1 is checkpointed and later batches
+extend it in frequency order.

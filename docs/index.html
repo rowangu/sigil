@@ -109,6 +109,7 @@
   <div class="quick">
     <button onclick="selectWord('hello')">hello #851</button>
     <button onclick="selectWord('computer')">computer #949</button>
+    <button onclick="selectWord('homepage')">homepage #1631</button>
   </div>
   <form class="search" onsubmit="return doSearch(event)">
     <input id="q" placeholder="find a word… (Enter)" autocomplete="off" spellcheck="false">
@@ -118,15 +119,16 @@
 <div id="wrap">
   <canvas id="net"></canvas>
   <div id="legend"><h2>ring 0 — 850 primes</h2><div id="leg0"></div>
-    <h2 style="margin-top:9px">ring 1 — 326 words</h2><div id="leg1"></div></div>
+    <h2 style="margin-top:9px">ring 1 — 326 words</h2><div id="leg1"></div>
+    <h2 style="margin-top:9px">ring 2 — <span id="leg2n"></span> words</h2><div id="leg2"></div></div>
   <div id="tip"></div>
   <div id="panel"></div>
   <div id="story">
     <b>Ring 0 has no word-edges</b> — every prime is a <i>sigil</i>: a mark
-    that means by <i>pointing</i> (pictures, acts, sounds), never by other
-    words. Hover a ring-1 word to see the primes it stands on. The notebook
-    said <b>“3212 = hello”</b> — in this store <b>hello</b> sits at word
-    <b>#851</b>, the first word of ring 1.
+    that means by <i>pointing</i>, never by other words. Ring 1 and ring 2
+    words are built only from the rings below them. The notebook said
+    <b>“3212 = hello”</b> — in this store <b>hello</b> is word <b>#851</b>,
+    the first word of ring 1.
     <a href="https://github.com/rowangu/sigil" target="_blank" rel="noopener"
        style="color:var(--accent);text-decoration:none">source ↗</a>
   </div>
@@ -137,13 +139,15 @@
 const D = HAI_DATA, CAT_COLORS = {
   operations:'#64b5f6', things_general:'#ffb74d', things_picturable:'#81c784',
   qualities_general:'#ce93d8', qualities_opposites:'#f06292',
-  r1_everyday:'#e3c567', r1_computing:'#45b5c9', r1_systems:'#a08bc8'
+  r1_everyday:'#e3c567', r1_computing:'#45b5c9', r1_systems:'#a08bc8',
+  r2_words:'#6d7f93'
 };
 const CAT_LABELS = {
   operations:['operations'], things_general:['general things'],
   things_picturable:['picturable things'], qualities_general:['qualities'],
   qualities_opposites:['opposites'], r1_everyday:['everyday speech'],
-  r1_computing:['computing'], r1_systems:['systems & notebook']
+  r1_computing:['computing'], r1_systems:['systems & notebook'],
+  r2_words:['ring 2 — new words']
 };
 const nodes = D.nodes, byId = {};
 nodes.forEach(n => byId[n.i] = n);
@@ -190,6 +194,38 @@ function selectWord(w) {
   return false;
 }
 
+// ---------- static background layer (all nodes+edges, drawn once) ------
+const BGS = 1.5;                      // world -> bg pixel ratio
+const bg = document.createElement('canvas');
+const BGC = { x: 0, y: 0 };
+(function buildBG() {
+  let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9;
+  nodes.forEach(n => { x0=Math.min(x0,n.x); y0=Math.min(y0,n.y);
+                       x1=Math.max(x1,n.x); y1=Math.max(y1,n.y); });
+  BGC.x = (x0+x1)/2; BGC.y = (y0+y1)/2;
+  bg.width = bg.height = Math.ceil(Math.max(x1-x0, y1-y0) * BGS) + 40;
+  const b = bg.getContext('2d');
+  b.translate(bg.width/2, bg.height/2);
+  b.scale(BGS, BGS);
+  b.translate(-BGC.x, -BGC.y);
+  // all edges, one path, one stroke
+  b.strokeStyle = 'rgba(180,196,220,0.045)';
+  b.lineWidth = 1 / BGS;
+  b.beginPath();
+  for (const [a, c] of D.edges) {
+    b.moveTo(byId[a].x, byId[a].y);
+    b.lineTo(byId[c].x, byId[c].y);
+  }
+  b.stroke();
+  // all nodes
+  for (const n of nodes) {
+    b.beginPath();
+    b.arc(n.x, n.y, n.i > 1176 ? 2.1 : (n.i > 850 ? 2.6 : 2.9), 0, 7);
+    b.fillStyle = CAT_COLORS[n.c];
+    b.fill();
+  }
+})();
+
 // ---------- draw ----------
 function draw() {
   const w = cv.clientWidth, h = cv.clientHeight;
@@ -198,17 +234,12 @@ function draw() {
           : selected != null ? neighborsOf(selected) : null;
   const hiId = hovered ?? selected;
 
-  // edges
-  ctx.lineWidth = 1;
-  for (const [a, b] of D.edges) {
-    const on = hi && (a === hiId || b === hiId);
-    if (on) continue;                       // drawn again below, bright
-    ctx.strokeStyle = 'rgba(180,196,220,0.05)';
-    ctx.beginPath();
-    ctx.moveTo(sx(byId[a].x), sy(byId[a].y));
-    ctx.lineTo(sx(byId[b].x), sy(byId[b].y));
-    ctx.stroke();
-  }
+  // blit the static network
+  const k = scale / BGS;
+  ctx.drawImage(bg, sx(BGC.x) - bg.width/2 * k, sy(BGC.y) - bg.height/2 * k,
+               bg.width * k, bg.height * k);
+
+  // dynamic highlights: adjacency edges + halos
   if (hi) {
     ctx.strokeStyle = 'rgba(255,193,7,0.85)'; ctx.lineWidth = 1.4;
     for (const j of adj[hiId]) {
@@ -217,21 +248,17 @@ function draw() {
       ctx.lineTo(sx(byId[j].x), sy(byId[j].y));
       ctx.stroke();
     }
-    ctx.lineWidth = 1;
+    for (const j of hi) {
+      const n = byId[j];
+      const R = (j === hiId ? 6.4 : 4.6) * Math.max(scale, 0.8);
+      ctx.beginPath();
+      ctx.arc(sx(n.x), sy(n.y), R, 0, 7);
+      ctx.fillStyle = CAT_COLORS[n.c];
+      ctx.fill();
+    }
   }
 
-  // nodes
-  for (const n of nodes) {
-    const hot = hi && hi.has(n.i);
-    const R = (n.i > 850 ? 3.4 : 3) * (n.i === hiId ? 1.9 :
-              hot ? 1.45 : 1);
-    ctx.beginPath();
-    ctx.arc(sx(n.x), sy(n.y), Math.max(R*scale, hot ? 3.2 : 1.4), 0, 7);
-    ctx.fillStyle = hi && !hot ? '#39424f' : CAT_COLORS[n.c];
-    ctx.fill();
-  }
-
-  // labels: always for hovered/selected + neighbours; all when zoomed in
+  // labels: always for hovered/selected + neighbours; culled when zoomed
   ctx.font = '10px "Segoe UI", system-ui, sans-serif';
   ctx.textAlign = 'center';
   if (hi) for (const j of hi) {
@@ -240,9 +267,14 @@ function draw() {
     ctx.fillText(n.w, sx(n.x), sy(n.y) - 7);
   }
   if (scale >= 2.2) {
+    const wx0 = (0 - ox)/scale, wx1 = (w - ox)/scale;
+    const wy0 = (0 - oy)/scale, wy1 = (h - oy)/scale;
     ctx.fillStyle = 'rgba(223,230,240,0.72)';
-    for (const n of nodes) if (!(hi && hi.has(n.i)))
+    for (const n of nodes) {
+      if (n.x < wx0 || n.x > wx1 || n.y < wy0 || n.y > wy1) continue;
+      if (hi && hi.has(n.i)) continue;
       ctx.fillText(n.w, sx(n.x), sy(n.y) - 7);
+    }
   }
 
   // cluster + arc captions
@@ -250,8 +282,8 @@ function draw() {
   // ring-0 cluster captions at pentagon vertices
   ctx.fillStyle = 'rgba(139,152,171,0.85)'; ctx.font = '11px system-ui';
   const PENT = 255, cats = ['operations','things_general','things_picturable','qualities_general','qualities_opposites'];
-  cats.forEach((c, k) => {
-    const a = -Math.PI/2 + k*(2*Math.PI/5);
+  cats.forEach((c, c2) => {
+    const a = -Math.PI/2 + c2*(2*Math.PI/5);
     const label = CAT_LABELS[c][0] + ' · ' + D.meta.cats[c];
     ctx.fillText(label, sx(PENT*Math.cos(a)), sy(PENT*Math.sin(a)) - (D.meta.cats[c]>200?118:70)*scale - 6);
   });
@@ -264,6 +296,9 @@ function draw() {
     ctx.fillText(CAT_LABELS[c][0] + ' · ' + cnt,
       sx(R1*Math.cos(a)*1.13), sy(R1*Math.sin(a)*1.13));
   }
+  // ring-2 band caption
+  ctx.fillStyle = 'rgba(139,152,171,0.75)';
+  ctx.fillText('ring 2 · ' + D.meta.ring2 + ' new words', sx(0), sy(940));
   ctx.fillStyle = 'rgba(139,152,171,0.5)'; ctx.font = '12px system-ui';
   ctx.fillText('words defined by words', sx(0), sy(0));
 }
@@ -363,7 +398,7 @@ function showPanel(id) {
   if (n.i <= 850) {
     html += `<div class="kicker" style="color:${color}">prime · ring 0</div>
       <div class="word">${n.w}</div>
-      <div class="wnum">word #${n.i} of 1176 · grounded by pointing</div>
+      <div class="wnum">word #${n.i} of ${D.meta.primes + D.meta.ring1 + D.meta.ring2} · grounded by pointing</div>
       <div class="defbox">${D.glosses[id] || ''}</div>
       <div class="lbl">point at the world</div>
       <div style="color:var(--dim);font-size:12.5px">
@@ -375,17 +410,19 @@ function showPanel(id) {
        + (adj[id].length > 24 ? `<span class="more">+${adj[id].length-24} more</span>` : '')) +
       `</div>`;
   } else {
-    html += `<div class="kicker" style="color:${color}">ring 1 · defined from ring 0 only</div>
+    const ring = n.i <= 1176 ? 1 : 2;
+    const from = ring === 1 ? 'ring 0 only' : 'rings 0 + 1 only';
+    html += `<div class="kicker" style="color:${color}">ring ${ring} · defined from ${from}</div>
       <div class="word">${n.w}</div>
-      <div class="wnum">word #${n.i} of 1176 · ${CAT_LABELS[n.c][0]}</div>
+      <div class="wnum">word #${n.i} of ${D.meta.primes + D.meta.ring1 + D.meta.ring2} · ${CAT_LABELS[n.c][0]}</div>
       <div class="defbox">${D.defs[id] || ''}</div>
-      <div class="lbl">stands on ${adj[id].length} primes</div>
+      <div class="lbl">stands on ${adj[id].length} lower words</div>
       <div class="chips">` +
       adj[id].slice(0, 26).map(j => `<span class="chip" onclick="select(${j})">${byId[j].w}</span>`).join('') +
       (adj[id].length > 26 ? `<span class="more">+${adj[id].length-26} more</span>` : '') +
       `</div><div class="lbl">how to read it</div>
       <div style="color:var(--dim);font-size:12.5px">Every word in this
-      definition is a ring-0 wordform — checked mechanically by
+      definition is a lower-ring wordform — checked mechanically by
       <a href="https://github.com/rowangu/sigil/blob/main/seed/validator.py" target="_blank" rel="noopener">validator.py</a>
       (0 violations).</div>`;
   }
@@ -424,9 +461,12 @@ legendInto(document.getElementById('leg0'),
     .map(c => [c, D.meta.cats[c]]));
 legendInto(document.getElementById('leg1'),
   ['r1_everyday','r1_computing','r1_systems'].map(c => [c, D.meta.batches[c]]));
+document.getElementById('leg2n').textContent = D.meta.ring2;
+legendInto(document.getElementById('leg2'), [['r2_words', D.meta.ring2]]);
 document.getElementById('stats').innerHTML =
-  `<b>${D.meta.primes}</b> primes · <b>${D.meta.ring1}</b> ring-1 words ·
-   <b>${D.meta.edges}</b> definition edges · <b>0</b> violations`;
+  `<b>${D.meta.primes}</b> primes · <b>${D.meta.ring1}</b> ring-1 ·
+   <b>${D.meta.ring2}</b> ring-2 · <b>${D.meta.edges}</b> definition edges ·
+   <b>0</b> violations`;
 resize(); fit(); requestAnimationFrame(loop);
 </script>
 </body>

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""HAI toolbelt — embed.py: put every word of the network into vector space.
+"""SIGIL toolbelt — embed.py: put every word of the network into vector space.
 
-The toolbelt is the learner's side of HAI (the fixed core never grows;
-this file may change freely). It reads seed.json + ring1.json, embeds each
-word (word + definition text), and stores the vectors in an SQLite
-database for lookup.py.
+The toolbelt is the learner's side of SIGIL (the fixed core never grows;
+this file may change freely). It reads seed.json + ring1.json + ring2.json,
+embeds each word (word + definition text), and stores the vectors in an
+SQLite database for lookup.py.
 
 Backends (first available wins):
   1. ollama   — nomic-embed-text served at localhost:11434
@@ -29,6 +29,7 @@ import urllib.request
 HERE = pathlib.Path(__file__).parent
 SEED = HERE.parent / 'seed' / 'seed.json'
 RING1 = HERE.parent / 'seed' / 'ring1.json'
+RING2 = HERE.parent / 'seed' / 'ring2.json'
 DB = HERE / 'hai.db'
 
 DIMS = 256
@@ -87,6 +88,8 @@ def main():
 
     seed = json.load(open(SEED, encoding='utf-8'))
     ring1 = json.load(open(RING1, encoding='utf-8'))
+    ring2 = json.load(open(RING2, encoding='utf-8')) \
+        if RING2.exists() else {'words': []}
 
     rows = []
     for e in seed['primes']:
@@ -94,6 +97,9 @@ def main():
                      f"{e['word']}: {e['gloss']}"))
     for e in ring1['words']:
         rows.append((e['id'], e['word'], 1, e['pos'], 'ring1',
+                     f"{e['word']}: {e['def']}"))
+    for e in ring2['words']:
+        rows.append((e['id'], e['word'], 2, e['pos'], 'ring2',
                      f"{e['word']}: {e['def']}"))
 
     t0 = time.time()

@@ -7,13 +7,13 @@ their word-numbers and definitions.
 
 Sub-databases (--cat) are the notebook's sub-databases: the ring-0
 categories (operations, things_general, things_picturable,
-qualities_general, qualities_opposites) and ring1.
+qualities_general, qualities_opposites), ring1, and ring2.
 
 Examples:
     python3 lookup.py hello
     python3 lookup.py "a machine that thinks" --topk 5
     python3 lookup.py water --cat things_picturable
-    python3 lookup.py "" --ring 1 --topk 20 --def computer
+    python3 lookup.py "" --ring 2 --topk 20 --def homepage
 """
 import argparse
 import json
@@ -31,6 +31,7 @@ from embed import embed_texts, DIMS  # noqa: E402
 DB = HERE / 'hai.db'
 SEED = HERE.parent / 'seed' / 'seed.json'
 RING1 = HERE.parent / 'seed' / 'ring1.json'
+RING2 = HERE.parent / 'seed' / 'ring2.json'
 
 
 def cosine(a, b):
@@ -46,18 +47,21 @@ def main():
     ap.add_argument('--def', dest='define', metavar='WORD',
                     help='show the full record for one word')
     ap.add_argument('--topk', type=int, default=10)
-    ap.add_argument('--ring', type=int, choices=[0, 1])
+    ap.add_argument('--ring', type=int, choices=[0, 1, 2])
     ap.add_argument('--cat', help='sub-database: operations, '
                     'things_general, things_picturable, qualities_general, '
-                    'qualities_opposites, ring1')
+                    'qualities_opposites, ring1, ring2')
     args = ap.parse_args()
 
     # --def WORD: straight record lookup, no vectors needed
     if args.define:
         target = args.define.lower()
         found = False
-        for doc in (json.load(open(SEED, encoding='utf-8')),
-                    json.load(open(RING1, encoding='utf-8'))):
+        docs = [json.load(open(SEED, encoding='utf-8')),
+                json.load(open(RING1, encoding='utf-8'))]
+        if RING2.exists():
+            docs.append(json.load(open(RING2, encoding='utf-8')))
+        for doc in docs:
             for e in doc.get('primes', doc.get('words', [])):
                 if e['word'] == target:
                     txt = e.get('gloss', e.get('def', ''))

@@ -1,7 +1,7 @@
 {
  "meta": {
   "ring": 2,
-  "count": 3181,
+  "count": 3854,
   "source": "SCOWL English word list (rings 3+) or Google 20k frequency list (ring 2); see seed/SOURCES.md",
   "method": "each definition authored under a closed-vocabulary contract (LLM) and validated mechanically: every token must resolve to a wordform in rings 0..1, a Basic English free form, or a regular word-form of one (-s/-es/-ed/-d/-ing/-er/-est/-ied); see seed/validator.py",
   "status": "checkpointed batch of an ongoing expansion; the generator resumes from done.jsonl"
@@ -54308,6 +54308,11797 @@
     "thing",
     "to",
     "use"
+   ]
+  },
+  {
+   "id": 4358,
+   "word": "ellis",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name that is given to a person, a name that is used for a male or female",
+   "uses": [
+    "a",
+    "female",
+    "for",
+    "male",
+    "name",
+    "or",
+    "person",
+    "that",
+    "to",
+    "use"
+   ]
+  },
+  {
+   "id": 4359,
+   "word": "disable",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to make not able to do a thing, to stop the working of something",
+   "uses": [
+    "a",
+    "able",
+    "do",
+    "make",
+    "not",
+    "of",
+    "stop",
+    "the",
+    "thing",
+    "to",
+    "work"
+   ]
+  },
+  {
+   "id": 4360,
+   "word": "leonard",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name that is given to a man, a name that is from an old language",
+   "uses": [
+    "a",
+    "from",
+    "language",
+    "man",
+    "name",
+    "old",
+    "that",
+    "to"
+   ]
+  },
+  {
+   "id": 4361,
+   "word": "lending",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the act of giving something to someone for a time, the act of letting one use something",
+   "uses": [
+    "a",
+    "act",
+    "for",
+    "of",
+    "the",
+    "time",
+    "to",
+    "use"
+   ]
+  },
+  {
+   "id": 4362,
+   "word": "oops",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a word that is said when one makes a small mistake, a word that shows surprise",
+   "uses": [
+    "a",
+    "mistake",
+    "show",
+    "small",
+    "surprise",
+    "that",
+    "when",
+    "word"
+   ]
+  },
+  {
+   "id": 4363,
+   "word": "reminder",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a thing that makes one remember something, a note that tells one of a thing",
+   "uses": [
+    "a",
+    "note",
+    "of",
+    "remember",
+    "tell",
+    "that",
+    "thing"
+   ]
+  },
+  {
+   "id": 4364,
+   "word": "nipple",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a small part that sticks out from the body, a small part on a bottle for a baby",
+   "uses": [
+    "a",
+    "baby",
+    "body",
+    "bottle",
+    "for",
+    "from",
+    "on",
+    "out",
+    "part",
+    "small",
+    "stick",
+    "that",
+    "the"
+   ]
+  },
+  {
+   "id": 4365,
+   "word": "searched",
+   "pos": "noun",
+   "ring": 2,
+   "def": "looked for with care, tried to find by looking in a great number of places",
+   "uses": [
+    "a",
+    "by",
+    "care",
+    "find",
+    "for",
+    "great",
+    "in",
+    "look",
+    "number",
+    "of",
+    "place",
+    "to",
+    "try",
+    "with"
+   ]
+  },
+  {
+   "id": 4366,
+   "word": "behavioral",
+   "pos": "noun",
+   "ring": 2,
+   "def": "about the way one acts, about the way one does things",
+   "uses": [
+    "about",
+    "act",
+    "the",
+    "thing",
+    "way"
+   ]
+  },
+  {
+   "id": 4367,
+   "word": "bathrooms",
+   "pos": "noun",
+   "ring": 2,
+   "def": "rooms that have a bath or a place for waste, places that are for washing the body",
+   "uses": [
+    "a",
+    "bath",
+    "body",
+    "for",
+    "have",
+    "or",
+    "place",
+    "room",
+    "that",
+    "the",
+    "wash",
+    "waste"
+   ]
+  },
+  {
+   "id": 4368,
+   "word": "plains",
+   "pos": "noun",
+   "ring": 2,
+   "def": "lands that are flat and open, great parts of land with little trees",
+   "uses": [
+    "and",
+    "flat",
+    "great",
+    "land",
+    "little",
+    "of",
+    "open",
+    "part",
+    "that",
+    "tree",
+    "with"
+   ]
+  },
+  {
+   "id": 4369,
+   "word": "raymond",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name that is from an old language, a name that is given to a man",
+   "uses": [
+    "a",
+    "from",
+    "language",
+    "man",
+    "name",
+    "old",
+    "that",
+    "to"
+   ]
+  },
+  {
+   "id": 4370,
+   "word": "insights",
+   "pos": "noun",
+   "ring": 2,
+   "def": "deep thoughts about a thing, clear ideas about how a thing works",
+   "uses": [
+    "a",
+    "about",
+    "clear",
+    "deep",
+    "how",
+    "idea",
+    "thing",
+    "thought",
+    "work"
+   ]
+  },
+  {
+   "id": 4371,
+   "word": "karaoke",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a form of amusement where one sings, a play where one sings with music",
+   "uses": [
+    "a",
+    "amusement",
+    "form",
+    "music",
+    "of",
+    "play",
+    "sing",
+    "where",
+    "with"
+   ]
+  },
+  {
+   "id": 4372,
+   "word": "lonely",
+   "pos": "noun",
+   "ring": 2,
+   "def": "feeling that one is not with others, feeling that one is far from friends",
+   "uses": [
+    "far",
+    "feeling",
+    "friend",
+    "from",
+    "not",
+    "other",
+    "that",
+    "with"
+   ]
+  },
+  {
+   "id": 4373,
+   "word": "fool",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a person who is not wise, one who acts without thinking",
+   "uses": [
+    "a",
+    "act",
+    "not",
+    "person",
+    "think",
+    "who",
+    "wise"
+   ]
+  },
+  {
+   "id": 4374,
+   "word": "nonprofit",
+   "pos": "noun",
+   "ring": 2,
+   "def": "not done to make money, done for the good of people and not for profit",
+   "uses": [
+    "and",
+    "for",
+    "good",
+    "make",
+    "money",
+    "not",
+    "of",
+    "people",
+    "profit",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 4375,
+   "word": "lancaster",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name that is from a place, a name that is given to a man or woman",
+   "uses": [
+    "a",
+    "from",
+    "man",
+    "name",
+    "or",
+    "place",
+    "that",
+    "to",
+    "woman"
+   ]
+  },
+  {
+   "id": 4376,
+   "word": "suspended",
+   "pos": "noun",
+   "ring": 2,
+   "def": "hanging from something, not working for a time",
+   "uses": [
+    "a",
+    "for",
+    "from",
+    "hanging",
+    "not",
+    "time",
+    "work"
+   ]
+  },
+  {
+   "id": 4377,
+   "word": "hereby",
+   "pos": "noun",
+   "ring": 2,
+   "def": "by this way, in this way or by this act",
+   "uses": [
+    "act",
+    "by",
+    "in",
+    "or",
+    "this",
+    "way"
+   ]
+  },
+  {
+   "id": 4378,
+   "word": "containers",
+   "pos": "noun",
+   "ring": 2,
+   "def": "things that hold other things, boxes or bags that have something inside",
+   "uses": [
+    "bag",
+    "box",
+    "have",
+    "hold",
+    "or",
+    "other",
+    "that",
+    "thing"
+   ]
+  },
+  {
+   "id": 4379,
+   "word": "attitudes",
+   "pos": "noun",
+   "ring": 2,
+   "def": "ways of thinking about things, feelings that one shows about a thing talked about",
+   "uses": [
+    "a",
+    "about",
+    "feeling",
+    "of",
+    "show",
+    "talk",
+    "that",
+    "thing",
+    "think",
+    "way"
+   ]
+  },
+  {
+   "id": 4380,
+   "word": "simultaneously",
+   "pos": "noun",
+   "ring": 2,
+   "def": "at the same time, together in one moment",
+   "uses": [
+    "at",
+    "in",
+    "moment",
+    "same",
+    "the",
+    "time",
+    "together"
+   ]
+  },
+  {
+   "id": 4381,
+   "word": "racial",
+   "pos": "noun",
+   "ring": 2,
+   "def": "about a people group, about the group one has by birth",
+   "uses": [
+    "a",
+    "about",
+    "birth",
+    "by",
+    "group",
+    "people",
+    "the"
+   ]
+  },
+  {
+   "id": 4382,
+   "word": "integrate",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to put parts together to make a complete unit, to join things so they work as one",
+   "uses": [
+    "a",
+    "as",
+    "complete",
+    "join",
+    "make",
+    "part",
+    "put",
+    "so",
+    "thing",
+    "to",
+    "together",
+    "unit",
+    "work"
+   ]
+  },
+  {
+   "id": 4383,
+   "word": "bermuda",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a place that is an island group, a country that is in the sea",
+   "uses": [
+    "a",
+    "country",
+    "group",
+    "in",
+    "island",
+    "place",
+    "sea",
+    "that",
+    "the"
+   ]
+  },
+  {
+   "id": 4384,
+   "word": "sociology",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the study of how people live in groups, the science of society and its rules",
+   "uses": [
+    "and",
+    "group",
+    "how",
+    "in",
+    "live",
+    "of",
+    "people",
+    "rule",
+    "science",
+    "society",
+    "study",
+    "the"
+   ]
+  },
+  {
+   "id": 4385,
+   "word": "mobiles",
+   "pos": "noun",
+   "ring": 2,
+   "def": "things that are able to move, phones that one has with oneself",
+   "uses": [
+    "able",
+    "move",
+    "phone",
+    "that",
+    "thing",
+    "to",
+    "with"
+   ]
+  },
+  {
+   "id": 4386,
+   "word": "screenshot",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a picture of a screen, a copy of a computer view",
+   "uses": [
+    "a",
+    "computer",
+    "copy",
+    "of",
+    "picture",
+    "screen",
+    "view"
+   ]
+  },
+  {
+   "id": 4387,
+   "word": "exhibitions",
+   "pos": "noun",
+   "ring": 2,
+   "def": "shows where things are put on show, public events that show things",
+   "uses": [
+    "event",
+    "on",
+    "public",
+    "put",
+    "show",
+    "that",
+    "thing",
+    "where"
+   ]
+  },
+  {
+   "id": 4388,
+   "word": "kelkoo",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name for a website that helps to find goods, a tool for getting things on the internet",
+   "uses": [
+    "a",
+    "find",
+    "for",
+    "good",
+    "help",
+    "internet",
+    "name",
+    "on",
+    "that",
+    "the",
+    "thing",
+    "to",
+    "tool",
+    "website"
+   ]
+  },
+  {
+   "id": 4389,
+   "word": "consortium",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a group of companies that work together, a team of groups for a purpose",
+   "uses": [
+    "a",
+    "company",
+    "for",
+    "group",
+    "of",
+    "purpose",
+    "team",
+    "that",
+    "together",
+    "work"
+   ]
+  },
+  {
+   "id": 4390,
+   "word": "dies",
+   "pos": "noun",
+   "ring": 2,
+   "def": "stops living, comes to the end of life",
+   "uses": [
+    "end",
+    "life",
+    "living",
+    "of",
+    "stop",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 4391,
+   "word": "terrace",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a flat place made on a slope, a line of houses that are joined together",
+   "uses": [
+    "a",
+    "flat",
+    "house",
+    "join",
+    "line",
+    "of",
+    "on",
+    "place",
+    "slope",
+    "that",
+    "together"
+   ]
+  },
+  {
+   "id": 4392,
+   "word": "pts",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a group of letters that stand for a thing, a code that points to a medical condition",
+   "uses": [
+    "a",
+    "code",
+    "condition",
+    "for",
+    "group",
+    "letter",
+    "medical",
+    "of",
+    "point",
+    "stand",
+    "that",
+    "thing",
+    "to"
+   ]
+  },
+  {
+   "id": 4393,
+   "word": "seafood",
+   "pos": "noun",
+   "ring": 2,
+   "def": "food that comes from the sea, fish and other things from the great water",
+   "uses": [
+    "and",
+    "fish",
+    "food",
+    "from",
+    "great",
+    "other",
+    "sea",
+    "that",
+    "the",
+    "thing",
+    "water"
+   ]
+  },
+  {
+   "id": 4394,
+   "word": "novels",
+   "pos": "noun",
+   "ring": 2,
+   "def": "long stories that are not true, books that tell made-up stories",
+   "uses": [
+    "book",
+    "long",
+    "not",
+    "story",
+    "tell",
+    "that",
+    "true",
+    "up"
+   ]
+  },
+  {
+   "id": 4395,
+   "word": "recipients",
+   "pos": "noun",
+   "ring": 2,
+   "def": "people who get something, the ones who are given a thing or a message",
+   "uses": [
+    "a",
+    "get",
+    "message",
+    "on",
+    "or",
+    "people",
+    "the",
+    "thing",
+    "who"
+   ]
+  },
+  {
+   "id": 4396,
+   "word": "delicious",
+   "pos": "adj",
+   "ring": 2,
+   "def": "having a very good taste, food that is very pleasing to eat",
+   "uses": [
+    "a",
+    "eat",
+    "food",
+    "good",
+    "please",
+    "taste",
+    "that",
+    "to",
+    "very"
+   ]
+  },
+  {
+   "id": 4397,
+   "word": "traditions",
+   "pos": "noun",
+   "ring": 2,
+   "def": "ways of doing things that are kept in a group from one generation to another",
+   "uses": [
+    "a",
+    "from",
+    "generation",
+    "group",
+    "in",
+    "of",
+    "that",
+    "thing",
+    "to",
+    "way"
+   ]
+  },
+  {
+   "id": 4398,
+   "word": "jail",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a place where people are kept as punishment for breaking the law",
+   "uses": [
+    "a",
+    "as",
+    "break",
+    "for",
+    "law",
+    "people",
+    "place",
+    "punishment",
+    "the",
+    "where"
+   ]
+  },
+  {
+   "id": 4399,
+   "word": "kidney",
+   "pos": "noun",
+   "ring": 2,
+   "def": "one of two parts in the body that take waste from the blood",
+   "uses": [
+    "blood",
+    "body",
+    "from",
+    "in",
+    "of",
+    "part",
+    "take",
+    "that",
+    "the",
+    "waste"
+   ]
+  },
+  {
+   "id": 4400,
+   "word": "durable",
+   "pos": "noun",
+   "ring": 2,
+   "def": "able to last for a long time without being damaged",
+   "uses": [
+    "a",
+    "able",
+    "damage",
+    "for",
+    "last",
+    "long",
+    "time",
+    "to"
+   ]
+  },
+  {
+   "id": 4401,
+   "word": "allied",
+   "pos": "noun",
+   "ring": 2,
+   "def": "joined together for a common purpose or cause",
+   "uses": [
+    "a",
+    "cause",
+    "common",
+    "for",
+    "join",
+    "or",
+    "purpose",
+    "together"
+   ]
+  },
+  {
+   "id": 4402,
+   "word": "throws",
+   "pos": "noun",
+   "ring": 2,
+   "def": "makes something move through the air with force",
+   "uses": [
+    "air",
+    "force",
+    "move",
+    "the",
+    "through",
+    "with"
+   ]
+  },
+  {
+   "id": 4403,
+   "word": "moisture",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a small amount of water or other liquid in the air or on a thing",
+   "uses": [
+    "a",
+    "air",
+    "amount",
+    "in",
+    "liquid",
+    "of",
+    "on",
+    "or",
+    "other",
+    "small",
+    "the",
+    "thing",
+    "water"
+   ]
+  },
+  {
+   "id": 4404,
+   "word": "roster",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a list of people or things that are part of a group",
+   "uses": [
+    "a",
+    "group",
+    "list",
+    "of",
+    "or",
+    "part",
+    "people",
+    "that",
+    "thing"
+   ]
+  },
+  {
+   "id": 4405,
+   "word": "referring",
+   "pos": "noun",
+   "ring": 2,
+   "def": "talking about or pointing to something or someone",
+   "uses": [
+    "about",
+    "or",
+    "point",
+    "talk",
+    "to"
+   ]
+  },
+  {
+   "id": 4406,
+   "word": "spencer",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a coat with long arms and buttons in the front",
+   "uses": [
+    "a",
+    "and",
+    "arm",
+    "button",
+    "coat",
+    "front",
+    "in",
+    "long",
+    "the",
+    "with"
+   ]
+  },
+  {
+   "id": 4407,
+   "word": "timer",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a tool that measures time or turns something on or off after a fixed time",
+   "uses": [
+    "a",
+    "after",
+    "fixed",
+    "measure",
+    "off",
+    "on",
+    "or",
+    "that",
+    "time",
+    "tool",
+    "turn"
+   ]
+  },
+  {
+   "id": 4408,
+   "word": "tablets",
+   "pos": "noun",
+   "ring": 2,
+   "def": "small flat computers that you are able to hold in your hands",
+   "uses": [
+    "able",
+    "computer",
+    "flat",
+    "hand",
+    "hold",
+    "in",
+    "small",
+    "that",
+    "to",
+    "you"
+   ]
+  },
+  {
+   "id": 4409,
+   "word": "custody",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the care and control of someone or something",
+   "uses": [
+    "and",
+    "care",
+    "control",
+    "of",
+    "or",
+    "the"
+   ]
+  },
+  {
+   "id": 4410,
+   "word": "launches",
+   "pos": "noun",
+   "ring": 2,
+   "def": "sends something into the air or starts something new",
+   "uses": [
+    "air",
+    "new",
+    "or",
+    "start",
+    "the"
+   ]
+  },
+  {
+   "id": 4411,
+   "word": "ellen",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a female name or a talk show host",
+   "uses": [
+    "a",
+    "female",
+    "host",
+    "name",
+    "or",
+    "show",
+    "talk"
+   ]
+  },
+  {
+   "id": 4412,
+   "word": "competitors",
+   "pos": "noun",
+   "ring": 2,
+   "def": "people or companies that try to do better than others in the same field",
+   "uses": [
+    "company",
+    "do",
+    "field",
+    "in",
+    "or",
+    "other",
+    "people",
+    "same",
+    "than",
+    "that",
+    "the",
+    "to",
+    "try"
+   ]
+  },
+  {
+   "id": 4413,
+   "word": "encounter",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to meet or come face to face with someone or something",
+   "uses": [
+    "come",
+    "face",
+    "meet",
+    "or",
+    "to",
+    "with"
+   ]
+  },
+  {
+   "id": 4414,
+   "word": "trustees",
+   "pos": "noun",
+   "ring": 2,
+   "def": "people who have been given the work to control something for others",
+   "uses": [
+    "control",
+    "for",
+    "have",
+    "other",
+    "people",
+    "the",
+    "to",
+    "who",
+    "work"
+   ]
+  },
+  {
+   "id": 4415,
+   "word": "watts",
+   "pos": "noun",
+   "ring": 2,
+   "def": "units used to measure the amount of power or energy being used",
+   "uses": [
+    "amount",
+    "energy",
+    "measure",
+    "of",
+    "or",
+    "power",
+    "the",
+    "to",
+    "unit",
+    "use"
+   ]
+  },
+  {
+   "id": 4416,
+   "word": "duncan",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name given to a male person in some societies",
+   "uses": [
+    "a",
+    "in",
+    "male",
+    "name",
+    "person",
+    "society",
+    "some",
+    "to"
+   ]
+  },
+  {
+   "id": 4417,
+   "word": "reprints",
+   "pos": "noun",
+   "ring": 2,
+   "def": "copies of something that has been printed again",
+   "uses": [
+    "again",
+    "copy",
+    "of",
+    "print",
+    "that"
+   ]
+  },
+  {
+   "id": 4418,
+   "word": "bernard",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name given to a male person in some societies",
+   "uses": [
+    "a",
+    "in",
+    "male",
+    "name",
+    "person",
+    "society",
+    "some",
+    "to"
+   ]
+  },
+  {
+   "id": 4419,
+   "word": "ment",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a suffix that has to do with the mind or thinking process",
+   "uses": [
+    "a",
+    "do",
+    "mind",
+    "or",
+    "process",
+    "suffix",
+    "that",
+    "the",
+    "think",
+    "to",
+    "with"
+   ]
+  },
+  {
+   "id": 4420,
+   "word": "accessing",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the act of getting to or using something",
+   "uses": [
+    "act",
+    "of",
+    "or",
+    "the",
+    "to",
+    "use"
+   ]
+  },
+  {
+   "id": 4421,
+   "word": "attempted",
+   "pos": "noun",
+   "ring": 2,
+   "def": "tried to do something but may not have finished",
+   "uses": [
+    "but",
+    "do",
+    "finish",
+    "have",
+    "may",
+    "not",
+    "to",
+    "try"
+   ]
+  },
+  {
+   "id": 4422,
+   "word": "col",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a narrow way through mountains or high land",
+   "uses": [
+    "a",
+    "high",
+    "land",
+    "mountain",
+    "narrow",
+    "or",
+    "through",
+    "way"
+   ]
+  },
+  {
+   "id": 4423,
+   "word": "midlands",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the middle part of a country or land",
+   "uses": [
+    "a",
+    "country",
+    "land",
+    "middle",
+    "of",
+    "or",
+    "part",
+    "the"
+   ]
+  },
+  {
+   "id": 4424,
+   "word": "priest",
+   "pos": "noun",
+   "ring": 2,
+   "def": "one who does work for a religion in some belief systems",
+   "uses": [
+    "a",
+    "belief",
+    "for",
+    "in",
+    "religion",
+    "some",
+    "system",
+    "who",
+    "work"
+   ]
+  },
+  {
+   "id": 4425,
+   "word": "floyd",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name given to a man in some societies",
+   "uses": [
+    "a",
+    "in",
+    "man",
+    "name",
+    "society",
+    "some",
+    "to"
+   ]
+  },
+  {
+   "id": 4426,
+   "word": "ronald",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name given to a man in some societies",
+   "uses": [
+    "a",
+    "in",
+    "man",
+    "name",
+    "society",
+    "some",
+    "to"
+   ]
+  },
+  {
+   "id": 4427,
+   "word": "analysts",
+   "pos": "noun",
+   "ring": 2,
+   "def": "people who study things in detail to know them better",
+   "uses": [
+    "detail",
+    "in",
+    "know",
+    "people",
+    "study",
+    "thing",
+    "to",
+    "who"
+   ]
+  },
+  {
+   "id": 4428,
+   "word": "trance",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a condition of being half not awake or not conscious",
+   "uses": [
+    "a",
+    "awake",
+    "condition",
+    "conscious",
+    "not",
+    "of",
+    "or"
+   ]
+  },
+  {
+   "id": 4429,
+   "word": "nicholas",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name given to a man in some societies",
+   "uses": [
+    "a",
+    "in",
+    "man",
+    "name",
+    "society",
+    "some",
+    "to"
+   ]
+  },
+  {
+   "id": 4430,
+   "word": "biol",
+   "pos": "noun",
+   "ring": 2,
+   "def": "at all times about the study of living things",
+   "uses": [
+    "about",
+    "all",
+    "at",
+    "living",
+    "of",
+    "study",
+    "the",
+    "thing",
+    "time"
+   ]
+  },
+  {
+   "id": 4431,
+   "word": "invasion",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the act of going into a place in great numbers often by force",
+   "uses": [
+    "a",
+    "act",
+    "by",
+    "force",
+    "great",
+    "in",
+    "number",
+    "of",
+    "often",
+    "place",
+    "the"
+   ]
+  },
+  {
+   "id": 4432,
+   "word": "witnesses",
+   "pos": "noun",
+   "ring": 2,
+   "def": "people who see something take place and are able to tell it",
+   "uses": [
+    "able",
+    "and",
+    "people",
+    "place",
+    "see",
+    "take",
+    "tell",
+    "to",
+    "who"
+   ]
+  },
+  {
+   "id": 4433,
+   "word": "runner",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a person who runs or a thing that runs on something",
+   "uses": [
+    "a",
+    "on",
+    "or",
+    "person",
+    "run",
+    "that",
+    "thing",
+    "who"
+   ]
+  },
+  {
+   "id": 4434,
+   "word": "rows",
+   "pos": "noun",
+   "ring": 2,
+   "def": "lines of things or people placed side by side",
+   "uses": [
+    "by",
+    "line",
+    "of",
+    "or",
+    "people",
+    "place",
+    "side",
+    "thing"
+   ]
+  },
+  {
+   "id": 4435,
+   "word": "notion",
+   "pos": "noun",
+   "ring": 2,
+   "def": "an idea or thought about a thing talked about",
+   "uses": [
+    "a",
+    "about",
+    "idea",
+    "or",
+    "talk",
+    "thing",
+    "thought"
+   ]
+  },
+  {
+   "id": 4436,
+   "word": "spelling",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the way words are put down with letters",
+   "uses": [
+    "down",
+    "letter",
+    "put",
+    "the",
+    "way",
+    "with",
+    "word"
+   ]
+  },
+  {
+   "id": 4437,
+   "word": "arctic",
+   "pos": "noun",
+   "ring": 2,
+   "def": "at all times about the lands near the north point",
+   "uses": [
+    "about",
+    "all",
+    "at",
+    "land",
+    "near",
+    "north",
+    "point",
+    "the",
+    "time"
+   ]
+  },
+  {
+   "id": 4438,
+   "word": "rewards",
+   "pos": "noun",
+   "ring": 2,
+   "def": "things given in return for good work or behavior",
+   "uses": [
+    "behavior",
+    "for",
+    "good",
+    "in",
+    "or",
+    "return",
+    "thing",
+    "work"
+   ]
+  },
+  {
+   "id": 4439,
+   "word": "frederick",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name given to a man in some groups",
+   "uses": [
+    "a",
+    "group",
+    "in",
+    "man",
+    "name",
+    "some",
+    "to"
+   ]
+  },
+  {
+   "id": 4440,
+   "word": "medicaid",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a government program that helps pay for medical care",
+   "uses": [
+    "a",
+    "care",
+    "for",
+    "government",
+    "help",
+    "medical",
+    "pay",
+    "program",
+    "that"
+   ]
+  },
+  {
+   "id": 4441,
+   "word": "infrared",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a light that cannot be seen by people",
+   "uses": [
+    "a",
+    "be",
+    "by",
+    "light",
+    "people",
+    "that"
+   ]
+  },
+  {
+   "id": 4442,
+   "word": "une",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a group of countries working together in the west",
+   "uses": [
+    "a",
+    "country",
+    "group",
+    "in",
+    "of",
+    "the",
+    "together",
+    "west",
+    "work"
+   ]
+  },
+  {
+   "id": 4443,
+   "word": "belly",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the front part of the body under the chest",
+   "uses": [
+    "body",
+    "chest",
+    "front",
+    "of",
+    "part",
+    "the",
+    "under"
+   ]
+  },
+  {
+   "id": 4444,
+   "word": "aggressive",
+   "pos": "noun",
+   "ring": 2,
+   "def": "ready to attack or fight without a good reason",
+   "uses": [
+    "a",
+    "attack",
+    "fight",
+    "good",
+    "or",
+    "ready",
+    "reason",
+    "to"
+   ]
+  },
+  {
+   "id": 4445,
+   "word": "quarters",
+   "pos": "noun",
+   "ring": 2,
+   "def": "parts of a thing or places where people live",
+   "uses": [
+    "a",
+    "live",
+    "of",
+    "or",
+    "part",
+    "people",
+    "place",
+    "thing",
+    "where"
+   ]
+  },
+  {
+   "id": 4446,
+   "word": "cia",
+   "pos": "noun",
+   "ring": 2,
+   "def": "an office that gets information for a government",
+   "uses": [
+    "a",
+    "for",
+    "government",
+    "information",
+    "office",
+    "that"
+   ]
+  },
+  {
+   "id": 4447,
+   "word": "soonest",
+   "pos": "noun",
+   "ring": 2,
+   "def": "at the time that comes first before any other",
+   "uses": [
+    "any",
+    "at",
+    "before",
+    "first",
+    "other",
+    "that",
+    "the",
+    "time"
+   ]
+  },
+  {
+   "id": 4448,
+   "word": "haiti",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a country that is an island in the sea",
+   "uses": [
+    "a",
+    "country",
+    "in",
+    "island",
+    "sea",
+    "that",
+    "the"
+   ]
+  },
+  {
+   "id": 4449,
+   "word": "disturbed",
+   "pos": "noun",
+   "ring": 2,
+   "def": "not working in the right way or not feeling well",
+   "uses": [
+    "feeling",
+    "in",
+    "not",
+    "or",
+    "right",
+    "the",
+    "way",
+    "well",
+    "work"
+   ]
+  },
+  {
+   "id": 4450,
+   "word": "sculpture",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a work of art made by forming a material like stone or wood",
+   "uses": [
+    "a",
+    "art",
+    "by",
+    "form",
+    "like",
+    "material",
+    "of",
+    "or",
+    "stone",
+    "wood",
+    "work"
+   ]
+  },
+  {
+   "id": 4451,
+   "word": "poly",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a short form for a great number of something",
+   "uses": [
+    "a",
+    "for",
+    "form",
+    "great",
+    "number",
+    "of",
+    "short"
+   ]
+  },
+  {
+   "id": 4452,
+   "word": "ears",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the parts on the sides of the head used for hearing",
+   "uses": [
+    "for",
+    "head",
+    "hearing",
+    "of",
+    "on",
+    "part",
+    "side",
+    "the",
+    "use"
+   ]
+  },
+  {
+   "id": 4453,
+   "word": "naturals",
+   "pos": "noun",
+   "ring": 2,
+   "def": "things that come from the earth, not made by people",
+   "uses": [
+    "by",
+    "come",
+    "earth",
+    "from",
+    "not",
+    "people",
+    "that",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 4454,
+   "word": "motivation",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the reason why one does something, the force that drives a person",
+   "uses": [
+    "a",
+    "drive",
+    "force",
+    "person",
+    "reason",
+    "that",
+    "the",
+    "why"
+   ]
+  },
+  {
+   "id": 4455,
+   "word": "fitting",
+   "pos": "noun",
+   "ring": 2,
+   "def": "something that matches well, right for the purpose",
+   "uses": [
+    "for",
+    "match",
+    "purpose",
+    "right",
+    "that",
+    "the",
+    "well"
+   ]
+  },
+  {
+   "id": 4456,
+   "word": "passengers",
+   "pos": "noun",
+   "ring": 2,
+   "def": "people riding in a transport, not driving it",
+   "uses": [
+    "a",
+    "driving",
+    "in",
+    "not",
+    "people",
+    "ride",
+    "transport"
+   ]
+  },
+  {
+   "id": 4457,
+   "word": "quantities",
+   "pos": "noun",
+   "ring": 2,
+   "def": "amounts or how much of something there is",
+   "uses": [
+    "amount",
+    "how",
+    "much",
+    "of",
+    "or",
+    "there"
+   ]
+  },
+  {
+   "id": 4458,
+   "word": "consistently",
+   "pos": "noun",
+   "ring": 2,
+   "def": "doing something in the same way all the time",
+   "uses": [
+    "all",
+    "in",
+    "same",
+    "the",
+    "time",
+    "way"
+   ]
+  },
+  {
+   "id": 4459,
+   "word": "cons",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the bad points or the bad parts of something",
+   "uses": [
+    "bad",
+    "of",
+    "or",
+    "part",
+    "point",
+    "the"
+   ]
+  },
+  {
+   "id": 4460,
+   "word": "surplus",
+   "pos": "noun",
+   "ring": 2,
+   "def": "an amount more than is needed, more than enough",
+   "uses": [
+    "amount",
+    "enough",
+    "need",
+    "than"
+   ]
+  },
+  {
+   "id": 4461,
+   "word": "elder",
+   "pos": "noun",
+   "ring": 2,
+   "def": "someone older, a person of greater age or position",
+   "uses": [
+    "a",
+    "age",
+    "great",
+    "of",
+    "old",
+    "or",
+    "person",
+    "position"
+   ]
+  },
+  {
+   "id": 4462,
+   "word": "cheers",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a word used to show good wishes or approval",
+   "uses": [
+    "a",
+    "approval",
+    "good",
+    "or",
+    "show",
+    "to",
+    "use",
+    "wish",
+    "word"
+   ]
+  },
+  {
+   "id": 4463,
+   "word": "dig",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to break up and move earth with a tool or hands",
+   "uses": [
+    "a",
+    "and",
+    "break",
+    "earth",
+    "hand",
+    "move",
+    "or",
+    "to",
+    "tool",
+    "up",
+    "with"
+   ]
+  },
+  {
+   "id": 4464,
+   "word": "zoning",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the division of land into different parts for different uses",
+   "uses": [
+    "different",
+    "division",
+    "for",
+    "land",
+    "of",
+    "part",
+    "the",
+    "use"
+   ]
+  },
+  {
+   "id": 4465,
+   "word": "gravity",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the force that pulls things to the earth",
+   "uses": [
+    "earth",
+    "force",
+    "pull",
+    "that",
+    "the",
+    "thing",
+    "to"
+   ]
+  },
+  {
+   "id": 4466,
+   "word": "restriction",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a rule that limits a person, a thing that stops someone",
+   "uses": [
+    "a",
+    "limit",
+    "person",
+    "rule",
+    "stop",
+    "that",
+    "thing"
+   ]
+  },
+  {
+   "id": 4467,
+   "word": "incorporate",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to add something as part of a thing, to make it part",
+   "uses": [
+    "a",
+    "add",
+    "as",
+    "make",
+    "of",
+    "part",
+    "thing",
+    "to"
+   ]
+  },
+  {
+   "id": 4468,
+   "word": "backgrounds",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the experiences or past of a person or thing",
+   "uses": [
+    "a",
+    "experience",
+    "of",
+    "or",
+    "past",
+    "person",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 4469,
+   "word": "treasurer",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a person who does the work of money, one who keeps the money",
+   "uses": [
+    "a",
+    "money",
+    "of",
+    "person",
+    "the",
+    "who",
+    "work"
+   ]
+  },
+  {
+   "id": 4470,
+   "word": "essence",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the most important part or quality of something",
+   "uses": [
+    "important",
+    "of",
+    "or",
+    "part",
+    "quality",
+    "the"
+   ]
+  },
+  {
+   "id": 4471,
+   "word": "flooring",
+   "pos": "noun",
+   "ring": 2,
+   "def": "material used to cover the floor, like wood or stone",
+   "uses": [
+    "cover",
+    "floor",
+    "like",
+    "material",
+    "or",
+    "stone",
+    "the",
+    "to",
+    "use",
+    "wood"
+   ]
+  },
+  {
+   "id": 4472,
+   "word": "ethiopia",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a country with a long history, a land with a past",
+   "uses": [
+    "a",
+    "country",
+    "history",
+    "land",
+    "long",
+    "past",
+    "with"
+   ]
+  },
+  {
+   "id": 4473,
+   "word": "humanity",
+   "pos": "noun",
+   "ring": 2,
+   "def": "all people as a group, the way people think and act",
+   "uses": [
+    "a",
+    "act",
+    "all",
+    "and",
+    "as",
+    "group",
+    "people",
+    "the",
+    "think",
+    "way"
+   ]
+  },
+  {
+   "id": 4474,
+   "word": "transcription",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the process of writing down words that are said or heard",
+   "uses": [
+    "down",
+    "hear",
+    "of",
+    "or",
+    "process",
+    "that",
+    "the",
+    "word",
+    "writing"
+   ]
+  },
+  {
+   "id": 4475,
+   "word": "complications",
+   "pos": "noun",
+   "ring": 2,
+   "def": "things that make work harder or more complex",
+   "uses": [
+    "complex",
+    "hard",
+    "make",
+    "or",
+    "that",
+    "thing",
+    "work"
+   ]
+  },
+  {
+   "id": 4476,
+   "word": "scholars",
+   "pos": "noun",
+   "ring": 2,
+   "def": "people who study and have knowledge in a field of learning",
+   "uses": [
+    "a",
+    "and",
+    "field",
+    "have",
+    "in",
+    "knowledge",
+    "learning",
+    "of",
+    "people",
+    "study",
+    "who"
+   ]
+  },
+  {
+   "id": 4477,
+   "word": "scripting",
+   "pos": "noun",
+   "ring": 2,
+   "def": "writing a story or orders for a computer to follow",
+   "uses": [
+    "a",
+    "computer",
+    "follow",
+    "for",
+    "or",
+    "order",
+    "story",
+    "to",
+    "writing"
+   ]
+  },
+  {
+   "id": 4478,
+   "word": "gis",
+   "pos": "noun",
+   "ring": 2,
+   "def": "earth information system, a tool for mapping data",
+   "uses": [
+    "a",
+    "data",
+    "earth",
+    "for",
+    "information",
+    "map",
+    "system",
+    "tool"
+   ]
+  },
+  {
+   "id": 4479,
+   "word": "remembered",
+   "pos": "noun",
+   "ring": 2,
+   "def": "kept in mind or called back to memory",
+   "uses": [
+    "back",
+    "call",
+    "in",
+    "memory",
+    "mind",
+    "or",
+    "to"
+   ]
+  },
+  {
+   "id": 4480,
+   "word": "galaxy",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a great number of stars, dust in space",
+   "uses": [
+    "a",
+    "dust",
+    "great",
+    "in",
+    "number",
+    "of",
+    "space",
+    "star"
+   ]
+  },
+  {
+   "id": 4481,
+   "word": "chester",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a town in the land, also a common name for boys",
+   "uses": [
+    "a",
+    "boy",
+    "common",
+    "for",
+    "in",
+    "land",
+    "name",
+    "the",
+    "town"
+   ]
+  },
+  {
+   "id": 4482,
+   "word": "synthetic",
+   "pos": "noun",
+   "ring": 2,
+   "def": "made by people with knowledge, not a thing from the world",
+   "uses": [
+    "a",
+    "by",
+    "from",
+    "knowledge",
+    "not",
+    "people",
+    "the",
+    "thing",
+    "with",
+    "world"
+   ]
+  },
+  {
+   "id": 4483,
+   "word": "segments",
+   "pos": "noun",
+   "ring": 2,
+   "def": "parts of something that is divided into sections",
+   "uses": [
+    "divide",
+    "of",
+    "part",
+    "section",
+    "that"
+   ]
+  },
+  {
+   "id": 4484,
+   "word": "testament",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a proof or sign that a thing is true",
+   "uses": [
+    "a",
+    "or",
+    "proof",
+    "sign",
+    "that",
+    "thing",
+    "true"
+   ]
+  },
+  {
+   "id": 4485,
+   "word": "specifics",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the true details of a thing or talk about",
+   "uses": [
+    "a",
+    "about",
+    "detail",
+    "of",
+    "or",
+    "talk",
+    "the",
+    "thing",
+    "true"
+   ]
+  },
+  {
+   "id": 4486,
+   "word": "itunes",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a computer program for playing and buying music",
+   "uses": [
+    "a",
+    "and",
+    "buy",
+    "computer",
+    "for",
+    "music",
+    "play",
+    "program"
+   ]
+  },
+  {
+   "id": 4487,
+   "word": "buried",
+   "pos": "noun",
+   "ring": 2,
+   "def": "put in the earth and covered with land",
+   "uses": [
+    "and",
+    "cover",
+    "earth",
+    "in",
+    "land",
+    "put",
+    "the",
+    "with"
+   ]
+  },
+  {
+   "id": 4488,
+   "word": "newbie",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a person who is new to a talk or work",
+   "uses": [
+    "a",
+    "new",
+    "or",
+    "person",
+    "talk",
+    "to",
+    "who",
+    "work"
+   ]
+  },
+  {
+   "id": 4489,
+   "word": "darwin",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a family name of a great man who did science work",
+   "uses": [
+    "a",
+    "family",
+    "great",
+    "man",
+    "name",
+    "of",
+    "science",
+    "who",
+    "work"
+   ]
+  },
+  {
+   "id": 4490,
+   "word": "ranks",
+   "pos": "noun",
+   "ring": 2,
+   "def": "positions in a group ordered by level or place",
+   "uses": [
+    "a",
+    "by",
+    "group",
+    "in",
+    "level",
+    "or",
+    "order",
+    "place",
+    "position"
+   ]
+  },
+  {
+   "id": 4491,
+   "word": "wilderness",
+   "pos": "noun",
+   "ring": 2,
+   "def": "land that is not used by people, land with no houses",
+   "uses": [
+    "by",
+    "house",
+    "land",
+    "no",
+    "not",
+    "people",
+    "that",
+    "use",
+    "with"
+   ]
+  },
+  {
+   "id": 4492,
+   "word": "debut",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the first time someone does work or shows in front of people",
+   "uses": [
+    "first",
+    "front",
+    "in",
+    "of",
+    "or",
+    "people",
+    "show",
+    "the",
+    "time",
+    "work"
+   ]
+  },
+  {
+   "id": 4493,
+   "word": "generations",
+   "pos": "noun",
+   "ring": 2,
+   "def": "groups of people born at the same time",
+   "uses": [
+    "at",
+    "born",
+    "group",
+    "of",
+    "people",
+    "same",
+    "the",
+    "time"
+   ]
+  },
+  {
+   "id": 4494,
+   "word": "bradley",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a family name or first name for a man",
+   "uses": [
+    "a",
+    "family",
+    "first",
+    "for",
+    "man",
+    "name",
+    "or"
+   ]
+  },
+  {
+   "id": 4495,
+   "word": "deny",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to say that something is not true or fact",
+   "uses": [
+    "fact",
+    "not",
+    "or",
+    "say",
+    "that",
+    "to",
+    "true"
+   ]
+  },
+  {
+   "id": 4496,
+   "word": "anatomy",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the study of the structure of living things",
+   "uses": [
+    "living",
+    "of",
+    "structure",
+    "study",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 4497,
+   "word": "bali",
+   "pos": "noun",
+   "ring": 2,
+   "def": "an island in a far country with great looks",
+   "uses": [
+    "a",
+    "country",
+    "far",
+    "great",
+    "in",
+    "island",
+    "look",
+    "with"
+   ]
+  },
+  {
+   "id": 4498,
+   "word": "sponsorship",
+   "pos": "noun",
+   "ring": 2,
+   "def": "support given by a business to an event or person",
+   "uses": [
+    "a",
+    "business",
+    "by",
+    "event",
+    "or",
+    "person",
+    "support",
+    "to"
+   ]
+  },
+  {
+   "id": 4499,
+   "word": "headphones",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a thing that covers the ears to hear sound",
+   "uses": [
+    "a",
+    "cover",
+    "ear",
+    "hear",
+    "sound",
+    "that",
+    "the",
+    "thing",
+    "to"
+   ]
+  },
+  {
+   "id": 4500,
+   "word": "fraction",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a small part of a thing or number",
+   "uses": [
+    "a",
+    "number",
+    "of",
+    "or",
+    "part",
+    "small",
+    "thing"
+   ]
+  },
+  {
+   "id": 4501,
+   "word": "trio",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a group of three people or things together",
+   "uses": [
+    "a",
+    "group",
+    "of",
+    "or",
+    "people",
+    "thing",
+    "together"
+   ]
+  },
+  {
+   "id": 4502,
+   "word": "marker",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a tool used to write or make a mark",
+   "uses": [
+    "a",
+    "make",
+    "mark",
+    "or",
+    "to",
+    "tool",
+    "use",
+    "write"
+   ]
+  },
+  {
+   "id": 4503,
+   "word": "subsidiary",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a company that is controlled by another company",
+   "uses": [
+    "a",
+    "by",
+    "company",
+    "control",
+    "that"
+   ]
+  },
+  {
+   "id": 4504,
+   "word": "airfare",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the price of a ticket to travel by airplane",
+   "uses": [
+    "a",
+    "by",
+    "of",
+    "price",
+    "the",
+    "ticket",
+    "to",
+    "travel"
+   ]
+  },
+  {
+   "id": 4505,
+   "word": "comparisons",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the act of noting how things are different",
+   "uses": [
+    "act",
+    "different",
+    "how",
+    "not",
+    "of",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 4506,
+   "word": "distributions",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the act of giving things to people or places",
+   "uses": [
+    "act",
+    "of",
+    "or",
+    "people",
+    "place",
+    "the",
+    "thing",
+    "to"
+   ]
+  },
+  {
+   "id": 4507,
+   "word": "viewpicture",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a picture that is looked at or seen",
+   "uses": [
+    "a",
+    "at",
+    "look",
+    "or",
+    "picture",
+    "that"
+   ]
+  },
+  {
+   "id": 4508,
+   "word": "penny",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a small unit of money in some countries",
+   "uses": [
+    "a",
+    "country",
+    "in",
+    "money",
+    "of",
+    "small",
+    "some",
+    "unit"
+   ]
+  },
+  {
+   "id": 4509,
+   "word": "bookings",
+   "pos": "noun",
+   "ring": 2,
+   "def": "records of things that have been booked or kept before",
+   "uses": [
+    "before",
+    "book",
+    "have",
+    "of",
+    "or",
+    "record",
+    "that",
+    "thing"
+   ]
+  },
+  {
+   "id": 4510,
+   "word": "minolta",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a company that makes cameras and other picture-making tools",
+   "uses": [
+    "a",
+    "and",
+    "camera",
+    "company",
+    "other",
+    "picture",
+    "that",
+    "tool"
+   ]
+  },
+  {
+   "id": 4511,
+   "word": "discusses",
+   "pos": "noun",
+   "ring": 2,
+   "def": "talks about something in detail with other people",
+   "uses": [
+    "about",
+    "detail",
+    "in",
+    "other",
+    "people",
+    "talk",
+    "with"
+   ]
+  },
+  {
+   "id": 4512,
+   "word": "gui",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a way of showing information on a screen with pictures and buttons",
+   "uses": [
+    "a",
+    "and",
+    "button",
+    "information",
+    "of",
+    "on",
+    "picture",
+    "screen",
+    "show",
+    "way",
+    "with"
+   ]
+  },
+  {
+   "id": 4513,
+   "word": "gras",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a plant that grows in water and has long thin leaves",
+   "uses": [
+    "a",
+    "and",
+    "grow",
+    "in",
+    "leave",
+    "long",
+    "plant",
+    "that",
+    "thin",
+    "water"
+   ]
+  },
+  {
+   "id": 4514,
+   "word": "ver",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a short form for meaning against in a competition",
+   "uses": [
+    "a",
+    "against",
+    "competition",
+    "for",
+    "form",
+    "in",
+    "meaning",
+    "short"
+   ]
+  },
+  {
+   "id": 4515,
+   "word": "responded",
+   "pos": "noun",
+   "ring": 2,
+   "def": "gave an answer or reaction to something that was said or done",
+   "uses": [
+    "answer",
+    "or",
+    "reaction",
+    "that",
+    "to"
+   ]
+  },
+  {
+   "id": 4516,
+   "word": "rim",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the outer edge or part of something round like a wheel",
+   "uses": [
+    "a",
+    "edge",
+    "like",
+    "of",
+    "or",
+    "out",
+    "part",
+    "round",
+    "the",
+    "wheel"
+   ]
+  },
+  {
+   "id": 4517,
+   "word": "zen",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a way of thinking that comes from a thing talked about about finding peace within",
+   "uses": [
+    "a",
+    "about",
+    "find",
+    "from",
+    "of",
+    "peace",
+    "talk",
+    "that",
+    "thing",
+    "think",
+    "way"
+   ]
+  },
+  {
+   "id": 4518,
+   "word": "alpine",
+   "pos": "noun",
+   "ring": 2,
+   "def": "about high mountains where it is cold and there is snow",
+   "uses": [
+    "about",
+    "and",
+    "cold",
+    "high",
+    "mountain",
+    "snow",
+    "there",
+    "where"
+   ]
+  },
+  {
+   "id": 4519,
+   "word": "dis",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a prefix that shows not or opposite of something good",
+   "uses": [
+    "a",
+    "good",
+    "not",
+    "of",
+    "opposite",
+    "or",
+    "prefix",
+    "show",
+    "that"
+   ]
+  },
+  {
+   "id": 4520,
+   "word": "fabulous",
+   "pos": "noun",
+   "ring": 2,
+   "def": "very good or great to see or experience",
+   "uses": [
+    "experience",
+    "good",
+    "great",
+    "or",
+    "see",
+    "to",
+    "very"
+   ]
+  },
+  {
+   "id": 4521,
+   "word": "remix",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to change a song or music by adding new parts",
+   "uses": [
+    "a",
+    "add",
+    "by",
+    "change",
+    "music",
+    "new",
+    "or",
+    "part",
+    "song",
+    "to"
+   ]
+  },
+  {
+   "id": 4522,
+   "word": "thesaurus",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a book that lists words with like meanings",
+   "uses": [
+    "a",
+    "book",
+    "like",
+    "list",
+    "meaning",
+    "that",
+    "with",
+    "word"
+   ]
+  },
+  {
+   "id": 4523,
+   "word": "individually",
+   "pos": "noun",
+   "ring": 2,
+   "def": "done by one person not as part of a group",
+   "uses": [
+    "a",
+    "as",
+    "by",
+    "group",
+    "not",
+    "of",
+    "part",
+    "person"
+   ]
+  },
+  {
+   "id": 4524,
+   "word": "battlefield",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a place where a fight or war is taking place",
+   "uses": [
+    "a",
+    "fight",
+    "or",
+    "place",
+    "war",
+    "where"
+   ]
+  },
+  {
+   "id": 4525,
+   "word": "newer",
+   "pos": "noun",
+   "ring": 2,
+   "def": "coming later in time than something of the same kind",
+   "uses": [
+    "in",
+    "kind",
+    "late",
+    "of",
+    "same",
+    "than",
+    "the",
+    "time"
+   ]
+  },
+  {
+   "id": 4526,
+   "word": "kay",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name that is able to be for a man or a woman",
+   "uses": [
+    "a",
+    "able",
+    "be",
+    "for",
+    "man",
+    "name",
+    "or",
+    "that",
+    "to",
+    "woman"
+   ]
+  },
+  {
+   "id": 4527,
+   "word": "spice",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a powder or plant used to add good taste to food",
+   "uses": [
+    "a",
+    "add",
+    "food",
+    "good",
+    "or",
+    "plant",
+    "powder",
+    "taste",
+    "to",
+    "use"
+   ]
+  },
+  {
+   "id": 4528,
+   "word": "oval",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a round form that is longer in one direction",
+   "uses": [
+    "a",
+    "direction",
+    "form",
+    "in",
+    "long",
+    "round",
+    "that"
+   ]
+  },
+  {
+   "id": 4529,
+   "word": "implies",
+   "pos": "noun",
+   "ring": 2,
+   "def": "makes one think of something without saying it",
+   "uses": [
+    "of",
+    "think"
+   ]
+  },
+  {
+   "id": 4530,
+   "word": "soma",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a part of a living thing that has the most parts",
+   "uses": [
+    "a",
+    "living",
+    "of",
+    "part",
+    "that",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 4531,
+   "word": "cooler",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a thing that makes things cold or a person who is not warm",
+   "uses": [
+    "a",
+    "cold",
+    "not",
+    "or",
+    "person",
+    "that",
+    "thing",
+    "warm",
+    "who"
+   ]
+  },
+  {
+   "id": 4532,
+   "word": "appraisal",
+   "pos": "noun",
+   "ring": 2,
+   "def": "an opinion or thought about the value or quality of something",
+   "uses": [
+    "about",
+    "of",
+    "opinion",
+    "or",
+    "quality",
+    "the",
+    "thought",
+    "value"
+   ]
+  },
+  {
+   "id": 4533,
+   "word": "consisting",
+   "pos": "noun",
+   "ring": 2,
+   "def": "made up of different parts that form a complete thing",
+   "uses": [
+    "a",
+    "complete",
+    "different",
+    "form",
+    "of",
+    "part",
+    "that",
+    "thing",
+    "up"
+   ]
+  },
+  {
+   "id": 4534,
+   "word": "maritime",
+   "pos": "noun",
+   "ring": 2,
+   "def": "about the sea or ships that travel on water",
+   "uses": [
+    "about",
+    "on",
+    "or",
+    "sea",
+    "ship",
+    "that",
+    "the",
+    "travel",
+    "water"
+   ]
+  },
+  {
+   "id": 4535,
+   "word": "periodic",
+   "pos": "noun",
+   "ring": 2,
+   "def": "taking place at regular times or in a sequence",
+   "uses": [
+    "a",
+    "at",
+    "in",
+    "or",
+    "place",
+    "regular",
+    "sequence",
+    "time"
+   ]
+  },
+  {
+   "id": 4536,
+   "word": "submitting",
+   "pos": "noun",
+   "ring": 2,
+   "def": "giving something to someone for their approval or thought",
+   "uses": [
+    "approval",
+    "for",
+    "or",
+    "thought",
+    "to"
+   ]
+  },
+  {
+   "id": 4537,
+   "word": "ascii",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a system for showing writing with numbers on computers",
+   "uses": [
+    "a",
+    "computer",
+    "for",
+    "number",
+    "on",
+    "show",
+    "system",
+    "with",
+    "writing"
+   ]
+  },
+  {
+   "id": 4538,
+   "word": "prospect",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a chance of something taking place in the future",
+   "uses": [
+    "a",
+    "chance",
+    "future",
+    "in",
+    "of",
+    "place",
+    "the"
+   ]
+  },
+  {
+   "id": 4539,
+   "word": "shipment",
+   "pos": "noun",
+   "ring": 2,
+   "def": "goods that are being sent from one place to another",
+   "uses": [
+    "from",
+    "good",
+    "place",
+    "that",
+    "to"
+   ]
+  },
+  {
+   "id": 4540,
+   "word": "breeding",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the process of animals producing young or plants growing",
+   "uses": [
+    "animal",
+    "grow",
+    "of",
+    "or",
+    "plant",
+    "process",
+    "produce",
+    "the",
+    "young"
+   ]
+  },
+  {
+   "id": 4541,
+   "word": "citations",
+   "pos": "noun",
+   "ring": 2,
+   "def": "references to where information or ideas come from",
+   "uses": [
+    "come",
+    "from",
+    "idea",
+    "information",
+    "or",
+    "reference",
+    "to",
+    "where"
+   ]
+  },
+  {
+   "id": 4542,
+   "word": "geographical",
+   "pos": "noun",
+   "ring": 2,
+   "def": "about the physical features of places on earth",
+   "uses": [
+    "about",
+    "earth",
+    "feature",
+    "of",
+    "on",
+    "physical",
+    "place",
+    "the"
+   ]
+  },
+  {
+   "id": 4543,
+   "word": "donor",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a person who gives something like blood or money to help",
+   "uses": [
+    "a",
+    "blood",
+    "help",
+    "like",
+    "money",
+    "or",
+    "person",
+    "to",
+    "who"
+   ]
+  },
+  {
+   "id": 4544,
+   "word": "benz",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a part of the name for some chemical substances",
+   "uses": [
+    "a",
+    "chemical",
+    "for",
+    "name",
+    "of",
+    "part",
+    "some",
+    "substance",
+    "the"
+   ]
+  },
+  {
+   "id": 4545,
+   "word": "shapes",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the forms or outlines of things that are able to be seen",
+   "uses": [
+    "able",
+    "be",
+    "form",
+    "of",
+    "or",
+    "outline",
+    "that",
+    "the",
+    "thing",
+    "to"
+   ]
+  },
+  {
+   "id": 4546,
+   "word": "wifi",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a way to join computers to the internet without wires",
+   "uses": [
+    "a",
+    "computer",
+    "internet",
+    "join",
+    "the",
+    "to",
+    "way",
+    "wire"
+   ]
+  },
+  {
+   "id": 4547,
+   "word": "tier",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a level or position in a system with different levels",
+   "uses": [
+    "a",
+    "different",
+    "in",
+    "level",
+    "or",
+    "position",
+    "system",
+    "with"
+   ]
+  },
+  {
+   "id": 4548,
+   "word": "fwd",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a note meaning forward as in sending a message to someone",
+   "uses": [
+    "a",
+    "as",
+    "forward",
+    "in",
+    "meaning",
+    "message",
+    "note",
+    "to"
+   ]
+  },
+  {
+   "id": 4549,
+   "word": "manor",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a great house and the land near it that is part of it",
+   "uses": [
+    "a",
+    "and",
+    "great",
+    "house",
+    "land",
+    "near",
+    "of",
+    "part",
+    "that",
+    "the"
+   ]
+  },
+  {
+   "id": 4550,
+   "word": "envelope",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a paper cover for a letter with a space to close it",
+   "uses": [
+    "a",
+    "close",
+    "cover",
+    "for",
+    "letter",
+    "paper",
+    "space",
+    "to",
+    "with"
+   ]
+  },
+  {
+   "id": 4551,
+   "word": "diane",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name that is able to be for a woman",
+   "uses": [
+    "a",
+    "able",
+    "be",
+    "for",
+    "name",
+    "that",
+    "to",
+    "woman"
+   ]
+  },
+  {
+   "id": 4552,
+   "word": "homeland",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the land of one's birth, the country where a person comes from",
+   "uses": [
+    "a",
+    "birth",
+    "country",
+    "from",
+    "land",
+    "of",
+    "person",
+    "the",
+    "where"
+   ]
+  },
+  {
+   "id": 4553,
+   "word": "disclaimers",
+   "pos": "noun",
+   "ring": 2,
+   "def": "statements that say one is not responsible for something",
+   "uses": [
+    "for",
+    "not",
+    "responsible",
+    "say",
+    "statement",
+    "that"
+   ]
+  },
+  {
+   "id": 4554,
+   "word": "excluded",
+   "pos": "noun",
+   "ring": 2,
+   "def": "not let in, kept from being part of a group",
+   "uses": [
+    "a",
+    "from",
+    "group",
+    "in",
+    "let",
+    "not",
+    "of",
+    "part"
+   ]
+  },
+  {
+   "id": 4555,
+   "word": "andrea",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a woman's name, a female person with that name",
+   "uses": [
+    "a",
+    "female",
+    "name",
+    "person",
+    "that",
+    "with",
+    "woman"
+   ]
+  },
+  {
+   "id": 4556,
+   "word": "rapids",
+   "pos": "noun",
+   "ring": 2,
+   "def": "parts of a river where water moves very quick and is rough",
+   "uses": [
+    "a",
+    "and",
+    "move",
+    "of",
+    "part",
+    "quick",
+    "river",
+    "rough",
+    "very",
+    "water",
+    "where"
+   ]
+  },
+  {
+   "id": 4557,
+   "word": "disco",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a place where people dance to music, a kind of dance music",
+   "uses": [
+    "a",
+    "dance",
+    "kind",
+    "music",
+    "of",
+    "people",
+    "place",
+    "to",
+    "where"
+   ]
+  },
+  {
+   "id": 4558,
+   "word": "endif",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a word to show the end of a part in a computer program",
+   "uses": [
+    "a",
+    "computer",
+    "end",
+    "in",
+    "of",
+    "part",
+    "program",
+    "show",
+    "the",
+    "to",
+    "word"
+   ]
+  },
+  {
+   "id": 4559,
+   "word": "finishing",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the last part of doing something, the act of completing a task",
+   "uses": [
+    "a",
+    "act",
+    "complete",
+    "last",
+    "of",
+    "part",
+    "task",
+    "the"
+   ]
+  },
+  {
+   "id": 4560,
+   "word": "emotions",
+   "pos": "noun",
+   "ring": 2,
+   "def": "strong feelings inside a person, ways of mind like love or fear",
+   "uses": [
+    "a",
+    "fear",
+    "feeling",
+    "like",
+    "love",
+    "mind",
+    "of",
+    "or",
+    "person",
+    "strong",
+    "way"
+   ]
+  },
+  {
+   "id": 4561,
+   "word": "lexmark",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a business that makes printing machines, a company for office machines",
+   "uses": [
+    "a",
+    "business",
+    "company",
+    "for",
+    "machine",
+    "office",
+    "print",
+    "that"
+   ]
+  },
+  {
+   "id": 4562,
+   "word": "eternal",
+   "pos": "noun",
+   "ring": 2,
+   "def": "lasting without end, without start or finish in time",
+   "uses": [
+    "end",
+    "finish",
+    "in",
+    "last",
+    "or",
+    "start",
+    "time"
+   ]
+  },
+  {
+   "id": 4563,
+   "word": "aboriginal",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the first people of a land, born in a country from the start",
+   "uses": [
+    "a",
+    "born",
+    "country",
+    "first",
+    "from",
+    "in",
+    "land",
+    "of",
+    "people",
+    "start",
+    "the"
+   ]
+  },
+  {
+   "id": 4564,
+   "word": "preventing",
+   "pos": "noun",
+   "ring": 2,
+   "def": "stopping something from taking place, keeping a bad thing at a distance",
+   "uses": [
+    "a",
+    "at",
+    "bad",
+    "distance",
+    "from",
+    "place",
+    "stop",
+    "thing"
+   ]
+  },
+  {
+   "id": 4565,
+   "word": "boulevard",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a wide street with trees on the two sides, a road in a town",
+   "uses": [
+    "a",
+    "in",
+    "on",
+    "road",
+    "side",
+    "street",
+    "the",
+    "town",
+    "tree",
+    "wide",
+    "with"
+   ]
+  },
+  {
+   "id": 4566,
+   "word": "gdp",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the value of goods made in a country, a measure of money",
+   "uses": [
+    "a",
+    "country",
+    "good",
+    "in",
+    "measure",
+    "money",
+    "of",
+    "the",
+    "value"
+   ]
+  },
+  {
+   "id": 4567,
+   "word": "metric",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a system of measure, a way to measure things with units",
+   "uses": [
+    "a",
+    "measure",
+    "of",
+    "system",
+    "thing",
+    "to",
+    "unit",
+    "way",
+    "with"
+   ]
+  },
+  {
+   "id": 4568,
+   "word": "compliant",
+   "pos": "noun",
+   "ring": 2,
+   "def": "doing as one is asked, following rules or requests",
+   "uses": [
+    "as",
+    "ask",
+    "follow",
+    "or",
+    "request",
+    "rule"
+   ]
+  },
+  {
+   "id": 4569,
+   "word": "penalties",
+   "pos": "noun",
+   "ring": 2,
+   "def": "punishments for breaking rules, bad things for doing wrong",
+   "uses": [
+    "bad",
+    "break",
+    "for",
+    "punishment",
+    "rule",
+    "thing",
+    "wrong"
+   ]
+  },
+  {
+   "id": 4570,
+   "word": "bennett",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a person's name, a male or female with that name",
+   "uses": [
+    "a",
+    "female",
+    "male",
+    "name",
+    "or",
+    "person",
+    "that",
+    "with"
+   ]
+  },
+  {
+   "id": 4571,
+   "word": "imagination",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the power to make up things in one's mind, thought that is new",
+   "uses": [
+    "in",
+    "make",
+    "mind",
+    "new",
+    "power",
+    "that",
+    "the",
+    "thing",
+    "thought",
+    "to",
+    "up"
+   ]
+  },
+  {
+   "id": 4572,
+   "word": "hotmail",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a way of sending email messages, a place on the internet",
+   "uses": [
+    "a",
+    "email",
+    "internet",
+    "message",
+    "of",
+    "on",
+    "place",
+    "the",
+    "way"
+   ]
+  },
+  {
+   "id": 4573,
+   "word": "refurbished",
+   "pos": "noun",
+   "ring": 2,
+   "def": "made to work like new again, fixed and made better",
+   "uses": [
+    "again",
+    "and",
+    "fixed",
+    "like",
+    "new",
+    "to",
+    "work"
+   ]
+  },
+  {
+   "id": 4574,
+   "word": "joshua",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a man's name, a male person with that name",
+   "uses": [
+    "a",
+    "male",
+    "man",
+    "name",
+    "person",
+    "that",
+    "with"
+   ]
+  },
+  {
+   "id": 4575,
+   "word": "varied",
+   "pos": "noun",
+   "ring": 2,
+   "def": "different kinds, not all the same but changing",
+   "uses": [
+    "all",
+    "but",
+    "change",
+    "different",
+    "kind",
+    "not",
+    "same",
+    "the"
+   ]
+  },
+  {
+   "id": 4576,
+   "word": "grande",
+   "pos": "adv",
+   "ring": 2,
+   "def": "meaning great in size or amount, great in some way",
+   "uses": [
+    "amount",
+    "great",
+    "in",
+    "meaning",
+    "or",
+    "size",
+    "some",
+    "way"
+   ]
+  },
+  {
+   "id": 4577,
+   "word": "closest",
+   "pos": "noun",
+   "ring": 2,
+   "def": "nearest in distance or time, not far from something",
+   "uses": [
+    "distance",
+    "far",
+    "from",
+    "in",
+    "near",
+    "not",
+    "or",
+    "time"
+   ]
+  },
+  {
+   "id": 4578,
+   "word": "activated",
+   "pos": "noun",
+   "ring": 2,
+   "def": "made to start working, put in motion to do something",
+   "uses": [
+    "do",
+    "in",
+    "motion",
+    "put",
+    "start",
+    "to",
+    "work"
+   ]
+  },
+  {
+   "id": 4579,
+   "word": "actress",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a woman who acts in plays or shows, a female player",
+   "uses": [
+    "a",
+    "act",
+    "female",
+    "in",
+    "or",
+    "play",
+    "show",
+    "who",
+    "woman"
+   ]
+  },
+  {
+   "id": 4580,
+   "word": "conferencing",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a meeting of people to talk, a group discussion",
+   "uses": [
+    "a",
+    "discussion",
+    "group",
+    "meeting",
+    "of",
+    "people",
+    "talk",
+    "to"
+   ]
+  },
+  {
+   "id": 4581,
+   "word": "armstrong",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a person's name, a male or female with that name",
+   "uses": [
+    "a",
+    "female",
+    "male",
+    "name",
+    "or",
+    "person",
+    "that",
+    "with"
+   ]
+  },
+  {
+   "id": 4582,
+   "word": "politicians",
+   "pos": "noun",
+   "ring": 2,
+   "def": "people who work in government, persons who make laws",
+   "uses": [
+    "government",
+    "in",
+    "law",
+    "make",
+    "people",
+    "person",
+    "who",
+    "work"
+   ]
+  },
+  {
+   "id": 4583,
+   "word": "accommodate",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to give a place to someone, to make room for people",
+   "uses": [
+    "a",
+    "for",
+    "give",
+    "make",
+    "people",
+    "place",
+    "room",
+    "to"
+   ]
+  },
+  {
+   "id": 4584,
+   "word": "aurora",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a natural light show in the sky, a bright event at night",
+   "uses": [
+    "a",
+    "at",
+    "bright",
+    "event",
+    "in",
+    "light",
+    "natural",
+    "night",
+    "show",
+    "sky",
+    "the"
+   ]
+  },
+  {
+   "id": 4585,
+   "word": "una",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a woman's name, a female person with that name",
+   "uses": [
+    "a",
+    "female",
+    "name",
+    "person",
+    "that",
+    "with",
+    "woman"
+   ]
+  },
+  {
+   "id": 4586,
+   "word": "slides",
+   "pos": "noun",
+   "ring": 2,
+   "def": "papers for showing pictures, things you look at with a machine",
+   "uses": [
+    "a",
+    "at",
+    "for",
+    "look",
+    "machine",
+    "paper",
+    "picture",
+    "show",
+    "thing",
+    "with",
+    "you"
+   ]
+  },
+  {
+   "id": 4587,
+   "word": "premiere",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the first showing of a play or a moving picture or a work of music",
+   "uses": [
+    "a",
+    "first",
+    "move",
+    "music",
+    "of",
+    "or",
+    "picture",
+    "play",
+    "show",
+    "the",
+    "work"
+   ]
+  },
+  {
+   "id": 4588,
+   "word": "lender",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a person or a group that gives money to another for a time",
+   "uses": [
+    "a",
+    "for",
+    "group",
+    "money",
+    "or",
+    "person",
+    "that",
+    "time",
+    "to"
+   ]
+  },
+  {
+   "id": 4589,
+   "word": "villages",
+   "pos": "noun",
+   "ring": 2,
+   "def": "small towns that are seen in the land or in not so crowded places",
+   "uses": [
+    "crowd",
+    "in",
+    "land",
+    "not",
+    "or",
+    "place",
+    "small",
+    "so",
+    "that",
+    "the",
+    "town"
+   ]
+  },
+  {
+   "id": 4590,
+   "word": "chorus",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a group of people who sing together, the part of a song that is done again",
+   "uses": [
+    "a",
+    "again",
+    "group",
+    "of",
+    "part",
+    "people",
+    "sing",
+    "song",
+    "that",
+    "the",
+    "together",
+    "who"
+   ]
+  },
+  {
+   "id": 4591,
+   "word": "christine",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name that is given to a female person, a woman's first name",
+   "uses": [
+    "a",
+    "female",
+    "first",
+    "name",
+    "person",
+    "that",
+    "to",
+    "woman"
+   ]
+  },
+  {
+   "id": 4592,
+   "word": "digit",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a number from zero to nine, a finger or a toe on the body",
+   "uses": [
+    "a",
+    "body",
+    "finger",
+    "from",
+    "number",
+    "on",
+    "or",
+    "the",
+    "to",
+    "toe",
+    "zero"
+   ]
+  },
+  {
+   "id": 4593,
+   "word": "argued",
+   "pos": "noun",
+   "ring": 2,
+   "def": "had a talk with words that were not the same, talked against another idea",
+   "uses": [
+    "a",
+    "against",
+    "idea",
+    "not",
+    "same",
+    "talk",
+    "that",
+    "the",
+    "with",
+    "word"
+   ]
+  },
+  {
+   "id": 4594,
+   "word": "symphony",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a long work of music for a full group of instruments, a great work for band",
+   "uses": [
+    "a",
+    "band",
+    "for",
+    "full",
+    "great",
+    "group",
+    "instrument",
+    "long",
+    "music",
+    "of",
+    "work"
+   ]
+  },
+  {
+   "id": 4595,
+   "word": "precipitation",
+   "pos": "noun",
+   "ring": 2,
+   "def": "water that falls from the clouds as rain or snow or ice drops",
+   "uses": [
+    "as",
+    "cloud",
+    "drop",
+    "fall",
+    "from",
+    "ice",
+    "or",
+    "rain",
+    "snow",
+    "that",
+    "the",
+    "water"
+   ]
+  },
+  {
+   "id": 4596,
+   "word": "findlaw",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a place on the internet where one is able to find information about the law",
+   "uses": [
+    "a",
+    "able",
+    "about",
+    "find",
+    "information",
+    "internet",
+    "law",
+    "on",
+    "place",
+    "the",
+    "to",
+    "where"
+   ]
+  },
+  {
+   "id": 4597,
+   "word": "ada",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name that is given to a woman, a name that comes from a number",
+   "uses": [
+    "a",
+    "from",
+    "name",
+    "number",
+    "that",
+    "to",
+    "woman"
+   ]
+  },
+  {
+   "id": 4598,
+   "word": "pools",
+   "pos": "noun",
+   "ring": 2,
+   "def": "small parts of still water, places where one may go for a swim",
+   "uses": [
+    "a",
+    "for",
+    "go",
+    "may",
+    "of",
+    "part",
+    "place",
+    "small",
+    "still",
+    "swim",
+    "water",
+    "where"
+   ]
+  },
+  {
+   "id": 4599,
+   "word": "lyric",
+   "pos": "noun",
+   "ring": 2,
+   "def": "words that are in a song, a verse that talks about feelings",
+   "uses": [
+    "a",
+    "about",
+    "feeling",
+    "in",
+    "song",
+    "talk",
+    "that",
+    "verse",
+    "word"
+   ]
+  },
+  {
+   "id": 4600,
+   "word": "claire",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a woman's name that is clear and bright, a first name",
+   "uses": [
+    "a",
+    "and",
+    "bright",
+    "clear",
+    "first",
+    "name",
+    "that",
+    "woman"
+   ]
+  },
+  {
+   "id": 4601,
+   "word": "sustained",
+   "pos": "noun",
+   "ring": 2,
+   "def": "kept going for a time, going on without stopping",
+   "uses": [
+    "a",
+    "for",
+    "on",
+    "stop",
+    "time"
+   ]
+  },
+  {
+   "id": 4602,
+   "word": "approximate",
+   "pos": "noun",
+   "ring": 2,
+   "def": "almost correct but not right, close to the true number or amount",
+   "uses": [
+    "almost",
+    "amount",
+    "but",
+    "close",
+    "correct",
+    "not",
+    "number",
+    "or",
+    "right",
+    "the",
+    "to",
+    "true"
+   ]
+  },
+  {
+   "id": 4603,
+   "word": "rational",
+   "pos": "adv",
+   "ring": 2,
+   "def": "based on reason, thinking in a sound and clear way",
+   "uses": [
+    "a",
+    "and",
+    "base",
+    "clear",
+    "in",
+    "on",
+    "reason",
+    "sound",
+    "think",
+    "way"
+   ]
+  },
+  {
+   "id": 4604,
+   "word": "programmer",
+   "pos": "noun",
+   "ring": 2,
+   "def": "one who writes code for computers, a person who makes software",
+   "uses": [
+    "a",
+    "code",
+    "computer",
+    "for",
+    "person",
+    "software",
+    "who",
+    "write"
+   ]
+  },
+  {
+   "id": 4605,
+   "word": "chambers",
+   "pos": "noun",
+   "ring": 2,
+   "def": "private rooms in a house or a building, meeting rooms for groups",
+   "uses": [
+    "a",
+    "building",
+    "for",
+    "group",
+    "house",
+    "in",
+    "meeting",
+    "or",
+    "private",
+    "room"
+   ]
+  },
+  {
+   "id": 4606,
+   "word": "dump",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a place where waste is taken, to put something down without care",
+   "uses": [
+    "a",
+    "care",
+    "down",
+    "place",
+    "put",
+    "to",
+    "waste",
+    "where"
+   ]
+  },
+  {
+   "id": 4607,
+   "word": "greetings",
+   "pos": "noun",
+   "ring": 2,
+   "def": "words that are said when one meets another, words of welcome",
+   "uses": [
+    "meet",
+    "of",
+    "that",
+    "welcome",
+    "when",
+    "word"
+   ]
+  },
+  {
+   "id": 4608,
+   "word": "vocals",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the singing part of a song, words that are made in music",
+   "uses": [
+    "a",
+    "in",
+    "music",
+    "of",
+    "part",
+    "sing",
+    "song",
+    "that",
+    "the",
+    "word"
+   ]
+  },
+  {
+   "id": 4609,
+   "word": "chronicle",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a record of events in order, a history that is kept in writing",
+   "uses": [
+    "a",
+    "event",
+    "history",
+    "in",
+    "of",
+    "order",
+    "record",
+    "that",
+    "writing"
+   ]
+  },
+  {
+   "id": 4610,
+   "word": "fountain",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a structure that sends water up, a place with water that moves",
+   "uses": [
+    "a",
+    "move",
+    "place",
+    "structure",
+    "that",
+    "up",
+    "water",
+    "with"
+   ]
+  },
+  {
+   "id": 4611,
+   "word": "chubby",
+   "pos": "adv",
+   "ring": 2,
+   "def": "having a soft and round body, a little fat in a good way",
+   "uses": [
+    "a",
+    "and",
+    "body",
+    "fat",
+    "good",
+    "in",
+    "little",
+    "round",
+    "soft",
+    "way"
+   ]
+  },
+  {
+   "id": 4612,
+   "word": "grave",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a place where a dead person is put, serious and important in manner",
+   "uses": [
+    "a",
+    "and",
+    "dead",
+    "important",
+    "in",
+    "man",
+    "person",
+    "place",
+    "put",
+    "serious",
+    "where"
+   ]
+  },
+  {
+   "id": 4613,
+   "word": "biographies",
+   "pos": "noun",
+   "ring": 2,
+   "def": "books that tell about a life, kept accounts of someone's existence",
+   "uses": [
+    "a",
+    "about",
+    "account",
+    "book",
+    "existence",
+    "life",
+    "of",
+    "tell",
+    "that"
+   ]
+  },
+  {
+   "id": 4614,
+   "word": "yrs",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a short way to write years, a measure of time that goes by",
+   "uses": [
+    "a",
+    "by",
+    "measure",
+    "of",
+    "short",
+    "that",
+    "time",
+    "to",
+    "way",
+    "write",
+    "year"
+   ]
+  },
+  {
+   "id": 4615,
+   "word": "foo",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a word that is not true, a made-up word for play",
+   "uses": [
+    "a",
+    "for",
+    "not",
+    "play",
+    "that",
+    "true",
+    "up",
+    "word"
+   ]
+  },
+  {
+   "id": 4616,
+   "word": "investigator",
+   "pos": "noun",
+   "ring": 2,
+   "def": "one who looks into something, a person who finds out facts",
+   "uses": [
+    "a",
+    "fact",
+    "find",
+    "look",
+    "out",
+    "person",
+    "who"
+   ]
+  },
+  {
+   "id": 4617,
+   "word": "howto",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a way to do something, steps for a task",
+   "uses": [
+    "a",
+    "do",
+    "for",
+    "step",
+    "task",
+    "to",
+    "way"
+   ]
+  },
+  {
+   "id": 4618,
+   "word": "reveals",
+   "pos": "noun",
+   "ring": 2,
+   "def": "shows something that was not seen before, makes something to others",
+   "uses": [
+    "before",
+    "not",
+    "other",
+    "show",
+    "that",
+    "to"
+   ]
+  },
+  {
+   "id": 4619,
+   "word": "architects",
+   "pos": "noun",
+   "ring": 2,
+   "def": "people who design buildings and make plans for their making",
+   "uses": [
+    "and",
+    "building",
+    "design",
+    "for",
+    "make",
+    "people",
+    "plan",
+    "who"
+   ]
+  },
+  {
+   "id": 4620,
+   "word": "entrepreneur",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a person who starts a work and takes chances to make money",
+   "uses": [
+    "a",
+    "and",
+    "chance",
+    "make",
+    "money",
+    "person",
+    "start",
+    "to",
+    "who",
+    "work"
+   ]
+  },
+  {
+   "id": 4621,
+   "word": "carries",
+   "pos": "noun",
+   "ring": 2,
+   "def": "holds something and moves it from one place to another",
+   "uses": [
+    "and",
+    "from",
+    "hold",
+    "move",
+    "place",
+    "to"
+   ]
+  },
+  {
+   "id": 4622,
+   "word": "sig",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a mark or sign that stands for something other",
+   "uses": [
+    "a",
+    "for",
+    "mark",
+    "or",
+    "other",
+    "sign",
+    "stand",
+    "that"
+   ]
+  },
+  {
+   "id": 4623,
+   "word": "freelance",
+   "pos": "noun",
+   "ring": 2,
+   "def": "working for oneself and not for a company or organization",
+   "uses": [
+    "a",
+    "and",
+    "company",
+    "for",
+    "not",
+    "or",
+    "organization",
+    "work"
+   ]
+  },
+  {
+   "id": 4624,
+   "word": "duo",
+   "pos": "noun",
+   "ring": 2,
+   "def": "two people who work together or act as a team",
+   "uses": [
+    "a",
+    "act",
+    "as",
+    "or",
+    "people",
+    "team",
+    "together",
+    "who",
+    "work"
+   ]
+  },
+  {
+   "id": 4625,
+   "word": "screensaver",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a picture that moves on a computer screen when it is not being used",
+   "uses": [
+    "a",
+    "computer",
+    "move",
+    "not",
+    "on",
+    "picture",
+    "screen",
+    "that",
+    "use",
+    "when"
+   ]
+  },
+  {
+   "id": 4626,
+   "word": "regarded",
+   "pos": "noun",
+   "ring": 2,
+   "def": "thought about in a certain way, seen as having a special quality",
+   "uses": [
+    "a",
+    "about",
+    "as",
+    "certain",
+    "in",
+    "quality",
+    "special",
+    "thought",
+    "way"
+   ]
+  },
+  {
+   "id": 4627,
+   "word": "fog",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a cloud that is near the earth and makes it hard to see far",
+   "uses": [
+    "a",
+    "and",
+    "cloud",
+    "earth",
+    "far",
+    "hard",
+    "near",
+    "see",
+    "that",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 4628,
+   "word": "characteristic",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a quality or feature that is common of a person or thing",
+   "uses": [
+    "a",
+    "common",
+    "feature",
+    "of",
+    "or",
+    "person",
+    "quality",
+    "that",
+    "thing"
+   ]
+  },
+  {
+   "id": 4629,
+   "word": "lobby",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a great room in a building where people wait or meet",
+   "uses": [
+    "a",
+    "building",
+    "great",
+    "in",
+    "meet",
+    "or",
+    "people",
+    "room",
+    "wait",
+    "where"
+   ]
+  },
+  {
+   "id": 4630,
+   "word": "appointments",
+   "pos": "noun",
+   "ring": 2,
+   "def": "plans to meet someone at a fixed time and place",
+   "uses": [
+    "a",
+    "and",
+    "at",
+    "fixed",
+    "meet",
+    "place",
+    "plan",
+    "time",
+    "to"
+   ]
+  },
+  {
+   "id": 4631,
+   "word": "str",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a short way of saying street, a public way in a town",
+   "uses": [
+    "a",
+    "in",
+    "of",
+    "public",
+    "short",
+    "street",
+    "town",
+    "way"
+   ]
+  },
+  {
+   "id": 4632,
+   "word": "cowboy",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a person who takes care of cows on a farm or land",
+   "uses": [
+    "a",
+    "care",
+    "cow",
+    "farm",
+    "land",
+    "of",
+    "on",
+    "or",
+    "person",
+    "who"
+   ]
+  },
+  {
+   "id": 4633,
+   "word": "narrative",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a story or an account of events that took place in the past",
+   "uses": [
+    "a",
+    "account",
+    "event",
+    "in",
+    "of",
+    "or",
+    "past",
+    "place",
+    "story",
+    "that",
+    "the"
+   ]
+  },
+  {
+   "id": 4634,
+   "word": "enormous",
+   "pos": "noun",
+   "ring": 2,
+   "def": "very great in size or amount, much greater than normal",
+   "uses": [
+    "amount",
+    "great",
+    "in",
+    "much",
+    "normal",
+    "or",
+    "size",
+    "than",
+    "very"
+   ]
+  },
+  {
+   "id": 4635,
+   "word": "consist",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to be made up of certain parts or things, to have as parts",
+   "uses": [
+    "as",
+    "be",
+    "certain",
+    "have",
+    "of",
+    "or",
+    "part",
+    "thing",
+    "to",
+    "up"
+   ]
+  },
+  {
+   "id": 4636,
+   "word": "betty",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a female name of old tongue meaning god is my word",
+   "uses": [
+    "a",
+    "female",
+    "go",
+    "meaning",
+    "name",
+    "of",
+    "old",
+    "tongue",
+    "word"
+   ]
+  },
+  {
+   "id": 4637,
+   "word": "academics",
+   "pos": "noun",
+   "ring": 2,
+   "def": "people who study and teach at schools and universities",
+   "uses": [
+    "and",
+    "at",
+    "people",
+    "school",
+    "study",
+    "teach",
+    "university",
+    "who"
+   ]
+  },
+  {
+   "id": 4638,
+   "word": "pubs",
+   "pos": "noun",
+   "ring": 2,
+   "def": "places where people go to drink drink and talk with friends",
+   "uses": [
+    "and",
+    "drink",
+    "friend",
+    "go",
+    "people",
+    "place",
+    "talk",
+    "to",
+    "where",
+    "with"
+   ]
+  },
+  {
+   "id": 4639,
+   "word": "quantitative",
+   "pos": "noun",
+   "ring": 2,
+   "def": "at all times about numbers or amounts that are able to be measured",
+   "uses": [
+    "able",
+    "about",
+    "all",
+    "amount",
+    "at",
+    "be",
+    "measure",
+    "number",
+    "or",
+    "that",
+    "time",
+    "to"
+   ]
+  },
+  {
+   "id": 4640,
+   "word": "shemales",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a word for people who are born male but have female features",
+   "uses": [
+    "a",
+    "born",
+    "but",
+    "feature",
+    "female",
+    "for",
+    "have",
+    "male",
+    "people",
+    "who",
+    "word"
+   ]
+  },
+  {
+   "id": 4641,
+   "word": "lucas",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a male name of old origin meaning bringer of light",
+   "uses": [
+    "a",
+    "bring",
+    "light",
+    "male",
+    "meaning",
+    "name",
+    "of",
+    "old",
+    "origin"
+   ]
+  },
+  {
+   "id": 4642,
+   "word": "screensavers",
+   "pos": "noun",
+   "ring": 2,
+   "def": "moving pictures that show on a computer screen when it is not used",
+   "uses": [
+    "a",
+    "computer",
+    "move",
+    "not",
+    "on",
+    "picture",
+    "screen",
+    "show",
+    "that",
+    "use",
+    "when"
+   ]
+  },
+  {
+   "id": 4643,
+   "word": "subdivision",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a part of a great land or group, a smaller division",
+   "uses": [
+    "a",
+    "division",
+    "great",
+    "group",
+    "land",
+    "of",
+    "or",
+    "part",
+    "small"
+   ]
+  },
+  {
+   "id": 4644,
+   "word": "tribes",
+   "pos": "noun",
+   "ring": 2,
+   "def": "groups of people who share a common way of life and leader",
+   "uses": [
+    "a",
+    "and",
+    "common",
+    "group",
+    "lead",
+    "life",
+    "of",
+    "people",
+    "share",
+    "way",
+    "who"
+   ]
+  },
+  {
+   "id": 4645,
+   "word": "defeat",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to get the better of someone in a competition or fight, a loss",
+   "uses": [
+    "a",
+    "competition",
+    "fight",
+    "get",
+    "in",
+    "loss",
+    "of",
+    "or",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 4646,
+   "word": "clicks",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the sound made by pushing a button on a computer mouse",
+   "uses": [
+    "a",
+    "button",
+    "by",
+    "computer",
+    "mouse",
+    "on",
+    "push",
+    "sound",
+    "the"
+   ]
+  },
+  {
+   "id": 4647,
+   "word": "distinction",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a mark between two things, a special quality",
+   "uses": [
+    "a",
+    "between",
+    "mark",
+    "quality",
+    "special",
+    "thing"
+   ]
+  },
+  {
+   "id": 4648,
+   "word": "hazards",
+   "pos": "noun",
+   "ring": 2,
+   "def": "things that may cause damage, danger to people or things",
+   "uses": [
+    "cause",
+    "damage",
+    "danger",
+    "may",
+    "or",
+    "people",
+    "that",
+    "thing",
+    "to"
+   ]
+  },
+  {
+   "id": 4649,
+   "word": "insured",
+   "pos": "noun",
+   "ring": 2,
+   "def": "covered by a form of insurance against loss or damage",
+   "uses": [
+    "a",
+    "against",
+    "by",
+    "cover",
+    "damage",
+    "form",
+    "insurance",
+    "loss",
+    "of",
+    "or"
+   ]
+  },
+  {
+   "id": 4650,
+   "word": "livestock",
+   "pos": "noun",
+   "ring": 2,
+   "def": "animals such as cows and sheep that are kept on a farm",
+   "uses": [
+    "a",
+    "and",
+    "animal",
+    "as",
+    "cow",
+    "farm",
+    "on",
+    "sheep",
+    "such",
+    "that"
+   ]
+  },
+  {
+   "id": 4651,
+   "word": "exemption",
+   "pos": "noun",
+   "ring": 2,
+   "def": "being free from a rule or payment that others have",
+   "uses": [
+    "a",
+    "free",
+    "from",
+    "have",
+    "or",
+    "other",
+    "payment",
+    "rule",
+    "that"
+   ]
+  },
+  {
+   "id": 4652,
+   "word": "tenant",
+   "pos": "noun",
+   "ring": 2,
+   "def": "one who pays money to live in a house or land that is owned by another",
+   "uses": [
+    "a",
+    "by",
+    "house",
+    "in",
+    "land",
+    "live",
+    "money",
+    "or",
+    "own",
+    "pay",
+    "that",
+    "to",
+    "who"
+   ]
+  },
+  {
+   "id": 4653,
+   "word": "cabinets",
+   "pos": "noun",
+   "ring": 2,
+   "def": "boxes or storage places with doors for keeping things or for showing things",
+   "uses": [
+    "box",
+    "door",
+    "for",
+    "or",
+    "place",
+    "show",
+    "storage",
+    "thing",
+    "with"
+   ]
+  },
+  {
+   "id": 4654,
+   "word": "tattoo",
+   "pos": "noun",
+   "ring": 2,
+   "def": "marks made on the skin by putting colors into holes in the skin",
+   "uses": [
+    "by",
+    "color",
+    "hole",
+    "in",
+    "mark",
+    "on",
+    "skin",
+    "the"
+   ]
+  },
+  {
+   "id": 4655,
+   "word": "holly",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a plant with dark green leaves and red berries that grows in winter",
+   "uses": [
+    "a",
+    "and",
+    "berry",
+    "dark",
+    "green",
+    "grow",
+    "in",
+    "leave",
+    "plant",
+    "red",
+    "that",
+    "winter",
+    "with"
+   ]
+  },
+  {
+   "id": 4656,
+   "word": "formatting",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the way of putting out the form or look of something",
+   "uses": [
+    "form",
+    "look",
+    "of",
+    "or",
+    "out",
+    "the",
+    "way"
+   ]
+  },
+  {
+   "id": 4657,
+   "word": "nutritional",
+   "pos": "noun",
+   "ring": 2,
+   "def": "about the food that a person or animal eats and about the substances in it",
+   "uses": [
+    "a",
+    "about",
+    "and",
+    "animal",
+    "eat",
+    "food",
+    "in",
+    "or",
+    "person",
+    "substance",
+    "that",
+    "the"
+   ]
+  },
+  {
+   "id": 4658,
+   "word": "yea",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a word meaning yes, used for giving an answer or showing agreement",
+   "uses": [
+    "a",
+    "agreement",
+    "answer",
+    "for",
+    "meaning",
+    "or",
+    "show",
+    "use",
+    "word",
+    "yes"
+   ]
+  },
+  {
+   "id": 4659,
+   "word": "freely",
+   "pos": "adv",
+   "ring": 2,
+   "def": "in a way that is not limited or controlled, without being kept back",
+   "uses": [
+    "a",
+    "back",
+    "control",
+    "in",
+    "limit",
+    "not",
+    "or",
+    "that",
+    "way"
+   ]
+  },
+  {
+   "id": 4660,
+   "word": "marcus",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a man's name, a first name for a boy or a man",
+   "uses": [
+    "a",
+    "boy",
+    "first",
+    "for",
+    "man",
+    "name",
+    "or"
+   ]
+  },
+  {
+   "id": 4661,
+   "word": "sunrise",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the time in the morning when the sun first comes into view",
+   "uses": [
+    "first",
+    "in",
+    "morning",
+    "sun",
+    "the",
+    "time",
+    "view",
+    "when"
+   ]
+  },
+  {
+   "id": 4662,
+   "word": "wrapping",
+   "pos": "noun",
+   "ring": 2,
+   "def": "paper or material used to cover something, or the act of covering something",
+   "uses": [
+    "act",
+    "cover",
+    "material",
+    "of",
+    "or",
+    "paper",
+    "the",
+    "to",
+    "use"
+   ]
+  },
+  {
+   "id": 4663,
+   "word": "fur",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the thick hair that covers the bodies of some animals, used to keep them warm",
+   "uses": [
+    "animal",
+    "body",
+    "cover",
+    "hair",
+    "keep",
+    "of",
+    "some",
+    "that",
+    "the",
+    "thick",
+    "to",
+    "use",
+    "warm"
+   ]
+  },
+  {
+   "id": 4664,
+   "word": "weblogs",
+   "pos": "noun",
+   "ring": 2,
+   "def": "websites that show information in a list of new things, with the newest first",
+   "uses": [
+    "a",
+    "first",
+    "in",
+    "information",
+    "list",
+    "new",
+    "of",
+    "show",
+    "that",
+    "the",
+    "thing",
+    "website",
+    "with"
+   ]
+  },
+  {
+   "id": 4665,
+   "word": "timeline",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a line that shows the order of events in time, or a plan of events in time",
+   "uses": [
+    "a",
+    "event",
+    "in",
+    "line",
+    "of",
+    "or",
+    "order",
+    "plan",
+    "show",
+    "that",
+    "the",
+    "time"
+   ]
+  },
+  {
+   "id": 4666,
+   "word": "tar",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a thick black substance that is sticky and comes from coal or wood",
+   "uses": [
+    "a",
+    "and",
+    "black",
+    "coal",
+    "from",
+    "or",
+    "sticky",
+    "substance",
+    "that",
+    "thick",
+    "wood"
+   ]
+  },
+  {
+   "id": 4667,
+   "word": "belongs",
+   "pos": "noun",
+   "ring": 2,
+   "def": "is the property of, or is joined to in a way that is right",
+   "uses": [
+    "a",
+    "in",
+    "join",
+    "of",
+    "or",
+    "property",
+    "right",
+    "that",
+    "the",
+    "to",
+    "way"
+   ]
+  },
+  {
+   "id": 4668,
+   "word": "readily",
+   "pos": "noun",
+   "ring": 2,
+   "def": "without much trouble, in a way that shows agreement",
+   "uses": [
+    "a",
+    "agreement",
+    "in",
+    "much",
+    "show",
+    "that",
+    "trouble",
+    "way"
+   ]
+  },
+  {
+   "id": 4669,
+   "word": "fence",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a structure made of wood or metal that separates one land from another",
+   "uses": [
+    "a",
+    "from",
+    "land",
+    "metal",
+    "of",
+    "or",
+    "separate",
+    "structure",
+    "that",
+    "wood"
+   ]
+  },
+  {
+   "id": 4670,
+   "word": "nudist",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a person who likes to be without clothes, in a place where others are also without clothes",
+   "uses": [
+    "a",
+    "be",
+    "cloth",
+    "in",
+    "like",
+    "other",
+    "person",
+    "place",
+    "to",
+    "where",
+    "who"
+   ]
+  },
+  {
+   "id": 4671,
+   "word": "infinite",
+   "pos": "noun",
+   "ring": 2,
+   "def": "without end or limit, going on never ending, never coming to an end",
+   "uses": [
+    "end",
+    "limit",
+    "never",
+    "on",
+    "or",
+    "to"
+   ]
+  },
+  {
+   "id": 4672,
+   "word": "diana",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a woman's name, a first name for a girl or a woman",
+   "uses": [
+    "a",
+    "first",
+    "for",
+    "girl",
+    "name",
+    "or",
+    "woman"
+   ]
+  },
+  {
+   "id": 4673,
+   "word": "ensures",
+   "pos": "noun",
+   "ring": 2,
+   "def": "makes certain that something will take place or be true, or that something is safe",
+   "uses": [
+    "be",
+    "certain",
+    "or",
+    "place",
+    "safe",
+    "take",
+    "that",
+    "true",
+    "will"
+   ]
+  },
+  {
+   "id": 4674,
+   "word": "lindsay",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a man's or woman's name, a first name for a boy or a girl",
+   "uses": [
+    "a",
+    "boy",
+    "first",
+    "for",
+    "girl",
+    "man",
+    "name",
+    "or",
+    "woman"
+   ]
+  },
+  {
+   "id": 4675,
+   "word": "legally",
+   "pos": "adv",
+   "ring": 2,
+   "def": "in a way that follows the laws of a country or place, by the rules",
+   "uses": [
+    "a",
+    "by",
+    "country",
+    "follow",
+    "in",
+    "law",
+    "of",
+    "or",
+    "place",
+    "rule",
+    "that",
+    "the",
+    "way"
+   ]
+  },
+  {
+   "id": 4676,
+   "word": "satisfactory",
+   "pos": "noun",
+   "ring": 2,
+   "def": "good enough, or as good as is needed or wanted, not bad but not very good",
+   "uses": [
+    "as",
+    "bad",
+    "but",
+    "enough",
+    "good",
+    "need",
+    "not",
+    "or",
+    "very",
+    "want"
+   ]
+  },
+  {
+   "id": 4677,
+   "word": "revolutionary",
+   "pos": "noun",
+   "ring": 2,
+   "def": "about a complete change in ways of thinking or doing things, or to a political change",
+   "uses": [
+    "a",
+    "about",
+    "change",
+    "complete",
+    "in",
+    "of",
+    "or",
+    "political",
+    "thing",
+    "think",
+    "to",
+    "way"
+   ]
+  },
+  {
+   "id": 4678,
+   "word": "telephony",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the system or science of sending sounds over a distance by using power or waves",
+   "uses": [
+    "a",
+    "by",
+    "distance",
+    "of",
+    "or",
+    "over",
+    "power",
+    "science",
+    "sound",
+    "system",
+    "the",
+    "use",
+    "wave"
+   ]
+  },
+  {
+   "id": 4679,
+   "word": "briefly",
+   "pos": "noun",
+   "ring": 2,
+   "def": "for a short time, or in some words that are not long or detailed",
+   "uses": [
+    "a",
+    "detail",
+    "for",
+    "in",
+    "long",
+    "not",
+    "or",
+    "short",
+    "some",
+    "that",
+    "time",
+    "word"
+   ]
+  },
+  {
+   "id": 4680,
+   "word": "thickness",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the quality of being thick, or the size of how thick something is",
+   "uses": [
+    "how",
+    "of",
+    "or",
+    "quality",
+    "size",
+    "the",
+    "thick"
+   ]
+  },
+  {
+   "id": 4681,
+   "word": "adjustments",
+   "pos": "noun",
+   "ring": 2,
+   "def": "small changes made to something to make it work better or righter, or the act of changing",
+   "uses": [
+    "act",
+    "change",
+    "make",
+    "of",
+    "or",
+    "right",
+    "small",
+    "the",
+    "to",
+    "work"
+   ]
+  },
+  {
+   "id": 4682,
+   "word": "genius",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a very high level of intelligence or a person who has this level",
+   "uses": [
+    "a",
+    "high",
+    "intelligence",
+    "level",
+    "of",
+    "or",
+    "person",
+    "this",
+    "very",
+    "who"
+   ]
+  },
+  {
+   "id": 4683,
+   "word": "discussing",
+   "pos": "noun",
+   "ring": 2,
+   "def": "talking about something with others in order to make a decision or to exchange ideas",
+   "uses": [
+    "a",
+    "about",
+    "decision",
+    "exchange",
+    "idea",
+    "in",
+    "make",
+    "or",
+    "order",
+    "other",
+    "talk",
+    "to",
+    "with"
+   ]
+  },
+  {
+   "id": 4684,
+   "word": "aerospace",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the science of building and flying flying machines and space machines, or the industry that does this",
+   "uses": [
+    "and",
+    "building",
+    "fly",
+    "industry",
+    "machine",
+    "of",
+    "or",
+    "science",
+    "space",
+    "that",
+    "the",
+    "this"
+   ]
+  },
+  {
+   "id": 4685,
+   "word": "fighter",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a person who fights, or a flying machine that is made for fighting in the air",
+   "uses": [
+    "a",
+    "air",
+    "fight",
+    "fly",
+    "for",
+    "in",
+    "machine",
+    "or",
+    "person",
+    "that",
+    "the",
+    "who"
+   ]
+  },
+  {
+   "id": 4686,
+   "word": "flesh",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the soft substance of the body that covers the bones, or the body of a person or animal",
+   "uses": [
+    "a",
+    "animal",
+    "body",
+    "bone",
+    "cover",
+    "of",
+    "or",
+    "person",
+    "soft",
+    "substance",
+    "that",
+    "the"
+   ]
+  },
+  {
+   "id": 4687,
+   "word": "rug",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a thick cloth for covering a floor, a cloth to put on the land",
+   "uses": [
+    "a",
+    "cloth",
+    "cover",
+    "floor",
+    "for",
+    "land",
+    "on",
+    "put",
+    "the",
+    "thick",
+    "to"
+   ]
+  },
+  {
+   "id": 4688,
+   "word": "borough",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a town or a part of a town, a self-ruling town in some places",
+   "uses": [
+    "a",
+    "in",
+    "of",
+    "or",
+    "part",
+    "place",
+    "rule",
+    "self",
+    "some",
+    "town"
+   ]
+  },
+  {
+   "id": 4689,
+   "word": "pamela",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a woman's name, a first name for a girl",
+   "uses": [
+    "a",
+    "first",
+    "for",
+    "girl",
+    "name",
+    "woman"
+   ]
+  },
+  {
+   "id": 4690,
+   "word": "andrews",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a family name, a last name for a man",
+   "uses": [
+    "a",
+    "family",
+    "for",
+    "last",
+    "man",
+    "name"
+   ]
+  },
+  {
+   "id": 4691,
+   "word": "jesse",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a man's name, a first name for a boy",
+   "uses": [
+    "a",
+    "boy",
+    "first",
+    "for",
+    "man",
+    "name"
+   ]
+  },
+  {
+   "id": 4692,
+   "word": "brandon",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a man's name, a first name for a boy",
+   "uses": [
+    "a",
+    "boy",
+    "first",
+    "for",
+    "man",
+    "name"
+   ]
+  },
+  {
+   "id": 4693,
+   "word": "shed",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a small building for storing things, a simple structure",
+   "uses": [
+    "a",
+    "building",
+    "for",
+    "simple",
+    "small",
+    "store",
+    "structure",
+    "thing"
+   ]
+  },
+  {
+   "id": 4694,
+   "word": "moderators",
+   "pos": "noun",
+   "ring": 2,
+   "def": "people who control discussions, people who guide talks",
+   "uses": [
+    "control",
+    "discussion",
+    "guide",
+    "people",
+    "talk",
+    "who"
+   ]
+  },
+  {
+   "id": 4695,
+   "word": "winston",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a man's name, a first name for a boy",
+   "uses": [
+    "a",
+    "boy",
+    "first",
+    "for",
+    "man",
+    "name"
+   ]
+  },
+  {
+   "id": 4696,
+   "word": "translations",
+   "pos": "noun",
+   "ring": 2,
+   "def": "changes from one language to another, versions in different languages",
+   "uses": [
+    "change",
+    "different",
+    "from",
+    "in",
+    "language",
+    "to",
+    "version"
+   ]
+  },
+  {
+   "id": 4697,
+   "word": "posing",
+   "pos": "noun",
+   "ring": 2,
+   "def": "standing in a certain way, acting for a picture",
+   "uses": [
+    "a",
+    "act",
+    "certain",
+    "for",
+    "in",
+    "picture",
+    "stand",
+    "way"
+   ]
+  },
+  {
+   "id": 4698,
+   "word": "wang",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a family name, a last name for a person",
+   "uses": [
+    "a",
+    "family",
+    "for",
+    "last",
+    "name",
+    "person"
+   ]
+  },
+  {
+   "id": 4699,
+   "word": "hopkins",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name that may point to a place or a person",
+   "uses": [
+    "a",
+    "may",
+    "name",
+    "or",
+    "person",
+    "place",
+    "point",
+    "that",
+    "to"
+   ]
+  },
+  {
+   "id": 4700,
+   "word": "cylinder",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a form with straight sides and a round top and base",
+   "uses": [
+    "a",
+    "and",
+    "base",
+    "form",
+    "round",
+    "side",
+    "straight",
+    "top",
+    "with"
+   ]
+  },
+  {
+   "id": 4701,
+   "word": "buck",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a male animal or a unit of money",
+   "uses": [
+    "a",
+    "animal",
+    "male",
+    "money",
+    "of",
+    "or",
+    "unit"
+   ]
+  },
+  {
+   "id": 4702,
+   "word": "indication",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a sign or evidence that shows something is true",
+   "uses": [
+    "a",
+    "evidence",
+    "or",
+    "show",
+    "sign",
+    "that",
+    "true"
+   ]
+  },
+  {
+   "id": 4703,
+   "word": "tba",
+   "pos": "noun",
+   "ring": 2,
+   "def": "something that has not been decided or made clear",
+   "uses": [
+    "clear",
+    "decide",
+    "not",
+    "or",
+    "that"
+   ]
+  },
+  {
+   "id": 4704,
+   "word": "cohen",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name that may be a family name or given name",
+   "uses": [
+    "a",
+    "be",
+    "family",
+    "may",
+    "name",
+    "or",
+    "that"
+   ]
+  },
+  {
+   "id": 4705,
+   "word": "sie",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a form of the word that stands for a thing or idea",
+   "uses": [
+    "a",
+    "for",
+    "form",
+    "idea",
+    "of",
+    "or",
+    "stand",
+    "that",
+    "the",
+    "thing",
+    "word"
+   ]
+  },
+  {
+   "id": 4706,
+   "word": "puppy",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a young dog or the baby of a dog",
+   "uses": [
+    "a",
+    "baby",
+    "dog",
+    "of",
+    "or",
+    "the",
+    "young"
+   ]
+  },
+  {
+   "id": 4707,
+   "word": "kathy",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name that may be used as a female given name",
+   "uses": [
+    "a",
+    "as",
+    "be",
+    "female",
+    "may",
+    "name",
+    "that",
+    "use"
+   ]
+  },
+  {
+   "id": 4708,
+   "word": "acre",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a unit of land size equal to forty eight hundred square feet",
+   "uses": [
+    "a",
+    "equal",
+    "land",
+    "of",
+    "size",
+    "square",
+    "to",
+    "unit"
+   ]
+  },
+  {
+   "id": 4709,
+   "word": "expires",
+   "pos": "noun",
+   "ring": 2,
+   "def": "comes to an end or is no longer good",
+   "uses": [
+    "end",
+    "good",
+    "long",
+    "no",
+    "or",
+    "to"
+   ]
+  },
+  {
+   "id": 4710,
+   "word": "lows",
+   "pos": "noun",
+   "ring": 2,
+   "def": "points that are the worst or smallest in value",
+   "uses": [
+    "in",
+    "or",
+    "point",
+    "small",
+    "that",
+    "the",
+    "value"
+   ]
+  },
+  {
+   "id": 4711,
+   "word": "controllers",
+   "pos": "noun",
+   "ring": 2,
+   "def": "people or things that control or lead something",
+   "uses": [
+    "control",
+    "lead",
+    "or",
+    "people",
+    "that",
+    "thing"
+   ]
+  },
+  {
+   "id": 4712,
+   "word": "aqua",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a word meaning water or a light blue color",
+   "uses": [
+    "a",
+    "blue",
+    "color",
+    "light",
+    "meaning",
+    "or",
+    "water",
+    "word"
+   ]
+  },
+  {
+   "id": 4713,
+   "word": "chen",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name that may be a family name or given name",
+   "uses": [
+    "a",
+    "be",
+    "family",
+    "may",
+    "name",
+    "or",
+    "that"
+   ]
+  },
+  {
+   "id": 4714,
+   "word": "emma",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name that is often used as a female given name",
+   "uses": [
+    "a",
+    "as",
+    "female",
+    "name",
+    "often",
+    "that",
+    "use"
+   ]
+  },
+  {
+   "id": 4715,
+   "word": "consultancy",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a business that gives expert help to other businesses",
+   "uses": [
+    "a",
+    "business",
+    "expert",
+    "help",
+    "other",
+    "that",
+    "to"
+   ]
+  },
+  {
+   "id": 4716,
+   "word": "enjoying",
+   "pos": "noun",
+   "ring": 2,
+   "def": "getting pleasure from something or taking pleasure in it",
+   "uses": [
+    "from",
+    "in",
+    "or",
+    "pleasure"
+   ]
+  },
+  {
+   "id": 4717,
+   "word": "conventions",
+   "pos": "noun",
+   "ring": 2,
+   "def": "meetings or ways of doing things that most people follow",
+   "uses": [
+    "follow",
+    "meeting",
+    "of",
+    "or",
+    "people",
+    "that",
+    "thing",
+    "way"
+   ]
+  },
+  {
+   "id": 4718,
+   "word": "eva",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name that may be used as a female given name",
+   "uses": [
+    "a",
+    "as",
+    "be",
+    "female",
+    "may",
+    "name",
+    "that",
+    "use"
+   ]
+  },
+  {
+   "id": 4719,
+   "word": "patrol",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the act of walking through a land to watch over it",
+   "uses": [
+    "a",
+    "act",
+    "land",
+    "of",
+    "over",
+    "the",
+    "through",
+    "to",
+    "walk",
+    "watch"
+   ]
+  },
+  {
+   "id": 4720,
+   "word": "pest",
+   "pos": "noun",
+   "ring": 2,
+   "def": "an insect or animal that causes bad things or trouble",
+   "uses": [
+    "animal",
+    "bad",
+    "cause",
+    "insect",
+    "or",
+    "that",
+    "thing",
+    "trouble"
+   ]
+  },
+  {
+   "id": 4721,
+   "word": "roughly",
+   "pos": "adv",
+   "ring": 2,
+   "def": "in a way that is not very certain or is near the true amount",
+   "uses": [
+    "a",
+    "amount",
+    "certain",
+    "in",
+    "near",
+    "not",
+    "or",
+    "that",
+    "the",
+    "true",
+    "very",
+    "way"
+   ]
+  },
+  {
+   "id": 4722,
+   "word": "promises",
+   "pos": "noun",
+   "ring": 2,
+   "def": "words that say something will be done or is a true fact",
+   "uses": [
+    "a",
+    "be",
+    "fact",
+    "or",
+    "say",
+    "that",
+    "true",
+    "will",
+    "word"
+   ]
+  },
+  {
+   "id": 4723,
+   "word": "responding",
+   "pos": "noun",
+   "ring": 2,
+   "def": "giving an answer or a reaction to a thing that is said or done",
+   "uses": [
+    "a",
+    "answer",
+    "or",
+    "reaction",
+    "that",
+    "thing",
+    "to"
+   ]
+  },
+  {
+   "id": 4724,
+   "word": "stakeholders",
+   "pos": "noun",
+   "ring": 2,
+   "def": "people who have an interest in a thing or work",
+   "uses": [
+    "a",
+    "have",
+    "in",
+    "interest",
+    "or",
+    "people",
+    "thing",
+    "who",
+    "work"
+   ]
+  },
+  {
+   "id": 4725,
+   "word": "gst",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a tax on goods and trade in some countries",
+   "uses": [
+    "a",
+    "and",
+    "country",
+    "good",
+    "in",
+    "on",
+    "some",
+    "tax",
+    "trade"
+   ]
+  },
+  {
+   "id": 4726,
+   "word": "cornell",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name that may point to a place or a person",
+   "uses": [
+    "a",
+    "may",
+    "name",
+    "or",
+    "person",
+    "place",
+    "point",
+    "that",
+    "to"
+   ]
+  },
+  {
+   "id": 4727,
+   "word": "attempting",
+   "pos": "noun",
+   "ring": 2,
+   "def": "trying to do something that may be hard",
+   "uses": [
+    "be",
+    "do",
+    "hard",
+    "may",
+    "that",
+    "to",
+    "try"
+   ]
+  },
+  {
+   "id": 4728,
+   "word": "mailto",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a way to start an email in a computer system",
+   "uses": [
+    "a",
+    "computer",
+    "email",
+    "in",
+    "start",
+    "system",
+    "to",
+    "way"
+   ]
+  },
+  {
+   "id": 4729,
+   "word": "promo",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a public talk made to get attention or to sell something",
+   "uses": [
+    "a",
+    "attention",
+    "get",
+    "or",
+    "public",
+    "sell",
+    "talk",
+    "to"
+   ]
+  },
+  {
+   "id": 4730,
+   "word": "representations",
+   "pos": "noun",
+   "ring": 2,
+   "def": "things that stand for or show another thing or person",
+   "uses": [
+    "for",
+    "or",
+    "person",
+    "show",
+    "stand",
+    "that",
+    "thing"
+   ]
+  },
+  {
+   "id": 4731,
+   "word": "tunes",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a group of notes that make a song",
+   "uses": [
+    "a",
+    "group",
+    "make",
+    "not",
+    "of",
+    "song",
+    "that"
+   ]
+  },
+  {
+   "id": 4732,
+   "word": "garbage",
+   "pos": "noun",
+   "ring": 2,
+   "def": "waste material or things that are no longer needed",
+   "uses": [
+    "long",
+    "material",
+    "need",
+    "no",
+    "or",
+    "that",
+    "thing",
+    "waste"
+   ]
+  },
+  {
+   "id": 4733,
+   "word": "combines",
+   "pos": "noun",
+   "ring": 2,
+   "def": "joins or puts different things together to form one",
+   "uses": [
+    "different",
+    "form",
+    "join",
+    "or",
+    "thing",
+    "to",
+    "together"
+   ]
+  },
+  {
+   "id": 4734,
+   "word": "phrases",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a small group of words that form a unit of meaning",
+   "uses": [
+    "a",
+    "form",
+    "group",
+    "meaning",
+    "of",
+    "small",
+    "that",
+    "unit",
+    "word"
+   ]
+  },
+  {
+   "id": 4735,
+   "word": "kai",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name meaning sea in the language or food in the language",
+   "uses": [
+    "a",
+    "food",
+    "in",
+    "language",
+    "meaning",
+    "name",
+    "or",
+    "sea",
+    "the"
+   ]
+  },
+  {
+   "id": 4736,
+   "word": "accurately",
+   "pos": "adv",
+   "ring": 2,
+   "def": "in a way that is correct and without mistakes",
+   "uses": [
+    "a",
+    "and",
+    "correct",
+    "in",
+    "mistake",
+    "that",
+    "way"
+   ]
+  },
+  {
+   "id": 4737,
+   "word": "reaches",
+   "pos": "noun",
+   "ring": 2,
+   "def": "goes to or gets to a certain point",
+   "uses": [
+    "a",
+    "certain",
+    "or",
+    "point",
+    "to"
+   ]
+  },
+  {
+   "id": 4738,
+   "word": "schema",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a plan or diagram that shows the structure of something",
+   "uses": [
+    "a",
+    "diagram",
+    "of",
+    "or",
+    "plan",
+    "show",
+    "structure",
+    "that",
+    "the"
+   ]
+  },
+  {
+   "id": 4739,
+   "word": "sofa",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a long soft seat with a back and arms for sitting",
+   "uses": [
+    "a",
+    "and",
+    "arm",
+    "back",
+    "for",
+    "long",
+    "seat",
+    "sit",
+    "soft",
+    "with"
+   ]
+  },
+  {
+   "id": 4740,
+   "word": "catalogs",
+   "pos": "noun",
+   "ring": 2,
+   "def": "lists of things with details about every one",
+   "uses": [
+    "about",
+    "detail",
+    "every",
+    "list",
+    "of",
+    "thing",
+    "with"
+   ]
+  },
+  {
+   "id": 4741,
+   "word": "vacancies",
+   "pos": "noun",
+   "ring": 2,
+   "def": "open positions or work that need to be filled",
+   "uses": [
+    "be",
+    "file",
+    "need",
+    "open",
+    "or",
+    "position",
+    "that",
+    "to",
+    "work"
+   ]
+  },
+  {
+   "id": 4742,
+   "word": "quizzes",
+   "pos": "noun",
+   "ring": 2,
+   "def": "tests of knowledge with questions to be answered",
+   "uses": [
+    "answer",
+    "be",
+    "knowledge",
+    "of",
+    "question",
+    "test",
+    "to",
+    "with"
+   ]
+  },
+  {
+   "id": 4743,
+   "word": "parliamentary",
+   "pos": "noun",
+   "ring": 2,
+   "def": "about a group that makes laws for a country",
+   "uses": [
+    "a",
+    "about",
+    "country",
+    "for",
+    "group",
+    "law",
+    "that"
+   ]
+  },
+  {
+   "id": 4744,
+   "word": "obj",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a short form of meaning a thing or goal",
+   "uses": [
+    "a",
+    "form",
+    "goal",
+    "meaning",
+    "of",
+    "or",
+    "short",
+    "thing"
+   ]
+  },
+  {
+   "id": 4745,
+   "word": "lucia",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a female name meaning light in the language",
+   "uses": [
+    "a",
+    "female",
+    "in",
+    "language",
+    "light",
+    "meaning",
+    "name",
+    "the"
+   ]
+  },
+  {
+   "id": 4746,
+   "word": "savannah",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a flat land of grass with some trees",
+   "uses": [
+    "a",
+    "flat",
+    "grass",
+    "land",
+    "of",
+    "some",
+    "tree",
+    "with"
+   ]
+  },
+  {
+   "id": 4747,
+   "word": "barrel",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a round vessel made of wood or metal",
+   "uses": [
+    "a",
+    "metal",
+    "of",
+    "or",
+    "round",
+    "vessel",
+    "wood"
+   ]
+  },
+  {
+   "id": 4748,
+   "word": "typing",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the act of writing by using keys on a keyboard",
+   "uses": [
+    "a",
+    "act",
+    "by",
+    "key",
+    "keyboard",
+    "of",
+    "on",
+    "the",
+    "use",
+    "writing"
+   ]
+  },
+  {
+   "id": 4749,
+   "word": "boulder",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a great stone that has been moved by water or ice",
+   "uses": [
+    "a",
+    "by",
+    "great",
+    "ice",
+    "move",
+    "or",
+    "stone",
+    "that",
+    "water"
+   ]
+  },
+  {
+   "id": 4750,
+   "word": "pointing",
+   "pos": "noun",
+   "ring": 2,
+   "def": "causing attention to go to something with a finger",
+   "uses": [
+    "a",
+    "attention",
+    "cause",
+    "finger",
+    "go",
+    "to",
+    "with"
+   ]
+  },
+  {
+   "id": 4751,
+   "word": "renew",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to do something again or to make it new",
+   "uses": [
+    "again",
+    "do",
+    "make",
+    "new",
+    "or",
+    "to"
+   ]
+  },
+  {
+   "id": 4752,
+   "word": "viii",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the sign for the number eight in old writing",
+   "uses": [
+    "for",
+    "in",
+    "number",
+    "old",
+    "sign",
+    "the",
+    "writing"
+   ]
+  },
+  {
+   "id": 4753,
+   "word": "circuits",
+   "pos": "noun",
+   "ring": 2,
+   "def": "lines that electric power follows through a machine",
+   "uses": [
+    "a",
+    "electric",
+    "follow",
+    "line",
+    "machine",
+    "power",
+    "that",
+    "through"
+   ]
+  },
+  {
+   "id": 4754,
+   "word": "handbags",
+   "pos": "noun",
+   "ring": 2,
+   "def": "small bags women use to keep their own things",
+   "uses": [
+    "bag",
+    "keep",
+    "own",
+    "small",
+    "thing",
+    "to",
+    "use"
+   ]
+  },
+  {
+   "id": 4755,
+   "word": "jar",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a glass thing with a wide opening to put things in",
+   "uses": [
+    "a",
+    "glass",
+    "in",
+    "open",
+    "put",
+    "thing",
+    "to",
+    "wide",
+    "with"
+   ]
+  },
+  {
+   "id": 4756,
+   "word": "incurred",
+   "pos": "noun",
+   "ring": 2,
+   "def": "something that has come about because of acts",
+   "uses": [
+    "about",
+    "act",
+    "because",
+    "come",
+    "of",
+    "that"
+   ]
+  },
+  {
+   "id": 4757,
+   "word": "acknowledge",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to see the fact or being of a thing",
+   "uses": [
+    "a",
+    "fact",
+    "of",
+    "or",
+    "see",
+    "the",
+    "thing",
+    "to"
+   ]
+  },
+  {
+   "id": 4758,
+   "word": "tent",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a cover made of cloth kept up by sticks",
+   "uses": [
+    "a",
+    "by",
+    "cloth",
+    "cover",
+    "of",
+    "stick",
+    "up"
+   ]
+  },
+  {
+   "id": 4759,
+   "word": "qualification",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a quality that makes a person able for work, a learning or a training",
+   "uses": [
+    "a",
+    "able",
+    "for",
+    "learning",
+    "or",
+    "person",
+    "quality",
+    "that",
+    "training",
+    "work"
+   ]
+  },
+  {
+   "id": 4760,
+   "word": "locks",
+   "pos": "noun",
+   "ring": 2,
+   "def": "keeps something safe with a key, puts a lock on something",
+   "uses": [
+    "a",
+    "key",
+    "lock",
+    "on",
+    "safe",
+    "with"
+   ]
+  },
+  {
+   "id": 4761,
+   "word": "namely",
+   "pos": "noun",
+   "ring": 2,
+   "def": "that is to say, in other words, by name",
+   "uses": [
+    "by",
+    "in",
+    "name",
+    "other",
+    "say",
+    "that",
+    "to",
+    "word"
+   ]
+  },
+  {
+   "id": 4762,
+   "word": "miniature",
+   "pos": "noun",
+   "ring": 2,
+   "def": "very small in size, a small copy of something",
+   "uses": [
+    "a",
+    "copy",
+    "in",
+    "of",
+    "size",
+    "small",
+    "very"
+   ]
+  },
+  {
+   "id": 4763,
+   "word": "hack",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to cut with rough blows, to get into a computer system",
+   "uses": [
+    "a",
+    "blow",
+    "computer",
+    "cut",
+    "get",
+    "rough",
+    "system",
+    "to",
+    "with"
+   ]
+  },
+  {
+   "id": 4764,
+   "word": "interstate",
+   "pos": "noun",
+   "ring": 2,
+   "def": "between different lands, a road that goes through lands",
+   "uses": [
+    "a",
+    "between",
+    "different",
+    "land",
+    "road",
+    "that",
+    "through"
+   ]
+  },
+  {
+   "id": 4765,
+   "word": "aerial",
+   "pos": "noun",
+   "ring": 2,
+   "def": "in the air, done from an airplane, a metal stick for sending messages",
+   "uses": [
+    "a",
+    "air",
+    "for",
+    "from",
+    "in",
+    "message",
+    "metal",
+    "stick",
+    "the"
+   ]
+  },
+  {
+   "id": 4766,
+   "word": "hawk",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a bird that gets food for itself, a person who sells things",
+   "uses": [
+    "a",
+    "bird",
+    "food",
+    "for",
+    "person",
+    "sell",
+    "that",
+    "thing",
+    "who"
+   ]
+  },
+  {
+   "id": 4767,
+   "word": "origins",
+   "pos": "noun",
+   "ring": 2,
+   "def": "where something comes from, the start of something",
+   "uses": [
+    "from",
+    "of",
+    "start",
+    "the",
+    "where"
+   ]
+  },
+  {
+   "id": 4768,
+   "word": "hired",
+   "pos": "noun",
+   "ring": 2,
+   "def": "given work for payment, taken on to do work",
+   "uses": [
+    "do",
+    "for",
+    "on",
+    "payment",
+    "to",
+    "work"
+   ]
+  },
+  {
+   "id": 4769,
+   "word": "makeup",
+   "pos": "noun",
+   "ring": 2,
+   "def": "things used to change how one looks, substances for the face",
+   "uses": [
+    "change",
+    "face",
+    "for",
+    "how",
+    "look",
+    "substance",
+    "the",
+    "thing",
+    "to",
+    "use"
+   ]
+  },
+  {
+   "id": 4770,
+   "word": "textile",
+   "pos": "noun",
+   "ring": 2,
+   "def": "cloth made by twisting threads together, a material made by hand or machine",
+   "uses": [
+    "a",
+    "by",
+    "cloth",
+    "hand",
+    "machine",
+    "material",
+    "or",
+    "thread",
+    "together",
+    "twist"
+   ]
+  },
+  {
+   "id": 4771,
+   "word": "lamb",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a young sheep, meat from a young sheep",
+   "uses": [
+    "a",
+    "from",
+    "meat",
+    "sheep",
+    "young"
+   ]
+  },
+  {
+   "id": 4772,
+   "word": "madagascar",
+   "pos": "noun",
+   "ring": 2,
+   "def": "an island nation on the earth, a place with a great number of animals",
+   "uses": [
+    "a",
+    "animal",
+    "earth",
+    "great",
+    "island",
+    "nation",
+    "number",
+    "of",
+    "on",
+    "place",
+    "the",
+    "with"
+   ]
+  },
+  {
+   "id": 4773,
+   "word": "nathan",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a male given name, a person's first name",
+   "uses": [
+    "a",
+    "first",
+    "male",
+    "name",
+    "person"
+   ]
+  },
+  {
+   "id": 4774,
+   "word": "tobago",
+   "pos": "noun",
+   "ring": 2,
+   "def": "an island in the sea, part of a land with two islands",
+   "uses": [
+    "a",
+    "in",
+    "island",
+    "land",
+    "of",
+    "part",
+    "sea",
+    "the",
+    "with"
+   ]
+  },
+  {
+   "id": 4775,
+   "word": "presenting",
+   "pos": "noun",
+   "ring": 2,
+   "def": "showing something to people, giving information to others",
+   "uses": [
+    "information",
+    "other",
+    "people",
+    "show",
+    "to"
+   ]
+  },
+  {
+   "id": 4776,
+   "word": "indexes",
+   "pos": "noun",
+   "ring": 2,
+   "def": "lists of information, ways to find things in a book",
+   "uses": [
+    "a",
+    "book",
+    "find",
+    "in",
+    "information",
+    "list",
+    "of",
+    "thing",
+    "to",
+    "way"
+   ]
+  },
+  {
+   "id": 4777,
+   "word": "magnitude",
+   "pos": "noun",
+   "ring": 2,
+   "def": "great size or weight, a measure of something",
+   "uses": [
+    "a",
+    "great",
+    "measure",
+    "of",
+    "or",
+    "size",
+    "weight"
+   ]
+  },
+  {
+   "id": 4778,
+   "word": "licking",
+   "pos": "noun",
+   "ring": 2,
+   "def": "using the tongue on something, tasting with the mouth",
+   "uses": [
+    "mouth",
+    "on",
+    "taste",
+    "the",
+    "tongue",
+    "use",
+    "with"
+   ]
+  },
+  {
+   "id": 4779,
+   "word": "earthquake",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a shaking of the land, a sudden motion of the earth",
+   "uses": [
+    "a",
+    "earth",
+    "land",
+    "motion",
+    "of",
+    "shake",
+    "sudden",
+    "the"
+   ]
+  },
+  {
+   "id": 4780,
+   "word": "lasting",
+   "pos": "noun",
+   "ring": 2,
+   "def": "going on for a long time, able to keep for a long time",
+   "uses": [
+    "a",
+    "able",
+    "for",
+    "keep",
+    "long",
+    "on",
+    "time",
+    "to"
+   ]
+  },
+  {
+   "id": 4781,
+   "word": "wicked",
+   "pos": "noun",
+   "ring": 2,
+   "def": "very bad or wrong, not good or not right",
+   "uses": [
+    "bad",
+    "good",
+    "not",
+    "or",
+    "right",
+    "very",
+    "wrong"
+   ]
+  },
+  {
+   "id": 4782,
+   "word": "introduces",
+   "pos": "noun",
+   "ring": 2,
+   "def": "makes clear for the first time, shows to other people",
+   "uses": [
+    "clear",
+    "first",
+    "for",
+    "other",
+    "people",
+    "show",
+    "the",
+    "time",
+    "to"
+   ]
+  },
+  {
+   "id": 4783,
+   "word": "kills",
+   "pos": "noun",
+   "ring": 2,
+   "def": "brings about death, ends the life of a being",
+   "uses": [
+    "a",
+    "about",
+    "bring",
+    "death",
+    "end",
+    "life",
+    "of",
+    "the"
+   ]
+  },
+  {
+   "id": 4784,
+   "word": "webcams",
+   "pos": "noun",
+   "ring": 2,
+   "def": "cameras used on the net, picture machines on the internet",
+   "uses": [
+    "camera",
+    "internet",
+    "machine",
+    "net",
+    "on",
+    "picture",
+    "the",
+    "use"
+   ]
+  },
+  {
+   "id": 4785,
+   "word": "webmasters",
+   "pos": "noun",
+   "ring": 2,
+   "def": "people who control websites, managers of internet pages",
+   "uses": [
+    "control",
+    "internet",
+    "manager",
+    "of",
+    "page",
+    "people",
+    "website",
+    "who"
+   ]
+  },
+  {
+   "id": 4786,
+   "word": "acdbentity",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a word used in computer design, a kind of data thing",
+   "uses": [
+    "a",
+    "computer",
+    "data",
+    "design",
+    "in",
+    "kind",
+    "of",
+    "thing",
+    "use",
+    "word"
+   ]
+  },
+  {
+   "id": 4787,
+   "word": "lucy",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a female name, a person with this name",
+   "uses": [
+    "a",
+    "female",
+    "name",
+    "person",
+    "this",
+    "with"
+   ]
+  },
+  {
+   "id": 4788,
+   "word": "hans",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a male name, a person with this name",
+   "uses": [
+    "a",
+    "male",
+    "name",
+    "person",
+    "this",
+    "with"
+   ]
+  },
+  {
+   "id": 4789,
+   "word": "surname",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a family name handed down through generations, a last name",
+   "uses": [
+    "a",
+    "down",
+    "family",
+    "generation",
+    "hand",
+    "last",
+    "name",
+    "through"
+   ]
+  },
+  {
+   "id": 4790,
+   "word": "nails",
+   "pos": "noun",
+   "ring": 2,
+   "def": "hard growth on fingers and toes, small pointed metal things",
+   "uses": [
+    "and",
+    "finger",
+    "growth",
+    "hard",
+    "metal",
+    "on",
+    "point",
+    "small",
+    "thing",
+    "to"
+   ]
+  },
+  {
+   "id": 4791,
+   "word": "saturn",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a world in our sun's system, a ringed world in space",
+   "uses": [
+    "a",
+    "in",
+    "ring",
+    "space",
+    "sun",
+    "system",
+    "world"
+   ]
+  },
+  {
+   "id": 4792,
+   "word": "organizer",
+   "pos": "noun",
+   "ring": 2,
+   "def": "one who puts things in order, a person who makes plans for events",
+   "uses": [
+    "a",
+    "event",
+    "for",
+    "in",
+    "order",
+    "person",
+    "plan",
+    "thing",
+    "who"
+   ]
+  },
+  {
+   "id": 4793,
+   "word": "twisted",
+   "pos": "noun",
+   "ring": 2,
+   "def": "turned in a round form, bent out of straight line",
+   "uses": [
+    "a",
+    "bent",
+    "form",
+    "in",
+    "line",
+    "of",
+    "out",
+    "round",
+    "straight",
+    "turn"
+   ]
+  },
+  {
+   "id": 4794,
+   "word": "enzyme",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a substance that helps reactions, a helper in chemical processes",
+   "uses": [
+    "a",
+    "chemical",
+    "help",
+    "in",
+    "process",
+    "reaction",
+    "substance",
+    "that"
+   ]
+  },
+  {
+   "id": 4795,
+   "word": "cumulative",
+   "pos": "noun",
+   "ring": 2,
+   "def": "increasing by addition over time, building up step by step",
+   "uses": [
+    "addition",
+    "building",
+    "by",
+    "increase",
+    "over",
+    "step",
+    "time",
+    "up"
+   ]
+  },
+  {
+   "id": 4796,
+   "word": "tackle",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to take hold of a person, to go straight to a trouble",
+   "uses": [
+    "a",
+    "go",
+    "hold",
+    "of",
+    "person",
+    "straight",
+    "take",
+    "to",
+    "trouble"
+   ]
+  },
+  {
+   "id": 4797,
+   "word": "amplifier",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a thing that makes sounds great, something that adds force",
+   "uses": [
+    "a",
+    "add",
+    "force",
+    "great",
+    "sound",
+    "that",
+    "thing"
+   ]
+  },
+  {
+   "id": 4798,
+   "word": "ambien",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a help for sleep trouble, a thing to help one rest",
+   "uses": [
+    "a",
+    "for",
+    "help",
+    "rest",
+    "sleep",
+    "thing",
+    "to",
+    "trouble"
+   ]
+  },
+  {
+   "id": 4799,
+   "word": "prominent",
+   "pos": "noun",
+   "ring": 2,
+   "def": "standing out from the rest, seen by all",
+   "uses": [
+    "all",
+    "by",
+    "from",
+    "out",
+    "rest",
+    "stand",
+    "the"
+   ]
+  },
+  {
+   "id": 4800,
+   "word": "vernon",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name for males, a family or given name",
+   "uses": [
+    "a",
+    "family",
+    "for",
+    "male",
+    "name",
+    "or"
+   ]
+  },
+  {
+   "id": 4801,
+   "word": "worldcat",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a library list of books, a book list for the world",
+   "uses": [
+    "a",
+    "book",
+    "for",
+    "library",
+    "list",
+    "of",
+    "the",
+    "world"
+   ]
+  },
+  {
+   "id": 4802,
+   "word": "titanium",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a strong light metal, a thing used in making",
+   "uses": [
+    "a",
+    "in",
+    "light",
+    "metal",
+    "strong",
+    "thing",
+    "use"
+   ]
+  },
+  {
+   "id": 4803,
+   "word": "irs",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a tax agency, a government office for money",
+   "uses": [
+    "a",
+    "agency",
+    "for",
+    "government",
+    "money",
+    "office",
+    "tax"
+   ]
+  },
+  {
+   "id": 4804,
+   "word": "builds",
+   "pos": "noun",
+   "ring": 2,
+   "def": "makes by putting parts together, makes things from parts",
+   "uses": [
+    "by",
+    "from",
+    "part",
+    "thing",
+    "together"
+   ]
+  },
+  {
+   "id": 4805,
+   "word": "shaft",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a long narrow part, a rod for turning or pushing",
+   "uses": [
+    "a",
+    "for",
+    "long",
+    "narrow",
+    "or",
+    "part",
+    "push",
+    "rod",
+    "turn"
+   ]
+  },
+  {
+   "id": 4806,
+   "word": "lean",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to be at an angle, to not be straight up",
+   "uses": [
+    "angle",
+    "at",
+    "be",
+    "not",
+    "straight",
+    "to",
+    "up"
+   ]
+  },
+  {
+   "id": 4807,
+   "word": "recorders",
+   "pos": "noun",
+   "ring": 2,
+   "def": "tools for keeping sound, things that make records of sound",
+   "uses": [
+    "for",
+    "make",
+    "of",
+    "record",
+    "sound",
+    "that",
+    "thing",
+    "tool"
+   ]
+  },
+  {
+   "id": 4808,
+   "word": "leslie",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name for a man or a woman, a person with this name",
+   "uses": [
+    "a",
+    "for",
+    "man",
+    "name",
+    "or",
+    "person",
+    "this",
+    "with",
+    "woman"
+   ]
+  },
+  {
+   "id": 4809,
+   "word": "ana",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name for a woman, a person with this name",
+   "uses": [
+    "a",
+    "for",
+    "name",
+    "person",
+    "this",
+    "with",
+    "woman"
+   ]
+  },
+  {
+   "id": 4810,
+   "word": "kitty",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a small cat or a pot of money that is kept for a special purpose",
+   "uses": [
+    "a",
+    "cat",
+    "for",
+    "money",
+    "of",
+    "or",
+    "pot",
+    "purpose",
+    "small",
+    "special",
+    "that"
+   ]
+  },
+  {
+   "id": 4811,
+   "word": "transsexual",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a person who feels they are of a sex that is different from the one they were born as",
+   "uses": [
+    "a",
+    "as",
+    "born",
+    "different",
+    "feel",
+    "from",
+    "of",
+    "person",
+    "sex",
+    "that",
+    "the",
+    "who"
+   ]
+  },
+  {
+   "id": 4812,
+   "word": "alto",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a low female singing voice or a part in music that is for that voice",
+   "uses": [
+    "a",
+    "female",
+    "for",
+    "in",
+    "low",
+    "music",
+    "or",
+    "part",
+    "sing",
+    "that",
+    "voice"
+   ]
+  },
+  {
+   "id": 4813,
+   "word": "bloomberg",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a company that gives news about business and money or a name from that company",
+   "uses": [
+    "a",
+    "about",
+    "and",
+    "business",
+    "company",
+    "from",
+    "money",
+    "name",
+    "news",
+    "or",
+    "that"
+   ]
+  },
+  {
+   "id": 4814,
+   "word": "divx",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a way to make a thing moving smaller so it is simple to send over the internet",
+   "uses": [
+    "a",
+    "internet",
+    "make",
+    "move",
+    "over",
+    "send",
+    "simple",
+    "small",
+    "so",
+    "the",
+    "thing",
+    "to",
+    "way"
+   ]
+  },
+  {
+   "id": 4815,
+   "word": "extraction",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the act of taking something out from a place or thing",
+   "uses": [
+    "a",
+    "act",
+    "from",
+    "of",
+    "or",
+    "out",
+    "place",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 4816,
+   "word": "hearings",
+   "pos": "noun",
+   "ring": 2,
+   "def": "meetings where people talk about a thing to make a decision",
+   "uses": [
+    "a",
+    "about",
+    "decision",
+    "make",
+    "meeting",
+    "people",
+    "talk",
+    "thing",
+    "to",
+    "where"
+   ]
+  },
+  {
+   "id": 4817,
+   "word": "coleman",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name used by a family that makes outdoor things",
+   "uses": [
+    "a",
+    "by",
+    "family",
+    "name",
+    "that",
+    "thing",
+    "use"
+   ]
+  },
+  {
+   "id": 4818,
+   "word": "lap",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the front part of a person sitting down from the middle to knees",
+   "uses": [
+    "a",
+    "down",
+    "from",
+    "front",
+    "knee",
+    "middle",
+    "of",
+    "part",
+    "person",
+    "sit",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 4819,
+   "word": "utilization",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the act of using something for a purpose or work",
+   "uses": [
+    "a",
+    "act",
+    "for",
+    "of",
+    "or",
+    "purpose",
+    "the",
+    "use",
+    "work"
+   ]
+  },
+  {
+   "id": 4820,
+   "word": "beverages",
+   "pos": "noun",
+   "ring": 2,
+   "def": "drinks that people take like water or other drinks",
+   "uses": [
+    "drink",
+    "like",
+    "or",
+    "other",
+    "people",
+    "take",
+    "that",
+    "water"
+   ]
+  },
+  {
+   "id": 4821,
+   "word": "calibration",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the act of making a thing show the right measure",
+   "uses": [
+    "a",
+    "act",
+    "measure",
+    "of",
+    "right",
+    "show",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 4822,
+   "word": "eval",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a short way to say judging of a thing",
+   "uses": [
+    "a",
+    "judge",
+    "of",
+    "say",
+    "short",
+    "thing",
+    "to",
+    "way"
+   ]
+  },
+  {
+   "id": 4823,
+   "word": "efficiently",
+   "pos": "adv",
+   "ring": 2,
+   "def": "in a way that gets work done with no waste of time or energy",
+   "uses": [
+    "a",
+    "energy",
+    "in",
+    "no",
+    "of",
+    "or",
+    "that",
+    "time",
+    "waste",
+    "way",
+    "with",
+    "work"
+   ]
+  },
+  {
+   "id": 4824,
+   "word": "ping",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a sound made by touching something soft and round like a ball",
+   "uses": [
+    "a",
+    "and",
+    "ball",
+    "by",
+    "like",
+    "round",
+    "soft",
+    "sound",
+    "touch"
+   ]
+  },
+  {
+   "id": 4825,
+   "word": "textbook",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a book used in school to learn about a thing talked about",
+   "uses": [
+    "a",
+    "about",
+    "book",
+    "in",
+    "learn",
+    "school",
+    "talk",
+    "thing",
+    "to",
+    "use"
+   ]
+  },
+  {
+   "id": 4826,
+   "word": "dried",
+   "pos": "noun",
+   "ring": 2,
+   "def": "made free of water by heat or air",
+   "uses": [
+    "air",
+    "by",
+    "free",
+    "heat",
+    "of",
+    "or",
+    "water"
+   ]
+  },
+  {
+   "id": 4827,
+   "word": "entertaining",
+   "pos": "noun",
+   "ring": 2,
+   "def": "giving amusement to people who watch or hear",
+   "uses": [
+    "amusement",
+    "hear",
+    "or",
+    "people",
+    "to",
+    "watch",
+    "who"
+   ]
+  },
+  {
+   "id": 4828,
+   "word": "luther",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name for a man meaning army fighter",
+   "uses": [
+    "a",
+    "army",
+    "fight",
+    "for",
+    "man",
+    "meaning",
+    "name"
+   ]
+  },
+  {
+   "id": 4829,
+   "word": "frontier",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the edge of a town where land with no people starts",
+   "uses": [
+    "a",
+    "edge",
+    "land",
+    "no",
+    "of",
+    "people",
+    "start",
+    "the",
+    "town",
+    "where",
+    "with"
+   ]
+  },
+  {
+   "id": 4830,
+   "word": "settle",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to make a place one's land or to end a fight",
+   "uses": [
+    "a",
+    "end",
+    "fight",
+    "land",
+    "make",
+    "or",
+    "place",
+    "to"
+   ]
+  },
+  {
+   "id": 4831,
+   "word": "stopping",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the act of making a thing come to a stop or stand still",
+   "uses": [
+    "a",
+    "act",
+    "come",
+    "of",
+    "or",
+    "stand",
+    "still",
+    "stop",
+    "the",
+    "thing",
+    "to"
+   ]
+  },
+  {
+   "id": 4832,
+   "word": "peaceful",
+   "pos": "noun",
+   "ring": 2,
+   "def": "free from war or trouble or quiet and still",
+   "uses": [
+    "and",
+    "free",
+    "from",
+    "or",
+    "quiet",
+    "still",
+    "trouble",
+    "war"
+   ]
+  },
+  {
+   "id": 4833,
+   "word": "regression",
+   "pos": "adv",
+   "ring": 2,
+   "def": "a going back to a former way or a simpler way",
+   "uses": [
+    "a",
+    "back",
+    "form",
+    "or",
+    "simple",
+    "to",
+    "way"
+   ]
+  },
+  {
+   "id": 4834,
+   "word": "doctrine",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a belief or group of beliefs shared by a group or person",
+   "uses": [
+    "a",
+    "belief",
+    "by",
+    "group",
+    "of",
+    "or",
+    "person",
+    "share"
+   ]
+  },
+  {
+   "id": 4835,
+   "word": "scenic",
+   "pos": "noun",
+   "ring": 2,
+   "def": "having beautiful views or pleasing to see like a picture",
+   "uses": [
+    "a",
+    "beautiful",
+    "like",
+    "or",
+    "picture",
+    "please",
+    "see",
+    "to",
+    "view"
+   ]
+  },
+  {
+   "id": 4836,
+   "word": "muze",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name for a thing that gives amusement or like a place",
+   "uses": [
+    "a",
+    "amusement",
+    "for",
+    "like",
+    "name",
+    "or",
+    "place",
+    "that",
+    "thing"
+   ]
+  },
+  {
+   "id": 4837,
+   "word": "enhancements",
+   "pos": "noun",
+   "ring": 2,
+   "def": "additions made to a thing to make it better or more",
+   "uses": [
+    "a",
+    "addition",
+    "make",
+    "or",
+    "thing",
+    "to"
+   ]
+  },
+  {
+   "id": 4838,
+   "word": "renewable",
+   "pos": "noun",
+   "ring": 2,
+   "def": "able to be made again or not used up always",
+   "uses": [
+    "able",
+    "again",
+    "always",
+    "be",
+    "not",
+    "or",
+    "to",
+    "up",
+    "use"
+   ]
+  },
+  {
+   "id": 4839,
+   "word": "passwords",
+   "pos": "noun",
+   "ring": 2,
+   "def": "secret words used to get into a computer or account",
+   "uses": [
+    "a",
+    "account",
+    "computer",
+    "get",
+    "or",
+    "secret",
+    "to",
+    "use",
+    "word"
+   ]
+  },
+  {
+   "id": 4840,
+   "word": "sewing",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the act of joining cloth with thread and a needle",
+   "uses": [
+    "a",
+    "act",
+    "and",
+    "cloth",
+    "join",
+    "needle",
+    "of",
+    "the",
+    "thread",
+    "with"
+   ]
+  },
+  {
+   "id": 4841,
+   "word": "consistency",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a thing that is always the same or does not change",
+   "uses": [
+    "a",
+    "always",
+    "change",
+    "not",
+    "or",
+    "same",
+    "that",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 4842,
+   "word": "collectors",
+   "pos": "noun",
+   "ring": 2,
+   "def": "people who get things as a work or for pleasure",
+   "uses": [
+    "a",
+    "as",
+    "for",
+    "get",
+    "or",
+    "people",
+    "pleasure",
+    "thing",
+    "who",
+    "work"
+   ]
+  },
+  {
+   "id": 4843,
+   "word": "conclude",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to end something or to make a last decision",
+   "uses": [
+    "a",
+    "decision",
+    "end",
+    "last",
+    "make",
+    "or",
+    "to"
+   ]
+  },
+  {
+   "id": 4844,
+   "word": "oman",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a country in the east with a land on the water",
+   "uses": [
+    "a",
+    "country",
+    "east",
+    "in",
+    "land",
+    "on",
+    "the",
+    "water",
+    "with"
+   ]
+  },
+  {
+   "id": 4845,
+   "word": "propose",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to put forward a plan or idea for people to think about",
+   "uses": [
+    "a",
+    "about",
+    "for",
+    "forward",
+    "idea",
+    "or",
+    "people",
+    "plan",
+    "put",
+    "think",
+    "to"
+   ]
+  },
+  {
+   "id": 4846,
+   "word": "astrology",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the study of stars to tell about life on earth",
+   "uses": [
+    "about",
+    "earth",
+    "life",
+    "of",
+    "on",
+    "star",
+    "study",
+    "tell",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 4847,
+   "word": "tactics",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the art of moving men in war, the way one makes a plan",
+   "uses": [
+    "a",
+    "art",
+    "in",
+    "move",
+    "of",
+    "plan",
+    "the",
+    "war",
+    "way"
+   ]
+  },
+  {
+   "id": 4848,
+   "word": "trusts",
+   "pos": "noun",
+   "ring": 2,
+   "def": "groups of companies joined together under one control, things kept in safe keeping",
+   "uses": [
+    "company",
+    "control",
+    "group",
+    "in",
+    "join",
+    "of",
+    "safe",
+    "thing",
+    "together",
+    "under"
+   ]
+  },
+  {
+   "id": 4849,
+   "word": "occurring",
+   "pos": "adv",
+   "ring": 2,
+   "def": "taking place at a certain time or place, taking place in a regular way",
+   "uses": [
+    "a",
+    "at",
+    "certain",
+    "in",
+    "or",
+    "place",
+    "regular",
+    "time",
+    "way"
+   ]
+  },
+  {
+   "id": 4850,
+   "word": "supplemental",
+   "pos": "noun",
+   "ring": 2,
+   "def": "added to something to make it complete, giving more help or information",
+   "uses": [
+    "add",
+    "complete",
+    "help",
+    "information",
+    "make",
+    "or",
+    "to"
+   ]
+  },
+  {
+   "id": 4851,
+   "word": "travelling",
+   "pos": "noun",
+   "ring": 2,
+   "def": "going from one place to another on foot or by machine, making a long journey",
+   "uses": [
+    "a",
+    "by",
+    "foot",
+    "from",
+    "journey",
+    "long",
+    "machine",
+    "on",
+    "or",
+    "place",
+    "to"
+   ]
+  },
+  {
+   "id": 4852,
+   "word": "annie",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a female name given to a baby girl, a name from the language",
+   "uses": [
+    "a",
+    "baby",
+    "female",
+    "from",
+    "girl",
+    "language",
+    "name",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 4853,
+   "word": "pillow",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a bag filled with soft material for the head, something used to rest on when in bed",
+   "uses": [
+    "a",
+    "bag",
+    "bed",
+    "file",
+    "for",
+    "head",
+    "in",
+    "material",
+    "on",
+    "rest",
+    "soft",
+    "the",
+    "to",
+    "use",
+    "when",
+    "with"
+   ]
+  },
+  {
+   "id": 4854,
+   "word": "derek",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a male name from the language, a name given to a baby boy",
+   "uses": [
+    "a",
+    "baby",
+    "boy",
+    "from",
+    "language",
+    "male",
+    "name",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 4855,
+   "word": "precisely",
+   "pos": "adv",
+   "ring": 2,
+   "def": "in a correct way, with great care to be correct",
+   "uses": [
+    "a",
+    "be",
+    "care",
+    "correct",
+    "great",
+    "in",
+    "to",
+    "way",
+    "with"
+   ]
+  },
+  {
+   "id": 4856,
+   "word": "harley",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a male name from the language, a name of origin",
+   "uses": [
+    "a",
+    "from",
+    "language",
+    "male",
+    "name",
+    "of",
+    "origin",
+    "the"
+   ]
+  },
+  {
+   "id": 4857,
+   "word": "provinces",
+   "pos": "noun",
+   "ring": 2,
+   "def": "parts of a country under their own rule, lands with their own government",
+   "uses": [
+    "a",
+    "country",
+    "government",
+    "land",
+    "of",
+    "own",
+    "part",
+    "rule",
+    "under",
+    "with"
+   ]
+  },
+  {
+   "id": 4858,
+   "word": "paraguay",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a country in south land, a place with its own people and government",
+   "uses": [
+    "a",
+    "and",
+    "country",
+    "government",
+    "in",
+    "land",
+    "own",
+    "people",
+    "place",
+    "south",
+    "with"
+   ]
+  },
+  {
+   "id": 4859,
+   "word": "steal",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to take something that is not yours, to take goods without the owner's agreement",
+   "uses": [
+    "agreement",
+    "good",
+    "not",
+    "owner",
+    "take",
+    "that",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 4860,
+   "word": "acrylic",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a kind of man-made material, a substance used in much work",
+   "uses": [
+    "a",
+    "in",
+    "kind",
+    "man",
+    "material",
+    "much",
+    "of",
+    "substance",
+    "use",
+    "work"
+   ]
+  },
+  {
+   "id": 4861,
+   "word": "rolled",
+   "pos": "noun",
+   "ring": 2,
+   "def": "moved by turning over and over, made into a round form",
+   "uses": [
+    "a",
+    "and",
+    "by",
+    "form",
+    "move",
+    "over",
+    "round",
+    "turn"
+   ]
+  },
+  {
+   "id": 4862,
+   "word": "incidents",
+   "pos": "noun",
+   "ring": 2,
+   "def": "events that take place in a short time, things that come about without planning",
+   "uses": [
+    "a",
+    "about",
+    "come",
+    "event",
+    "in",
+    "place",
+    "plan",
+    "short",
+    "take",
+    "that",
+    "thing",
+    "time"
+   ]
+  },
+  {
+   "id": 4863,
+   "word": "rays",
+   "pos": "noun",
+   "ring": 2,
+   "def": "lines of light from a bright place, thin lines from the sun or a light",
+   "uses": [
+    "a",
+    "bright",
+    "from",
+    "light",
+    "line",
+    "of",
+    "or",
+    "place",
+    "sun",
+    "the",
+    "thin"
+   ]
+  },
+  {
+   "id": 4864,
+   "word": "asn",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a kind of computer network code, a way to name groups on the internet",
+   "uses": [
+    "a",
+    "code",
+    "computer",
+    "group",
+    "internet",
+    "kind",
+    "name",
+    "network",
+    "of",
+    "on",
+    "the",
+    "to",
+    "way"
+   ]
+  },
+  {
+   "id": 4865,
+   "word": "toddler",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a young child who is learning to walk, a child of two or three years old",
+   "uses": [
+    "a",
+    "child",
+    "learning",
+    "of",
+    "old",
+    "or",
+    "to",
+    "walk",
+    "who",
+    "year",
+    "young"
+   ]
+  },
+  {
+   "id": 4866,
+   "word": "flavor",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the taste of food or drink, a special quality that gives pleasure to the senses",
+   "uses": [
+    "a",
+    "drink",
+    "food",
+    "of",
+    "or",
+    "pleasure",
+    "quality",
+    "sense",
+    "special",
+    "taste",
+    "that",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 4867,
+   "word": "homeless",
+   "pos": "noun",
+   "ring": 2,
+   "def": "having no house to live in, without a place to call one's own",
+   "uses": [
+    "a",
+    "call",
+    "house",
+    "in",
+    "live",
+    "no",
+    "own",
+    "place",
+    "to"
+   ]
+  },
+  {
+   "id": 4868,
+   "word": "horrible",
+   "pos": "noun",
+   "ring": 2,
+   "def": "causing great fear or disgust, very bad or bad to experience",
+   "uses": [
+    "bad",
+    "cause",
+    "disgust",
+    "experience",
+    "fear",
+    "great",
+    "or",
+    "to",
+    "very"
+   ]
+  },
+  {
+   "id": 4869,
+   "word": "hungry",
+   "pos": "adj",
+   "ring": 2,
+   "def": "having a desire for food, feeling the need to eat something",
+   "uses": [
+    "a",
+    "desire",
+    "eat",
+    "feeling",
+    "food",
+    "for",
+    "need",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 4870,
+   "word": "metallic",
+   "pos": "noun",
+   "ring": 2,
+   "def": "having the qualities of metal, made of or like iron or steel",
+   "uses": [
+    "iron",
+    "like",
+    "metal",
+    "of",
+    "or",
+    "quality",
+    "steel",
+    "the"
+   ]
+  },
+  {
+   "id": 4871,
+   "word": "blocked",
+   "pos": "adv",
+   "ring": 2,
+   "def": "made not able to move forward, stopped by something in the way",
+   "uses": [
+    "able",
+    "by",
+    "forward",
+    "in",
+    "move",
+    "not",
+    "stop",
+    "the",
+    "to",
+    "way"
+   ]
+  },
+  {
+   "id": 4872,
+   "word": "interference",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the act of getting in the way of something, a thing that stops progress",
+   "uses": [
+    "a",
+    "act",
+    "in",
+    "of",
+    "progress",
+    "stop",
+    "that",
+    "the",
+    "thing",
+    "way"
+   ]
+  },
+  {
+   "id": 4873,
+   "word": "palestine",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a land in the middle east, a land with a long history of people living there",
+   "uses": [
+    "a",
+    "east",
+    "history",
+    "in",
+    "land",
+    "living",
+    "long",
+    "middle",
+    "of",
+    "people",
+    "the",
+    "there",
+    "with"
+   ]
+  },
+  {
+   "id": 4874,
+   "word": "libs",
+   "pos": "noun",
+   "ring": 2,
+   "def": "people with certain political views, a group with ideas that are free",
+   "uses": [
+    "a",
+    "certain",
+    "free",
+    "group",
+    "idea",
+    "people",
+    "political",
+    "that",
+    "view",
+    "with"
+   ]
+  },
+  {
+   "id": 4875,
+   "word": "parental",
+   "pos": "noun",
+   "ring": 2,
+   "def": "at all times about being a father or mother, having to do with mother or father",
+   "uses": [
+    "a",
+    "about",
+    "all",
+    "at",
+    "do",
+    "father",
+    "mother",
+    "or",
+    "time",
+    "to",
+    "with"
+   ]
+  },
+  {
+   "id": 4876,
+   "word": "referenced",
+   "pos": "noun",
+   "ring": 2,
+   "def": "talked about in a book or story, given as an example or proof",
+   "uses": [
+    "a",
+    "about",
+    "as",
+    "book",
+    "example",
+    "in",
+    "or",
+    "proof",
+    "story",
+    "talk"
+   ]
+  },
+  {
+   "id": 4877,
+   "word": "marathon",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a very long run, a test of great staying power, a long event",
+   "uses": [
+    "a",
+    "event",
+    "great",
+    "long",
+    "of",
+    "power",
+    "run",
+    "stay",
+    "test",
+    "very"
+   ]
+  },
+  {
+   "id": 4878,
+   "word": "proposition",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a thing talked about, a statement to be thought about, an offer",
+   "uses": [
+    "a",
+    "about",
+    "be",
+    "offer",
+    "statement",
+    "talk",
+    "thing",
+    "thought",
+    "to"
+   ]
+  },
+  {
+   "id": 4879,
+   "word": "gays",
+   "pos": "noun",
+   "ring": 2,
+   "def": "men who love other men, people with same-sex desire, same-sex persons",
+   "uses": [
+    "desire",
+    "love",
+    "other",
+    "people",
+    "person",
+    "same",
+    "sex",
+    "who",
+    "with"
+   ]
+  },
+  {
+   "id": 4880,
+   "word": "scout",
+   "pos": "noun",
+   "ring": 2,
+   "def": "one who looks for information, a person who finds things, a finder of people",
+   "uses": [
+    "a",
+    "find",
+    "for",
+    "information",
+    "look",
+    "of",
+    "people",
+    "person",
+    "thing",
+    "who"
+   ]
+  },
+  {
+   "id": 4881,
+   "word": "inf",
+   "pos": "noun",
+   "ring": 2,
+   "def": "short for information, a fact or detail, a bit of data",
+   "uses": [
+    "a",
+    "bit",
+    "data",
+    "detail",
+    "fact",
+    "for",
+    "information",
+    "of",
+    "or",
+    "short"
+   ]
+  },
+  {
+   "id": 4882,
+   "word": "eos",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a thing talked about, a concept in science, a point in time",
+   "uses": [
+    "a",
+    "about",
+    "concept",
+    "in",
+    "point",
+    "science",
+    "talk",
+    "thing",
+    "time"
+   ]
+  },
+  {
+   "id": 4883,
+   "word": "catalyst",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a thing that helps change, a cause of reaction, an agent of change",
+   "uses": [
+    "a",
+    "agent",
+    "cause",
+    "change",
+    "help",
+    "of",
+    "reaction",
+    "that",
+    "thing"
+   ]
+  },
+  {
+   "id": 4884,
+   "word": "trader",
+   "pos": "noun",
+   "ring": 2,
+   "def": "one who trades goods, a person who buys and sells, a market person",
+   "uses": [
+    "a",
+    "and",
+    "buy",
+    "good",
+    "market",
+    "person",
+    "sell",
+    "trade",
+    "who"
+   ]
+  },
+  {
+   "id": 4885,
+   "word": "badge",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a mark of office, a sign of group, a token of position",
+   "uses": [
+    "a",
+    "group",
+    "mark",
+    "of",
+    "office",
+    "position",
+    "sign",
+    "token"
+   ]
+  },
+  {
+   "id": 4886,
+   "word": "wrist",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the part of the arm, the place where the watch is, the lower part of the arm",
+   "uses": [
+    "arm",
+    "low",
+    "of",
+    "part",
+    "place",
+    "the",
+    "watch",
+    "where"
+   ]
+  },
+  {
+   "id": 4887,
+   "word": "varying",
+   "pos": "noun",
+   "ring": 2,
+   "def": "changing often, different in great ways, not staying the same",
+   "uses": [
+    "change",
+    "different",
+    "great",
+    "in",
+    "not",
+    "often",
+    "same",
+    "stay",
+    "the",
+    "way"
+   ]
+  },
+  {
+   "id": 4888,
+   "word": "jenny",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a female name, a kind of bird, a machine for making thread",
+   "uses": [
+    "a",
+    "bird",
+    "female",
+    "for",
+    "kind",
+    "machine",
+    "name",
+    "of",
+    "thread"
+   ]
+  },
+  {
+   "id": 4889,
+   "word": "elephant",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a very great animal with a long nose and great ears",
+   "uses": [
+    "a",
+    "and",
+    "animal",
+    "ear",
+    "great",
+    "long",
+    "nose",
+    "very",
+    "with"
+   ]
+  },
+  {
+   "id": 4890,
+   "word": "tsunami",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a great sea wave caused by a shaking under the sea",
+   "uses": [
+    "a",
+    "by",
+    "cause",
+    "great",
+    "sea",
+    "shake",
+    "the",
+    "under",
+    "wave"
+   ]
+  },
+  {
+   "id": 4891,
+   "word": "nickel",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a hard silver-white metal used in making money",
+   "uses": [
+    "a",
+    "hard",
+    "in",
+    "metal",
+    "money",
+    "silver",
+    "use",
+    "white"
+   ]
+  },
+  {
+   "id": 4892,
+   "word": "surrounded",
+   "pos": "noun",
+   "ring": 2,
+   "def": "being on all sides by something or someone",
+   "uses": [
+    "all",
+    "by",
+    "on",
+    "or",
+    "side"
+   ]
+  },
+  {
+   "id": 4893,
+   "word": "expedia",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a website where people are able to book travel and places to stay",
+   "uses": [
+    "a",
+    "able",
+    "and",
+    "book",
+    "people",
+    "place",
+    "stay",
+    "to",
+    "travel",
+    "website",
+    "where"
+   ]
+  },
+  {
+   "id": 4894,
+   "word": "geology",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the study of the earth and the materials it is made of",
+   "uses": [
+    "and",
+    "earth",
+    "material",
+    "of",
+    "study",
+    "the"
+   ]
+  },
+  {
+   "id": 4895,
+   "word": "pct",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a long way for walking across a country or land",
+   "uses": [
+    "a",
+    "across",
+    "country",
+    "for",
+    "land",
+    "long",
+    "or",
+    "walk",
+    "way"
+   ]
+  },
+  {
+   "id": 4896,
+   "word": "creatures",
+   "pos": "noun",
+   "ring": 2,
+   "def": "living things that are not plants or people",
+   "uses": [
+    "living",
+    "not",
+    "or",
+    "people",
+    "plant",
+    "that",
+    "thing"
+   ]
+  },
+  {
+   "id": 4897,
+   "word": "coating",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a layer of something that covers the outside of another thing",
+   "uses": [
+    "a",
+    "cover",
+    "layer",
+    "of",
+    "that",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 4898,
+   "word": "commented",
+   "pos": "noun",
+   "ring": 2,
+   "def": "said something in writing or talk about a thing",
+   "uses": [
+    "a",
+    "about",
+    "in",
+    "or",
+    "talk",
+    "thing",
+    "writing"
+   ]
+  },
+  {
+   "id": 4899,
+   "word": "cleared",
+   "pos": "noun",
+   "ring": 2,
+   "def": "made free from something that was in the way or dirty",
+   "uses": [
+    "dirty",
+    "free",
+    "from",
+    "in",
+    "or",
+    "that",
+    "the",
+    "way"
+   ]
+  },
+  {
+   "id": 4900,
+   "word": "smilies",
+   "pos": "noun",
+   "ring": 2,
+   "def": "small faces made with symbols to show feelings",
+   "uses": [
+    "face",
+    "feeling",
+    "show",
+    "small",
+    "symbol",
+    "to",
+    "with"
+   ]
+  },
+  {
+   "id": 4901,
+   "word": "accomplish",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to finish something that one has started to do",
+   "uses": [
+    "do",
+    "finish",
+    "start",
+    "that",
+    "to"
+   ]
+  },
+  {
+   "id": 4902,
+   "word": "drainage",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the system that takes water from land or buildings",
+   "uses": [
+    "building",
+    "from",
+    "land",
+    "or",
+    "system",
+    "that",
+    "the",
+    "water"
+   ]
+  },
+  {
+   "id": 4903,
+   "word": "shakira",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a singer from south who makes well-liked music",
+   "uses": [
+    "a",
+    "from",
+    "like",
+    "music",
+    "sing",
+    "south",
+    "well",
+    "who"
+   ]
+  },
+  {
+   "id": 4904,
+   "word": "corners",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the points where two sides of something meet",
+   "uses": [
+    "meet",
+    "of",
+    "point",
+    "side",
+    "the",
+    "where"
+   ]
+  },
+  {
+   "id": 4905,
+   "word": "vegetarian",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a person who does not eat meat or fish",
+   "uses": [
+    "a",
+    "eat",
+    "fish",
+    "meat",
+    "not",
+    "or",
+    "person",
+    "who"
+   ]
+  },
+  {
+   "id": 4906,
+   "word": "ambassador",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a person who speaks for one government in another land",
+   "uses": [
+    "a",
+    "for",
+    "government",
+    "in",
+    "land",
+    "person",
+    "speak",
+    "who"
+   ]
+  },
+  {
+   "id": 4907,
+   "word": "coated",
+   "pos": "noun",
+   "ring": 2,
+   "def": "covered with a thin layer of something another",
+   "uses": [
+    "a",
+    "cover",
+    "layer",
+    "of",
+    "thin",
+    "with"
+   ]
+  },
+  {
+   "id": 4908,
+   "word": "intend",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to plan or want to do something in the future",
+   "uses": [
+    "do",
+    "future",
+    "in",
+    "or",
+    "plan",
+    "the",
+    "to",
+    "want"
+   ]
+  },
+  {
+   "id": 4909,
+   "word": "stephanie",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name given to a woman or girl",
+   "uses": [
+    "a",
+    "girl",
+    "name",
+    "or",
+    "to",
+    "woman"
+   ]
+  },
+  {
+   "id": 4910,
+   "word": "contacting",
+   "pos": "noun",
+   "ring": 2,
+   "def": "getting in touch with someone by phone or letter",
+   "uses": [
+    "by",
+    "in",
+    "letter",
+    "or",
+    "phone",
+    "touch",
+    "with"
+   ]
+  },
+  {
+   "id": 4911,
+   "word": "vegetation",
+   "pos": "noun",
+   "ring": 2,
+   "def": "all the plants that grow in a certain place",
+   "uses": [
+    "a",
+    "all",
+    "certain",
+    "grow",
+    "in",
+    "place",
+    "plant",
+    "that",
+    "the"
+   ]
+  },
+  {
+   "id": 4912,
+   "word": "doom",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a word for a very bad future or end",
+   "uses": [
+    "a",
+    "bad",
+    "end",
+    "for",
+    "future",
+    "or",
+    "very",
+    "word"
+   ]
+  },
+  {
+   "id": 4913,
+   "word": "findarticles",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a website where one is able to find works on the internet",
+   "uses": [
+    "a",
+    "able",
+    "find",
+    "internet",
+    "on",
+    "the",
+    "to",
+    "website",
+    "where",
+    "work"
+   ]
+  },
+  {
+   "id": 4914,
+   "word": "louise",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name given to a woman or girl",
+   "uses": [
+    "a",
+    "girl",
+    "name",
+    "or",
+    "to",
+    "woman"
+   ]
+  },
+  {
+   "id": 4915,
+   "word": "kenny",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name given to a man or boy",
+   "uses": [
+    "a",
+    "boy",
+    "man",
+    "name",
+    "or",
+    "to"
+   ]
+  },
+  {
+   "id": 4916,
+   "word": "owen",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name given to a man or boy",
+   "uses": [
+    "a",
+    "boy",
+    "man",
+    "name",
+    "or",
+    "to"
+   ]
+  },
+  {
+   "id": 4917,
+   "word": "routines",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the normal things that one does every day",
+   "uses": [
+    "day",
+    "every",
+    "normal",
+    "that",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 4918,
+   "word": "beings",
+   "pos": "noun",
+   "ring": 2,
+   "def": "living things that have life and are able to feel or think",
+   "uses": [
+    "able",
+    "and",
+    "feel",
+    "have",
+    "life",
+    "living",
+    "or",
+    "that",
+    "thing",
+    "think",
+    "to"
+   ]
+  },
+  {
+   "id": 4919,
+   "word": "habits",
+   "pos": "noun",
+   "ring": 2,
+   "def": "things that one does often and almost without thinking",
+   "uses": [
+    "almost",
+    "and",
+    "often",
+    "that",
+    "thing",
+    "think"
+   ]
+  },
+  {
+   "id": 4920,
+   "word": "myth",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a story that tells something about the world or people",
+   "uses": [
+    "a",
+    "about",
+    "or",
+    "people",
+    "story",
+    "tell",
+    "that",
+    "the",
+    "world"
+   ]
+  },
+  {
+   "id": 4921,
+   "word": "singh",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name used by men in some parts of the east",
+   "uses": [
+    "a",
+    "by",
+    "east",
+    "in",
+    "name",
+    "of",
+    "part",
+    "some",
+    "the",
+    "use"
+   ]
+  },
+  {
+   "id": 4922,
+   "word": "insulin",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a substance in the body, a thing that controls sugar in blood",
+   "uses": [
+    "a",
+    "blood",
+    "body",
+    "control",
+    "in",
+    "substance",
+    "sugar",
+    "that",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 4923,
+   "word": "weed",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a plant that is not wanted, a thing that grows where it is not needed",
+   "uses": [
+    "a",
+    "grow",
+    "need",
+    "not",
+    "plant",
+    "that",
+    "thing",
+    "want",
+    "where"
+   ]
+  },
+  {
+   "id": 4924,
+   "word": "accent",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a way of speaking words, a sound that marks a place or a person",
+   "uses": [
+    "a",
+    "mark",
+    "of",
+    "or",
+    "person",
+    "place",
+    "sound",
+    "speak",
+    "that",
+    "way",
+    "word"
+   ]
+  },
+  {
+   "id": 4925,
+   "word": "mysimon",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a website for finding things, a tool for getting information from the net",
+   "uses": [
+    "a",
+    "find",
+    "for",
+    "from",
+    "information",
+    "net",
+    "the",
+    "thing",
+    "tool",
+    "website"
+   ]
+  },
+  {
+   "id": 4926,
+   "word": "utilize",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to make use of a thing, to put something to work or to use",
+   "uses": [
+    "a",
+    "make",
+    "of",
+    "or",
+    "put",
+    "thing",
+    "to",
+    "use",
+    "work"
+   ]
+  },
+  {
+   "id": 4927,
+   "word": "vampire",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a being that drinks blood, a thing talked about in old stories",
+   "uses": [
+    "a",
+    "about",
+    "blood",
+    "drink",
+    "in",
+    "old",
+    "story",
+    "talk",
+    "that",
+    "thing"
+   ]
+  },
+  {
+   "id": 4928,
+   "word": "merger",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the joining of two things, a coming together of companies or groups",
+   "uses": [
+    "a",
+    "company",
+    "group",
+    "join",
+    "of",
+    "or",
+    "the",
+    "thing",
+    "together"
+   ]
+  },
+  {
+   "id": 4929,
+   "word": "referrals",
+   "pos": "noun",
+   "ring": 2,
+   "def": "suggestions to go to a person, acts of sending someone to another",
+   "uses": [
+    "a",
+    "act",
+    "go",
+    "of",
+    "person",
+    "suggestion",
+    "to"
+   ]
+  },
+  {
+   "id": 4930,
+   "word": "quad",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a group of four things, a thing that has four parts or sides",
+   "uses": [
+    "a",
+    "group",
+    "of",
+    "or",
+    "part",
+    "side",
+    "that",
+    "thing"
+   ]
+  },
+  {
+   "id": 4931,
+   "word": "musician",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a person who makes music, one who plays or sings for art",
+   "uses": [
+    "a",
+    "art",
+    "for",
+    "music",
+    "or",
+    "person",
+    "play",
+    "sing",
+    "who"
+   ]
+  },
+  {
+   "id": 4932,
+   "word": "ccd",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a tool that takes pictures in a machine",
+   "uses": [
+    "a",
+    "in",
+    "machine",
+    "picture",
+    "that",
+    "tool"
+   ]
+  },
+  {
+   "id": 4933,
+   "word": "watershed",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a part of land that drains into a river",
+   "uses": [
+    "a",
+    "drain",
+    "land",
+    "of",
+    "part",
+    "river",
+    "that"
+   ]
+  },
+  {
+   "id": 4934,
+   "word": "aruba",
+   "pos": "noun",
+   "ring": 2,
+   "def": "an island in a warm sea of salt water",
+   "uses": [
+    "a",
+    "in",
+    "island",
+    "of",
+    "salt",
+    "sea",
+    "warm",
+    "water"
+   ]
+  },
+  {
+   "id": 4935,
+   "word": "realtor",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a person who sells houses or land, one who does this work",
+   "uses": [
+    "a",
+    "house",
+    "land",
+    "or",
+    "person",
+    "sell",
+    "this",
+    "who",
+    "work"
+   ]
+  },
+  {
+   "id": 4936,
+   "word": "develops",
+   "pos": "noun",
+   "ring": 2,
+   "def": "grows or creates something new, makes something new or causes it to grow",
+   "uses": [
+    "cause",
+    "create",
+    "grow",
+    "new",
+    "or",
+    "to"
+   ]
+  },
+  {
+   "id": 4937,
+   "word": "estimation",
+   "pos": "noun",
+   "ring": 2,
+   "def": "an opinion about the value or size of something",
+   "uses": [
+    "about",
+    "of",
+    "opinion",
+    "or",
+    "size",
+    "the",
+    "value"
+   ]
+  },
+  {
+   "id": 4938,
+   "word": "pushing",
+   "pos": "noun",
+   "ring": 2,
+   "def": "moving something forward with force, making something go forward with strength",
+   "uses": [
+    "force",
+    "forward",
+    "go",
+    "move",
+    "strength",
+    "with"
+   ]
+  },
+  {
+   "id": 4939,
+   "word": "fleece",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the wool of a sheep or a kind of cloth",
+   "uses": [
+    "a",
+    "cloth",
+    "kind",
+    "of",
+    "or",
+    "sheep",
+    "the",
+    "wool"
+   ]
+  },
+  {
+   "id": 4940,
+   "word": "pierce",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to make a hole in something with a sharp point",
+   "uses": [
+    "a",
+    "hole",
+    "in",
+    "make",
+    "point",
+    "sharp",
+    "to",
+    "with"
+   ]
+  },
+  {
+   "id": 4941,
+   "word": "dressing",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a liquid for food or clothes for the body",
+   "uses": [
+    "a",
+    "body",
+    "cloth",
+    "food",
+    "for",
+    "liquid",
+    "or",
+    "the"
+   ]
+  },
+  {
+   "id": 4942,
+   "word": "bald",
+   "pos": "noun",
+   "ring": 2,
+   "def": "having no hair on the head top part of a person",
+   "uses": [
+    "a",
+    "hair",
+    "head",
+    "no",
+    "of",
+    "on",
+    "part",
+    "person",
+    "the",
+    "top"
+   ]
+  },
+  {
+   "id": 4943,
+   "word": "frost",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a thin layer of ice on things outside in cold weather",
+   "uses": [
+    "a",
+    "cold",
+    "ice",
+    "in",
+    "layer",
+    "of",
+    "on",
+    "thin",
+    "thing",
+    "weather"
+   ]
+  },
+  {
+   "id": 4944,
+   "word": "leon",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a name for a man or a place in a story",
+   "uses": [
+    "a",
+    "for",
+    "in",
+    "man",
+    "name",
+    "or",
+    "place",
+    "story"
+   ]
+  },
+  {
+   "id": 4945,
+   "word": "institutes",
+   "pos": "noun",
+   "ring": 2,
+   "def": "places of learning where people go to study or teach",
+   "uses": [
+    "go",
+    "learning",
+    "of",
+    "or",
+    "people",
+    "place",
+    "study",
+    "teach",
+    "to",
+    "where"
+   ]
+  },
+  {
+   "id": 4946,
+   "word": "yacht",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a great boat for pleasure, a ship with sails or an engine",
+   "uses": [
+    "a",
+    "boat",
+    "engine",
+    "for",
+    "great",
+    "or",
+    "pleasure",
+    "sail",
+    "ship",
+    "with"
+   ]
+  },
+  {
+   "id": 4947,
+   "word": "tracy",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a female name, a name of a woman",
+   "uses": [
+    "a",
+    "female",
+    "name",
+    "of",
+    "woman"
+   ]
+  },
+  {
+   "id": 4948,
+   "word": "prefers",
+   "pos": "noun",
+   "ring": 2,
+   "def": "likes one thing more than another, has a liking for something",
+   "uses": [
+    "a",
+    "for",
+    "like",
+    "than",
+    "thing"
+   ]
+  },
+  {
+   "id": 4949,
+   "word": "drilling",
+   "pos": "noun",
+   "ring": 2,
+   "def": "making a hole in something, making with a tool",
+   "uses": [
+    "a",
+    "hole",
+    "in",
+    "tool",
+    "with"
+   ]
+  },
+  {
+   "id": 4950,
+   "word": "brochures",
+   "pos": "noun",
+   "ring": 2,
+   "def": "small books with information, papers about a thing or place",
+   "uses": [
+    "a",
+    "about",
+    "book",
+    "information",
+    "or",
+    "paper",
+    "place",
+    "small",
+    "thing",
+    "with"
+   ]
+  },
+  {
+   "id": 4951,
+   "word": "tmp",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a thing for a short time, a place for keeping things for a short time",
+   "uses": [
+    "a",
+    "for",
+    "place",
+    "short",
+    "thing",
+    "time"
+   ]
+  },
+  {
+   "id": 4952,
+   "word": "ate",
+   "pos": "noun",
+   "ring": 2,
+   "def": "food taken into the body, past form of eat",
+   "uses": [
+    "body",
+    "eat",
+    "food",
+    "form",
+    "of",
+    "past",
+    "the"
+   ]
+  },
+  {
+   "id": 4953,
+   "word": "breach",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a break in a rule or agreement, an opening in a wall",
+   "uses": [
+    "a",
+    "agreement",
+    "break",
+    "in",
+    "open",
+    "or",
+    "rule",
+    "wall"
+   ]
+  },
+  {
+   "id": 4954,
+   "word": "whale",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a great sea animal, a very great fish",
+   "uses": [
+    "a",
+    "animal",
+    "fish",
+    "great",
+    "sea",
+    "very"
+   ]
+  },
+  {
+   "id": 4955,
+   "word": "traveller",
+   "pos": "noun",
+   "ring": 2,
+   "def": "one who goes from one place to another, a person on a journey",
+   "uses": [
+    "a",
+    "from",
+    "journey",
+    "on",
+    "person",
+    "place",
+    "to",
+    "who"
+   ]
+  },
+  {
+   "id": 4956,
+   "word": "appropriations",
+   "pos": "noun",
+   "ring": 2,
+   "def": "money kept for a use, money given for a purpose",
+   "uses": [
+    "a",
+    "for",
+    "money",
+    "purpose",
+    "use"
+   ]
+  },
+  {
+   "id": 4957,
+   "word": "suspected",
+   "pos": "noun",
+   "ring": 2,
+   "def": "thought to be wrong or bad, not believed to be true",
+   "uses": [
+    "bad",
+    "be",
+    "believe",
+    "not",
+    "or",
+    "thought",
+    "to",
+    "true",
+    "wrong"
+   ]
+  },
+  {
+   "id": 4958,
+   "word": "tomatoes",
+   "pos": "noun",
+   "ring": 2,
+   "def": "red fruit used in food, a plant with good fruit to eat",
+   "uses": [
+    "a",
+    "eat",
+    "food",
+    "fruit",
+    "good",
+    "in",
+    "plant",
+    "red",
+    "to",
+    "use",
+    "with"
+   ]
+  },
+  {
+   "id": 4959,
+   "word": "beginners",
+   "pos": "noun",
+   "ring": 2,
+   "def": "persons who start to learn, new people at a thing",
+   "uses": [
+    "a",
+    "at",
+    "learn",
+    "new",
+    "people",
+    "person",
+    "start",
+    "thing",
+    "to",
+    "who"
+   ]
+  },
+  {
+   "id": 4960,
+   "word": "instructors",
+   "pos": "noun",
+   "ring": 2,
+   "def": "teachers of a thing, persons who guide learning",
+   "uses": [
+    "a",
+    "guide",
+    "learning",
+    "of",
+    "person",
+    "teacher",
+    "thing",
+    "who"
+   ]
+  },
+  {
+   "id": 4961,
+   "word": "bedford",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a town name, a place in the country",
+   "uses": [
+    "a",
+    "country",
+    "in",
+    "name",
+    "place",
+    "the",
+    "town"
+   ]
+  },
+  {
+   "id": 4962,
+   "word": "stationery",
+   "pos": "noun",
+   "ring": 2,
+   "def": "writing goods, paper and paper goods for writing",
+   "uses": [
+    "and",
+    "for",
+    "good",
+    "paper",
+    "writing"
+   ]
+  },
+  {
+   "id": 4963,
+   "word": "idle",
+   "pos": "noun",
+   "ring": 2,
+   "def": "not doing work, resting with no work to do",
+   "uses": [
+    "do",
+    "no",
+    "not",
+    "rest",
+    "to",
+    "with",
+    "work"
+   ]
+  },
+  {
+   "id": 4964,
+   "word": "antibody",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a substance that fights disease, a part of the blood",
+   "uses": [
+    "a",
+    "blood",
+    "disease",
+    "fight",
+    "of",
+    "part",
+    "substance",
+    "that",
+    "the"
+   ]
+  },
+  {
+   "id": 4965,
+   "word": "competent",
+   "pos": "noun",
+   "ring": 2,
+   "def": "able to do a thing well, having the knowledge to do",
+   "uses": [
+    "a",
+    "able",
+    "do",
+    "knowledge",
+    "the",
+    "thing",
+    "to",
+    "well"
+   ]
+  },
+  {
+   "id": 4966,
+   "word": "fin",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a part of a fish for swimming, a blade on a machine",
+   "uses": [
+    "a",
+    "blade",
+    "fish",
+    "for",
+    "machine",
+    "of",
+    "on",
+    "part",
+    "swim"
+   ]
+  },
+  {
+   "id": 4967,
+   "word": "wiring",
+   "pos": "noun",
+   "ring": 2,
+   "def": "system of metal for power, lines for joining",
+   "uses": [
+    "for",
+    "join",
+    "line",
+    "metal",
+    "of",
+    "power",
+    "system"
+   ]
+  },
+  {
+   "id": 4968,
+   "word": "pastor",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a church leader, a person who guides a church",
+   "uses": [
+    "a",
+    "church",
+    "guide",
+    "lead",
+    "person",
+    "who"
+   ]
+  },
+  {
+   "id": 4969,
+   "word": "calvin",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a male name, a name of a man",
+   "uses": [
+    "a",
+    "male",
+    "man",
+    "name",
+    "of"
+   ]
+  },
+  {
+   "id": 4970,
+   "word": "uni",
+   "pos": "noun",
+   "ring": 2,
+   "def": "short for university, a place of higher learning",
+   "uses": [
+    "a",
+    "for",
+    "high",
+    "learning",
+    "of",
+    "place",
+    "short",
+    "university"
+   ]
+  },
+  {
+   "id": 4971,
+   "word": "shark",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a sea animal with sharp teeth, a fish of the water",
+   "uses": [
+    "a",
+    "animal",
+    "fish",
+    "of",
+    "sea",
+    "sharp",
+    "the",
+    "water",
+    "with"
+   ]
+  },
+  {
+   "id": 4972,
+   "word": "contributor",
+   "pos": "noun",
+   "ring": 2,
+   "def": "one who gives or adds, a person who helps",
+   "uses": [
+    "a",
+    "add",
+    "help",
+    "or",
+    "person",
+    "who"
+   ]
+  },
+  {
+   "id": 4973,
+   "word": "demonstrates",
+   "pos": "noun",
+   "ring": 2,
+   "def": "shows how to do a thing, makes clear by example",
+   "uses": [
+    "a",
+    "by",
+    "clear",
+    "do",
+    "example",
+    "how",
+    "show",
+    "thing",
+    "to"
+   ]
+  },
+  {
+   "id": 4974,
+   "word": "phases",
+   "pos": "noun",
+   "ring": 2,
+   "def": "stages of a process, steps in a development",
+   "uses": [
+    "a",
+    "development",
+    "in",
+    "of",
+    "process",
+    "stage",
+    "step"
+   ]
+  },
+  {
+   "id": 4975,
+   "word": "grateful",
+   "pos": "noun",
+   "ring": 2,
+   "def": "pleased by a thing, happy with a help",
+   "uses": [
+    "a",
+    "by",
+    "happy",
+    "help",
+    "please",
+    "thing",
+    "with"
+   ]
+  },
+  {
+   "id": 4976,
+   "word": "emerald",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a green jewel stone, a color like green",
+   "uses": [
+    "a",
+    "color",
+    "green",
+    "jewel",
+    "like",
+    "stone"
+   ]
+  },
+  {
+   "id": 4977,
+   "word": "tract",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a stretch of land, a part of something",
+   "uses": [
+    "a",
+    "land",
+    "of",
+    "part",
+    "stretch"
+   ]
+  },
+  {
+   "id": 4978,
+   "word": "journalist",
+   "pos": "noun",
+   "ring": 2,
+   "def": "one who writes news, a writer of news",
+   "uses": [
+    "a",
+    "news",
+    "of",
+    "who",
+    "write"
+   ]
+  },
+  {
+   "id": 4979,
+   "word": "abraham",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a male name, an old name from history",
+   "uses": [
+    "a",
+    "from",
+    "history",
+    "male",
+    "name",
+    "old"
+   ]
+  },
+  {
+   "id": 4980,
+   "word": "afterwards",
+   "pos": "noun",
+   "ring": 2,
+   "def": "later in time, after an event has taken place",
+   "uses": [
+    "after",
+    "event",
+    "in",
+    "late",
+    "place",
+    "time"
+   ]
+  },
+  {
+   "id": 4981,
+   "word": "religions",
+   "pos": "noun",
+   "ring": 2,
+   "def": "systems of belief, ways of thought for people",
+   "uses": [
+    "belief",
+    "for",
+    "of",
+    "people",
+    "system",
+    "thought",
+    "way"
+   ]
+  },
+  {
+   "id": 4982,
+   "word": "garlic",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a plant with a strong smell, used in cooking",
+   "uses": [
+    "a",
+    "cook",
+    "in",
+    "plant",
+    "smell",
+    "strong",
+    "use",
+    "with"
+   ]
+  },
+  {
+   "id": 4983,
+   "word": "shine",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to give out light, to look bright and clean",
+   "uses": [
+    "and",
+    "bright",
+    "clean",
+    "give",
+    "light",
+    "look",
+    "out",
+    "to"
+   ]
+  },
+  {
+   "id": 4984,
+   "word": "wendy",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a woman's name, a name that is given to a female person",
+   "uses": [
+    "a",
+    "female",
+    "name",
+    "person",
+    "that",
+    "to",
+    "woman"
+   ]
+  },
+  {
+   "id": 4985,
+   "word": "signatures",
+   "pos": "noun",
+   "ring": 2,
+   "def": "marks made to show one's agreement, one's name on a paper",
+   "uses": [
+    "a",
+    "agreement",
+    "mark",
+    "name",
+    "on",
+    "paper",
+    "show",
+    "to"
+   ]
+  },
+  {
+   "id": 4986,
+   "word": "disciplines",
+   "pos": "noun",
+   "ring": 2,
+   "def": "fields of study or work, the different parts of learning or work",
+   "uses": [
+    "different",
+    "field",
+    "learning",
+    "of",
+    "or",
+    "part",
+    "study",
+    "the",
+    "work"
+   ]
+  },
+  {
+   "id": 4987,
+   "word": "casa",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a house or a building, a place where people live or work",
+   "uses": [
+    "a",
+    "building",
+    "house",
+    "live",
+    "or",
+    "people",
+    "place",
+    "where",
+    "work"
+   ]
+  },
+  {
+   "id": 4988,
+   "word": "daughters",
+   "pos": "noun",
+   "ring": 2,
+   "def": "female children of a person, the girls born to a mother or father",
+   "uses": [
+    "a",
+    "born",
+    "father",
+    "female",
+    "girl",
+    "mother",
+    "of",
+    "or",
+    "person",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 4989,
+   "word": "conversations",
+   "pos": "noun",
+   "ring": 2,
+   "def": "talks between two or more people, the act of talking with others",
+   "uses": [
+    "act",
+    "between",
+    "of",
+    "or",
+    "other",
+    "people",
+    "talk",
+    "the",
+    "with"
+   ]
+  },
+  {
+   "id": 4990,
+   "word": "opponent",
+   "pos": "noun",
+   "ring": 2,
+   "def": "one who fights against another, a person in a play or argument",
+   "uses": [
+    "a",
+    "against",
+    "argument",
+    "fight",
+    "in",
+    "or",
+    "person",
+    "play",
+    "who"
+   ]
+  },
+  {
+   "id": 4991,
+   "word": "pasta",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a kind of food made from grain and water, a meal that is formed like threads or pipes",
+   "uses": [
+    "a",
+    "and",
+    "food",
+    "form",
+    "from",
+    "grain",
+    "kind",
+    "like",
+    "meal",
+    "of",
+    "or",
+    "pipe",
+    "that",
+    "thread",
+    "water"
+   ]
+  },
+  {
+   "id": 4992,
+   "word": "serum",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a part of blood that is liquid, a liquid that carries things in the body",
+   "uses": [
+    "a",
+    "blood",
+    "body",
+    "care",
+    "in",
+    "liquid",
+    "of",
+    "part",
+    "that",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 4993,
+   "word": "wrapped",
+   "pos": "noun",
+   "ring": 2,
+   "def": "covered with paper or cloth, something that has been put in a covering",
+   "uses": [
+    "a",
+    "cloth",
+    "cover",
+    "in",
+    "or",
+    "paper",
+    "put",
+    "that",
+    "with"
+   ]
+  },
+  {
+   "id": 4994,
+   "word": "motherboard",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the chief part of a computer, the board that holds all the parts together",
+   "uses": [
+    "a",
+    "all",
+    "board",
+    "chief",
+    "computer",
+    "hold",
+    "of",
+    "part",
+    "that",
+    "the",
+    "together"
+   ]
+  },
+  {
+   "id": 4995,
+   "word": "runtime",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the time when a program is working, the time when code is being run",
+   "uses": [
+    "a",
+    "code",
+    "program",
+    "run",
+    "the",
+    "time",
+    "when",
+    "work"
+   ]
+  },
+  {
+   "id": 4996,
+   "word": "inbox",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a place where messages are kept, a box for letters or emails that one has not read",
+   "uses": [
+    "a",
+    "box",
+    "email",
+    "for",
+    "letter",
+    "message",
+    "not",
+    "or",
+    "place",
+    "read",
+    "that",
+    "where"
+   ]
+  },
+  {
+   "id": 4997,
+   "word": "bibliographic",
+   "pos": "noun",
+   "ring": 2,
+   "def": "about books or writings, a list of books or references to books",
+   "uses": [
+    "a",
+    "about",
+    "book",
+    "list",
+    "of",
+    "or",
+    "reference",
+    "to",
+    "writing"
+   ]
+  },
+  {
+   "id": 4998,
+   "word": "distant",
+   "pos": "noun",
+   "ring": 2,
+   "def": "far in space or time, something that is not near at hand",
+   "uses": [
+    "at",
+    "far",
+    "hand",
+    "in",
+    "near",
+    "not",
+    "or",
+    "space",
+    "that",
+    "time"
+   ]
+  },
+  {
+   "id": 4999,
+   "word": "ala",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a way of saying in the manner of, a word that shows how something is done",
+   "uses": [
+    "a",
+    "how",
+    "in",
+    "man",
+    "of",
+    "show",
+    "that",
+    "the",
+    "way",
+    "word"
+   ]
+  },
+  {
+   "id": 5000,
+   "word": "deviation",
+   "pos": "adv",
+   "ring": 2,
+   "def": "a turning from the normal, something that is not the common way",
+   "uses": [
+    "a",
+    "common",
+    "from",
+    "normal",
+    "not",
+    "that",
+    "the",
+    "turn",
+    "way"
+   ]
+  },
+  {
+   "id": 5001,
+   "word": "superintendent",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a person who is in control, an overseer of a school or system",
+   "uses": [
+    "a",
+    "control",
+    "in",
+    "of",
+    "or",
+    "person",
+    "school",
+    "system",
+    "who"
+   ]
+  },
+  {
+   "id": 5002,
+   "word": "hostel",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a place where people stay for a low price, a house for people on a journey",
+   "uses": [
+    "a",
+    "for",
+    "house",
+    "journey",
+    "low",
+    "on",
+    "people",
+    "place",
+    "price",
+    "stay",
+    "where"
+   ]
+  },
+  {
+   "id": 5003,
+   "word": "employ",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to give work to a person, to give work to someone to do a task",
+   "uses": [
+    "a",
+    "do",
+    "give",
+    "person",
+    "task",
+    "to",
+    "work"
+   ]
+  },
+  {
+   "id": 5004,
+   "word": "penguin",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a bird that cannot fly but swims well, a black and white bird of cold lands",
+   "uses": [
+    "a",
+    "and",
+    "bird",
+    "black",
+    "but",
+    "cold",
+    "fly",
+    "land",
+    "of",
+    "swim",
+    "that",
+    "well",
+    "white"
+   ]
+  },
+  {
+   "id": 5005,
+   "word": "magical",
+   "pos": "noun",
+   "ring": 2,
+   "def": "having powers like in stories, something that seems to have a wonder",
+   "uses": [
+    "a",
+    "have",
+    "in",
+    "like",
+    "power",
+    "story",
+    "that",
+    "to",
+    "wonder"
+   ]
+  },
+  {
+   "id": 5006,
+   "word": "influences",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the power to change how things are, the effect one thing has on another",
+   "uses": [
+    "change",
+    "effect",
+    "how",
+    "on",
+    "power",
+    "the",
+    "thing",
+    "to"
+   ]
+  },
+  {
+   "id": 5007,
+   "word": "inspections",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the act of looking at something in detail, a close look at a thing",
+   "uses": [
+    "a",
+    "act",
+    "at",
+    "close",
+    "detail",
+    "in",
+    "look",
+    "of",
+    "the",
+    "thing"
+   ]
+  },
+  {
+   "id": 5008,
+   "word": "irrigation",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the act of watering land for plants, the way water is moved to dry land",
+   "uses": [
+    "act",
+    "dry",
+    "for",
+    "land",
+    "move",
+    "of",
+    "plant",
+    "the",
+    "to",
+    "water",
+    "way"
+   ]
+  },
+  {
+   "id": 5009,
+   "word": "miracle",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a very surprising and good event, something that seems to break the rules of the world",
+   "uses": [
+    "a",
+    "and",
+    "break",
+    "event",
+    "good",
+    "of",
+    "rule",
+    "surprise",
+    "that",
+    "the",
+    "to",
+    "very",
+    "world"
+   ]
+  },
+  {
+   "id": 5010,
+   "word": "manually",
+   "pos": "noun",
+   "ring": 2,
+   "def": "done by hand, not by a machine, something that is done with one's own hands",
+   "uses": [
+    "a",
+    "by",
+    "hand",
+    "machine",
+    "not",
+    "own",
+    "that",
+    "with"
+   ]
+  },
+  {
+   "id": 5011,
+   "word": "reprint",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to print again, a new printing of a book or paper",
+   "uses": [
+    "a",
+    "again",
+    "book",
+    "new",
+    "of",
+    "or",
+    "paper",
+    "print",
+    "to"
+   ]
+  },
+  {
+   "id": 5012,
+   "word": "reid",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a man's name, a name given to a male person",
+   "uses": [
+    "a",
+    "male",
+    "man",
+    "name",
+    "person",
+    "to"
+   ]
+  },
+  {
+   "id": 5013,
+   "word": "hydraulic",
+   "pos": "noun",
+   "ring": 2,
+   "def": "worked by water or other liquid, moved by force in a liquid",
+   "uses": [
+    "a",
+    "by",
+    "force",
+    "in",
+    "liquid",
+    "move",
+    "or",
+    "other",
+    "water",
+    "work"
+   ]
+  },
+  {
+   "id": 5014,
+   "word": "centered",
+   "pos": "noun",
+   "ring": 2,
+   "def": "placed in the middle, something that has a chief point",
+   "uses": [
+    "a",
+    "chief",
+    "in",
+    "middle",
+    "place",
+    "point",
+    "that",
+    "the"
+   ]
+  },
+  {
+   "id": 5015,
+   "word": "robertson",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a man's name, a family name or first name",
+   "uses": [
+    "a",
+    "family",
+    "first",
+    "man",
+    "name",
+    "or"
+   ]
+  },
+  {
+   "id": 5016,
+   "word": "penetration",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the act of going through, the force of moving into something",
+   "uses": [
+    "act",
+    "force",
+    "move",
+    "of",
+    "the",
+    "through"
+   ]
+  },
+  {
+   "id": 5017,
+   "word": "rosa",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a flower that comes in much color and has a sweet smell",
+   "uses": [
+    "a",
+    "and",
+    "color",
+    "flower",
+    "in",
+    "much",
+    "smell",
+    "sweet",
+    "that"
+   ]
+  },
+  {
+   "id": 5018,
+   "word": "conviction",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a strong belief or opinion that something is true",
+   "uses": [
+    "a",
+    "belief",
+    "opinion",
+    "or",
+    "strong",
+    "that",
+    "true"
+   ]
+  },
+  {
+   "id": 5019,
+   "word": "omissions",
+   "pos": "noun",
+   "ring": 2,
+   "def": "things that have been left out or not done",
+   "uses": [
+    "have",
+    "left",
+    "not",
+    "or",
+    "out",
+    "that",
+    "thing"
+   ]
+  },
+  {
+   "id": 5020,
+   "word": "lazy",
+   "pos": "noun",
+   "ring": 2,
+   "def": "not wanting to work or make an attempt",
+   "uses": [
+    "attempt",
+    "make",
+    "not",
+    "or",
+    "to",
+    "want",
+    "work"
+   ]
+  },
+  {
+   "id": 5021,
+   "word": "qualities",
+   "pos": "noun",
+   "ring": 2,
+   "def": "features or parts that make something or someone special",
+   "uses": [
+    "feature",
+    "make",
+    "or",
+    "part",
+    "special",
+    "that"
+   ]
+  },
+  {
+   "id": 5022,
+   "word": "cindy",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a female name, often short for a name or another name",
+   "uses": [
+    "a",
+    "female",
+    "for",
+    "name",
+    "often",
+    "or",
+    "short"
+   ]
+  },
+  {
+   "id": 5023,
+   "word": "carb",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a short way to say a food of a certain kind, a thing talked about in science",
+   "uses": [
+    "a",
+    "about",
+    "certain",
+    "food",
+    "in",
+    "kind",
+    "of",
+    "say",
+    "science",
+    "short",
+    "talk",
+    "thing",
+    "to",
+    "way"
+   ]
+  },
+  {
+   "id": 5024,
+   "word": "charging",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the act of filling something with power or energy",
+   "uses": [
+    "act",
+    "energy",
+    "file",
+    "of",
+    "or",
+    "power",
+    "the",
+    "with"
+   ]
+  },
+  {
+   "id": 5025,
+   "word": "marvel",
+   "pos": "verb",
+   "ring": 2,
+   "def": "to feel great surprise or wonder, to be filled with great feeling",
+   "uses": [
+    "be",
+    "feel",
+    "feeling",
+    "file",
+    "great",
+    "or",
+    "surprise",
+    "to",
+    "with",
+    "wonder"
+   ]
+  },
+  {
+   "id": 5026,
+   "word": "dow",
+   "pos": "noun",
+   "ring": 2,
+   "def": "an index that shows how the trade market is doing, a number showing market work",
+   "uses": [
+    "a",
+    "how",
+    "index",
+    "market",
+    "number",
+    "show",
+    "that",
+    "the",
+    "trade",
+    "work"
+   ]
+  },
+  {
+   "id": 5027,
+   "word": "prototype",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the first form of something made to test an idea",
+   "uses": [
+    "first",
+    "form",
+    "idea",
+    "of",
+    "test",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 5028,
+   "word": "upc",
+   "pos": "noun",
+   "ring": 2,
+   "def": "a code used to mark things in a store, a printed mark for goods to sell",
+   "uses": [
+    "a",
+    "code",
+    "for",
+    "good",
+    "in",
+    "mark",
+    "print",
+    "sell",
+    "store",
+    "thing",
+    "to",
+    "use"
+   ]
+  },
+  {
+   "id": 5029,
+   "word": "sexuality",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the feelings and attractions a person has to others",
+   "uses": [
+    "a",
+    "and",
+    "attraction",
+    "feeling",
+    "other",
+    "person",
+    "the",
+    "to"
+   ]
+  },
+  {
+   "id": 5030,
+   "word": "remainder",
+   "pos": "noun",
+   "ring": 2,
+   "def": "the part that is left after some has been taken",
+   "uses": [
+    "after",
+    "left",
+    "part",
+    "some",
+    "that",
+    "the"
    ]
   }
  ]

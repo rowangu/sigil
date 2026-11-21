@@ -7,20 +7,20 @@
 // Learning lives in the toolbelt (see /toolbelt). Toolbelt, not the brain.
 //
 // Compile with Ampersand v0.7:
-//   ampersand compile lifecycle.adg --cycles 4114 --dump
+//   ampersand compile lifecycle.adg --cycles 4457 --dump
 
 graph sigil_lifecycle;
 
 setting memory: 4096;
 setting immutable_pct: 10;
-setting max_cycles: 8528;
+setting max_cycles: 9214;
 
 // ---- WORM boot manifest (written once at power-on, locked for life) ----
 node immutable boot_id     { value: "1" };      // manifest version
 node immutable seeds       { value: "850" };   // ring 0 word count
 node immutable ring1      { value: "326" };   // ring 1 word count
-node immutable ring2      { value: "2838" };   // ring 2 word count
-node immutable total_words { value: "4014" };   // 850 + 326 + 2838
+node immutable ring2      { value: "3181" };   // ring 2 word count
+node immutable total_words { value: "4357" };   // 850 + 326 + 3181
 node immutable max_ring    { value: "2" }; // highest ring in store
 node immutable worm_law    { value: "2" };     // LAW 2: write-once read-many
 

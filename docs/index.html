@@ -133,14 +133,14 @@
        style="color:var(--accent);text-decoration:none">source ↗</a>
   </div>
 </div>
-<script src="data.js?v=aabbcc"></script>
+<script src="data.js?v=ringvis2"></script>
 <script>
 'use strict';
 const D = SIGIL, CAT_COLORS = {
   operations:'#64b5f6', things_general:'#ffb74d', things_picturable:'#81c784',
   qualities_general:'#ce93d8', qualities_opposites:'#f06292',
   r1_everyday:'#e3c567', r1_computing:'#45b5c9', r1_systems:'#a08bc8',
-  r2_words:'#a8b8d0'
+  r2_words:'#c8d4e8'
 };
 const CAT_LABELS = {
   operations:['operations'], things_general:['general things'],
@@ -164,16 +164,13 @@ function resize() {
   ctx.setTransform(dpr, 0, 0, dpr, 0, 0); dirty = true;
 }
 function fit() {
-  // Fit to ring-0 + ring-1 (R<=460) by default so the core is legible;
-  // ring-2 outer spiral (R 660..900) stays visible as a halo around it.
+  // Fit ALL nodes (including ring-2 outer spiral) into the viewport.
+  // Ring-2 extends to R=900, so bounding box is ~1800x1800; on a wide
+  // thin canvas this gives scale ~0.24, which is fine because ring-2
+  // nodes are drawn at 8px (visible at any scale >= 0.2).
   let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9;
-  const core = nodes.filter(n => n.r <= 1);
-  core.forEach(n => { x0=Math.min(x0,n.x); y0=Math.min(y0,n.y);
+  nodes.forEach(n => { x0=Math.min(x0,n.x); y0=Math.min(y0,n.y);
                        x1=Math.max(x1,n.x); y1=Math.max(y1,n.y); });
-  // pad to include ring-1 circle radius (460) on all sides
-  const pad = 480;
-  x0 = Math.min(x0, -pad); y0 = Math.min(y0, -pad);
-  x1 = Math.max(x1,  pad); y1 = Math.max(y1,  pad);
   const w = cv.clientWidth, h = cv.clientHeight, m = 42;
   scale = Math.min((w-2*m)/(x1-x0), (h-2*m)/(y1-y0));
   ox = w/2 - scale*(x0+x1)/2; oy = h/2 - scale*(y0+y1)/2; dirty = true;
@@ -224,10 +221,11 @@ const BGC = { x: 0, y: 0 };
     b.lineTo(byId[c].x, byId[c].y);
   }
   b.stroke();
-  // all nodes — ring-2 made larger + brighter so the outer spiral is visible
+  // all nodes — ring-2 drawn LARGE (8px) so it stays visible even when
+  // the outer spiral forces a small fit scale (~0.24 on wide canvases).
   for (const n of nodes) {
     b.beginPath();
-    const r = n.r === 0 ? 3.2 : (n.r === 1 ? 2.8 : 3.6);
+    const r = n.r === 0 ? 3.2 : (n.r === 1 ? 2.8 : 8.0);
     b.arc(n.x, n.y, r, 0, 7);
     b.fillStyle = CAT_COLORS[n.c];
     b.fill();
